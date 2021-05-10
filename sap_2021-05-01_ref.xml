@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+   <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:reference id="id_5b9f56b7" xlink:label="lbl_reference1537169079" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF-424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:label="lbl_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:to="lbl_reference1537169079" xlink:type="arc"/>
+      <link:reference id="id_1cec5bd1" xlink:label="lbl_reference485252049" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF-424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GRMLegalEntityDUNSNumberID" xlink:label="lbl_GRMLegalEntityDUNSNumberID" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GRMLegalEntityDUNSNumberID" xlink:to="lbl_reference485252049" xlink:type="arc"/>
+      <link:reference id="id_444f06a0" xlink:label="lbl_reference1146029728" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:reference id="id_572752d3" xlink:label="lbl_reference1462194899" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantApplicationSubmissionTypeCode" xlink:label="lbl_GrantApplicationSubmissionTypeCode" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantApplicationSubmissionTypeCode" xlink:to="lbl_reference1462194899" xlink:type="arc"/>
+      <link:reference id="id_20b656f8" xlink:label="lbl_reference548820728" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantTypeOfApplication" xlink:label="lbl_GrantTypeOfApplication" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantTypeOfApplication" xlink:to="lbl_reference548820728" xlink:type="arc"/>
+      <link:reference id="id_25f9366d" xlink:label="lbl_reference637089389" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantApplicationTypeOfRevision" xlink:label="lbl_GrantApplicationTypeOfRevision" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantApplicationTypeOfRevision" xlink:to="lbl_reference637089389" xlink:type="arc"/>
+      <link:reference id="id_590c351e" xlink:label="lbl_reference1493972254" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantApplicationOtherRevisionDescription" xlink:label="lbl_GrantApplicationOtherRevisionDescription" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantApplicationOtherRevisionDescription" xlink:to="lbl_reference1493972254" xlink:type="arc"/>
+      <link:reference id="id_6c4a8b7f" xlink:label="lbl_reference1816824703" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicationDateReceived" xlink:label="lbl_ApplicationDateReceived" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicationDateReceived" xlink:to="lbl_reference1816824703" xlink:type="arc"/>
+      <link:reference id="id_7ebd977a" xlink:label="lbl_reference2126354298" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicationDateReceivedByState" xlink:label="lbl_ApplicationDateReceivedByState" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicationDateReceivedByState" xlink:to="lbl_reference2126354298" xlink:type="arc"/>
+      <link:reference id="id_19bf00ef" xlink:label="lbl_reference431948015" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalAwardIdentifier" xlink:label="lbl_FederalAwardIdentifier" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalAwardIdentifier" xlink:to="lbl_reference431948015" xlink:type="arc"/>
+      <link:reference id="id_7647b58d" xlink:label="lbl_reference1984411021" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>Sf 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_StateApplicationIdentifier" xlink:label="lbl_StateApplicationIdentifier" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StateApplicationIdentifier" xlink:to="lbl_reference1984411021" xlink:type="arc"/>
+      <link:reference id="id_61cffedf" xlink:label="lbl_reference1641021151" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeStateGovernment" xlink:label="lbl_GrantsApplicantTypeStateGovernment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeStateGovernment" xlink:to="lbl_reference1641021151" xlink:type="arc"/>
+      <link:reference id="id_51388bff" xlink:label="lbl_reference1362660351" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeCountyGovernment" xlink:label="lbl_GrantsApplicantTypeCountyGovernment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeCountyGovernment" xlink:to="lbl_reference1362660351" xlink:type="arc"/>
+      <link:reference id="id_323e481d" xlink:label="lbl_reference842942493" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeCityOrTownshipGovernment" xlink:label="lbl_GrantsApplicantTypeCityOrTownshipGovernment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeCityOrTownshipGovernment" xlink:to="lbl_reference842942493" xlink:type="arc"/>
+      <link:reference id="id_3c047c84" xlink:label="lbl_reference1006926980" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeSpecialDistrictGovernment" xlink:label="lbl_GrantsApplicantTypeSpecialDistrictGovernment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeSpecialDistrictGovernment" xlink:to="lbl_reference1006926980" xlink:type="arc"/>
+      <link:reference id="id_74a50528" xlink:label="lbl_reference1956971816" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeRegionalOrganization" xlink:label="lbl_GrantsApplicantTypeRegionalOrganization" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeRegionalOrganization" xlink:to="lbl_reference1956971816" xlink:type="arc"/>
+      <link:reference id="id_685e0ec2" xlink:label="lbl_reference1750994626" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeU.S.TerritoryOrPossession" xlink:label="lbl_GrantsApplicantTypeU.S.TerritoryOrPossession" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeU.S.TerritoryOrPossession" xlink:to="lbl_reference1750994626" xlink:type="arc"/>
+      <link:reference id="id_7aeb8692" xlink:label="lbl_reference2062255762" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeIndependentSchoolDistrict" xlink:label="lbl_GrantsApplicantTypeIndependentSchoolDistrict" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeIndependentSchoolDistrict" xlink:to="lbl_reference2062255762" xlink:type="arc"/>
+      <link:reference id="id_1bd874c5" xlink:label="lbl_reference467170501" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypePublicStateControlledInstitutionOfHigherEducation" xlink:label="lbl_GrantsApplicantTypePublicStateControlledInstitutionOfHigherEducation" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypePublicStateControlledInstitutionOfHigherEducation" xlink:to="lbl_reference467170501" xlink:type="arc"/>
+      <link:reference id="id_5826564c" xlink:label="lbl_reference1478907468" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentFederallyRecognized" xlink:label="lbl_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentFederallyRecognized" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentFederallyRecognized" xlink:to="lbl_reference1478907468" xlink:type="arc"/>
+      <link:reference id="id_7527a78f" xlink:label="lbl_reference1965533071" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentOtherThanFederallyRecognized" xlink:label="lbl_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentOtherThanFederallyRecognized" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeIndianNativeAmericanTribalGovernmentOtherThanFederallyRecognized" xlink:to="lbl_reference1965533071" xlink:type="arc"/>
+      <link:reference id="id_61901a30" xlink:label="lbl_reference1636833840" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeIndianNativeAmericanTriballyDesignatedOrganization" xlink:label="lbl_GrantsApplicantTypeIndianNativeAmericanTriballyDesignatedOrganization" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeIndianNativeAmericanTriballyDesignatedOrganization" xlink:to="lbl_reference1636833840" xlink:type="arc"/>
+      <link:reference id="id_759db9c7" xlink:label="lbl_reference1973270983" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypePublicIndianHousingAuthority" xlink:label="lbl_GrantsApplicantTypePublicIndianHousingAuthority" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypePublicIndianHousingAuthority" xlink:to="lbl_reference1973270983" xlink:type="arc"/>
+      <link:reference id="id_2b317dc7" xlink:label="lbl_reference724663751" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeNonprofit" xlink:label="lbl_GrantsApplicantTypeNonprofit" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeNonprofit" xlink:to="lbl_reference724663751" xlink:type="arc"/>
+      <link:reference id="id_7218d43" xlink:label="lbl_reference119639363" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypePrivateInstitutionOfHigherEducation" xlink:label="lbl_GrantsApplicantTypePrivateInstitutionOfHigherEducation" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypePrivateInstitutionOfHigherEducation" xlink:to="lbl_reference119639363" xlink:type="arc"/>
+      <link:reference id="id_735a9ba9" xlink:label="lbl_reference1935317929" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeIndividual" xlink:label="lbl_GrantsApplicantTypeIndividual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeIndividual" xlink:to="lbl_reference1935317929" xlink:type="arc"/>
+      <link:reference id="id_5fa34fd3" xlink:label="lbl_reference1604538323" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeForProfitOrganizationOtherThanSmallBusiness" xlink:label="lbl_GrantsApplicantTypeForProfitOrganizationOtherThanSmallBusiness" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeForProfitOrganizationOtherThanSmallBusiness" xlink:to="lbl_reference1604538323" xlink:type="arc"/>
+      <link:reference id="id_67d6452f" xlink:label="lbl_reference1742095663" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeSmallBusiness" xlink:label="lbl_GrantsApplicantTypeSmallBusiness" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeSmallBusiness" xlink:to="lbl_reference1742095663" xlink:type="arc"/>
+      <link:reference id="id_6ef05e94" xlink:label="lbl_reference1861246612" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeHispanicServingInstitution" xlink:label="lbl_GrantsApplicantTypeHispanicServingInstitution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeHispanicServingInstitution" xlink:to="lbl_reference1861246612" xlink:type="arc"/>
+      <link:reference id="id_34f51e2c" xlink:label="lbl_reference888479276" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeHistoricallyBlackCollegesAndUniversitiesHBCUs" xlink:label="lbl_GrantsApplicantTypeHistoricallyBlackCollegesAndUniversitiesHBCUs" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeHistoricallyBlackCollegesAndUniversitiesHBCUs" xlink:to="lbl_reference888479276" xlink:type="arc"/>
+      <link:reference id="id_36ebf008" xlink:label="lbl_reference921432072" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeTriballyControlledCollegesAndUniversitiesTCCUs" xlink:label="lbl_GrantsApplicantTypeTriballyControlledCollegesAndUniversitiesTCCUs" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeTriballyControlledCollegesAndUniversitiesTCCUs" xlink:to="lbl_reference921432072" xlink:type="arc"/>
+      <link:reference id="id_7399f87f" xlink:label="lbl_reference1939470463" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeAlaskaNativeAndNativeHawaiianServingInstitutions" xlink:label="lbl_GrantsApplicantTypeAlaskaNativeAndNativeHawaiianServingInstitutions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeAlaskaNativeAndNativeHawaiianServingInstitutions" xlink:to="lbl_reference1939470463" xlink:type="arc"/>
+      <link:reference id="id_5e3f147" xlink:label="lbl_reference98824519" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeNonUSEntity" xlink:label="lbl_GrantsApplicantTypeNonUSEntity" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeNonUSEntity" xlink:to="lbl_reference98824519" xlink:type="arc"/>
+      <link:reference id="id_3eb00351" xlink:label="lbl_reference1051722577" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeEmployerIdentificationNumber" xlink:label="lbl_GranteeEmployerIdentificationNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeEmployerIdentificationNumber" xlink:to="lbl_reference1051722577" xlink:type="arc"/>
+      <link:reference id="id_1a6ce188" xlink:label="lbl_reference443343240" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeDUNSNumber" xlink:label="lbl_GranteeDUNSNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeDUNSNumber" xlink:to="lbl_reference443343240" xlink:type="arc"/>
+      <link:reference id="id_69f39f68" xlink:label="lbl_reference1777573736" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalEntityIdentifier" xlink:label="lbl_FederalEntityIdentifier" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalEntityIdentifier" xlink:to="lbl_reference1777573736" xlink:type="arc"/>
+      <link:reference id="id_19f79bd0" xlink:label="lbl_reference435657680" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressStreetAddress1" xlink:label="lbl_GranteeAddressStreetAddress1" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressStreetAddress1" xlink:to="lbl_reference435657680" xlink:type="arc"/>
+      <link:reference id="id_4faa9335" xlink:label="lbl_reference1336578869" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressStreetAddress2" xlink:label="lbl_GranteeAddressStreetAddress2" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressStreetAddress2" xlink:to="lbl_reference1336578869" xlink:type="arc"/>
+      <link:reference id="id_186b29a1" xlink:label="lbl_reference409676193" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressCity" xlink:label="lbl_GranteeAddressCity" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressCity" xlink:to="lbl_reference409676193" xlink:type="arc"/>
+      <link:reference id="id_19af07a5" xlink:label="lbl_reference430901157" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressState" xlink:label="lbl_GranteeAddressState" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressState" xlink:to="lbl_reference430901157" xlink:type="arc"/>
+      <link:reference id="id_17ca8c8e" xlink:label="lbl_reference399150222" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressZipCode" xlink:label="lbl_GranteeAddressZipCode" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressZipCode" xlink:to="lbl_reference399150222" xlink:type="arc"/>
+      <link:reference id="id_57afaf7d" xlink:label="lbl_reference1471131517" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactFirstName" xlink:label="lbl_GranteeContactFirstName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactFirstName" xlink:to="lbl_reference1471131517" xlink:type="arc"/>
+      <link:reference id="id_af30a04" xlink:label="lbl_reference183699972" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactTitle" xlink:label="lbl_GranteeContactTitle" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactTitle" xlink:to="lbl_reference183699972" xlink:type="arc"/>
+      <link:reference id="id_2609de3d" xlink:label="lbl_reference638180925" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactLastName" xlink:label="lbl_GranteeContactLastName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactLastName" xlink:to="lbl_reference638180925" xlink:type="arc"/>
+      <link:reference id="id_4ed9e9ec" xlink:label="lbl_reference1322904044" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactOrganizationalAffiliation" xlink:label="lbl_GranteeContactOrganizationalAffiliation" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactOrganizationalAffiliation" xlink:to="lbl_reference1322904044" xlink:type="arc"/>
+      <link:reference id="id_6d26ded2" xlink:label="lbl_reference1831263954" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactPhone" xlink:label="lbl_GranteeContactPhone" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactPhone" xlink:to="lbl_reference1831263954" xlink:type="arc"/>
+      <link:reference id="id_4ad46a38" xlink:label="lbl_reference1255434808" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactEmail" xlink:label="lbl_GranteeContactEmail" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactEmail" xlink:to="lbl_reference1255434808" xlink:type="arc"/>
+      <link:reference id="id_2cd74cb0" xlink:label="lbl_reference752307376" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_OrganizationalUnitDepartmentName" xlink:label="lbl_OrganizationalUnitDepartmentName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OrganizationalUnitDepartmentName" xlink:to="lbl_reference752307376" xlink:type="arc"/>
+      <link:reference id="id_30bbdae2" xlink:label="lbl_reference817617634" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_OrganizationalUnitDivisionName" xlink:label="lbl_OrganizationalUnitDivisionName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OrganizationalUnitDivisionName" xlink:to="lbl_reference817617634" xlink:type="arc"/>
+      <link:reference id="id_477c31b1" xlink:label="lbl_reference1199321521" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalAwardingAgencyEnumerated" xlink:label="lbl_FederalAwardingAgencyEnumerated" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalAwardingAgencyEnumerated" xlink:to="lbl_reference1199321521" xlink:type="arc"/>
+      <link:reference id="id_2e191024" xlink:label="lbl_reference773394468" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CFDANumber" xlink:label="lbl_CFDANumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CFDANumber" xlink:to="lbl_reference773394468" xlink:type="arc"/>
+      <link:reference id="id_1bf3e365" xlink:label="lbl_reference468968293" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalProgramName" xlink:label="lbl_FederalProgramName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalProgramName" xlink:to="lbl_reference468968293" xlink:type="arc"/>
+      <link:reference id="id_409dfcc8" xlink:label="lbl_reference1084095688" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundingOpportunityNumber" xlink:label="lbl_FundingOpportunityNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundingOpportunityNumber" xlink:to="lbl_reference1084095688" xlink:type="arc"/>
+      <link:reference id="id_1e3f2d2c" xlink:label="lbl_reference507456812" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundingOpportunityTitle" xlink:label="lbl_FundingOpportunityTitle" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundingOpportunityTitle" xlink:to="lbl_reference507456812" xlink:type="arc"/>
+      <link:reference id="id_2a9abaa8" xlink:label="lbl_reference714783400" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CompetitionIdentificationNumber" xlink:label="lbl_CompetitionIdentificationNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CompetitionIdentificationNumber" xlink:to="lbl_reference714783400" xlink:type="arc"/>
+      <link:reference id="id_630ebcca" xlink:label="lbl_reference1661910218" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CompetitionIdentificationTitle" xlink:label="lbl_CompetitionIdentificationTitle" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CompetitionIdentificationTitle" xlink:to="lbl_reference1661910218" xlink:type="arc"/>
+      <link:reference id="id_47f89d29" xlink:label="lbl_reference1207475497" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_DescriptiveTitleOfApplicantsProject" xlink:label="lbl_DescriptiveTitleOfApplicantsProject" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptiveTitleOfApplicantsProject" xlink:to="lbl_reference1207475497" xlink:type="arc"/>
+      <link:reference id="id_4a45dbf6" xlink:label="lbl_reference1246092278" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AreasAffectedByProject" xlink:label="lbl_AreasAffectedByProject" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AreasAffectedByProject" xlink:to="lbl_reference1246092278" xlink:type="arc"/>
+      <link:reference id="id_41693f" xlink:label="lbl_reference4286783" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CongressionalDistrictsOfApplicant" xlink:label="lbl_CongressionalDistrictsOfApplicant" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CongressionalDistrictsOfApplicant" xlink:to="lbl_reference4286783" xlink:type="arc"/>
+      <link:reference id="id_3f6578de" xlink:label="lbl_reference1063614686" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CongressionalDistrictsOfProgramOrProject" xlink:label="lbl_CongressionalDistrictsOfProgramOrProject" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CongressionalDistrictsOfProgramOrProject" xlink:to="lbl_reference1063614686" xlink:type="arc"/>
+      <link:reference id="id_3ae4c648" xlink:label="lbl_reference988071496" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProposedProjectStartDate" xlink:label="lbl_ProposedProjectStartDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProposedProjectStartDate" xlink:to="lbl_reference988071496" xlink:type="arc"/>
+      <link:reference id="id_3a393af6" xlink:label="lbl_reference976829174" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProposedProjectEndDate" xlink:label="lbl_ProposedProjectEndDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProposedProjectEndDate" xlink:to="lbl_reference976829174" xlink:type="arc"/>
+      <link:reference id="id_4ce20779" xlink:label="lbl_reference1289881465" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingFederalContribution" xlink:label="lbl_EstimatedFundingFederalContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingFederalContribution" xlink:to="lbl_reference1289881465" xlink:type="arc"/>
+      <link:reference id="id_14ea2d7f" xlink:label="lbl_reference350891391" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingApplicantContribution" xlink:label="lbl_EstimatedFundingApplicantContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingApplicantContribution" xlink:to="lbl_reference350891391" xlink:type="arc"/>
+      <link:reference id="id_1d793481" xlink:label="lbl_reference494482561" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingStateContribution" xlink:label="lbl_EstimatedFundingStateContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingStateContribution" xlink:to="lbl_reference494482561" xlink:type="arc"/>
+      <link:reference id="id_2fc8f988" xlink:label="lbl_reference801700232" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingLocalContribution" xlink:label="lbl_EstimatedFundingLocalContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingLocalContribution" xlink:to="lbl_reference801700232" xlink:type="arc"/>
+      <link:reference id="id_48e755b1" xlink:label="lbl_reference1223120305" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingOtherContribution" xlink:label="lbl_EstimatedFundingOtherContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingOtherContribution" xlink:to="lbl_reference1223120305" xlink:type="arc"/>
+      <link:reference id="id_11c904c1" xlink:label="lbl_reference298386625" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFunding" xlink:label="lbl_EstimatedFunding" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFunding" xlink:to="lbl_reference298386625" xlink:type="arc"/>
+      <link:reference id="id_a36c448" xlink:label="lbl_reference171361352" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicationSubjectToExecutiveOrder12372" xlink:label="lbl_ApplicationSubjectToExecutiveOrder12372" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicationSubjectToExecutiveOrder12372" xlink:to="lbl_reference171361352" xlink:type="arc"/>
+      <link:reference id="id_19ddcc57" xlink:label="lbl_reference433966167" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_State12372ReviewDate" xlink:label="lbl_State12372ReviewDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_State12372ReviewDate" xlink:to="lbl_reference433966167" xlink:type="arc"/>
+      <link:reference id="id_559aec36" xlink:label="lbl_reference1436216374" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicantIsDelinquentOnAnyFederalDebt" xlink:label="lbl_ApplicantIsDelinquentOnAnyFederalDebt" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicantIsDelinquentOnAnyFederalDebt" xlink:to="lbl_reference1436216374" xlink:type="arc"/>
+      <link:reference id="id_79c326bb" xlink:label="lbl_reference2042832571" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AuthorizedRepresentativeFirstName" xlink:label="lbl_AuthorizedRepresentativeFirstName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AuthorizedRepresentativeFirstName" xlink:to="lbl_reference2042832571" xlink:type="arc"/>
+      <link:reference id="id_253308b1" xlink:label="lbl_reference624101553" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AuthorizedRepresentativeLastName" xlink:label="lbl_AuthorizedRepresentativeLastName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AuthorizedRepresentativeLastName" xlink:to="lbl_reference624101553" xlink:type="arc"/>
+      <link:reference id="id_7b2a3329" xlink:label="lbl_reference2066363177" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AuthorizedRepresentativeTitle" xlink:label="lbl_AuthorizedRepresentativeTitle" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AuthorizedRepresentativeTitle" xlink:to="lbl_reference2066363177" xlink:type="arc"/>
+      <link:reference id="id_4e4ad112" xlink:label="lbl_reference1313526034" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AuthorizedRepresentativeEmail" xlink:label="lbl_AuthorizedRepresentativeEmail" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AuthorizedRepresentativeEmail" xlink:to="lbl_reference1313526034" xlink:type="arc"/>
+      <link:reference id="id_1fd1d358" xlink:label="lbl_reference533844824" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AuthorizedRepresentativeTelephoneNumber" xlink:label="lbl_AuthorizedRepresentativeTelephoneNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AuthorizedRepresentativeTelephoneNumber" xlink:to="lbl_reference533844824" xlink:type="arc"/>
+      <link:reference id="id_5c4dc9e" xlink:label="lbl_reference96787614" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProjectOrGrantStartPeriod" xlink:label="lbl_ProjectOrGrantStartPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProjectOrGrantStartPeriod" xlink:to="lbl_reference96787614" xlink:type="arc"/>
+      <link:reference id="id_87aa2e1" xlink:label="lbl_reference142254817" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProjectOrGrantEndingPeriod" xlink:label="lbl_ProjectOrGrantEndingPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProjectOrGrantEndingPeriod" xlink:to="lbl_reference142254817" xlink:type="arc"/>
+      <link:reference id="id_624adc48" xlink:label="lbl_reference1649073224" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalFinancialReportType" xlink:label="lbl_FederalFinancialReportType" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalFinancialReportType" xlink:to="lbl_reference1649073224" xlink:type="arc"/>
+      <link:reference id="id_649fbe46" xlink:label="lbl_reference1688190534" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalFinancialReportBasisOfAccounting" xlink:label="lbl_FederalFinancialReportBasisOfAccounting" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalFinancialReportBasisOfAccounting" xlink:to="lbl_reference1688190534" xlink:type="arc"/>
+      <link:reference id="id_37a511df" xlink:label="lbl_reference933564895" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ReportingPeriodEnd" xlink:label="lbl_ReportingPeriodEnd" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ReportingPeriodEnd" xlink:to="lbl_reference933564895" xlink:type="arc"/>
+      <link:reference id="id_775c6617" xlink:label="lbl_reference2002544151" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_DateReportSubmitted" xlink:label="lbl_DateReportSubmitted" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DateReportSubmitted" xlink:to="lbl_reference2002544151" xlink:type="arc"/>
+      <link:reference id="id_4b2b70a0" xlink:label="lbl_reference1261138080" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CashReceipts" xlink:label="lbl_CashReceipts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceipts" xlink:to="lbl_reference1261138080" xlink:type="arc"/>
+      <link:reference id="id_41585f0" xlink:label="lbl_reference68519408" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalCashCashDisbursements" xlink:label="lbl_FederalCashCashDisbursements" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalCashCashDisbursements" xlink:to="lbl_reference68519408" xlink:type="arc"/>
+      <link:reference id="id_76773d8e" xlink:label="lbl_reference1987526030" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalCashCashOnHand" xlink:label="lbl_FederalCashCashOnHand" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalCashCashOnHand" xlink:to="lbl_reference1987526030" xlink:type="arc"/>
+      <link:reference id="id_5677d66c" xlink:label="lbl_reference1450694252" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalExpendituresFederalFundsAuthorized" xlink:label="lbl_FederalExpendituresFederalFundsAuthorized" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalExpendituresFederalFundsAuthorized" xlink:to="lbl_reference1450694252" xlink:type="arc"/>
+      <link:reference id="id_2596ad4a" xlink:label="lbl_reference630631754" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalExpendituresFederalShareOfUnliquidatedObligations" xlink:label="lbl_FederalExpendituresFederalShareOfUnliquidatedObligations" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalExpendituresFederalShareOfUnliquidatedObligations" xlink:to="lbl_reference630631754" xlink:type="arc"/>
+      <link:reference id="id_a742717" xlink:label="lbl_reference175384343" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalExpendituresFederalShare" xlink:label="lbl_FederalExpendituresFederalShare" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalExpendituresFederalShare" xlink:to="lbl_reference175384343" xlink:type="arc"/>
+      <link:reference id="id_3b6b2019" xlink:label="lbl_reference996876313" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_UnobligatedBalanceOfFederalFunds" xlink:label="lbl_UnobligatedBalanceOfFederalFunds" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnobligatedBalanceOfFederalFunds" xlink:to="lbl_reference996876313" xlink:type="arc"/>
+      <link:reference id="id_66b7295a" xlink:label="lbl_reference1723279706" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_RecipientShareRequired" xlink:label="lbl_RecipientShareRequired" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RecipientShareRequired" xlink:to="lbl_reference1723279706" xlink:type="arc"/>
+      <link:reference id="id_f25e025" xlink:label="lbl_reference254140453" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_RecipientShareOfExpenditures" xlink:label="lbl_RecipientShareOfExpenditures" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RecipientShareOfExpenditures" xlink:to="lbl_reference254140453" xlink:type="arc"/>
+      <link:reference id="id_2648eadb" xlink:label="lbl_reference642312923" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_RemainingRecipientShareToBeProvided" xlink:label="lbl_RemainingRecipientShareToBeProvided" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RemainingRecipientShareToBeProvided" xlink:to="lbl_reference642312923" xlink:type="arc"/>
+      <link:reference id="id_fba9df7" xlink:label="lbl_reference263888375" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_TotalFederalProgramIncomeEarned" xlink:label="lbl_TotalFederalProgramIncomeEarned" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_TotalFederalProgramIncomeEarned" xlink:to="lbl_reference263888375" xlink:type="arc"/>
+      <link:reference id="id_65d52e00" xlink:label="lbl_reference1708469760" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative" xlink:label="lbl_ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative" xlink:to="lbl_reference1708469760" xlink:type="arc"/>
+      <link:reference id="id_745e3379" xlink:label="lbl_reference1952330617" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative" xlink:label="lbl_ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative" xlink:to="lbl_reference1952330617" xlink:type="arc"/>
+      <link:reference id="id_4a6155c" xlink:label="lbl_reference77993308" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_UnexpendedProgramIncome" xlink:label="lbl_UnexpendedProgramIncome" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnexpendedProgramIncome" xlink:to="lbl_reference77993308" xlink:type="arc"/>
+      <link:reference id="id_47ed15b" xlink:label="lbl_reference75419995" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalFinancialReportRemarks" xlink:label="lbl_FederalFinancialReportRemarks" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalFinancialReportRemarks" xlink:to="lbl_reference75419995" xlink:type="arc"/>
+      <link:reference id="id_37b95484" xlink:label="lbl_reference934892676" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialPrefix" xlink:label="lbl_CertifyingOfficialPrefix" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialPrefix" xlink:to="lbl_reference934892676" xlink:type="arc"/>
+      <link:reference id="id_102b8436" xlink:label="lbl_reference271287350" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialFirstName" xlink:label="lbl_CertifyingOfficialFirstName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialFirstName" xlink:to="lbl_reference271287350" xlink:type="arc"/>
+      <link:reference id="id_15576d0a" xlink:label="lbl_reference358051082" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialLastName" xlink:label="lbl_CertifyingOfficialLastName" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialLastName" xlink:to="lbl_reference358051082" xlink:type="arc"/>
+      <link:reference id="id_7d6ba6f2" xlink:label="lbl_reference2104207090" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialTitle" xlink:label="lbl_CertifyingOfficialTitle" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialTitle" xlink:to="lbl_reference2104207090" xlink:type="arc"/>
+      <link:reference id="id_a786eca" xlink:label="lbl_reference175664842" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialTelephone" xlink:label="lbl_CertifyingOfficialTelephone" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialTelephone" xlink:to="lbl_reference175664842" xlink:type="arc"/>
+      <link:reference id="id_1b255cbd" xlink:label="lbl_reference455433405" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertifyingOfficialEmailAddress" xlink:label="lbl_CertifyingOfficialEmailAddress" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertifyingOfficialEmailAddress" xlink:to="lbl_reference455433405" xlink:type="arc"/>
+      <link:reference id="id_40cfac26" xlink:label="lbl_reference1087351846" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProvisionalMember" xlink:label="lbl_ProvisionalMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProvisionalMember" xlink:to="lbl_reference1087351846" xlink:type="arc"/>
+      <link:reference id="id_3148e72f" xlink:label="lbl_reference826861359" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_PredeterminedMember" xlink:label="lbl_PredeterminedMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PredeterminedMember" xlink:to="lbl_reference826861359" xlink:type="arc"/>
+      <link:reference id="id_25edec55" xlink:label="lbl_reference636349525" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FinalMember" xlink:label="lbl_FinalMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FinalMember" xlink:to="lbl_reference636349525" xlink:type="arc"/>
+      <link:reference id="id_98ec38f" xlink:label="lbl_reference160351119" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_OtherMember" xlink:label="lbl_OtherMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherMember" xlink:to="lbl_reference160351119" xlink:type="arc"/>
+      <link:reference id="id_2fe20b22" xlink:label="lbl_reference803343138" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_IndirectCostTypeOfRate" xlink:label="lbl_IndirectCostTypeOfRate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IndirectCostTypeOfRate" xlink:to="lbl_reference803343138" xlink:type="arc"/>
+      <link:reference id="id_5f535891" xlink:label="lbl_reference1599297681" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_IndirectCostRate" xlink:label="lbl_IndirectCostRate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IndirectCostRate" xlink:to="lbl_reference1599297681" xlink:type="arc"/>
+      <link:reference id="id_42d82245" xlink:label="lbl_reference1121460805" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_BeginningEffectiveDateForIndirectCostRate" xlink:label="lbl_BeginningEffectiveDateForIndirectCostRate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BeginningEffectiveDateForIndirectCostRate" xlink:to="lbl_reference1121460805" xlink:type="arc"/>
+      <link:reference id="id_13fb54e2" xlink:label="lbl_reference335238370" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EndingEffectiveDateForIndirectCostRate" xlink:label="lbl_EndingEffectiveDateForIndirectCostRate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EndingEffectiveDateForIndirectCostRate" xlink:to="lbl_reference335238370" xlink:type="arc"/>
+      <link:reference id="id_77c88cb7" xlink:label="lbl_reference2009631927" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_BaseAmount" xlink:label="lbl_BaseAmount" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BaseAmount" xlink:to="lbl_reference2009631927" xlink:type="arc"/>
+      <link:reference id="id_37905f87" xlink:label="lbl_reference932208519" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_IndirectCostAmountCharged" xlink:label="lbl_IndirectCostAmountCharged" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IndirectCostAmountCharged" xlink:to="lbl_reference932208519" xlink:type="arc"/>
+      <link:reference id="id_65dd8f45" xlink:label="lbl_reference1709018949" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 425</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalShareOfIndirectCostAmountCharged" xlink:label="lbl_FederalShareOfIndirectCostAmountCharged" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalShareOfIndirectCostAmountCharged" xlink:to="lbl_reference1709018949" xlink:type="arc"/>
+      <link:reference id="id_545267c9" xlink:label="lbl_reference1414686665" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FiscalPeriodStartDate" xlink:label="lbl_FiscalPeriodStartDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FiscalPeriodStartDate" xlink:to="lbl_reference1414686665" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeApplicantIdentifier" xlink:label="lbl_GranteeApplicantIdentifier" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeApplicantIdentifier" xlink:to="lbl_reference1146029728" xlink:type="arc"/>
+      <link:reference id="id_4655207e" xlink:label="lbl_reference1179983998" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressCountyParish" xlink:label="lbl_GranteeAddressCountyParish" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressCountyParish" xlink:to="lbl_reference1179983998" xlink:type="arc"/>
+      <link:reference id="id_763a8b8" xlink:label="lbl_reference123971768" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressCountry" xlink:label="lbl_GranteeAddressCountry" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressCountry" xlink:to="lbl_reference123971768" xlink:type="arc"/>
+      <link:reference id="id_3c57fbd2" xlink:label="lbl_reference1012399058" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeAddressProvince" xlink:label="lbl_GranteeAddressProvince" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeAddressProvince" xlink:to="lbl_reference1012399058" xlink:type="arc"/>
+      <link:reference id="id_58faee65" xlink:label="lbl_reference1492840037" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GranteeContactFaxNumber" xlink:label="lbl_GranteeContactFaxNumber" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GranteeContactFaxNumber" xlink:to="lbl_reference1492840037" xlink:type="arc"/>
+      <link:reference id="id_3dc855d" xlink:label="lbl_reference64783709" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GrantsApplicantTypeOther" xlink:label="lbl_GrantsApplicantTypeOther" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GrantsApplicantTypeOther" xlink:to="lbl_reference64783709" xlink:type="arc"/>
+      <link:reference id="id_5b65969" xlink:label="lbl_reference95836521" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_SupportingDocumentsLink" xlink:label="lbl_SupportingDocumentsLink" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SupportingDocumentsLink" xlink:to="lbl_reference95836521" xlink:type="arc"/>
+      <link:reference id="id_30a6102" xlink:label="lbl_reference51011842" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_AreasAffectedByProjectSupportingDocumentsLink" xlink:label="lbl_AreasAffectedByProjectSupportingDocumentsLink" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AreasAffectedByProjectSupportingDocumentsLink" xlink:to="lbl_reference51011842" xlink:type="arc"/>
+      <link:reference id="id_5b63317a" xlink:label="lbl_reference1533227386" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CongressionalDistrictsSupportingDocumentsLink" xlink:label="lbl_CongressionalDistrictsSupportingDocumentsLink" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CongressionalDistrictsSupportingDocumentsLink" xlink:to="lbl_reference1533227386" xlink:type="arc"/>
+      <link:reference id="id_699eea04" xlink:label="lbl_reference1772022276" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedFundingProgramIncome" xlink:label="lbl_EstimatedFundingProgramIncome" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedFundingProgramIncome" xlink:to="lbl_reference1772022276" xlink:type="arc"/>
+      <link:reference id="id_77189eb6" xlink:label="lbl_reference1998102198" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicantIsDelinquentOnFederalDebtExplanationText" xlink:label="lbl_ApplicantIsDelinquentOnFederalDebtExplanationText" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicantIsDelinquentOnFederalDebtExplanationText" xlink:to="lbl_reference1998102198" xlink:type="arc"/>
+      <link:reference id="id_20119fc" xlink:label="lbl_reference33626620" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_CertificationAgreement" xlink:label="lbl_CertificationAgreement" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CertificationAgreement" xlink:to="lbl_reference33626620" xlink:type="arc"/>
+      <link:reference id="id_17c12bb1" xlink:label="lbl_reference398535601" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_SignatureOfAuthorizedRepresentative" xlink:label="lbl_SignatureOfAuthorizedRepresentative" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SignatureOfAuthorizedRepresentative" xlink:to="lbl_reference398535601" xlink:type="arc"/>
+      <link:reference id="id_3a2254f3" xlink:label="lbl_reference975328499" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_DateSigned" xlink:label="lbl_DateSigned" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DateSigned" xlink:to="lbl_reference975328499" xlink:type="arc"/>
+      <link:reference id="id_4c1463fc" xlink:label="lbl_reference1276404732" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_5db021de" xlink:label="lbl_reference1571824094" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_1e5137ae" xlink:label="lbl_reference508639150" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_3e8fd695" xlink:label="lbl_reference1049613973" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForPersonnel" xlink:label="lbl_FundsRequiredForPersonnel" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForPersonnel" xlink:to="lbl_reference1049613973" xlink:type="arc"/>
+      <link:reference id="id_171b6edf" xlink:label="lbl_reference387673823" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForFringeBenefits" xlink:label="lbl_FundsRequiredForFringeBenefits" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForFringeBenefits" xlink:to="lbl_reference387673823" xlink:type="arc"/>
+      <link:reference id="id_5aa0cb7f" xlink:label="lbl_reference1520487295" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForTravel" xlink:label="lbl_FundsRequiredForTravel" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForTravel" xlink:to="lbl_reference1520487295" xlink:type="arc"/>
+      <link:reference id="id_2f7bfc8b" xlink:label="lbl_reference796654731" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForEquipment" xlink:label="lbl_FundsRequiredForEquipment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForEquipment" xlink:to="lbl_reference796654731" xlink:type="arc"/>
+      <link:reference id="id_5703e527" xlink:label="lbl_reference1459873063" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalMember" xlink:label="lbl_FederalMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalMember" xlink:to="lbl_reference1459873063" xlink:type="arc"/>
+      <link:reference id="id_227486c7" xlink:label="lbl_reference578062023" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NonFederalMember" xlink:label="lbl_NonFederalMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NonFederalMember" xlink:to="lbl_reference578062023" xlink:type="arc"/>
+      <link:reference id="id_518362fd" xlink:label="lbl_reference1367565053" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForSupplies" xlink:label="lbl_FundsRequiredForSupplies" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForSupplies" xlink:to="lbl_reference1367565053" xlink:type="arc"/>
+      <link:reference id="id_52d5a7bf" xlink:label="lbl_reference1389733823" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForContractualCosts" xlink:label="lbl_FundsRequiredForContractualCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForContractualCosts" xlink:to="lbl_reference1389733823" xlink:type="arc"/>
+      <link:reference id="id_528ea7fb" xlink:label="lbl_reference1385080827" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForConstruction" xlink:label="lbl_FundsRequiredForConstruction" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForConstruction" xlink:to="lbl_reference1385080827" xlink:type="arc"/>
+      <link:reference id="id_1fd36fbb" xlink:label="lbl_reference533950395" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForOtherCosts" xlink:label="lbl_FundsRequiredForOtherCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForOtherCosts" xlink:to="lbl_reference533950395" xlink:type="arc"/>
+      <link:reference id="id_3539c268" xlink:label="lbl_reference892977768" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForDirectCharges" xlink:label="lbl_FundsRequiredForDirectCharges" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForDirectCharges" xlink:to="lbl_reference892977768" xlink:type="arc"/>
+      <link:reference id="id_532a8f75" xlink:label="lbl_reference1395298165" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForIndirectDirectCharges" xlink:label="lbl_FundsRequiredForIndirectDirectCharges" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForIndirectDirectCharges" xlink:to="lbl_reference1395298165" xlink:type="arc"/>
+      <link:reference id="id_50338037" xlink:label="lbl_reference1345552439" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForDirectAndIndirectDirectCharges" xlink:label="lbl_FundsRequiredForDirectAndIndirectDirectCharges" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForDirectAndIndirectDirectCharges" xlink:to="lbl_reference1345552439" xlink:type="arc"/>
+      <link:reference id="id_6df6f0b7" xlink:label="lbl_reference1844900023" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ProgramIncome" xlink:label="lbl_ProgramIncome" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProgramIncome" xlink:to="lbl_reference1844900023" xlink:type="arc"/>
+      <link:reference id="id_5484ffe2" xlink:label="lbl_reference1418002402" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_1e1fefce" xlink:label="lbl_reference505409486" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_OtherSourcesMember" xlink:label="lbl_OtherSourcesMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherSourcesMember" xlink:to="lbl_reference505409486" xlink:type="arc"/>
+      <link:reference id="id_42db08c2" xlink:label="lbl_reference1121650882" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_StateMember" xlink:label="lbl_StateMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StateMember" xlink:to="lbl_reference1121650882" xlink:type="arc"/>
+      <link:reference id="id_19a81e1b" xlink:label="lbl_reference430448155" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ApplicantMember" xlink:label="lbl_ApplicantMember" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ApplicantMember" xlink:to="lbl_reference430448155" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NonFederalResourceContribution" xlink:label="lbl_NonFederalResourceContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NonFederalResourceContribution" xlink:to="lbl_reference1418002402" xlink:type="arc"/>
+      <link:reference id="id_31754b5" xlink:label="lbl_reference51860661" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_2be60ec9" xlink:label="lbl_reference736497353" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_2b365ccd" xlink:label="lbl_reference724982989" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:reference id="id_1e7aac29" xlink:label="lbl_reference511355945" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsFourthQuarter" xlink:label="lbl_ForecastedCashNeedsFourthQuarter" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsFourthQuarter" xlink:to="lbl_reference511355945" xlink:type="arc"/>
+      <link:reference id="id_13d004e9" xlink:label="lbl_reference332399849" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsFirstYear" xlink:label="lbl_ForecastedCashNeedsFirstYear" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsFirstYear" xlink:to="lbl_reference332399849" xlink:type="arc"/>
+      <link:reference id="id_7e9b27fd" xlink:label="lbl_reference2124097533" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FirstFutureFundingPeriod" xlink:label="lbl_FirstFutureFundingPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FirstFutureFundingPeriod" xlink:to="lbl_reference2124097533" xlink:type="arc"/>
+      <link:reference id="id_46ccaaef" xlink:label="lbl_reference1187818223" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_SecondFutureFundingPeriod" xlink:label="lbl_SecondFutureFundingPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SecondFutureFundingPeriod" xlink:to="lbl_reference1187818223" xlink:type="arc"/>
+      <link:reference id="id_10551f09" xlink:label="lbl_reference274013961" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ThirdFutureFundingPeriod" xlink:label="lbl_ThirdFutureFundingPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ThirdFutureFundingPeriod" xlink:to="lbl_reference274013961" xlink:type="arc"/>
+      <link:reference id="id_360d8ffe" xlink:label="lbl_reference906858494" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FourthFutureFundingPeriod" xlink:label="lbl_FourthFutureFundingPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FourthFutureFundingPeriod" xlink:to="lbl_reference906858494" xlink:type="arc"/>
+      <link:reference id="id_50561880" xlink:label="lbl_reference1347819648" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_IndirectChargesDescription" xlink:label="lbl_IndirectChargesDescription" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IndirectChargesDescription" xlink:to="lbl_reference1347819648" xlink:type="arc"/>
+      <link:reference id="id_2772e9b7" xlink:label="lbl_reference661842359" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_DirectChargesDescription" xlink:label="lbl_DirectChargesDescription" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DirectChargesDescription" xlink:to="lbl_reference661842359" xlink:type="arc"/>
+      <link:reference id="id_62a90a66" xlink:label="lbl_reference1655245414" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_Remarks" xlink:label="lbl_Remarks" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_Remarks" xlink:to="lbl_reference1655245414" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedUnobligatedFundsFederal" xlink:label="lbl_EstimatedUnobligatedFundsFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedUnobligatedFundsFederal" xlink:to="lbl_reference1276404732" xlink:type="arc"/>
+      <link:reference id="id_6bcfcca4" xlink:label="lbl_reference1808780452" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_EstimatedUnobligatedFundsNonFederal" xlink:label="lbl_EstimatedUnobligatedFundsNonFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EstimatedUnobligatedFundsNonFederal" xlink:to="lbl_reference1808780452" xlink:type="arc"/>
+      <link:reference id="id_73249f03" xlink:label="lbl_reference1931779843" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>OMB</ref:Publisher>
+         <ref:Name>SF 424A</ref:Name>
+      </link:reference>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NewOrRevisedBudgetNonFederal" xlink:label="lbl_NewOrRevisedBudgetNonFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NewOrRevisedBudgetNonFederal" xlink:to="lbl_reference1931779843" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NewOrRevisedBudgetFederal" xlink:label="lbl_NewOrRevisedBudgetFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NewOrRevisedBudgetFederal" xlink:to="lbl_reference1571824094" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NewOrRevisedBudget" xlink:label="lbl_NewOrRevisedBudget" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NewOrRevisedBudget" xlink:to="lbl_reference508639150" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsFederal" xlink:label="lbl_ForecastedCashNeedsFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsFederal" xlink:to="lbl_reference51860661" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsNonFederal" xlink:label="lbl_ForecastedCashNeedsNonFederal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsNonFederal" xlink:to="lbl_reference736497353" xlink:type="arc"/>
+      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeeds" xlink:label="lbl_ForecastedCashNeeds" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeeds" xlink:to="lbl_reference724982989" xlink:type="arc"/>
+   </link:referenceLink>
+</link:linkbase>

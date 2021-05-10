@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:acfr-part="http://www.acfr.us/parts" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault="" targetNamespace="http://www.acfr.us/parts">
+   <xs:annotation>
+      <xs:documentation> This schem defines reference roles and parts </xs:documentation>
+      <xs:appinfo> </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+   <xs:element abstract="false" id="publisher" name="publisher" nillable="false" substitutionGroup="link:part" type="xs:token">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">publisher</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element abstract="false" id="note" name="note" nillable="false" substitutionGroup="link:part" type="xs:token">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">note</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+</xs:schema>

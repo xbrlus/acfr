@@ -1,32 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Initial CAFR taxonomy-->
-<xs:schema
-  attributeFormDefault="unqualified"
-  elementFormDefault="qualified"
-  targetNamespace="http://xbrl.us/cafr/v0.3/2020-05-01/cafr-all"
-  xmlns:cafr="http://xbrl.us/cafr/v0.3/2020-05-01/cafr"
-  xmlns:cafr-all="http://xbrl.us/cafr/v0.3/2020-05-01/cafr-all"
-  xmlns:link="http://www.xbrl.org/2003/linkbase"
-  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
-  xmlns:sap="http://xbrl.us/sap/v0.3/2020-05-01/sap"
-  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
-  xmlns:xbrli="http://www.xbrl.org/2003/instance"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:annotation>
-        <xs:documentation>This schema contains core elements for the CAFR taxonomy and is a comprehensive list of all roles.</xs:documentation>
-        <xs:appinfo/>
-    </xs:annotation>
-    <xs:import
-      namespace="http://www.xbrl.org/2003/instance"
-      schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
-    <xs:import
-      namespace="http://xbrl.org/2005/xbrldt"
-      schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
-    <xs:import
-      namespace="http://xbrl.us/cafr/v0.3/2020-05-01/cafr"
-      schemaLocation="cafr_2020-05-01.xsd"/>
-    <xs:import
-      namespace="http://xbrl.us/sap/v0.3/2020-05-01/sap"
-      schemaLocation="sap_2020-05-01.xsd"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Initial acfr taxonomy-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:acfr="http://xbrl.us/acfr/v0.3/2021-05-01/acfr" xmlns:acfr-all="http://xbrl.us/acfr/v0.3/2021-05-01/acfr-all" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:sap="http://xbrl.us/sap/v0.3/2021-05-01/sap" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault="" targetNamespace="http://xbrl.us/acfr/v0.3/2021-05-01/acfr-all">
+   <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+   <xs:annotation>
+      <xs:documentation>This schema contains core elements for the acfr taxonomy and is a comprehensive list of all roles.</xs:documentation>
+      <xs:appinfo>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="acfr_all_2021-05-01_lab_en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+         <link:roleType id="govFundsBalanceOtherUnearnedRevenue" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr-all/roles/GovFundsBalanceOtherUnearnedRevenue">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">300450 - Governmental Balance Sheet - Other Unearned Revenue (Details)</definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType>
+         <link:roleType id="govFundsBalanceOtherUnearnedRevenueTotals" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr-all/roles/GovFundsBalanceOtherUnearnedRevenueTotals">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">300735 - Governmental Balance Sheet - Other Unearned Revenue Totals (Details)</definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+   <xs:import namespace="http://xbrl.us/acfr/v0.3/2021-05-01/acfr" schemaLocation="acfr_2021-05-01.xsd"/>
+   <xs:import namespace="http://xbrl.us/sap/v0.3/2021-05-01/sap" schemaLocation="sap_2021-05-01.xsd"/>
+   <xs:element abstract="true" id="acfr-all_RestrictedAssetsAbstract" name="RestrictedAssetsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr-all_NameOfOtherUnearnedRevenueDomain" name="NameOfOtherUnearnedRevenueDomain" nillable="false" type="xs:token"/>
 </xs:schema>

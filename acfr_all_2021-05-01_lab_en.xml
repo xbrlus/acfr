@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="id_6126f91a" xlink:label="lbl_RestrictedAssetsAbstract_labels" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Restricted Assets [Abstract]</link:label>
+      <link:loc xlink:href="acfr_all_2021-05-01.xsd#acfr-all_RestrictedAssetsAbstract" xlink:label="lbl_RestrictedAssetsAbstract" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_RestrictedAssetsAbstract" xlink:to="lbl_RestrictedAssetsAbstract_labels" xlink:type="arc"/>
+      <link:label id="id_194d1b75" xlink:label="lbl_RestrictedAssetsAbstract_labels" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en">Information about restricted assets.</link:label>
+   </link:labelLink>
+</link:linkbase>
