@@ -1,6 +1,6 @@
 {
  "instance": {
-  "Bakersfield-ACFR2019_xbrl.html": {
+  "Bakersfield-CAFR2019_xbrl.html": {
    "axisCustom": 0,
    "axisStandard": 0,
    "contextCount": 15,
@@ -13,7 +13,7 @@
     },
     "inline": {
      "local": [
-      "Bakersfield-ACFR2019_xbrl.html"
+      "Bakersfield-CAFR2019_xbrl.html"
      ]
     },
     "labelLink": {
@@ -89,7 +89,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -125,7 +125,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -156,7 +156,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "lang": null,
@@ -185,7 +185,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -217,7 +217,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -253,7 +253,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -285,7 +285,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -321,7 +321,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -356,7 +356,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
@@ -391,7 +391,7 @@
        "body",
        "html"
       ],
-      "baseRef": "Bakersfield-ACFR2019_xbrl.html",
+      "baseRef": "Bakersfield-CAFR2019_xbrl.html",
       "contextRef": "c11",
       "decimals": "INF",
       "first": true,
