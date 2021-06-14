@@ -1,0 +1,1808 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns:sap="http://xbrl.us/sap/v0.3/2021-05-01/sap" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Federal Financial Report</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com"/>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700" rel="stylesheet"/>
+		<style type="text/css">
+			body {
+				font-family: 'Lato', sans-serif;
+			}
+		</style>
+	</head>
+
+	<body class="p-4">
+		<div style="display:none">
+			<ix:header>
+				<ix:hidden>
+					<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalFinancialReportBasisOfAccounting" escape="true" id="ixv-0">Cash</ix:nonNumeric>
+					<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalAwardingAgencyEnumerated" escape="true" id="ixv-1">Department of Defense (12)
+					</ix:nonNumeric>
+				</ix:hidden>
+				<ix:references>
+					<link:schemaRef xlink:href="https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC8/acfr_all_2021-05-01.xsd" xlink:type="simple"/>
+				</ix:references>
+				<ix:resources>
+					<xbrli:context id="D20200630">
+						<xbrli:entity>
+							<xbrli:identifier scheme="http://www.acfr.gov/CIK">05201902700000</xbrli:identifier>
+						</xbrli:entity>
+						<xbrli:period>
+							<xbrli:startDate>2019-06-30</xbrli:startDate>
+							<xbrli:endDate>2020-06-30</xbrli:endDate>
+						</xbrli:period>
+					</xbrli:context>
+					<xbrli:context id="D20200630_FederalProgramIdentifierDomain_1">
+						<xbrli:entity>
+							<xbrli:identifier scheme="http://www.acfr.gov/CIK">05201902700000</xbrli:identifier>
+							<xbrli:segment>
+								<xbrldi:typedMember dimension="sap:FederalProgramIdentifierAxis">
+									<sap:FederalProgramIdentifierDomain>1</sap:FederalProgramIdentifierDomain>
+								</xbrldi:typedMember>
+							</xbrli:segment>
+						</xbrli:entity>
+						<xbrli:period>
+							<xbrli:startDate>2019-06-30</xbrli:startDate>
+							<xbrli:endDate>2020-06-30</xbrli:endDate>
+						</xbrli:period>
+					</xbrli:context>
+					<xbrli:context id="I20200630_FederalProgramIdentifierDomain_1_PredeterminedMember">
+						<xbrli:entity>
+							<xbrli:identifier scheme="http://www.acfr.gov/CIK">05201902700000</xbrli:identifier>
+							<xbrli:segment>
+								<xbrldi:typedMember dimension="sap:FederalProgramIdentifierAxis">
+									<sap:FederalProgramIdentifierDomain>1</sap:FederalProgramIdentifierDomain>
+								</xbrldi:typedMember>
+								<xbrldi:explicitMember dimension="sap:IndirectExpenseTypeAxis">sap:PredeterminedMember
+								</xbrldi:explicitMember>
+							</xbrli:segment>
+						</xbrli:entity>
+						<xbrli:period>
+							<xbrli:instant>2020-06-30</xbrli:instant>
+						</xbrli:period>
+					</xbrli:context>
+					<xbrli:context id="D20200630_FederalProgramIdentifierDomain_1_PredeterminedMember">
+						<xbrli:entity>
+							<xbrli:identifier scheme="http://www.acfr.gov/CIK">05201902700000</xbrli:identifier>
+							<xbrli:segment>
+								<xbrldi:typedMember dimension="sap:FederalProgramIdentifierAxis">
+									<sap:FederalProgramIdentifierDomain>1</sap:FederalProgramIdentifierDomain>
+								</xbrldi:typedMember>
+								<xbrldi:explicitMember dimension="sap:IndirectExpenseTypeAxis">sap:PredeterminedMember
+								</xbrldi:explicitMember>
+							</xbrli:segment>
+						</xbrli:entity>
+						<xbrli:period>
+							<xbrli:startDate>2019-06-30</xbrli:startDate>
+							<xbrli:endDate>2020-06-30</xbrli:endDate>
+						</xbrli:period>
+					</xbrli:context>
+					<xbrli:unit id="Pure">
+						<xbrli:measure>xbrli:pure</xbrli:measure>
+					</xbrli:unit>
+					<xbrli:unit id="USD">
+						<xbrli:measure>iso4217:USD</xbrli:measure>
+					</xbrli:unit>
+				</ix:resources>
+			</ix:header>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-6 col-md-3 text-right">
+					OMB Number: 4040-0014
+					Expiration Date: 02/28/2022
+				</div>
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="col border border-dark p-4 shadow rounded">
+					<p class="border border-secondary p-3 mx-n1 font-weight-bold rounded bg-success text-white">
+						Federal Financial Report
+						(Follow form Instructions)</p>
+
+					<form action="null.php" method="get">
+						<div class="form-row border border-secondary p-1 font-weight-bold rounded">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>1. Federal Agency and Organizational Element to
+										Which Report is Submitted</label>
+									<input type="text" class="form-control" disabled="disabled" value="National Security Agency"/>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>2. Federal Grant or Other Identifying Number
+										Assigned by Federal Agency (To report multiple grants, use FFR
+										Attachment)</label>
+									<label class="form-control">
+										<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalAwardIdentifier" escape="true" id="ixv-2">
+											H98230-19-1-0173
+										</ix:nonNumeric>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div><br/></div>
+
+						<fieldset class="p-3 border border-secondary rounded font-weight-bold">
+							<legend class="col-form-label w-auto">3. Recipient Organization (Name and complete
+								address including zip code)</legend>
+
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<label>Recipient Organization Name</label>
+									<label class="form-control">
+										<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeName" escape="true" id="ixv-3">College of DuPage</ix:nonNumeric>
+									</label>
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<label>Street 1</label>
+									<label class="form-control">
+										<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeAddressStreetAddress1" escape="true" id="ixv-4">425 Fawell Blvd
+										</ix:nonNumeric>
+									</label>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>City</label>
+									<label class="form-control">
+										<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeAddressCity" escape="true" id="ixv-5">Glen Ellyn</ix:nonNumeric>
+									</label>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>County</label>
+									<input type="text" class="form-control"/>
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<label>State</label>
+									<p class="form-control">IL: <ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeAddressState" escape="true" id="ixv-6">Illinois
+										</ix:nonNumeric>
+									</p>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>Province</label>
+									<input type="text" class="form-control"/>
+								</div>
+
+								<div class="form-group col-md-4">
+									<label>Country</label>
+									<input type="text" disabled="disabled" class="form-control" value="USA: UNITED STATES"/>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<label>ZIP / Postal Code</label>
+									<p class="form-control">
+										<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeAddressZipCode" escape="true" id="ixv-7">60137
+										</ix:nonNumeric>-6708
+									</p>
+								</div>
+							</div>
+						</fieldset>
+
+						<div><br/></div>
+
+						<div class="form-row border border-secondary p-1 font-weight-bold rounded">
+							<div class="form-group col-md-2">
+								<label>4a. DUNS Number</label>
+								<label class="form-control">
+									<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeDUNSNumber" escape="true" id="ixv-8">066209610</ix:nonNumeric>
+								</label>
+							</div>
+
+							<div class="form-group col-md-2">
+								<label>4b. EIN</label>
+								<label class="form-control">
+									<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:GranteeEmployerIdentificationNumber" escape="true" id="ixv-9">36-2594972
+									</ix:nonNumeric>
+								</label>
+							</div>
+
+							<div class="form-group col-md-8">
+								<label>5. Recipient Account Number or Identifying Number (To report multiple grants, use
+									FFR Attachment)</label>
+								<input type="text" class="form-control" disabled="disabled" value="06-10-02739"/>
+							</div>
+						</div>
+
+						<div><br/></div>
+						<div class="form-row border border-secondary p-1 font-weight-bold rounded">
+							<fieldset class="form-group col-md-3">
+								<legend class="col-form-label">6. Report Type Quarterly Semi-Annual</legend>
+
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="annual"/>
+									<label class="form-check-label" for="annual">Annual</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="final" checked="checked"/>
+									<label class="form-check-label" for="final">Final</label>
+								</div>
+							</fieldset>
+
+							<fieldset class="form-group col-md-3">
+								<legend class="col-form-label">7. Basis of Accounting</legend>
+
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="cash" checked="checked"/>
+									<label class="form-check-label" for="cash">Cash</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="accrual"/>
+									<label class="form-check-label" for="accrual">Accrual</label>
+								</div>
+							</fieldset>
+
+							<div class="form-group col-md-3">
+								<label>8. Project/Grant Period</label>
+
+								<div class="row">
+									<div class="col">
+										<span>Form:</span>
+
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:ProjectOrGrantStartPeriod" format="ixt:datemonthdayyear" id="ixv-10">
+												04/26/2019</ix:nonNumeric>
+										</label>
+									</div>
+
+									<div class="col">
+										<span>To:</span>
+
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:ProjectOrGrantEndingPeriod" format="ixt:datemonthdayyear" id="ixv-11">
+												04/25/2020</ix:nonNumeric>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group col-md-3">
+								<label>9. Reporting Period End Date</label>
+								<label class="form-control">
+									<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:ProjectOrGrantEndingPeriod" format="ixt:datemonthdayyear" id="ixv-12">04/25/2020
+									</ix:nonNumeric>
+								</label>
+							</div>
+						</div>
+						<fieldset class="p-3 border border-secondary rounded font-weight-bold">
+							<legend class="col-form-label w-auto">10. Transactions</legend>
+
+							<table class="table table-bordered table-sm">
+								<thead class="thead-dark">
+									<tr>
+										<th>Particulars (Use lines a-c for single or multiple grant reporting)</th>
+										<th>Cumulative</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr class="table-warning">
+										<td colspan="2">Federal Cash (To report multiple grants, also use FFR
+											attachment)</td>
+									</tr>
+									<tr>
+										<td>a. Cash Receipts</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CashReceipts" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-13">15,602.22</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>b. Cash Disbursements</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalCashCashDisbursements" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-14">23,625.48</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>c. Cash on Hand (line a minus b)</td>
+										<td class="text-right">-<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalCashCashOnHand" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-15">8,023.26</ix:nonFraction>
+										</td>
+									</tr>
+									<tr class="table-warning">
+										<td colspan="2">Federal Expenditures and Unobligated Balance</td>
+									</tr>
+									<tr>
+										<td>d. Total Federal funds authorized</td>
+										<td class="text-right">
+											<ix:nonFraction name="sap:FederalExpendituresFederalFundsAuthorized" contextRef="D20200630_FederalProgramIdentifierDomain_1" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-16">
+												23,979.08
+											</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>e. Federal share of expenditures</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalExpendituresFederalShare" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-17">23,625.48</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>f. Federal share of unliquidated obligations</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalExpendituresFederalShareOfUnliquidatedObligations" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-18">
+												0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>g. Total Federal share (sum of lines e and f)</td>
+										<td class="text-right">23,625.48</td>
+									</tr>
+									<tr>
+										<td>h. Unobligated balance of Federal Funds (line d minus g)</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:UnobligatedBalanceOfFederalFunds" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-19">353.60</ix:nonFraction>
+										</td>
+									</tr>
+									<tr class="table-warning">
+										<td colspan="2">Recipient Share</td>
+									</tr>
+									<tr>
+										<td>i. Total recipient share required</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:RecipientShareRequired" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-20">0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>j. Recipient share of expenditures</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:RecipientShareOfExpenditures" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-21">0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>k. Remaining recipient share to be provided (line i minus j)</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:RemainingRecipientShareToBeProvided" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-22">0.00
+											</ix:nonFraction>
+										</td>
+									</tr>
+									<tr class="table-warning">
+										<td colspan="2">Program Income</td>
+									</tr>
+									<tr>
+										<td>l. Total Federal program income earned</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:TotalFederalProgramIncomeEarned" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-23">0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>m. Program Income expended in accordance with the deduction alternative</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-24">
+												0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>n. Program Income expended in accordance with the addition alternative</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-25">
+												0.00</ix:nonFraction>
+										</td>
+									</tr>
+									<tr>
+										<td>o. Unexpended program income (line l minus line m or line n)</td>
+										<td class="text-right">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:UnexpendedProgramIncome" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-26">0.00</ix:nonFraction>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</fieldset>
+
+						<fieldset class="p-3 border border-secondary rounded font-weight-bold">
+							<legend class="col-form-label w-auto">
+								11. Indirect Expense</legend>
+							<fieldset class="form-group border border-secondary p-3 rounded font-weight-bold">
+								<legend class="col-form-label w-auto">a. Type: [Predetermined]</legend>
+
+								<div class="form-row">
+									<div class="form-group col-md-2">
+										<label>b. Rate</label>
+										<label class="form-control">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:IndirectCostRate" unitRef="Pure" decimals="0" format="ixt:numdotdecimal" id="ixv-27">39</ix:nonFraction>
+										</label>
+									</div>
+									<div class="form-group col-md">
+										<label>c: Period</label>
+
+										<div class="row">
+											<div class="col-3">From</div>
+											<div class="col">
+												<label class="form-control">
+													<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:BeginningEffectiveDateForIndirectCostRate" format="ixt:datemonthdayyear" id="ixv-28">04/26/2019</ix:nonNumeric>
+												</label>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-3">To</div>
+											<div class="col">
+												<label class="form-control">
+													<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:EndingEffectiveDateForIndirectCostRate" format="ixt:datemonthdayyear" id="ixv-29">04/25/2020</ix:nonNumeric>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group col-md">
+										<label>d. Base </label>
+										<input type="text" class="form-control" value="7,062.76 "/>
+									</div>
+									<div class="form-group col-md">
+										<label>e. Amount Charged</label>
+										<input type="text" class="form-control" disabled="disabled" value="2,754.48 "/>
+									</div>
+									<div class="form-group col-md">
+										<label>f. Federal Share Charged</label>
+										<input type="text" class="form-control" value="2,754.48"/>
+									</div>
+								</div>
+
+								<div class="form-row">
+									<div class="col-md-2"></div>
+
+									<div class="form-group col-md text-center">
+										<label>g. Totals: </label>
+									</div>
+
+									<div class="form-group col-md">
+										<label class="form-control">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:BaseAmount" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-30">7,062.76</ix:nonFraction>
+										</label>
+									</div>
+
+									<div class="form-group col-md">
+										<label class="form-control">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:IndirectCostAmountCharged" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-31">2,754.48
+											</ix:nonFraction>
+										</label>
+									</div>
+
+									<div class="form-group col-md">
+										<label class="form-control">
+											<ix:nonFraction contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:FederalShareOfIndirectCostAmountCharged" unitRef="USD" decimals="2" format="ixt:numdotdecimal" id="ixv-32">2,754.48
+											</ix:nonFraction>
+										</label>
+									</div>
+								</div>
+							</fieldset>
+						</fieldset>
+						<div><br/></div>
+						<div class="border border-secondary p-3 rounded font-weight-bold">
+							12. Remarks: Attach any explanations deemed necessary or information required by Federal
+							sponsoring agency in compliance with governing legislation.
+						</div>
+						<div><br/></div>
+						<div class="border border-secondary p-3 rounded font-weight-bold">
+							13. Certification: By signing this report, I certify to the best of my knowledge and belief
+							that the report is true, complete, and accurate, and the expenditures, disbursements and
+							cash receipts are for the purposes and objectives set forth in the terms and conditions of
+							the Federal award. I am aware that any false, fictitious, or fraudulent information, or the
+							omission of any material fact, may subject me to criminal, civil or administrative penalties
+							for fraud, false statements, false claims or otherwise. (U.S. Code Title 18, Section 1001
+							and Title 31, Sections 3729-3730 and 3801-3812).
+
+							<fieldset class="form-group border border-secondary p-3 rounded font-weight-bold">
+								<legend class="col-form-label w-auto">a. Name and Title of Authorized Certifying
+									Official</legend>
+								<div class="form-row">
+									<div class="form-group col-6 col-md">
+										<label>Prefix:</label>
+										<input type="text" class="form-control" disabled="disabled" value="Mr."/>
+									</div>
+									<div class="form-group col-6 col-md">
+										<label>* First Name:</label>
+										<input type="text" class="form-control" disabled="disabled" value="Scott"/>
+									</div>
+									<div class="form-group col-6 col-md">
+										<label>Middle Name:</label>
+										<input type="text" class="form-control"/>
+									</div>
+									<div class="form-group col-6 col-md">
+										<label>* Last Name:</label>
+										<input type="text" class="form-control" disabled="disabled" value="Brady"/>
+									</div>
+
+									<div class="form-group col-6 col-md">
+										<label>Suffix:</label>
+										<input type="text" class="form-control"/>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col-lg-6">
+										<label>Title:</label>
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CertifyingOfficialTitle" escape="true" id="ixv-33">Interim
+												Chief Financial Officer/Treasurer</ix:nonNumeric>
+										</label>
+									</div>
+								</div>
+							</fieldset>
+
+							<div class="border border-secondary p-3 rounded font-weight-bold">
+								<div class="form-group row">
+									<div class="form-group col-lg-6">
+										<label>b. Signature of Authorized Certifying Official</label>
+										<p class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CertifyingOfficialFirstName" escape="true" id="ixv-34">
+												Scott</ix:nonNumeric>
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CertifyingOfficialLastName" escape="true" id="ixv-35">
+												Brady
+											</ix:nonNumeric> at 6:22 am, May 20, 2020
+										</p>
+									</div>
+
+									<div class="form-group col-lg-6">
+										<label>c. Telephone (Area code, number and extension)</label>
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CertifyingOfficialTelephone" escape="true" id="ixv-36">
+												630-942-2219
+											</ix:nonNumeric>
+										</label>
+									</div>
+								</div>
+							</div>
+							<br/>
+							<div class="border border-secondary p-3 rounded font-weight-bold">
+								<div class="form-group row">
+									<div class="form-group col-md-4">
+										<label>d. Email Address</label>
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:CertifyingOfficialEmailAddress" escape="true" id="ixv-37">
+												bradys@cod.edu
+											</ix:nonNumeric>
+										</label>
+									</div>
+
+									<div class="form-group col-md-4">
+										<label>e. Date Report Submitted</label>
+										<label class="form-control">
+											<ix:nonNumeric contextRef="D20200630_FederalProgramIdentifierDomain_1" name="sap:DateReportSubmitted" format="ixt:datemonthdayyear" id="ixv-38">5/20/2020
+											</ix:nonNumeric>
+										</label>
+									</div>
+
+									<div class="form-group col-md-4">
+										<label>14. Agency use only</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	<!--BEGIN IXBRL VIEWER EXTENSIONS--><script src="https://files.xbrl.us/includes/ixbrlviewer.js" type="text/javascript"></script><script type="application/x.ixbrl-viewer+json">{
+ "concepts": {
+  "sap:FederalFinancialReportBasisOfAccounting": {
+   "labels": {
+    "std": {
+     "en": "Federal Financial Report Basis of Accounting"
+    },
+    "doc": {
+     "en": "Specify whether a cash or accrual basis was used for recording transactions related to the award(s) and for preparing the FFR. Accrual basis of accounting refers to the accounting method in which expenses are recorded when incurred. For cash basis accounting, expenses are recorded when they are paid."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalAwardingAgencyEnumerated": {
+   "labels": {
+    "std": {
+     "en": "Federal Awarding Agency [Enumerated]"
+    },
+    "doc": {
+     "en": "Name of the Federal Awarding Agency, select from an enumerated list of existing Federal Awarding Agencies. Use in the context along with the concept ClusterNameEnumerated to define a cluster/agency combination that can be associated with line items about a specific federal program, such as Federal Program Name or CFDA number."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalAwardIdentifier": {
+   "labels": {
+    "std": {
+     "en": "Federal Award Identifier"
+    },
+    "doc": {
+     "en": "The Federal Award Identifier is assigned to the grantee in accordance with agency instructions."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeName": {
+   "labels": {
+    "std": {
+     "en": "Grantee Name"
+    },
+    "doc": {
+     "en": "Name of the Grantee associated with the primary EIN. When possible, this name should match to the name assigned to the primary EIN by the IRS."
+    }
+   }
+  },
+  "sap:GranteeAddressStreetAddress1": {
+   "labels": {
+    "std": {
+     "en": "Grantee Address Street Address 1"
+    },
+    "doc": {
+     "en": "Street address of the Grantee, line 1."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeAddressCity": {
+   "labels": {
+    "std": {
+     "en": "Grantee Address City"
+    },
+    "doc": {
+     "en": "City of the Grantee address."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeAddressState": {
+   "labels": {
+    "std": {
+     "en": "Grantee Address State"
+    },
+    "doc": {
+     "en": "State of the Grantee address."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeAddressZipCode": {
+   "labels": {
+    "std": {
+     "en": "Grantee Address Zip Code"
+    },
+    "doc": {
+     "en": "Zip code of the Grantee address."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeDUNSNumber": {
+   "labels": {
+    "std": {
+     "en": "Grantee Data Universal Numbering System (DUNS) Number"
+    },
+    "doc": {
+     "en": "The organization's DUNS or DUNS+4 number received from Dun and Bradstreet. Information on obtaining a DUNS number may be obtained by visiting www.grants.gov."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:GranteeEmployerIdentificationNumber": {
+   "labels": {
+    "std": {
+     "en": "Grantee Employer Identification Number"
+    },
+    "doc": {
+     "en": "The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), for the grantee. This is a unique 9-digit value assigned by the IRS."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 424"
+     ]
+    ]
+   ]
+  },
+  "sap:ProjectOrGrantStartPeriod": {
+   "labels": {
+    "std": {
+     "en": "Project or Grant Start Period"
+    },
+    "doc": {
+     "en": "Indicate the period in the award document during which Federal sponsorship starts. Note: Some agencies award multi-year grants for a project period that is funded in increments or budget periods (typically annual increments). Throughout the project period, agencies often require cumulative reporting for consecutive budget periods. Under these circumstances, enter the start of the project period not the budget period. Do not use this concept if reporting on multiple awards."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:ProjectOrGrantEndingPeriod": {
+   "labels": {
+    "std": {
+     "en": "Project or Grant Ending Period"
+    },
+    "doc": {
+     "en": "Indicate the period in the award document during which Federal sponsorship ends. Note: Some agencies award multi-year grants for a project period that is funded in increments or budget periods (typically annual increments). Throughout the project period, agencies often require cumulative reporting for consecutive budget periods. Under these circumstances, enter the ending of the project period not the budget period. Do not use this concept if reporting on multiple awards."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CashReceipts": {
+   "labels": {
+    "std": {
+     "en": "Federal Cash, Cash Receipts"
+    },
+    "doc": {
+     "en": "Cumulative amount of actual cash received from the Federal agency as of the reporting period end date."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalCashCashDisbursements": {
+   "labels": {
+    "std": {
+     "en": "Federal Cash, Cash Disbursements"
+    },
+    "doc": {
+     "en": "Cumulative amount of Federal fund disbursements (such as cash or checks) as of the reporting period end date. Disbursements are the sum of actual cash disbursements for direct charges for goods and services, the amount of indirect expenses charged to the award, and the amount of cash advances and payments made to subrecipients and contractors. For multiple grants report each grant separately on the FFR attachment. The sum of the cumulative cash disbursements on the FFR attachment must equal the amount reported for this concept."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalCashCashOnHand": {
+   "labels": {
+    "std": {
+     "en": "Federal Cash, Cash On Hand"
+    },
+    "doc": {
+     "en": "Report the amount of Cash Receipts minus Cash Disbursements. Represents immediate cash needs. If more than three business days of cash are on hand, the Federal agency may require an explanation which can be entered using the Remarks concept explaining why the drawdown was made prematurely or other reasons for the excess cash."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalExpendituresFederalFundsAuthorized": {
+   "labels": {
+    "std": {
+     "en": "Federal Expenditures, Federal Funds Authorized"
+    },
+    "doc": {
+     "en": "Total Federal funds authorized as of the reporting period end date."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalExpendituresFederalShare": {
+   "labels": {
+    "std": {
+     "en": "Federal Expenditures, Federal Share"
+    },
+    "doc": {
+     "en": "Sum of Federal Share of Expenditures and Federal Share of Unliquidated Obligations."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalExpendituresFederalShareOfUnliquidatedObligations": {
+   "labels": {
+    "std": {
+     "en": "Federal Expenditures, Federal Share of Unliquidated Obligations"
+    },
+    "doc": {
+     "en": "Unliquidated obligations on a cash basis are obligations incurred, but not yet paid. On an accrual basis, they are obligations incurred, but for which an expenditure has not yet been recorded. Enter the Federal portion of unliquidated obligations. Those obligations included direct and indirect expenses incurred but not yet paid or charged to the award, including amounts due to subrecipients and contractors. On the final report, this reported value should be zero unless the awarding agency has provided other instructions. Do not include any amount that has been included in Federal Share of Expenditures, or any amount for a future commitment of funds (such as a long-term contract) for which an obligation or expense has not been incurred."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:UnobligatedBalanceOfFederalFunds": {
+   "labels": {
+    "std": {
+     "en": "Unobligated Balance of Federal Funds"
+    },
+    "doc": {
+     "en": "Federal Funds Authorized minus total Federal Share."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:RecipientShareRequired": {
+   "labels": {
+    "std": {
+     "en": "Recipient Share Required"
+    },
+    "doc": {
+     "en": "Total required recipient share for reporting period specified in this report as Reporting Period End. The required recipient should include all matching and cost sharing provided by recipients and third-party providers to meet the level required by the Federal agency. This amount should not include cost sharing and match amounts in excess of the amount required by the Federal agency (for example, cost overruns for which the recipient incurs additional expenses and, therefore, contributes a greater level of cost sharing or match than the level required by the Federal agency). "
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:RecipientShareOfExpenditures": {
+   "labels": {
+    "std": {
+     "en": "Recipient Share of Expenditures"
+    },
+    "doc": {
+     "en": "Recipient share of actual cash disbursements or outlays (less any rebates, refunds, or other credits) including payments to subrecipients and contractors. This amount may include the value of allowable third party in-kind contributions and recipient share of program income used to finance the non-Federal share of the project or program. Note: On the final report this should be equal to or greater than the amount of Total Recipient Share Required."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:RemainingRecipientShareToBeProvided": {
+   "labels": {
+    "std": {
+     "en": "Remaining Recipient Share to be Provided"
+    },
+    "doc": {
+     "en": "Amount of Recipient Share Required minus Recipient Share of Expenditures. If recipient share is greater than the required match, enter zero."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:TotalFederalProgramIncomeEarned": {
+   "labels": {
+    "std": {
+     "en": "Total Federal Program Income Earned"
+    },
+    "doc": {
+     "en": "Amount of Federal program income earned. Do not report any program income that is being allocated as part of the recipient's cost share amount included in Recipient Share of Expenditures. "
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative": {
+   "labels": {
+    "std": {
+     "en": "Program Income Expended in Accordance With the Deduction Alternative"
+    },
+    "doc": {
+     "en": "Amount of program income that was used to reduce the Federal share of the total project costs."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative": {
+   "labels": {
+    "std": {
+     "en": "Program Income Expended in Accordance With the Addition Alternative"
+    },
+    "doc": {
+     "en": "Amount of program income that was added to funds committed to the total project costs and expended to further eligible project or program activities. "
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:UnexpendedProgramIncome": {
+   "labels": {
+    "std": {
+     "en": "Unexpended Program Income"
+    },
+    "doc": {
+     "en": "Amount of Total Federal Program Income Earned minus Program Income Expended in Accordance with the Deduction Alternative or the Addition Alternative. This amount equals the program income that has been earned but not expended, as of the reporting period end date. "
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:IndirectCostRate": {
+   "labels": {
+    "std": {
+     "en": "Indirect Cost Rate"
+    },
+    "doc": {
+     "en": "Indirect cost rate in effect for the reporting period."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:BeginningEffectiveDateForIndirectCostRate": {
+   "labels": {
+    "std": {
+     "en": "Beginning Effective Date for Indirect Cost Rate"
+    },
+    "doc": {
+     "en": "Beginning effective date for the indirect cost rate."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:EndingEffectiveDateForIndirectCostRate": {
+   "labels": {
+    "std": {
+     "en": "Ending Effective Date for Indirect Cost Rate"
+    },
+    "doc": {
+     "en": "Ending effective date for the indirect cost rate."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:BaseAmount": {
+   "labels": {
+    "std": {
+     "en": "Base Amount"
+    },
+    "doc": {
+     "en": "Base amount against which the indirect cost rate is applied."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:IndirectCostAmountCharged": {
+   "labels": {
+    "std": {
+     "en": "Indirect Cost, Amount Charged"
+    },
+    "doc": {
+     "en": "Amount of indirect cost charged during the time period specified."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:FederalShareOfIndirectCostAmountCharged": {
+   "labels": {
+    "std": {
+     "en": "Federal Share of Indirect Cost, Amount Charged"
+    },
+    "doc": {
+     "en": "Federal share of indirect cost charged during the time period specified."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CertifyingOfficialTitle": {
+   "labels": {
+    "std": {
+     "en": "Certifying Official Title"
+    },
+    "doc": {
+     "en": "Title of the certifying official."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CertifyingOfficialFirstName": {
+   "labels": {
+    "std": {
+     "en": "Certifying Official First Name"
+    },
+    "doc": {
+     "en": "First name of the certifying official."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CertifyingOfficialLastName": {
+   "labels": {
+    "std": {
+     "en": "Certifying Official Last Name"
+    },
+    "doc": {
+     "en": "Last name of the certifying official."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CertifyingOfficialTelephone": {
+   "labels": {
+    "std": {
+     "en": "Certifying Official Telephone"
+    },
+    "doc": {
+     "en": "Telephone number of the certifying official."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:CertifyingOfficialEmailAddress": {
+   "labels": {
+    "std": {
+     "en": "Certifying Official Email Address"
+    },
+    "doc": {
+     "en": "Email address of the certifying official."
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  },
+  "sap:DateReportSubmitted": {
+   "labels": {
+    "std": {
+     "en": "Date Report Submitted"
+    },
+    "doc": {
+     "en": "Date the FFR is submitted to the Federal agency.\n"
+    }
+   },
+   "r": [
+    [
+     [
+      "Publisher",
+      "OMB"
+     ],
+     [
+      "Name",
+      "SF 425"
+     ]
+    ]
+   ]
+  }
+ },
+ "languages": {
+  "en": "En"
+ },
+ "facts": {
+  "ixv-0": {
+   "v": "Cash",
+   "a": {
+    "c": "sap:FederalFinancialReportBasisOfAccounting",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-1": {
+   "v": "Department of Defense (12)\n\t\t\t\t\t",
+   "a": {
+    "c": "sap:FederalAwardingAgencyEnumerated",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-2": {
+   "v": "\n\t\t\t\t\t\t\t\t\t\t\tH98230-19-1-0173\n\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:FederalAwardIdentifier",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-3": {
+   "v": "College of DuPage",
+   "a": {
+    "c": "sap:GranteeName",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-4": {
+   "v": "425 Fawell Blvd\n\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:GranteeAddressStreetAddress1",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-5": {
+   "v": "Glen Ellyn",
+   "a": {
+    "c": "sap:GranteeAddressCity",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-6": {
+   "v": "Illinois\n\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:GranteeAddressState",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-7": {
+   "v": "60137\n\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:GranteeAddressZipCode",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-8": {
+   "v": "066209610",
+   "a": {
+    "c": "sap:GranteeDUNSNumber",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-9": {
+   "v": "36-2594972\n\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:GranteeEmployerIdentificationNumber",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-10": {
+   "v": "2019-04-26",
+   "a": {
+    "c": "sap:ProjectOrGrantStartPeriod",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  },
+  "ixv-11": {
+   "v": "2020-04-25",
+   "a": {
+    "c": "sap:ProjectOrGrantEndingPeriod",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  },
+  "ixv-12": {
+   "v": "2020-04-25",
+   "a": {
+    "c": "sap:ProjectOrGrantEndingPeriod",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  },
+  "ixv-13": {
+   "v": "15602.22",
+   "a": {
+    "c": "sap:CashReceipts",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-14": {
+   "v": "23625.48",
+   "a": {
+    "c": "sap:FederalCashCashDisbursements",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-15": {
+   "v": "8023.26",
+   "a": {
+    "c": "sap:FederalCashCashOnHand",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-16": {
+   "v": "23979.08",
+   "a": {
+    "c": "sap:FederalExpendituresFederalFundsAuthorized",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-17": {
+   "v": "23625.48",
+   "a": {
+    "c": "sap:FederalExpendituresFederalShare",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-18": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:FederalExpendituresFederalShareOfUnliquidatedObligations",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-19": {
+   "v": "353.60",
+   "a": {
+    "c": "sap:UnobligatedBalanceOfFederalFunds",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-20": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:RecipientShareRequired",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-21": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:RecipientShareOfExpenditures",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-22": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:RemainingRecipientShareToBeProvided",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-23": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:TotalFederalProgramIncomeEarned",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-24": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:ProgramIncomeExpendedInAccordanceWithTheDeductionAlternative",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-25": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:ProgramIncomeExpendedInAccordanceWithTheAdditionAlternative",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-26": {
+   "v": "0.00",
+   "a": {
+    "c": "sap:UnexpendedProgramIncome",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-27": {
+   "v": "39",
+   "a": {
+    "c": "sap:IndirectCostRate",
+    "e": "e:05201902700000",
+    "u": "xbrli:pure",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 0
+  },
+  "ixv-28": {
+   "v": "2019-04-26",
+   "a": {
+    "c": "sap:BeginningEffectiveDateForIndirectCostRate",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  },
+  "ixv-29": {
+   "v": "2020-04-25",
+   "a": {
+    "c": "sap:EndingEffectiveDateForIndirectCostRate",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  },
+  "ixv-30": {
+   "v": "7062.76",
+   "a": {
+    "c": "sap:BaseAmount",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-31": {
+   "v": "2754.48",
+   "a": {
+    "c": "sap:IndirectCostAmountCharged",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-32": {
+   "v": "2754.48",
+   "a": {
+    "c": "sap:FederalShareOfIndirectCostAmountCharged",
+    "e": "e:05201902700000",
+    "u": "iso4217:USD",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:numdotdecimal",
+   "d": 2
+  },
+  "ixv-33": {
+   "v": "Interim\n\t\t\t\t\t\t\t\t\t\t\t\tChief Financial Officer/Treasurer",
+   "a": {
+    "c": "sap:CertifyingOfficialTitle",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-34": {
+   "v": "\n\t\t\t\t\t\t\t\t\t\t\t\tScott",
+   "a": {
+    "c": "sap:CertifyingOfficialFirstName",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-35": {
+   "v": "\n\t\t\t\t\t\t\t\t\t\t\t\tBrady\n\t\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:CertifyingOfficialLastName",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-36": {
+   "v": "\n\t\t\t\t\t\t\t\t\t\t\t\t630-942-2219\n\t\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:CertifyingOfficialTelephone",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-37": {
+   "v": "\n\t\t\t\t\t\t\t\t\t\t\t\tbradys@cod.edu\n\t\t\t\t\t\t\t\t\t\t\t",
+   "a": {
+    "c": "sap:CertifyingOfficialEmailAddress",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   }
+  },
+  "ixv-38": {
+   "v": "2020-05-20",
+   "a": {
+    "c": "sap:DateReportSubmitted",
+    "e": "e:05201902700000",
+    "p": "2019-06-30/2020-07-01"
+   },
+   "f": "ixt:datemonthdayyear"
+  }
+ },
+ "prefixes": {
+  "sap": "http://xbrl.us/sap/v0.3/2021-05-01/sap",
+  "e": "http://www.acfr.gov/CIK",
+  "iso4217": "http://www.xbrl.org/2003/iso4217",
+  "xbrli": "http://www.xbrl.org/2003/instance"
+ },
+ "roles": {
+  "std": "http://www.xbrl.org/2003/role/label",
+  "doc": "http://www.xbrl.org/2003/role/documentation",
+  "calc": "http://www.xbrl.org/2003/arcrole/summation-item",
+  "pres": "http://www.xbrl.org/2003/arcrole/parent-child"
+ },
+ "rels": {}
+}</script><!--END IXBRL VIEWER EXTENSIONS--></body>
+</html>
