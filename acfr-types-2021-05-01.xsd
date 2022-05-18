@@ -14,8 +14,6 @@ Copyright 2019 XBRL US Inc.
             <xs:enumeration value="Debt Service"/>
             <xs:enumeration value="Permanent"/>
             <xs:enumeration value="Other"/>
-            <xs:enumeration value="General Revenue"/>
-            <xs:enumeration value="Aggregate Nonmajor"/>
          </restriction>
       </simpleContent>
    </complexType>
@@ -100,13 +98,14 @@ Copyright 2019 XBRL US Inc.
       <simpleContent>
          <restriction base="xbrli:stringItemType">
             <xs:enumeration value="Fire"/>
-            <xs:enumeration value="Public Safety"/>
+            <xs:enumeration value="Police &amp; Fire or Public Safety"/>
             <xs:enumeration value="Police"/>
             <xs:enumeration value="Teachers"/>
             <xs:enumeration value="Elected Official"/>
             <xs:enumeration value="Judges"/>
             <xs:enumeration value="Mixed"/>
             <xs:enumeration value="Other"/>
+            <xs:enumeration value="General Employees"/>
          </restriction>
       </simpleContent>
    </complexType>

@@ -1,18 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
-      <link:reference id="id_5b9f56b7" xlink:label="lbl_reference1537169079" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF-424</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:label="lbl_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GRMLegalEntityNameEmployerIdentificationNumberID" xlink:to="lbl_reference1537169079" xlink:type="arc"/>
-      <link:reference id="id_1cec5bd1" xlink:label="lbl_reference485252049" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF-424</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_GRMLegalEntityDUNSNumberID" xlink:label="lbl_GRMLegalEntityDUNSNumberID" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GRMLegalEntityDUNSNumberID" xlink:to="lbl_reference485252049" xlink:type="arc"/>
       <link:reference id="id_444f06a0" xlink:label="lbl_reference1146029728" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>OMB</ref:Publisher>
          <ref:Name>SF 424</ref:Name>
@@ -641,12 +629,6 @@
       </link:reference>
       <link:loc xlink:href="sap_2021-05-01.xsd#sap_OtherMember" xlink:label="lbl_OtherMember" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherMember" xlink:to="lbl_reference160351119" xlink:type="arc"/>
-      <link:reference id="id_2fe20b22" xlink:label="lbl_reference803343138" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF 425</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_IndirectCostTypeOfRate" xlink:label="lbl_IndirectCostTypeOfRate" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IndirectCostTypeOfRate" xlink:to="lbl_reference803343138" xlink:type="arc"/>
       <link:reference id="id_5f535891" xlink:label="lbl_reference1599297681" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>OMB</ref:Publisher>
          <ref:Name>SF 425</ref:Name>
@@ -802,18 +784,6 @@
       </link:reference>
       <link:loc xlink:href="sap_2021-05-01.xsd#sap_FundsRequiredForEquipment" xlink:label="lbl_FundsRequiredForEquipment" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundsRequiredForEquipment" xlink:to="lbl_reference796654731" xlink:type="arc"/>
-      <link:reference id="id_5703e527" xlink:label="lbl_reference1459873063" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF 424A</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_FederalMember" xlink:label="lbl_FederalMember" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalMember" xlink:to="lbl_reference1459873063" xlink:type="arc"/>
-      <link:reference id="id_227486c7" xlink:label="lbl_reference578062023" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF 424A</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_NonFederalMember" xlink:label="lbl_NonFederalMember" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NonFederalMember" xlink:to="lbl_reference578062023" xlink:type="arc"/>
       <link:reference id="id_518362fd" xlink:label="lbl_reference1367565053" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>OMB</ref:Publisher>
          <ref:Name>SF 424A</ref:Name>
@@ -898,18 +868,6 @@
          <ref:Publisher>OMB</ref:Publisher>
          <ref:Name>SF 424A</ref:Name>
       </link:reference>
-      <link:reference id="id_1e7aac29" xlink:label="lbl_reference511355945" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF 424A</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsFourthQuarter" xlink:label="lbl_ForecastedCashNeedsFourthQuarter" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsFourthQuarter" xlink:to="lbl_reference511355945" xlink:type="arc"/>
-      <link:reference id="id_13d004e9" xlink:label="lbl_reference332399849" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>OMB</ref:Publisher>
-         <ref:Name>SF 424A</ref:Name>
-      </link:reference>
-      <link:loc xlink:href="sap_2021-05-01.xsd#sap_ForecastedCashNeedsFirstYear" xlink:label="lbl_ForecastedCashNeedsFirstYear" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForecastedCashNeedsFirstYear" xlink:to="lbl_reference332399849" xlink:type="arc"/>
       <link:reference id="id_7e9b27fd" xlink:label="lbl_reference2124097533" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>OMB</ref:Publisher>
          <ref:Name>SF 424A</ref:Name>

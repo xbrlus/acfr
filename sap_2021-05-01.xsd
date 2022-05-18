@@ -443,8 +443,6 @@
    <xs:element abstract="false" id="sap_GrantsApplicantTypeTriballyControlledCollegesAndUniversitiesTCCUs" name="GrantsApplicantTypeTriballyControlledCollegesAndUniversitiesTCCUs" nillable="true" substitutionGroup="xbrli:item" type="xbrli:booleanItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_GrantsApplicantTypeAlaskaNativeAndNativeHawaiianServingInstitutions" name="GrantsApplicantTypeAlaskaNativeAndNativeHawaiianServingInstitutions" nillable="true" substitutionGroup="xbrli:item" type="xbrli:booleanItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_GrantsApplicantTypeNonUSEntity" name="GrantsApplicantTypeNonUSEntity" nillable="true" substitutionGroup="xbrli:item" type="xbrli:booleanItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="sap_GRMLegalEntityNameEmployerIdentificationNumberID" name="GRMLegalEntityNameEmployerIdentificationNumberID" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="sap_GRMLegalEntityDUNSNumberID" name="GRMLegalEntityDUNSNumberID" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_GranteeEmployerIdentificationNumber" name="GranteeEmployerIdentificationNumber" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_GranteeDUNSNumber" name="GranteeDUNSNumber" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_GranteeIdentificationNumbersAbstract" name="GranteeIdentificationNumbersAbstract" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
@@ -493,7 +491,6 @@
    <xs:element abstract="false" id="sap_AuthorizedRepresentativeTitle" name="AuthorizedRepresentativeTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_AuthorizedRepresentativeEmail" name="AuthorizedRepresentativeEmail" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_AuthorizedRepresentativeTelephoneNumber" name="AuthorizedRepresentativeTelephoneNumber" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_ApplicationBudgetSummaryLineItems" name="ApplicationBudgetSummaryLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_ApplicationForFederalAssistanceBudgetSummaryAbstract" name="ApplicationForFederalAssistanceBudgetSummaryAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_EstimatedFundingFederalContribution" name="EstimatedFundingFederalContribution" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_EstimatedFundingApplicantContribution" name="EstimatedFundingApplicantContribution" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
@@ -561,7 +558,6 @@
          </xs:restriction>
       </xs:simpleContent>
    </xs:complexType>
-   <xs:element abstract="false" id="sap_IndirectCostTypeOfRate" name="IndirectCostTypeOfRate" nillable="true" substitutionGroup="xbrli:item" type="sap:rateItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_BeginningEffectiveDateForIndirectCostRate" name="BeginningEffectiveDateForIndirectCostRate" nillable="true" substitutionGroup="xbrli:item" type="xbrli:dateItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_IndirectCostRate" name="IndirectCostRate" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="sap_EndingEffectiveDateForIndirectCostRate" name="EndingEffectiveDateForIndirectCostRate" nillable="true" substitutionGroup="xbrli:item" type="xbrli:dateItemType" xbrli:periodType="duration"/>
@@ -599,11 +595,8 @@
    <xs:element abstract="false" id="sap_CertificationAgreement" name="CertificationAgreement" nillable="true" substitutionGroup="xbrli:item" type="xbrli:booleanItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_SignatureOfAuthorizedRepresentative" name="SignatureOfAuthorizedRepresentative" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_DateSigned" name="DateSigned" nillable="true" substitutionGroup="xbrli:item" type="xbrli:dateItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_GrantsManagementApplicationBudgetSummaryAbstract" name="GrantsManagementApplicationBudgetSummaryAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_ApplicationForFederalAssistanceBudgetCategoriesAbstract" name="ApplicationForFederalAssistanceBudgetCategoriesAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_ApplicationForFederalAssistanceTable" name="ApplicationForFederalAssistanceTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_FederalMember" name="FederalMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_NonFederalMember" name="NonFederalMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_FundsRequiredForPersonnel" name="FundsRequiredForPersonnel" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_FundsRequiredForFringeBenefits" name="FundsRequiredForFringeBenefits" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_FundsRequiredForTravel" name="FundsRequiredForTravel" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
@@ -623,9 +616,6 @@
    <xs:element abstract="true" id="sap_OtherSourcesMember" name="OtherSourcesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_NonFederalResourceContribution" name="NonFederalResourceContribution" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_ApplicationForFederalAssistanceForecastedCashNeeds" name="ApplicationForFederalAssistanceForecastedCashNeeds" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_CashSourceTypeAxis" name="CashSourceTypeAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="sap_ForecastedCashNeedsFourthQuarter" name="ForecastedCashNeedsFourthQuarter" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="sap_ForecastedCashNeedsFirstYear" name="ForecastedCashNeedsFirstYear" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_FirstFutureFundingPeriod" name="FirstFutureFundingPeriod" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_SecondFutureFundingPeriod" name="SecondFutureFundingPeriod" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_ThirdFutureFundingPeriod" name="ThirdFutureFundingPeriod" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
@@ -635,8 +625,6 @@
    <xs:element abstract="false" id="sap_IndirectChargesDescription" name="IndirectChargesDescription" nillable="true" substitutionGroup="xbrli:item" type="nonnum:textBlockItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_Remarks" name="Remarks" nillable="true" substitutionGroup="xbrli:item" type="nonnum:textBlockItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_GrantsManagementFederalFinancialReportIndirectExpenseAbstract" name="GrantsManagementFederalFinancialReportIndirectExpenseAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_SourceOfFundTypeAxis" name="SourceOfFundTypeAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="sap_SourceOfFundsDomain" name="SourceOfFundsDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_NonFederalResourceContributionTypeDomain" name="NonFederalResourceContributionTypeDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="sap_ApplicationForFederalAssistanceFederalFundsNeededBalanceOfProjectAbstract" name="ApplicationForFederalAssistanceFederalFundsNeededBalanceOfProjectAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="sap_EstimatedUnobligatedFundsFederal" name="EstimatedUnobligatedFundsFederal" nillable="false" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>

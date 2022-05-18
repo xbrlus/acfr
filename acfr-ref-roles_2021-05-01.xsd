@@ -3,7 +3,7 @@
    <xs:annotation>
       <xs:appinfo>
       <link:roleType id="acfr-reference" roleURI="http://acfr.us/roles/reference">
-            <link:definition>acfr reference</link:definition>
+            <link:definition>Michigan Chart of Accounts</link:definition>
             <link:usedOn>link:reference</link:usedOn>
          </link:roleType>
      </xs:appinfo>

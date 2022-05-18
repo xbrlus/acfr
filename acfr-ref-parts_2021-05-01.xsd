@@ -10,9 +10,19 @@
          <xs:documentation xml:lang="en">publisher</xs:documentation>
       </xs:annotation>
    </xs:element>
-   <xs:element abstract="false" id="note" name="note" nillable="false" substitutionGroup="link:part" type="xs:token">
+   <xs:element abstract="false" id="MIUCAActivityNumber" name="MIUCAActivityNumber" nillable="false" substitutionGroup="link:part" type="xs:token">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">Michigan UCA Activity Number</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+    <xs:element abstract="false" id="note" name="note" nillable="false" substitutionGroup="link:part" type="xs:token">
       <xs:annotation>
          <xs:documentation xml:lang="en">note</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+      <xs:element abstract="false" id="MIUCAAccountNumber" name="MIUCAAccountNumber" nillable="false" substitutionGroup="link:part" type="xs:token">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">Michigan UCA Account Number</xs:documentation>
       </xs:annotation>
    </xs:element>
 </xs:schema>
