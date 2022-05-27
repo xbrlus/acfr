@@ -1,35 +1,21 @@
 # Using ACFR-MI validations with Arelle 
 
-### Install and confirm the ACFR-MI Arelle plugin 
-
 Download and install the [Arelle open source XBRL processor](https://arelle.org/pub)
 
-[Download](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI-plugin.zip) and extract or copy the 
-- [ACFR-MI.py](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI.py) to the `/plugin/`**`validate`** folder where Arelle is installed 
-- [acfrMIRulesetMap.json](https://github.com/xbrlus/acfr/raw/master/validation/acfrMIRulesetMap.json) to the `/plugin/`**`xule`** folder where Arelle is installed 
-
-From a command prompt, browse to the location of Arelle on the computer and run `arelleCmdLine --plugin validate/ACFR-MI` (Linux) or `.\arellecmdline.exe --plugin validate/ACFR-MI` (Windows).
-
-You should see an activation message for the plugin:
-`
-[info] Activation of plug-in ACFR-MI Rules Validator successful, version Check version using Tools->ACFR-MI->Version on the GUI or --ACFR-MI-version on the command line. - validate/ACFR-MI
-`  
-
+## Run with compiled Xule rules from a command prompt ([What's Xule](https://xbrl.us/xule)?)
 The minimum parameters that need to be passed are the following:
-* **`--plugins validate/ACFR-MI`** : Loads the ACFR-MI plugin. The SEC transformations are also needed for Inline XBRL filings. Both plugins can be specified using **--plugins "validate/ACFR-MI|transforms/SEC"**. The pipe character `|` separates the plugins. Specifying the SEC transforms plugins will have no affect on traditional XBRL filings, so it can be included for all SEC filings.
+* **`--xule-rule-set`** : The location of the compiled Xule ruleset.zip validations used to evaluate the filing.
 * **`-f`** : The location of the instance file to be evaluated. This will take a zip file, XML instance or inline XBRL file.
-* **`-v`**: Instructs the processor to validate the filing including running the ACFR-MI rules.
+* **`-v`**: Instructs the processor to validate the filing with the compiled rule set.
 
 A typical command line syntax for Arelle is as follows (including optional parameters defined below:
 
-`
-.\arellecmdline.exe --plugins "validate/ACFR-MI|transforms/SEC" -f {instance file or zip file} -v --noCertificateCheck --logFile {log file name}
-`
+`.\arellecmdline.exe --xule-rule-set {compiled rule set file as a .zip} -f {instance file or zip file} -v --noCertificateCheck --logFile {log file name}`
 
 **Example:**  
-`
-.\arellecmdline.exe --plugins "validate/ACFR-MI|transforms/SEC" -f https://xbrlus.github.io/acfr/samples/68/SOUTHHAVEN.htm -v --xule-time .005 --xule-debug --noCertificateCheck --logFile C:/output.xml
-`   
+Results for this command will display in the terminal window because no log file is defined:
+
+`.\arellecmdline.exe --plugins xule --xule-rule-set https://github.com/xbrlus/acfr/raw/master/validation/acfr-mi-v0.3-ruleset.zip -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck`
 
 In addition the following optional parameters can be passed:
 
@@ -42,7 +28,40 @@ In addition the following optional parameters can be passed:
 To get additional options use the option `--help` (eg. `arelleCmdLine --plugins validate/ACFR-MI --help`)
 
 The ACFR-MI plugin options will be displayed at the bottom of the list under the title "ACFR-MI validation plugin". All ACFR-MI specific options start with `--ACFR-MI` or `--xule`.
- 
+
+## Install a plug-in and validate from the command prompt or in Arelle's GUI
+
+[Download](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI-plugin.zip) and extract or copy the 
+- [ACFR-MI.py](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI.py) to the `/plugin/`**`validate`** folder where Arelle is installed 
+- [acfrMIRulesetMap.json](https://github.com/xbrlus/acfr/raw/master/validation/acfrMIRulesetMap.json) to the `/plugin/`**`xule`** folder where Arelle is installed 
+
+### Command line
+In this example, the plugin is specified and routes the selection of the rule set through the rulesetMap.json file, instead of specifying the rule set to be used.
+
+**Example:**  
+`.\arellecmdline.exe --plugins "validate/ACFR-MI" -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck --logFile C:/output.xml`   
+
+### GUI
+* Open Arelle.
+* Choose the "Help" menu and select "Manage plug-ins" 
+* Use the "Select" button to bring up teh "Select Plug-in Module" dialog. 
+* Select the **ACFR-MI.py** file (under "Validate"). Next to the file, the name will appear as "ACFR-MI Rules Validator". Click on "OK". 
+* The "Select Plug-in Module" will close. On the "Plug-in Manager" dialog click on "Close". When the dialogue box appears requesting a program restart, choose "Yes".
+* After restarting, choose the "Tools" menu and "Validation" and confirm there is a check mark for "ACFR-MI Rules". If not, select this item from the menu.
+
+#### Checking version and rule set map
+* Choose the "Tools" menu and mouse-over the ACFR-MI option to see four options:
+    * "Version ..." displays the current xule version installed.
+    * "Display rule set map ..." shows the current rule sets targeted by the plugin.
+    * "Check rule set map ..." verifies the cached rulesetMap.json file references the most-current available ruleset.zip files.
+    * "Update rule set map ..." provides an interface for either appending or overwriting the cached rulesetMap.json file.
+
+#### Checking a filing with DQC Rules
+* Choose the "File" menu and either "Open file" or "Open Web" to select an XBRL file.
+* After the instance has been processed by Arelle, choose the "Tools" >> "Validation" menu and select "Validate".
+* Monitor the "messages" window at the bottom of Arelle, to see _[DQC] Starting validation - filename_ appears.
+* After the message _[DQC] Finished validation - filename_ appears, review any error messages. The results can be saved by selecting the messages window (right-click on a Windows PC) and choosing "Save to file".
+
 © Copyright 2015 - 2022 XBRL US, Inc. All rights reserved.   
 See [License](https://xbrl.us/dqc-license) for license information.  
 See [Patent Notice](https://xbrl.us/dqc-patent) for patent infringement notice.

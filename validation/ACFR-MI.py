@@ -28,7 +28,7 @@ from arelle import PluginManager
 
 """ Xule validator specific variables."""
 _short_name = 'ACFR-MI'
-_name = 'Annual Comprehensive Financial Report Rules Validator - Michigan Rules Validator'
+_name = 'Annual Comprehensive Financial Report Rules Validator - Michigan'
 _version = 'Check version using Tools->ACFR-MI->Version on the GUI or --acfr-mi-version on the command line'
 _version_prefix = '3.0.'
 _description = 'ACFR-MI rules validator.'
