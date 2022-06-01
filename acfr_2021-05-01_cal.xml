@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+   <link:roleRef roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" xlink:href="acfr_2021-05-01.xsd#oPEBChangeNetOPEBLiabilitySchedule" xlink:type="simple"/>
+   <link:roleRef roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PensionChangeNetPensionLiabilitySchedule" xlink:href="acfr_2021-05-01.xsd#pensionChangeNetPensionLiabilitySchedule" xlink:type="simple"/>
    <link:roleRef roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFCashActivities" xlink:href="acfr_2021-05-01.xsd#roleType_PFCashActivities" xlink:type="simple"/>
    <link:roleRef roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFChangesInNetPosition" xlink:href="acfr_2021-05-01.xsd#pFChangesInNetPosition" xlink:type="simple"/>
    <link:roleRef roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFRevenuesExpensesActivities" xlink:href="acfr_2021-05-01.xsd#roleType_PFRevenuesExpensesActivities" xlink:type="simple"/>
@@ -500,7 +502,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherAdvances" xlink:label="lbl_OtherAdvances" xlink:type="locator"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_AdvancesReceivedNoncurrent" xlink:to="lbl_OtherAdvances" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueToStateDueInMoreThanOneYear" xlink:label="lbl_DueToStateDueInMoreThanOneYear" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:label="lbl_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentPortionOfUninsuredClaimLiability" xlink:label="lbl_NoncurrentPortionOfUninsuredClaimLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BondPayableDueInMoreThanOneYear" xlink:label="lbl_BondPayableDueInMoreThanOneYear" xlink:type="locator"/>
@@ -517,7 +518,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RegulatoryLiabilityNonCurrent" xlink:label="lbl_RegulatoryLiabilityNonCurrent" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredRevenue" xlink:label="lbl_DeferredRevenue" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DerivativeInstrumentsLiabilityNonCurrent" xlink:label="lbl_DerivativeInstrumentsLiabilityNonCurrent" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiability" xlink:label="lbl_NetPensionLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetOPEBLiability" xlink:label="lbl_NetOPEBLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:label="lbl_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PayableFromRestrictedAssets" xlink:label="lbl_PayableFromRestrictedAssets" xlink:type="locator"/>
@@ -965,7 +965,7 @@
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_EnvironmentalAndDisposalLiabilities" xlink:type="arc"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_AdvancesReceivedNoncurrent" xlink:type="arc"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DueToStateDueInMoreThanOneYear" xlink:type="arc"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_UnearnedRevenue" xlink:type="arc"/>
+      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_UnearnedRevenueNoncurrent" xlink:type="arc"/>
       <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:type="arc"/>
       <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NoncurrentPortionOfUninsuredClaimLiability" xlink:type="arc"/>
       <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_BondPayableDueInMoreThanOneYear" xlink:type="arc"/>
@@ -982,7 +982,7 @@
       <link:calculationArc order="20.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_RegulatoryLiabilityNonCurrent" xlink:type="arc"/>
       <link:calculationArc order="21.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DeferredRevenue" xlink:type="arc"/>
       <link:calculationArc order="22.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DerivativeInstrumentsLiabilityNonCurrent" xlink:type="arc"/>
-      <link:calculationArc order="23.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetPensionLiability" xlink:type="arc"/>
+      <link:calculationArc order="23.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetPensionLiabilityAsset" xlink:type="arc"/>
       <link:calculationArc order="24.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetOPEBLiability" xlink:type="arc"/>
       <link:calculationArc order="24.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_OtherNoncurrentLiabilities" xlink:type="arc"/>
       <link:calculationArc order="24.2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:type="arc"/>
@@ -1011,6 +1011,10 @@
       <link:calculationArc order="12.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RestrictedAssets" xlink:to="lbl_OtherRestrictedAssets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalBalance" xlink:label="lbl_InternalBalance" xlink:type="locator"/>
       <link:calculationArc order="3.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_DueFromOtherFunds" xlink:to="lbl_InternalBalance" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenueNoncurrent" xlink:label="lbl_UnearnedRevenueNoncurrent" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
+      <link:calculationArc order="3.45" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CurrentLiabilities" xlink:to="lbl_UnearnedRevenue" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/NetPositionAlternative" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AccountsReceivable" xlink:label="lbl_AccountsReceivable" xlink:type="locator"/>
@@ -1162,14 +1166,9 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForGeneralGovernmentServicesJudicial" xlink:label="lbl_RevenueUsedForGeneralGovernmentServicesJudicial" xlink:type="locator"/>
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForGeneralGovernment" xlink:to="lbl_RevenueUsedForGeneralGovernmentServicesJudicial" xlink:type="arc"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForGeneralGovernment" xlink:to="lbl_RevenueUsedForGeneralGovernmentServicesOther" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndHospital" xlink:label="lbl_RevenueForHealthAndHospital" xlink:type="locator"/>
-      <link:calculationArc order="-0.04" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ProgramRevenues" xlink:to="lbl_RevenueForHealthAndHospital" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForPublicHealthAndSanitationServices" xlink:label="lbl_RevenueUsedForPublicHealthAndSanitationServices" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueUsedForPublicHealthAndSanitationServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForMedicalCareFacility" xlink:label="lbl_RevenueUsedForMedicalCareFacility" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueUsedForMedicalCareFacility" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForAmbulance" xlink:label="lbl_RevenueUsedForAmbulance" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueUsedForAmbulance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForSecurityOfPersonsAndPropertyServices" xlink:label="lbl_RevenueUsedForSecurityOfPersonsAndPropertyServices" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForPublicSafetyServices" xlink:to="lbl_RevenueUsedForSecurityOfPersonsAndPropertyServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForElectricityAndPowerServices" xlink:label="lbl_RevenueUsedForElectricityAndPowerServices" xlink:type="locator"/>
@@ -1198,9 +1197,7 @@
       <link:calculationArc order="-0.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ProgramRevenues" xlink:to="lbl_RevenueForPublicSafetyServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForGeneralGovernmentServicesAdministration" xlink:label="lbl_RevenueUsedForGeneralGovernmentServicesAdministration" xlink:type="locator"/>
       <link:calculationArc order="3.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForGeneralGovernment" xlink:to="lbl_RevenueUsedForGeneralGovernmentServicesAdministration" xlink:type="arc"/>
-      <link:calculationArc order="3.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueForWelfare" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForStateHealthBenefit" xlink:label="lbl_RevenueUsedForStateHealthBenefit" xlink:type="locator"/>
-      <link:calculationArc order="3.2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueUsedForStateHealthBenefit" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForCommunityAndEconomicDevelopmentServices" xlink:label="lbl_RevenueForCommunityAndEconomicDevelopmentServices" xlink:type="locator"/>
       <link:calculationArc order="-0.0009" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ProgramRevenues" xlink:to="lbl_RevenueForCommunityAndEconomicDevelopmentServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForCommunityServices" xlink:label="lbl_RevenueUsedForCommunityServices" xlink:type="locator"/>
@@ -1666,6 +1663,16 @@
       <link:calculationArc order="13.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForLotteryPrizeAwards" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetExpenseRevenueLotteryPrizes" xlink:label="lbl_NetExpenseRevenueLotteryPrizes" xlink:type="locator"/>
       <link:calculationArc order="42.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenue" xlink:to="lbl_NetExpenseRevenueLotteryPrizes" xlink:type="arc"/>
+      <link:calculationArc order="1.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ProgramRevenues" xlink:to="lbl_RevenueForCultureAndRecreation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenuesForCulturalActivities" xlink:label="lbl_RevenuesForCulturalActivities" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForCultureAndRecreation" xlink:to="lbl_RevenuesForCulturalActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndWelfare" xlink:label="lbl_RevenueForHealthAndWelfare" xlink:type="locator"/>
+      <link:calculationArc order="-0.04" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ProgramRevenues" xlink:to="lbl_RevenueForHealthAndWelfare" xlink:type="arc"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_RevenueUsedForPublicHealthAndSanitationServices" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_RevenueUsedForMedicalCareFacility" xlink:type="arc"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_RevenueUsedForAmbulance" xlink:type="arc"/>
+      <link:calculationArc order="3.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_RevenueForWelfare" xlink:type="arc"/>
+      <link:calculationArc order="3.2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_RevenueUsedForStateHealthBenefit" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsAltCalc" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:label="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:type="locator"/>
@@ -1817,8 +1824,7 @@
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueGeneralGovernmentServices" xlink:to="lbl_RevenueForGeneralGovernment" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForHighwaysAndStreets" xlink:label="lbl_RevenueUsedForHighwaysAndStreets" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueForHighwaysAndStreets" xlink:to="lbl_RevenueUsedForHighwaysAndStreets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndHospital" xlink:label="lbl_RevenueForHealthAndHospital" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueHealthAndWelfare" xlink:to="lbl_RevenueForHealthAndHospital" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueHealthAndWelfare" xlink:to="lbl_RevenueForHealthAndWelfare" xlink:type="arc"/>
       <link:calculationArc order="1.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueForHighwaysAndStreets" xlink:to="lbl_ExpensesForStreetsAndHighways" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForPublicUtilities" xlink:label="lbl_RevenueUsedForPublicUtilities" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForCemetery" xlink:label="lbl_RevenueUsedForCemetery" xlink:type="locator"/>
@@ -2261,6 +2267,7 @@
       <link:calculationArc order="111.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenue" xlink:to="lbl_NetExpenseRevenueLotteryPrizes" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForLotteryPrizeAwards" xlink:label="lbl_ExpensesForLotteryPrizeAwards" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetExpenseRevenueLotteryPrizes" xlink:to="lbl_ExpensesForLotteryPrizeAwards" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndWelfare" xlink:label="lbl_RevenueForHealthAndWelfare" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsAltCalc3" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetExpenseRevenuePublicSafetyPoliceSheriffAndConstable" xlink:label="lbl_NetExpenseRevenuePublicSafetyPoliceSheriffAndConstable" xlink:type="locator"/>
@@ -2799,18 +2806,12 @@
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromFinesAndForfeituresAndPenalties" xlink:to="lbl_ChargesForServicesStatuteCosts" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesBondForfeituresAndBondCosts" xlink:label="lbl_ChargesForServicesBondForfeituresAndBondCosts" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromFinesAndForfeituresAndPenalties" xlink:to="lbl_ChargesForServicesBondForfeituresAndBondCosts" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromDividends" xlink:label="lbl_RevenueFromDividends" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndDividends" xlink:to="lbl_RevenueFromDividends" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterest" xlink:label="lbl_RevenueFromInterest" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndDividends" xlink:to="lbl_RevenueFromInterest" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRent" xlink:label="lbl_RevenueFromRent" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_RevenueFromRent" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRoyalties" xlink:label="lbl_RevenueFromRoyalties" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_RevenueFromRoyalties" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentIncomeAndRentals" xlink:label="lbl_InvestmentIncomeAndRentals" xlink:type="locator"/>
       <link:calculationArc order="6.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GeneralRevenuesNet" xlink:to="lbl_InvestmentIncomeAndRentals" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentGainsLosses" xlink:label="lbl_InvestmentGainsLosses" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_InvestmentGainsLosses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_dup_1_InvestmentGainsLosses" xlink:label="lbl_dup_1_InvestmentGainsLosses" xlink:type="locator"/>
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_dup_1_InvestmentGainsLosses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PrivateContributionsAndDonations" xlink:label="lbl_PrivateContributionsAndDonations" xlink:type="locator"/>
@@ -2828,7 +2829,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GrantsContributionsAndDonationsFromOthers" xlink:label="lbl_GrantsContributionsAndDonationsFromOthers" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromGrantsAndEntitlementsForSpecificProgramsUnrestricted" xlink:to="lbl_GrantsContributionsAndDonationsFromOthers" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterestAndRent" xlink:label="lbl_RevenueFromInterestAndRent" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_RevenueFromInterestAndDividends" xlink:type="arc"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_RevenueFromRentsAndRoyalties" xlink:type="arc"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_RevenueFromInterestAndRent" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRefundsAndRebates" xlink:label="lbl_RevenueFromRefundsAndRebates" xlink:type="locator"/>
@@ -2855,6 +2855,17 @@
       <link:calculationArc order="21.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GeneralRevenuesNet" xlink:to="lbl_CashOverOrShort" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdjustmentsForTransferOfRevenuesWithinActivities" xlink:label="lbl_AdjustmentsForTransferOfRevenuesWithinActivities" xlink:type="locator"/>
       <link:calculationArc order="4.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GeneralRevenuesAndTransfers" xlink:to="lbl_AdjustmentsForTransferOfRevenuesWithinActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentIncome" xlink:label="lbl_InvestmentIncome" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncome" xlink:to="lbl_RevenueFromInterestAndDividends" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentGainsLosses" xlink:label="lbl_InvestmentGainsLosses" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncome" xlink:to="lbl_InvestmentGainsLosses" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromDividends" xlink:label="lbl_RevenueFromDividends" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndDividends" xlink:to="lbl_RevenueFromDividends" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterest" xlink:label="lbl_RevenueFromInterest" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndDividends" xlink:to="lbl_RevenueFromInterest" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalTransfers" xlink:label="lbl_InternalTransfers" xlink:type="locator"/>
+      <link:calculationArc order="2.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GeneralRevenuesAndTransfers" xlink:to="lbl_InternalTransfers" xlink:type="arc"/>
+      <link:calculationArc order="0.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_InvestmentIncome" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundsRevenuesExpenditures" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxesModifiedAccrual" xlink:label="lbl_RevenueFromTaxesModifiedAccrual" xlink:type="locator"/>
@@ -3088,8 +3099,6 @@
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingSourcesUses" xlink:to="lbl_ProceedsFromBondAndNoteIssuanceModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SaleOfCapitalAssetsModifiedAccrual" xlink:label="lbl_SaleOfCapitalAssetsModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingSourcesUses" xlink:to="lbl_SaleOfCapitalAssetsModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TransfersOutModifiedAccrual" xlink:label="lbl_TransfersOutModifiedAccrual" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingSourcesUses" xlink:to="lbl_TransfersOutModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TransfersInModifiedAccrual" xlink:label="lbl_TransfersInModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingSourcesUses" xlink:to="lbl_TransfersInModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForRecreationAndCultureParksAndRecreationModifiedAccrual" xlink:label="lbl_ExpendituresForRecreationAndCultureParksAndRecreationModifiedAccrual" xlink:type="locator"/>
@@ -3573,6 +3582,12 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpendituresForPublicSafetyFireDepartmentModifiedAccrual" xlink:to="lbl_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionalOtherFinancingSourcesUses" xlink:label="lbl_AdditionalOtherFinancingSourcesUses" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TransfersOutModifiedAccrual" xlink:label="lbl_TransfersOutModifiedAccrual" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingSourcesUses" xlink:to="lbl_TransfersOutModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SpecialItemsModifiedAccrual" xlink:label="lbl_SpecialItemsModifiedAccrual" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInFundBalance" xlink:to="lbl_SpecialItemsModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExtraordinaryItemsModifiedAccrual" xlink:label="lbl_ExtraordinaryItemsModifiedAccrual" xlink:type="locator"/>
+      <link:calculationArc order="4.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInFundBalance" xlink:to="lbl_ExtraordinaryItemsModifiedAccrual" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundsBalance" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsModifiedAccrual" xlink:label="lbl_AssetsModifiedAccrual" xlink:type="locator"/>
@@ -4986,7 +5001,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherAdvances" xlink:label="lbl_OtherAdvances" xlink:type="locator"/>
       <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_AdvancesReceivedNoncurrent" xlink:to="lbl_OtherAdvances" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueToStateDueInMoreThanOneYear" xlink:label="lbl_DueToStateDueInMoreThanOneYear" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:label="lbl_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentPortionOfUninsuredClaimLiability" xlink:label="lbl_NoncurrentPortionOfUninsuredClaimLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BondPayableDueInMoreThanOneYear" xlink:label="lbl_BondPayableDueInMoreThanOneYear" xlink:type="locator"/>
@@ -5012,7 +5026,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RegulatoryLiabilityNonCurrent" xlink:label="lbl_RegulatoryLiabilityNonCurrent" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredRevenue" xlink:label="lbl_DeferredRevenue" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DerivativeInstrumentsLiabilityNonCurrent" xlink:label="lbl_DerivativeInstrumentsLiabilityNonCurrent" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiability" xlink:label="lbl_NetPensionLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetOPEBLiability" xlink:label="lbl_NetOPEBLiability" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:label="lbl_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PayableFromRestrictedAssets" xlink:label="lbl_PayableFromRestrictedAssets" xlink:type="locator"/>
@@ -5198,7 +5211,7 @@
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_EnvironmentalAndDisposalLiabilities" xlink:type="arc"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_AdvancesReceivedNoncurrent" xlink:type="arc"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DueToStateDueInMoreThanOneYear" xlink:type="arc"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_UnearnedRevenue" xlink:type="arc"/>
+      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_UnearnedRevenueNoncurrent" xlink:type="arc"/>
       <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_EstimatedLiabilityForLandfillPostClosureCareCosts" xlink:type="arc"/>
       <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NoncurrentPortionOfUninsuredClaimLiability" xlink:type="arc"/>
       <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_BondPayableDueInMoreThanOneYear" xlink:type="arc"/>
@@ -5224,7 +5237,7 @@
       <link:calculationArc order="29.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_RegulatoryLiabilityNonCurrent" xlink:type="arc"/>
       <link:calculationArc order="30.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DeferredRevenue" xlink:type="arc"/>
       <link:calculationArc order="31.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_DerivativeInstrumentsLiabilityNonCurrent" xlink:type="arc"/>
-      <link:calculationArc order="32.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetPensionLiability" xlink:type="arc"/>
+      <link:calculationArc order="32.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetPensionLiabilityAsset" xlink:type="arc"/>
       <link:calculationArc order="33.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NetOPEBLiability" xlink:type="arc"/>
       <link:calculationArc order="34.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_NoncurrentLiabilitiesPayableFromRestrictedAssets" xlink:type="arc"/>
       <link:calculationArc order="35.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentLiabilities" xlink:to="lbl_OtherNoncurrentLiabilities" xlink:type="arc"/>
@@ -5239,6 +5252,10 @@
       <link:calculationArc order="3.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_DueFromOtherFunds" xlink:to="lbl_InternalBalance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LotteryPrizeReserves" xlink:label="lbl_LotteryPrizeReserves" xlink:type="locator"/>
       <link:calculationArc order="25.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NoncurrentAssets" xlink:to="lbl_LotteryPrizeReserves" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenueNoncurrent" xlink:label="lbl_UnearnedRevenueNoncurrent" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
+      <link:calculationArc order="48.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CurrentLiabilities" xlink:to="lbl_UnearnedRevenue" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFNetPositionActivitiesAlt1" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeaseAssetsRightOfUseNetOfAccumulatedAmortization" xlink:label="lbl_LeaseAssetsRightOfUseNetOfAccumulatedAmortization" xlink:type="locator"/>
@@ -5649,8 +5666,6 @@
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_RevenueFromRent" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRoyalties" xlink:label="lbl_RevenueFromRoyalties" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_RevenueFromRoyalties" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentGainsLosses" xlink:label="lbl_InvestmentGainsLosses" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_InvestmentGainsLosses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_dup_1_InvestmentGainsLosses" xlink:label="lbl_dup_1_InvestmentGainsLosses" xlink:type="locator"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_dup_1_InvestmentGainsLosses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacks" xlink:label="lbl_AllowanceForChargebacks" xlink:type="locator"/>
@@ -5715,13 +5730,21 @@
       <link:calculationArc order="20.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NonoperatingRevenues" xlink:to="lbl_MiscellaneousOtherRevenue" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterestAndRent" xlink:label="lbl_RevenueFromInterestAndRent" xlink:type="locator"/>
       <link:calculationArc order="0.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncomeAndRentals" xlink:to="lbl_RevenueFromInterestAndRent" xlink:type="arc"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_RevenueFromInterestAndDividends" xlink:type="arc"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_RevenueFromRentsAndRoyalties" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TaxCollectionFeesForTaxFund" xlink:label="lbl_TaxCollectionFeesForTaxFund" xlink:type="locator"/>
       <link:calculationArc order="5.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueOperating" xlink:to="lbl_TaxCollectionFeesForTaxFund" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestAndPenaltiesForTaxFund" xlink:label="lbl_InterestAndPenaltiesForTaxFund" xlink:type="locator"/>
       <link:calculationArc order="5.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueOperating" xlink:to="lbl_InterestAndPenaltiesForTaxFund" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:label="lbl_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRefundsAndRebates" xlink:label="lbl_RevenueFromRefundsAndRebates" xlink:type="locator"/>
+      <link:calculationArc order="18.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueOperating" xlink:to="lbl_RevenueFromRefundsAndRebates" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromReimbursements" xlink:label="lbl_RevenueFromReimbursements" xlink:type="locator"/>
+      <link:calculationArc order="19.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueOperating" xlink:to="lbl_RevenueFromReimbursements" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentIncome" xlink:label="lbl_InvestmentIncome" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncome" xlink:to="lbl_RevenueFromInterestAndDividends" xlink:type="arc"/>
+      <link:calculationArc order="2.2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_InvestmentIncome" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentGainsLosses" xlink:label="lbl_InvestmentGainsLosses" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_InvestmentIncome" xlink:to="lbl_InvestmentGainsLosses" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFChangesInNetPosition" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IncomeLossBeforeCapitalContributions" xlink:label="lbl_IncomeLossBeforeCapitalContributions" xlink:type="locator"/>
@@ -5755,153 +5778,236 @@
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TotalCapitalContributionsAndTransfers" xlink:to="lbl_TransfersofCapitalAssetsFromToOtherFunds" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFCashActivities" xlink:type="extended">
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByTuitionAndFees" xlink:label="lbl_CashProvidedByTuitionAndFees" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInOperatingActivities" xlink:label="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashProvidedByTuitionAndFees" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedBySalesAndServices" xlink:label="lbl_CashProvidedBySalesAndServices" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashProvidedBySalesAndServices" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPaymentsToEmployees" xlink:label="lbl_CashUsedInPaymentsToEmployees" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashUsedInPaymentsToEmployees" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPaymentsToSuppliers" xlink:label="lbl_CashUsedInPaymentsToSuppliers" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashUsedInPaymentsToSuppliers" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFomTenants" xlink:label="lbl_CashReceivedFomTenants" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashReceivedFomTenants" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByOperatingGrants" xlink:label="lbl_CashProvidedByOperatingGrants" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashProvidedByOperatingGrants" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromCustomers" xlink:label="lbl_CashReceivedFromCustomers" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashReceivedFromCustomers" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_HousingAssistancePayments" xlink:label="lbl_HousingAssistancePayments" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_HousingAssistancePayments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPaymentsToLandlords" xlink:label="lbl_CashUsedInPaymentsToLandlords" xlink:type="locator"/>
-      <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashUsedInPaymentsToLandlords" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromTapFees" xlink:label="lbl_CashReceivedFromTapFees" xlink:type="locator"/>
-      <link:calculationArc order="10.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashReceivedFromTapFees" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidForInterfundServicesUsed" xlink:label="lbl_CashPaidForInterfundServicesUsed" xlink:type="locator"/>
-      <link:calculationArc order="11.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaidForInterfundServicesUsed" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidForClaimsPaid" xlink:label="lbl_CashPaidForClaimsPaid" xlink:type="locator"/>
-      <link:calculationArc order="12.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaidForClaimsPaid" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaymentsForGoodsAndServices" xlink:label="lbl_CashPaymentsForGoodsAndServices" xlink:type="locator"/>
-      <link:calculationArc order="13.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaymentsForGoodsAndServices" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForOperationMaintenanceAndWater" xlink:label="lbl_PaymentsForOperationMaintenanceAndWater" xlink:type="locator"/>
-      <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForOperationMaintenanceAndWater" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DelinquentTaxesCollected" xlink:label="lbl_DelinquentTaxesCollected" xlink:type="locator"/>
-      <link:calculationArc order="15.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_DelinquentTaxesCollected" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DelinquentTaxesPurchased" xlink:label="lbl_DelinquentTaxesPurchased" xlink:type="locator"/>
-      <link:calculationArc order="16.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_DelinquentTaxesPurchased" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestPaidOnDelinquentTaxes" xlink:label="lbl_InterestPaidOnDelinquentTaxes" xlink:type="locator"/>
-      <link:calculationArc order="17.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_InterestPaidOnDelinquentTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReceiptsFromPropertyTaxes" xlink:label="lbl_ReceiptsFromPropertyTaxes" xlink:type="locator"/>
-      <link:calculationArc order="18.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ReceiptsFromPropertyTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaymentsForTaxes" xlink:label="lbl_CashPaymentsForTaxes" xlink:type="locator"/>
-      <link:calculationArc order="19.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaymentsForTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestAndPenaltiesOnTaxes" xlink:label="lbl_InterestAndPenaltiesOnTaxes" xlink:type="locator"/>
-      <link:calculationArc order="20.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_InterestAndPenaltiesOnTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReceiptsFromInterestAndRents" xlink:label="lbl_ReceiptsFromInterestAndRents" xlink:type="locator"/>
-      <link:calculationArc order="21.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ReceiptsFromInterestAndRents" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromQualityAssuranceSupplement" xlink:label="lbl_CashReceivedFromQualityAssuranceSupplement" xlink:type="locator"/>
-      <link:calculationArc order="22.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashReceivedFromQualityAssuranceSupplement" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaymentsForQualityAssuranceProviderTax" xlink:label="lbl_CashPaymentsForQualityAssuranceProviderTax" xlink:type="locator"/>
-      <link:calculationArc order="23.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaymentsForQualityAssuranceProviderTax" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToContractors" xlink:label="lbl_PaymentsToContractors" xlink:type="locator"/>
-      <link:calculationArc order="24.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToContractors" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromPermitsFeesAndSpecialAssessments" xlink:label="lbl_CashReceivedFromPermitsFeesAndSpecialAssessments" xlink:type="locator"/>
-      <link:calculationArc order="25.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashReceivedFromPermitsFeesAndSpecialAssessments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForLotteryPrizes" xlink:label="lbl_PaymentsForLotteryPrizes" xlink:type="locator"/>
-      <link:calculationArc order="26.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForLotteryPrizes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LotteryTicketSales" xlink:label="lbl_LotteryTicketSales" xlink:type="locator"/>
-      <link:calculationArc order="27.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_LotteryTicketSales" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToLotteryRetailers" xlink:label="lbl_PaymentsToLotteryRetailers" xlink:type="locator"/>
-      <link:calculationArc order="28.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToLotteryRetailers" xlink:type="arc"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromTuitionAndFees" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromSalesAndServices" xlink:type="arc"/>
+      <link:calculationArc order="15.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromDelinquentTaxesCollected" xlink:type="arc"/>
+      <link:calculationArc order="20.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromInterestAndPenaltiesOnTaxes" xlink:type="arc"/>
+      <link:calculationArc order="21.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromInterestAndRents" xlink:type="arc"/>
+      <link:calculationArc order="22.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromQualityAssuranceSupplement" xlink:type="arc"/>
+      <link:calculationArc order="27.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromLotteryTicketSales" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProvisionForReturnedLotteryTickets" xlink:label="lbl_ProvisionForReturnedLotteryTickets" xlink:type="locator"/>
       <link:calculationArc order="29.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProvisionForReturnedLotteryTickets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProvisionForFreeLotteryTicketRedemptions" xlink:label="lbl_ProvisionForFreeLotteryTicketRedemptions" xlink:type="locator"/>
       <link:calculationArc order="30.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProvisionForFreeLotteryTicketRedemptions" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SpecialAssessmentCollections" xlink:label="lbl_SpecialAssessmentCollections" xlink:type="locator"/>
-      <link:calculationArc order="31.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_SpecialAssessmentCollections" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherOperatingReceipts" xlink:label="lbl_OtherOperatingReceipts" xlink:type="locator"/>
-      <link:calculationArc order="32.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_OtherOperatingReceipts" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherOperatingPayments" xlink:label="lbl_OtherOperatingPayments" xlink:type="locator"/>
-      <link:calculationArc order="33.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_OtherOperatingPayments" xlink:type="arc"/>
+      <link:calculationArc order="31.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromSpecialAssessmentCollections" xlink:type="arc"/>
+      <link:calculationArc order="32.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromOtherOperatingActivities" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCashFlowsFromOperatingActivities" xlink:label="lbl_OtherCashFlowsFromOperatingActivities" xlink:type="locator"/>
       <link:calculationArc order="34.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_OtherCashFlowsFromOperatingActivities" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByTaxes" xlink:label="lbl_CashProvidedByTaxes" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashFromNonCapitalFinancingActivities" xlink:label="lbl_NetCashFromNonCapitalFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashProvidedByTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PropertyTaxes" xlink:label="lbl_PropertyTaxes" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_PropertyTaxes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ResidentTrustDeposits" xlink:label="lbl_ResidentTrustDeposits" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_ResidentTrustDeposits" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsAndDonations" xlink:label="lbl_ContributionsAndDonations" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_ContributionsAndDonations" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByStateAppropriations" xlink:label="lbl_CashProvidedByStateAppropriations" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashProvidedByStateAppropriations" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByGrantsAndContracts" xlink:label="lbl_CashProvidedByGrantsAndContracts" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashProvidedByGrantsAndContracts" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSpecialAssessments" xlink:label="lbl_ProceedsFromSpecialAssessments" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromSpecialAssessments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidOrReturnedToOtherFunds" xlink:label="lbl_CashPaidOrReturnedToOtherFunds" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashPaidOrReturnedToOtherFunds" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromOtherFunds" xlink:label="lbl_CashReceivedFromOtherFunds" xlink:type="locator"/>
-      <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashReceivedFromOtherFunds" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashFlowsFromTransactionPrivilegeTax" xlink:label="lbl_CashFlowsFromTransactionPrivilegeTax" xlink:type="locator"/>
-      <link:calculationArc order="10.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashFlowsFromTransactionPrivilegeTax" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestPayments" xlink:label="lbl_InterestPayments" xlink:type="locator"/>
-      <link:calculationArc order="11.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_InterestPayments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalTransfers" xlink:label="lbl_IntergovernmentalTransfers" xlink:type="locator"/>
-      <link:calculationArc order="12.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_IntergovernmentalTransfers" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalReceipts" xlink:label="lbl_IntergovernmentalReceipts" xlink:type="locator"/>
-      <link:calculationArc order="13.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_IntergovernmentalReceipts" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromBondsAndNotes" xlink:label="lbl_ProceedsFromBondsAndNotes" xlink:type="locator"/>
-      <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromBondsAndNotes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PrincipalPaymentsOnBondsAndNotes" xlink:label="lbl_PrincipalPaymentsOnBondsAndNotes" xlink:type="locator"/>
-      <link:calculationArc order="15.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_PrincipalPaymentsOnBondsAndNotes" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashFlowsFromTransfersIn" xlink:label="lbl_CashFlowsFromTransfersIn" xlink:type="locator"/>
-      <link:calculationArc order="16.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashFlowsFromTransfersIn" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashFlowsFromTransfersOut" xlink:label="lbl_CashFlowsFromTransfersOut" xlink:type="locator"/>
-      <link:calculationArc order="17.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_CashFlowsFromTransfersOut" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCashFlowsFromNonCapitalFinancingActivities" xlink:label="lbl_OtherCashFlowsFromNonCapitalFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="18.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_OtherCashFlowsFromNonCapitalFinancingActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DistributionsToEducationFund" xlink:label="lbl_DistributionsToEducationFund" xlink:type="locator"/>
-      <link:calculationArc order="19.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_DistributionsToEducationFund" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPurchasesOfCapitalAssets" xlink:label="lbl_CashUsedInPurchasesOfCapitalAssets" xlink:type="locator"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashFromCapitalAndRelatedFinancingActivities" xlink:label="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashUsedInPurchasesOfCapitalAssets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalGrants" xlink:label="lbl_CapitalGrants" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CapitalGrants" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RelatedFinancingSpecialAssessment" xlink:label="lbl_RelatedFinancingSpecialAssessment" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_RelatedFinancingSpecialAssessment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:label="lbl_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidOrReturnedToOtherFundsForCapitalFinancingActivities" xlink:label="lbl_CashPaidOrReturnedToOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashPaidOrReturnedToOtherFundsForCapitalFinancingActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTaxes" xlink:label="lbl_ProceedsFromTaxes" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromTaxes" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromIssuanceOfDebt" xlink:label="lbl_ProceedsFromIssuanceOfDebt" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromIssuanceOfDebt" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInBondPrincipalPayments" xlink:label="lbl_CashUsedInBondPrincipalPayments" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashUsedInBondPrincipalPayments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInInterestPaidOnBonds" xlink:label="lbl_CashUsedInInterestPaidOnBonds" xlink:type="locator"/>
-      <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashUsedInInterestPaidOnBonds" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DebtServiceFees" xlink:label="lbl_DebtServiceFees" xlink:type="locator"/>
-      <link:calculationArc order="10.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_DebtServiceFees" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:label="lbl_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:type="locator"/>
-      <link:calculationArc order="11.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromCapitalContributions" xlink:label="lbl_CashReceivedFromCapitalContributions" xlink:type="locator"/>
-      <link:calculationArc order="12.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashReceivedFromCapitalContributions" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromInsuranceRecovery" xlink:label="lbl_CashReceivedFromInsuranceRecovery" xlink:type="locator"/>
-      <link:calculationArc order="13.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_CashReceivedFromInsuranceRecovery" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCashFlowsFromCapitalAndRelatedFinancingActivities" xlink:label="lbl_OtherCashFlowsFromCapitalAndRelatedFinancingActivities" xlink:type="locator"/>
-      <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_OtherCashFlowsFromCapitalAndRelatedFinancingActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:label="lbl_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInInvestingActivities" xlink:label="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByInterestIncome" xlink:label="lbl_CashProvidedByInterestIncome" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_CashProvidedByInterestIncome" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPurchaseOfInvestments" xlink:label="lbl_CashUsedInPurchaseOfInvestments" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_CashUsedInPurchaseOfInvestments" xlink:type="arc"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_ProceedsFromInterestOnInvestments" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromMaturedSecurities" xlink:label="lbl_ProceedsFromMaturedSecurities" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_ProceedsFromMaturedSecurities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCashFlowsFromInvestingActivities" xlink:label="lbl_OtherCashFlowsFromInvestingActivities" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_OtherCashFlowsFromInvestingActivities" xlink:type="arc"/>
+      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_ProceedsFromPaymentsForOtherInvestingActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCapitalGrants" xlink:label="lbl_ProceedsFromCapitalGrants" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:label="lbl_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:label="lbl_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesOfCapitalAssets" xlink:label="lbl_ProceedsFromSalesOfCapitalAssets" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCapitalContributions" xlink:label="lbl_ProceedsFromCapitalContributions" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInsuranceRecovery" xlink:label="lbl_ProceedsFromInsuranceRecovery" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFomPaymentsForOtherCapitalAndFinancingRelatedActivities" xlink:label="lbl_ProceedsFomPaymentsForOtherCapitalAndFinancingRelatedActivities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:label="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromTaxesRelatedToCapitalAssets" xlink:type="arc"/>
+      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromIssuanceOfDebt" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromCapitalGrants" xlink:type="arc"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:type="arc"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:type="arc"/>
+      <link:calculationArc order="11.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromSalesOfCapitalAssets" xlink:type="arc"/>
+      <link:calculationArc order="12.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromCapitalContributions" xlink:type="arc"/>
+      <link:calculationArc order="13.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFromInsuranceRecovery" xlink:type="arc"/>
+      <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_ProceedsFomPaymentsForOtherCapitalAndFinancingRelatedActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:label="lbl_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInterestOnInvestments" xlink:label="lbl_ProceedsFromInterestOnInvestments" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromPaymentsForOtherInvestingActivities" xlink:label="lbl_ProceedsFromPaymentsForOtherInvestingActivities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DebtServiceFees" xlink:label="lbl_DebtServiceFees" xlink:type="locator"/>
+      <link:calculationArc order="10.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_DebtServiceFees" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterestOnBonds" xlink:label="lbl_PaymentsForInterestOnBonds" xlink:type="locator"/>
+      <link:calculationArc order="9.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_PaymentsForInterestOnBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RepaymentsOfBondPrincipal" xlink:label="lbl_RepaymentsOfBondPrincipal" xlink:type="locator"/>
+      <link:calculationArc order="8.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_RepaymentsOfBondPrincipal" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToOtherFundsForCapitalFinancingActivities" xlink:label="lbl_PaymentsToOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
+      <link:calculationArc order="5.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_PaymentsToOtherFundsForCapitalFinancingActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToPurchaseCapitalAssets" xlink:label="lbl_PaymentsToPurchaseCapitalAssets" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_PaymentsToPurchaseCapitalAssets" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToAcquireInvestments" xlink:label="lbl_PaymentsToAcquireInvestments" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:to="lbl_PaymentsToAcquireInvestments" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromPropertyTaxes" xlink:label="lbl_ProceedsFromPropertyTaxes" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromResidentTrustDeposits" xlink:label="lbl_ProceedsFromResidentTrustDeposits" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromContributionsAndDonations" xlink:label="lbl_ProceedsFromContributionsAndDonations" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromStateAppropriations" xlink:label="lbl_ProceedsFromStateAppropriations" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromGrantsAndContracts" xlink:label="lbl_ProceedsFromGrantsAndContracts" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidOrReturnedToOtherFunds" xlink:label="lbl_CashPaidOrReturnedToOtherFunds" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherFunds" xlink:label="lbl_ProceedsFromOtherFunds" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTransactionPrivilegeTax" xlink:label="lbl_ProceedsFromTransactionPrivilegeTax" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromIntergovernmentalReceipts" xlink:label="lbl_ProceedsFromIntergovernmentalReceipts" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTaxesRelatedToCapitalAssets" xlink:label="lbl_ProceedsFromTaxesRelatedToCapitalAssets" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterest" xlink:label="lbl_PaymentsForInterest" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForIntergovernmentalTransfers" xlink:label="lbl_PaymentsForIntergovernmentalTransfers" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RepaymentsOfBondsAndNotes" xlink:label="lbl_RepaymentsOfBondsAndNotes" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTransfersInNonCapitalFinancing" xlink:label="lbl_ProceedsFromTransfersInNonCapitalFinancing" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForTransfersOutNonCapitalFinancing" xlink:label="lbl_PaymentsForTransfersOutNonCapitalFinancing" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToEmployees" xlink:type="arc"/>
+      <link:calculationArc order="4.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToSuppliers" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToSuppliers" xlink:label="lbl_PaymentsToSuppliers" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToEmployees" xlink:label="lbl_PaymentsToEmployees" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForHousingAssistance" xlink:label="lbl_PaymentsForHousingAssistance" xlink:type="locator"/>
+      <link:calculationArc order="8.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForHousingAssistance" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToLandlords" xlink:label="lbl_PaymentsToLandlords" xlink:type="locator"/>
+      <link:calculationArc order="9.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToLandlords" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterfundServicesUsed" xlink:label="lbl_PaymentsForInterfundServicesUsed" xlink:type="locator"/>
+      <link:calculationArc order="11.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForInterfundServicesUsed" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaidForClaimsPaid" xlink:label="lbl_CashPaidForClaimsPaid" xlink:type="locator"/>
+      <link:calculationArc order="12.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_CashPaidForClaimsPaid" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForQualityAssuranceProviderTaxprogram" xlink:label="lbl_PaymentsForQualityAssuranceProviderTaxprogram" xlink:type="locator"/>
+      <link:calculationArc order="23.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForQualityAssuranceProviderTaxprogram" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForLotteryPrizes" xlink:label="lbl_PaymentsForLotteryPrizes" xlink:type="locator"/>
+      <link:calculationArc order="26.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForLotteryPrizes" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromLotteryTicketSales" xlink:label="lbl_ProceedsFromLotteryTicketSales" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToLotteryRetailers" xlink:label="lbl_PaymentsToLotteryRetailers" xlink:type="locator"/>
+      <link:calculationArc order="28.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToLotteryRetailers" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToEducationFund" xlink:label="lbl_PaymentsToEducationFund" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForGoodsAndServices" xlink:label="lbl_PaymentsForGoodsAndServices" xlink:type="locator"/>
+      <link:calculationArc order="13.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForGoodsAndServices" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromDelinquentTaxesCollected" xlink:label="lbl_ProceedsFromDelinquentTaxesCollected" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForDelinquentTaxesPurchased" xlink:label="lbl_PaymentsForDelinquentTaxesPurchased" xlink:type="locator"/>
+      <link:calculationArc order="16.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForDelinquentTaxesPurchased" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromQualityAssuranceSupplement" xlink:label="lbl_ProceedsFromQualityAssuranceSupplement" xlink:type="locator"/>
+      <link:calculationArc order="33.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForOtherOperatingActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesAndServices" xlink:label="lbl_ProceedsFromSalesAndServices" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTuitionAndFees" xlink:label="lbl_ProceedsFromTuitionAndFees" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForOperationMaintenanceAndWater" xlink:label="lbl_PaymentsForOperationMaintenanceAndWater" xlink:type="locator"/>
+      <link:calculationArc order="14.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForOperationMaintenanceAndWater" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterestOnDelinquentTaxes" xlink:label="lbl_PaymentsForInterestOnDelinquentTaxes" xlink:type="locator"/>
+      <link:calculationArc order="17.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsForInterestOnDelinquentTaxes" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInterestAndPenaltiesOnTaxes" xlink:label="lbl_ProceedsFromInterestAndPenaltiesOnTaxes" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInterestAndRents" xlink:label="lbl_ProceedsFromInterestAndRents" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSpecialAssessmentCollections" xlink:label="lbl_ProceedsFromSpecialAssessmentCollections" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:label="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_CashProvidedByTaxes" xlink:type="arc"/>
+      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromSpecialAssessments" xlink:type="arc"/>
+      <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromBondsAndNotes" xlink:type="arc"/>
+      <link:calculationArc order="18.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_OtherCashFlowsFromNonCapitalFinancingActivities" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromPropertyTaxes" xlink:type="arc"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromResidentTrustDeposits" xlink:type="arc"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromContributionsAndDonations" xlink:type="arc"/>
+      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromStateAppropriations" xlink:type="arc"/>
+      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromGrantsAndContracts" xlink:type="arc"/>
+      <link:calculationArc order="8.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_CashPaidOrReturnedToOtherFunds" xlink:type="arc"/>
+      <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromOtherFunds" xlink:type="arc"/>
+      <link:calculationArc order="10.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromTransactionPrivilegeTax" xlink:type="arc"/>
+      <link:calculationArc order="13.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromIntergovernmentalReceipts" xlink:type="arc"/>
+      <link:calculationArc order="11.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_PaymentsForInterest" xlink:type="arc"/>
+      <link:calculationArc order="12.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_PaymentsForIntergovernmentalTransfers" xlink:type="arc"/>
+      <link:calculationArc order="15.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_RepaymentsOfBondsAndNotes" xlink:type="arc"/>
+      <link:calculationArc order="16.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_ProceedsFromTransfersInNonCapitalFinancing" xlink:type="arc"/>
+      <link:calculationArc order="17.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_PaymentsForTransfersOutNonCapitalFinancing" xlink:type="arc"/>
+      <link:calculationArc order="17.5" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_PaymentsToEducationFund" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:label="lbl_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="lbl_NetCashProvidedByUsedInInvestingActivities" xlink:type="arc"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:type="arc"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToContractors" xlink:label="lbl_PaymentsToContractors" xlink:type="locator"/>
+      <link:calculationArc order="4.5" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_PaymentsToContractors" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTapFees" xlink:label="lbl_ProceedsFromTapFees" xlink:type="locator"/>
+      <link:calculationArc order="2.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromTapFees" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCustomers" xlink:label="lbl_ProceedsFromCustomers" xlink:type="locator"/>
+      <link:calculationArc order="0.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromCustomers" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOperatingGrants" xlink:label="lbl_ProceedsFromOperatingGrants" xlink:type="locator"/>
+      <link:calculationArc order="0.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromOperatingGrants" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFomTenants" xlink:label="lbl_ProceedsFomTenants" xlink:type="locator"/>
+      <link:calculationArc order="2.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFomTenants" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromPropertyTaxesOperating" xlink:label="lbl_ProceedsFromPropertyTaxesOperating" xlink:type="locator"/>
+      <link:calculationArc order="0.2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromPropertyTaxesOperating" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTaxes" xlink:label="lbl_ProceedsFromTaxes" xlink:type="locator"/>
+      <link:calculationArc order="0.3" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromTaxes" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromPermitsFeesAndSpecialAssessments" xlink:label="lbl_ProceedsFromPermitsFeesAndSpecialAssessments" xlink:type="locator"/>
+      <link:calculationArc order="2.8" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromPermitsFeesAndSpecialAssessments" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherOperatingActivities" xlink:label="lbl_ProceedsFromOtherOperatingActivities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForOtherOperatingActivities" xlink:label="lbl_PaymentsForOtherOperatingActivities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInternalServicesProvided" xlink:label="lbl_ProceedsFromInternalServicesProvided" xlink:type="locator"/>
+      <link:calculationArc order="35.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetCashProvidedByUsedInOperatingActivities" xlink:to="lbl_ProceedsFromInternalServicesProvided" xlink:type="arc"/>
+   </link:calculationLink>
+   <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PensionChangeNetPensionLiabilitySchedule" xlink:type="extended">
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionEmployerContribution" xlink:label="lbl_PensionEmployerContribution" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:label="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionEmployerContribution" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionActualContributionsFromOthers" xlink:label="lbl_PensionActualContributionsFromOthers" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionActualContributionsFromOthers" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionActualEmployeeContribution" xlink:label="lbl_PensionActualEmployeeContribution" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionActualEmployeeContribution" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionNetInvestmentIncome" xlink:label="lbl_PensionNetInvestmentIncome" xlink:type="locator"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionNetInvestmentIncome" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:type="locator"/>
+      <link:calculationArc order="5.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionAdministrativeExpenses" xlink:label="lbl_PensionAdministrativeExpenses" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionAdministrativeExpenses" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherChangesSeparatelyIdentifiedIfIndividuallySignificant" xlink:label="lbl_OtherChangesSeparatelyIdentifiedIfIndividuallySignificant" xlink:type="locator"/>
+      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_OtherChangesSeparatelyIdentifiedIfIndividuallySignificant" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionServiceCost" xlink:label="lbl_PensionServiceCost" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionLiabilityPeriodIncreaseDecrease" xlink:label="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_PensionServiceCost" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanInterestCost" xlink:label="lbl_PensionPlanInterestCost" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_PensionPlanInterestCost" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChangesInPensionLiabilityDueToChangeInBenefitTerms" xlink:label="lbl_ChangesInPensionLiabilityDueToChangeInBenefitTerms" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_ChangesInPensionLiabilityDueToChangeInBenefitTerms" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanChangesOfAssumptionsOrOtherInputs" xlink:label="lbl_PensionPlanChangesOfAssumptionsOrOtherInputs" xlink:type="locator"/>
+      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_PensionPlanChangesOfAssumptionsOrOtherInputs" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionBenefitPayments" xlink:label="lbl_PensionBenefitPayments" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_PensionBenefitPayments" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DifferencesBetweenExpectedAndActualExperienceInMeasurementOfTotalPensionLiability" xlink:label="lbl_DifferencesBetweenExpectedAndActualExperienceInMeasurementOfTotalPensionLiability" xlink:type="locator"/>
+      <link:calculationArc order="4.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:to="lbl_DifferencesBetweenExpectedAndActualExperienceInMeasurementOfTotalPensionLiability" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetChangeInPensionLiabilityAsset" xlink:label="lbl_NetChangeInPensionLiabilityAsset" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInPensionLiabilityAsset" xlink:to="lbl_PensionLiabilityPeriodIncreaseDecrease" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInPensionLiabilityAsset" xlink:to="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TotalPensionLiability" xlink:label="lbl_TotalPensionLiability" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_TotalPensionLiability" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanFiduciaryNetPosition" xlink:label="lbl_PensionPlanFiduciaryNetPosition" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_PensionPlanFiduciaryNetPosition" xlink:type="arc"/>
+   </link:calculationLink>
+   <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" xlink:type="extended">
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBLiabilityPeriodIncreaseDecrease" xlink:label="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetChangeInNetOPEBLiability" xlink:label="lbl_NetChangeInNetOPEBLiability" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInNetOPEBLiability" xlink:to="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:label="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInNetOPEBLiability" xlink:to="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBServiceCost" xlink:label="lbl_OPEBServiceCost" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBServiceCost" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBInterestCost" xlink:label="lbl_OPEBInterestCost" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBInterestCost" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanChangesInBenefitTerms" xlink:label="lbl_OPEBPlanChangesInBenefitTerms" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanChangesInBenefitTerms" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanFromDifferenceExpectedAndActualExperience" xlink:label="lbl_OPEBPlanFromDifferenceExpectedAndActualExperience" xlink:type="locator"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanFromDifferenceExpectedAndActualExperience" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:label="lbl_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:type="locator"/>
+      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanOtherChangesToLiability" xlink:label="lbl_OPEBPlanOtherChangesToLiability" xlink:type="locator"/>
+      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanOtherChangesToLiability" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBBenefitPayments" xlink:label="lbl_OPEBBenefitPayments" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="lbl_OPEBBenefitPayments" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanEmployerContributions" xlink:label="lbl_OPEBPlanEmployerContributions" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanEmployerContributions" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanNonemployerContributingEntities" xlink:label="lbl_OPEBPlanNonemployerContributingEntities" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_OPEBPlanNonemployerContributingEntities" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:label="lbl_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:type="locator"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBNetInvestmentIncome" xlink:label="lbl_OPEBNetInvestmentIncome" xlink:type="locator"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_OPEBNetInvestmentIncome" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:type="locator"/>
+      <link:calculationArc order="5.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBAdministrativeExpenses" xlink:label="lbl_OPEBAdministrativeExpenses" xlink:type="locator"/>
+      <link:calculationArc order="6.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="lbl_OPEBAdministrativeExpenses" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TotalOPEBLiability" xlink:label="lbl_TotalOPEBLiability" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetOPEBLiability" xlink:label="lbl_NetOPEBLiability" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetOPEBLiability" xlink:to="lbl_TotalOPEBLiability" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FiduciaryNetPositionOPEB" xlink:label="lbl_FiduciaryNetPositionOPEB" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetOPEBLiability" xlink:to="lbl_FiduciaryNetPositionOPEB" xlink:type="arc"/>
    </link:calculationLink>
 </link:linkbase>

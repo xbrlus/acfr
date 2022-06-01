@@ -22,8 +22,6 @@
       <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_DeferredOutflowsOfResources" xlink:to="lbl_DeferredOutflowsOfResources_references" xlink:type="arc"/>
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalBalancesPayable" xlink:label="acfr_InternalBalancesPayable" xlink:type="locator"/>
       <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_InternalBalancesPayable" xlink:to="lbl_reference1019965446" xlink:type="arc"/>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiability" xlink:label="acfr_NetPensionLiability" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_NetPensionLiability" xlink:to="lbl_NetPensionLiability_references" xlink:type="arc"/>
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_CostOfIssueOfBondsAndSecurities" xlink:label="acfr_CostOfIssueOfBondsAndSecurities" xlink:type="locator"/>
       <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_CostOfIssueOfBondsAndSecurities" xlink:to="label_acfr_CostOfIssueOfBondsAndSecurities" xlink:type="arc"/>
       <reference xlink:label="label_acfr_CostOfIssueOfBondsAndSecurities" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
@@ -653,12 +651,6 @@
          <ref:Paragraph>40</ref:Paragraph>
          <ref:Appendix>B-GASB Concepts Statement 4</ref:Appendix>
       </link:reference>
-      <link:reference id="id_681b8eef" xlink:label="lbl_NetPensionLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>GASB</ref:Publisher>
-         <ref:Name>Codification</ref:Name>
-         <ref:Section>P20</ref:Section>
-         <ref:Paragraph>119</ref:Paragraph>
-      </link:reference>
       <link:reference id="id_1564d64c" xlink:label="lbl_NetOPEBLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1254,40 +1246,30 @@
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>114a</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedBySalesAndServices" xlink:label="lbl_CashProvidedBySalesAndServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashProvidedBySalesAndServices" xlink:to="lbl_reference1254366716" xlink:type="arc"/>
       <link:reference id="id_5d6f5e32" xlink:label="lbl_reference1567579698" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>115c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPaymentsToEmployees" xlink:label="lbl_CashUsedInPaymentsToEmployees" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashUsedInPaymentsToEmployees" xlink:to="lbl_reference1567579698" xlink:type="arc"/>
       <link:reference id="id_92d77af" xlink:label="lbl_reference153974703" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>115b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPaymentsToSuppliers" xlink:label="lbl_CashUsedInPaymentsToSuppliers" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashUsedInPaymentsToSuppliers" xlink:to="lbl_reference153974703" xlink:type="arc"/>
       <link:reference id="id_273c5be4" xlink:label="lbl_reference658267108" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>114c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByOperatingGrants" xlink:label="lbl_CashProvidedByOperatingGrants" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashProvidedByOperatingGrants" xlink:to="lbl_reference658267108" xlink:type="arc"/>
       <link:reference id="id_45ebf5b6" xlink:label="lbl_reference1173091766" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>114a</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromCustomers" xlink:label="lbl_CashReceivedFromCustomers" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceivedFromCustomers" xlink:to="lbl_reference1173091766" xlink:type="arc"/>
       <link:reference id="id_7355bcf1" xlink:label="lbl_reference1934998769" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1302,32 +1284,24 @@
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>115g</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherOperatingPayments" xlink:label="lbl_OtherOperatingPayments" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherOperatingPayments" xlink:to="lbl_reference1898575804" xlink:type="arc"/>
       <link:reference id="id_3d673d86" xlink:label="lbl_reference1030176134" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>114e</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherOperatingReceipts" xlink:label="lbl_OtherOperatingReceipts" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherOperatingReceipts" xlink:to="lbl_reference1030176134" xlink:type="arc"/>
       <link:reference id="id_6ea229d6" xlink:label="lbl_reference1856121302" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>115a</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashPaymentsForGoodsAndServices" xlink:label="lbl_CashPaymentsForGoodsAndServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashPaymentsForGoodsAndServices" xlink:to="lbl_reference1856121302" xlink:type="arc"/>
       <link:reference id="id_2aa8fe77" xlink:label="lbl_reference715718263" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>119d</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PropertyTaxes" xlink:label="lbl_PropertyTaxes" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PropertyTaxes" xlink:to="lbl_reference715718263" xlink:type="arc"/>
       <link:reference id="id_b0fa178" xlink:label="lbl_reference185573752" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1342,32 +1316,24 @@
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>119c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromOtherFunds" xlink:label="lbl_CashReceivedFromOtherFunds" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceivedFromOtherFunds" xlink:to="lbl_reference2635860" xlink:type="arc"/>
       <link:reference id="id_3dce659a" xlink:label="lbl_reference1036936602" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>120b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestPayments" xlink:label="lbl_InterestPayments" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InterestPayments" xlink:to="lbl_reference1036936602" xlink:type="arc"/>
       <link:reference id="id_74886cab" xlink:label="lbl_reference1955097771" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>120c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalTransfers" xlink:label="lbl_IntergovernmentalTransfers" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IntergovernmentalTransfers" xlink:to="lbl_reference1955097771" xlink:type="arc"/>
       <link:reference id="id_58a8c0cb" xlink:label="lbl_reference1487454411" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>119b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalReceipts" xlink:label="lbl_IntergovernmentalReceipts" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IntergovernmentalReceipts" xlink:to="lbl_reference1487454411" xlink:type="arc"/>
       <link:reference id="id_6d0e3a2b" xlink:label="lbl_reference1829648939" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1382,72 +1348,54 @@
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>120a</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PrincipalPaymentsOnBondsAndNotes" xlink:label="lbl_PrincipalPaymentsOnBondsAndNotes" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PrincipalPaymentsOnBondsAndNotes" xlink:to="lbl_reference2058961693" xlink:type="arc"/>
       <link:reference id="id_16efdb0" xlink:label="lbl_reference24051120" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>119c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashFlowsFromTransfersIn" xlink:label="lbl_CashFlowsFromTransfersIn" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashFlowsFromTransfersIn" xlink:to="lbl_reference24051120" xlink:type="arc"/>
       <link:reference id="id_4d644ebe" xlink:label="lbl_reference1298419390" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>120d</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashFlowsFromTransfersOut" xlink:label="lbl_CashFlowsFromTransfersOut" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashFlowsFromTransfersOut" xlink:to="lbl_reference1298419390" xlink:type="arc"/>
       <link:reference id="id_6b55ee26" xlink:label="lbl_reference1800793638" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>118</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashFromNonCapitalFinancingActivities" xlink:label="lbl_NetCashFromNonCapitalFinancingActivities" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashFromNonCapitalFinancingActivities" xlink:to="lbl_reference1800793638" xlink:type="arc"/>
       <link:reference id="id_1ae6b18f" xlink:label="lbl_reference451326351" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>123a</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInPurchasesOfCapitalAssets" xlink:label="lbl_CashUsedInPurchasesOfCapitalAssets" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashUsedInPurchasesOfCapitalAssets" xlink:to="lbl_reference451326351" xlink:type="arc"/>
       <link:reference id="id_6b531ab5" xlink:label="lbl_reference1800608437" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalGrants" xlink:label="lbl_CapitalGrants" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CapitalGrants" xlink:to="lbl_reference1800608437" xlink:type="arc"/>
       <link:reference id="id_1cd53e24" xlink:label="lbl_reference483737124" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122e</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RelatedFinancingSpecialAssessment" xlink:label="lbl_RelatedFinancingSpecialAssessment" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RelatedFinancingSpecialAssessment" xlink:to="lbl_reference483737124" xlink:type="arc"/>
       <link:reference id="id_2f3d18d1" xlink:label="lbl_reference792533201" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:label="lbl_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceivedFromOtherFundsForCapitalFinancingActivities" xlink:to="lbl_reference792533201" xlink:type="arc"/>
       <link:reference id="id_248ee31d" xlink:label="lbl_reference613344029" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122e</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTaxes" xlink:label="lbl_ProceedsFromTaxes" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromTaxes" xlink:to="lbl_reference613344029" xlink:type="arc"/>
       <link:reference id="id_557093b3" xlink:label="lbl_reference1433441203" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1462,64 +1410,48 @@
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>123b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInBondPrincipalPayments" xlink:label="lbl_CashUsedInBondPrincipalPayments" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashUsedInBondPrincipalPayments" xlink:to="lbl_reference1789481300" xlink:type="arc"/>
       <link:reference id="id_29321ea6" xlink:label="lbl_reference691150502" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>123d</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashUsedInInterestPaidOnBonds" xlink:label="lbl_CashUsedInInterestPaidOnBonds" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashUsedInInterestPaidOnBonds" xlink:to="lbl_reference691150502" xlink:type="arc"/>
       <link:reference id="id_46c0b496" xlink:label="lbl_reference1187034262" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122d</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:label="lbl_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashProvidedByProceedsFromTheSalesOfCapitalAssets" xlink:to="lbl_reference1187034262" xlink:type="arc"/>
       <link:reference id="id_35d862ae" xlink:label="lbl_reference903373486" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromCapitalContributions" xlink:label="lbl_CashReceivedFromCapitalContributions" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceivedFromCapitalContributions" xlink:to="lbl_reference903373486" xlink:type="arc"/>
       <link:reference id="id_68f54931" xlink:label="lbl_reference1760905521" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>122d</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashReceivedFromInsuranceRecovery" xlink:label="lbl_CashReceivedFromInsuranceRecovery" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceivedFromInsuranceRecovery" xlink:to="lbl_reference1760905521" xlink:type="arc"/>
       <link:reference id="id_43b181fb" xlink:label="lbl_reference1135706619" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>121</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashFromCapitalAndRelatedFinancingActivities" xlink:label="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashFromCapitalAndRelatedFinancingActivities" xlink:to="lbl_reference1135706619" xlink:type="arc"/>
       <link:reference id="id_55da87fc" xlink:label="lbl_reference1440385020" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>125b</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:label="lbl_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashProvidedByProceedsFromSalesAndMaturitiesOfInvestments" xlink:to="lbl_reference1440385020" xlink:type="arc"/>
       <link:reference id="id_1f98f600" xlink:label="lbl_reference530118144" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>2450</ref:Section>
          <ref:Paragraph>125c</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashProvidedByInterestIncome" xlink:label="lbl_CashProvidedByInterestIncome" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashProvidedByInterestIncome" xlink:to="lbl_reference530118144" xlink:type="arc"/>
       <link:reference id="id_3a507965" xlink:label="lbl_reference978352485" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1593,12 +1525,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanFiduciaryNetPosition" xlink:label="lbl_PensionPlanFiduciaryNetPosition" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionPlanFiduciaryNetPosition" xlink:to="lbl_PensionPlanFiduciaryNetPosition_references" xlink:type="arc"/>
-      <link:reference id="id_2748664b" xlink:label="lbl_NetPensionLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>GASB</ref:Publisher>
-         <ref:Name>Codification</ref:Name>
-         <ref:Section>P20</ref:Section>
-         <ref:Paragraph>144a</ref:Paragraph>
-      </link:reference>
       <link:reference id="id_29f48934" xlink:label="lbl_reference703891764" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1613,8 +1539,6 @@
          <ref:Section>P20</ref:Section>
          <ref:Paragraph>144b(2)</ref:Paragraph>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionInterestCost" xlink:label="lbl_PensionInterestCost" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionInterestCost" xlink:to="lbl_reference552806661" xlink:type="arc"/>
       <link:reference id="id_1fbf4c76" xlink:label="lbl_reference532630646" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -2893,7 +2817,7 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesSpecialAssessmentDistricts" xlink:label="lbl_AdvancesSpecialAssessmentDistricts" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesSpecialAssessmentDistricts" xlink:to="lbl_reference284073705" xlink:type="arc"/>
-      <link:reference id="id_3dc6dbab" xlink:label="lbl_NetPensionLiability_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_3dc6dbab" xlink:label="lbl_reference2064615240" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>334</acfr-part:MIUCAAccountNumber>
       </link:reference>
@@ -2905,8 +2829,6 @@
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>339</acfr-part:MIUCAAccountNumber>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnearnedRevenue" xlink:to="lbl_reference2065809367" xlink:type="arc"/>
       <link:reference id="id_39ccbd15" xlink:label="lbl_reference969719061" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>343</acfr-part:MIUCAAccountNumber>
@@ -5128,8 +5050,6 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForPublicSafetyServices" xlink:to="lbl_RevenueForPublicSafetyServices_references" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForWelfare" xlink:label="lbl_RevenueForWelfare" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForWelfare" xlink:to="lbl_RevenueForWelfare_references" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndHospital" xlink:label="lbl_RevenueForHealthAndHospital" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForHealthAndHospital" xlink:to="lbl_RevenueForHealthAndHospital_references" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForCultureAndRecreation" xlink:label="lbl_RevenueForCultureAndRecreation" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForCultureAndRecreation" xlink:to="lbl_RevenueForCultureAndRecreation_references" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueUsedForOtherPrograms" xlink:label="lbl_RevenueUsedForOtherPrograms" xlink:type="locator"/>
@@ -5894,12 +5814,7 @@
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>513</acfr-part:MIUCAAccountNumber>
       </link:reference>
-      <link:reference id="id_641e9299" xlink:label="lbl_RevenueForHealthAndHospital_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:Sentence>TypeOfProgramRevenuesAxis=ProgramRevenuesFromOperatingGrantsAndContributionsFederalGrantsMember</ref:Sentence>
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>516</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:reference id="id_7c071a17" xlink:label="lbl_RevenueForHealthAndHospital_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_7c071a17" xlink:label="lbl_reference2085272401" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:Sentence>TypeOfProgramRevenuesAxis=ProgramRevenuesFromOperatingGrantsAndContributionsStateGrantsMember</ref:Sentence>
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>555</acfr-part:MIUCAAccountNumber>
@@ -6643,7 +6558,7 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StateGrantsCultureAndRecreation" xlink:to="lbl_reference1938411783" xlink:type="arc"/>
       <link:reference id="id_17fcbcbe" xlink:label="lbl_reference402439358" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>569</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAAccountNumber>540 - 549 Excluding 574, 543-545, 547, 570, 546, 552, 555, 561, 566</acfr-part:MIUCAAccountNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsAllOther" xlink:label="lbl_StateGrantsAllOther" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_reference402439358" xlink:type="arc"/>
@@ -6747,7 +6662,7 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalGrantsHousingAndCommunityDevelopment" xlink:to="lbl_reference647504425" xlink:type="arc"/>
       <link:reference id="id_48d1deb9" xlink:label="lbl_reference1221713593" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>528</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAAccountNumber>501 - 538, Excludes 502, 505, 513, 516, 519, 523, 522</acfr-part:MIUCAAccountNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsAllOther" xlink:label="lbl_FederalGrantsAllOther" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalGrantsAllOther" xlink:to="lbl_reference1221713593" xlink:type="arc"/>
@@ -6800,7 +6715,7 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExtraordinaryItemsModifiedAccrual" xlink:to="lbl_reference381669693" xlink:type="arc"/>
       <link:reference id="id_7163b641" xlink:label="lbl_reference1902360129" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>653</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAAccountNumber>500 - 654, Excluding 626-637, 652, 638-651, 653, 654</acfr-part:MIUCAAccountNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesOtherFees" xlink:label="lbl_ChargesForServicesOtherFees" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ChargesForServicesOtherFees" xlink:to="lbl_reference1902360129" xlink:type="arc"/>
@@ -7316,5 +7231,238 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:to="lbl_reference1567609958" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionalOtherFinancingSourcesUses" xlink:label="lbl_AdditionalOtherFinancingSourcesUses" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdditionalOtherFinancingSourcesUses" xlink:to="lbl_reference27002384" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCapitalGrants" xlink:label="lbl_ProceedsFromCapitalGrants" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromCapitalGrants" xlink:to="lbl_reference1800608437" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:label="lbl_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:to="lbl_reference483737124" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:label="lbl_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromOtherFundsForCapitalFinancingActivities" xlink:to="lbl_reference792533201" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToPurchaseCapitalAssets" xlink:label="lbl_PaymentsToPurchaseCapitalAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsToPurchaseCapitalAssets" xlink:to="lbl_reference451326351" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesOfCapitalAssets" xlink:label="lbl_ProceedsFromSalesOfCapitalAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromSalesOfCapitalAssets" xlink:to="lbl_reference1187034262" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterestOnBonds" xlink:label="lbl_PaymentsForInterestOnBonds" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForInterestOnBonds" xlink:to="lbl_reference691150502" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RepaymentsOfBondPrincipal" xlink:label="lbl_RepaymentsOfBondPrincipal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RepaymentsOfBondPrincipal" xlink:to="lbl_reference1789481300" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCapitalContributions" xlink:label="lbl_ProceedsFromCapitalContributions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromCapitalContributions" xlink:to="lbl_reference903373486" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInsuranceRecovery" xlink:label="lbl_ProceedsFromInsuranceRecovery" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromInsuranceRecovery" xlink:to="lbl_reference1760905521" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:label="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashProvidedByUsedInCapitalAndRelatedFinancingActivities" xlink:to="lbl_reference1135706619" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:label="lbl_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromSalesAndMaturitiesOfInvestments" xlink:to="lbl_reference1440385020" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInterestOnInvestments" xlink:label="lbl_ProceedsFromInterestOnInvestments" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromInterestOnInvestments" xlink:to="lbl_reference530118144" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromPropertyTaxes" xlink:label="lbl_ProceedsFromPropertyTaxes" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromPropertyTaxes" xlink:to="lbl_reference715718263" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherFunds" xlink:label="lbl_ProceedsFromOtherFunds" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromOtherFunds" xlink:to="lbl_reference2635860" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromIntergovernmentalReceipts" xlink:label="lbl_ProceedsFromIntergovernmentalReceipts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromIntergovernmentalReceipts" xlink:to="lbl_reference1487454411" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTaxesRelatedToCapitalAssets" xlink:label="lbl_ProceedsFromTaxesRelatedToCapitalAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromTaxesRelatedToCapitalAssets" xlink:to="lbl_reference613344029" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForInterest" xlink:label="lbl_PaymentsForInterest" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForInterest" xlink:to="lbl_reference1036936602" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForIntergovernmentalTransfers" xlink:label="lbl_PaymentsForIntergovernmentalTransfers" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForIntergovernmentalTransfers" xlink:to="lbl_reference1955097771" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RepaymentsOfBondsAndNotes" xlink:label="lbl_RepaymentsOfBondsAndNotes" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RepaymentsOfBondsAndNotes" xlink:to="lbl_reference2058961693" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromTransfersInNonCapitalFinancing" xlink:label="lbl_ProceedsFromTransfersInNonCapitalFinancing" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromTransfersInNonCapitalFinancing" xlink:to="lbl_reference24051120" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForTransfersOutNonCapitalFinancing" xlink:label="lbl_PaymentsForTransfersOutNonCapitalFinancing" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForTransfersOutNonCapitalFinancing" xlink:to="lbl_reference1298419390" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToSuppliers" xlink:label="lbl_PaymentsToSuppliers" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsToSuppliers" xlink:to="lbl_reference153974703" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsToEmployees" xlink:label="lbl_PaymentsToEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsToEmployees" xlink:to="lbl_reference1567579698" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForGoodsAndServices" xlink:label="lbl_PaymentsForGoodsAndServices" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForGoodsAndServices" xlink:to="lbl_reference1856121302" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCustomers" xlink:label="lbl_ProceedsFromCustomers" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromCustomers" xlink:to="lbl_reference1173091766" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOperatingGrants" xlink:label="lbl_ProceedsFromOperatingGrants" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromOperatingGrants" xlink:to="lbl_reference658267108" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSalesAndServices" xlink:label="lbl_ProceedsFromSalesAndServices" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromSalesAndServices" xlink:to="lbl_reference1254366716" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:label="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashProvidedByUsedInNonCapitalFinancingActivities" xlink:to="lbl_reference1800793638" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromOtherOperatingActivities" xlink:label="lbl_ProceedsFromOtherOperatingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromOtherOperatingActivities" xlink:to="lbl_reference1030176134" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentsForOtherOperatingActivities" xlink:label="lbl_PaymentsForOtherOperatingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsForOtherOperatingActivities" xlink:to="lbl_reference1898575804" xlink:type="arc"/>
+      <link:reference id="id_1e7c9744" xlink:label="lbl_reference511481668" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>2450</ref:Section>
+         <ref:Paragraph>114a</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromInternalServicesProvided" xlink:label="lbl_ProceedsFromInternalServicesProvided" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromInternalServicesProvided" xlink:to="lbl_reference511481668" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenueNoncurrent" xlink:label="lbl_UnearnedRevenueNoncurrent" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnearnedRevenueNoncurrent" xlink:to="lbl_reference2065809367" xlink:type="arc"/>
+      <link:reference id="id_754ee978" xlink:label="lbl_reference1968105848" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>339</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenue" xlink:label="lbl_UnearnedRevenue" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnearnedRevenue" xlink:to="lbl_reference1968105848" xlink:type="arc"/>
+      <link:reference id="id_413b53a1" xlink:label="lbl_InternalTransfers_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>102(b)</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalTransfers" xlink:label="lbl_InternalTransfers" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InternalTransfers" xlink:to="lbl_InternalTransfers_references" xlink:type="arc"/>
+      <link:reference id="id_88ee1ff" xlink:label="lbl_InternalTransfers_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>998</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_23c2df38" xlink:label="lbl_reference599973688" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:Sentence>TypeOfProgramRevenuesAxis=ProgramRevenuesFromOperatingGrantsAndContributionsFederalGrantsMember</ref:Sentence>
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>516</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForHealthAndWelfare" xlink:label="lbl_RevenueForHealthAndWelfare" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_reference599973688" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForHealthAndWelfare" xlink:to="lbl_reference2085272401" xlink:type="arc"/>
+      <link:reference id="id_456b6028" xlink:label="lbl_reference1164664872" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>Pe5</ref:Section>
+         <ref:Paragraph>505</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:label="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:to="lbl_reference1164664872" xlink:type="arc"/>
+      <link:reference id="id_3b565fca" xlink:label="lbl_NetPensionLiabilityAsset_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>P20</ref:Section>
+         <ref:Paragraph>119</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_NetPensionLiabilityAsset_references" xlink:type="arc"/>
+      <link:reference id="id_690e1ac2" xlink:label="lbl_NetPensionLiabilityAsset_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>P20</ref:Section>
+         <ref:Paragraph>144a</ref:Paragraph>
+      </link:reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_reference2064615240" xlink:type="arc"/>
+      <link:reference id="id_7bb3543" xlink:label="lbl_reference129709379" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>P20</ref:Section>
+         <ref:Paragraph>144b(10)</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:to="lbl_reference129709379" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanInterestCost" xlink:label="lbl_PensionPlanInterestCost" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionPlanInterestCost" xlink:to="lbl_reference552806661" xlink:type="arc"/>
+      <link:reference id="id_370f462b" xlink:label="lbl_reference923747883" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>p50</ref:Section>
+         <ref:Paragraph>152b(10)</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:to="lbl_reference923747883" xlink:type="arc"/>
+      <link:reference id="id_38282888" xlink:label="lbl_reference942155912" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>401 - 449, Excludes 424, 432, 429, 430, 433, 434, 435, 437, 438</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PropertyTaxIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:label="lbl_PropertyTaxIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_reference942155912" xlink:type="arc"/>
+      <link:reference id="id_4f52ebe8" xlink:label="lbl_reference1330834408" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>543 - 545, 547, 570</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsAllPublicSafetyActivities" xlink:label="lbl_StateGrantsAllPublicSafetyActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_reference1330834408" xlink:type="arc"/>
+      <link:reference id="id_54291185" xlink:label="lbl_reference1411977605" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsGeneralGovernment" xlink:label="lbl_ContributionsFromLocalUnitsGeneralGovernment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsGeneralGovernment" xlink:to="lbl_reference1411977605" xlink:type="arc"/>
+      <link:reference id="id_115c3a0b" xlink:label="lbl_reference291256843" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsPublicSafety" xlink:label="lbl_ContributionsFromLocalUnitsPublicSafety" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsPublicSafety" xlink:to="lbl_reference291256843" xlink:type="arc"/>
+      <link:reference id="id_861d1da" xlink:label="lbl_reference140628442" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsStreetsAndHighways" xlink:label="lbl_ContributionsFromLocalUnitsStreetsAndHighways" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsStreetsAndHighways" xlink:to="lbl_reference140628442" xlink:type="arc"/>
+      <link:reference id="id_10ca0c82" xlink:label="lbl_reference281676930" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsSanitation" xlink:label="lbl_ContributionsFromLocalUnitsSanitation" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsSanitation" xlink:to="lbl_reference281676930" xlink:type="arc"/>
+      <link:reference id="id_489b23c9" xlink:label="lbl_reference1218126793" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsHealthAndHospitals" xlink:label="lbl_ContributionsFromLocalUnitsHealthAndHospitals" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsHealthAndHospitals" xlink:to="lbl_reference1218126793" xlink:type="arc"/>
+      <link:reference id="id_70dbada1" xlink:label="lbl_reference1893445025" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsWelfare" xlink:label="lbl_ContributionsFromLocalUnitsWelfare" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsWelfare" xlink:to="lbl_reference1893445025" xlink:type="arc"/>
+      <link:reference id="id_78885078" xlink:label="lbl_reference2022199416" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsCultureAndRecreation" xlink:label="lbl_ContributionsFromLocalUnitsCultureAndRecreation" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsCultureAndRecreation" xlink:to="lbl_reference2022199416" xlink:type="arc"/>
+      <link:reference id="id_29ac5c5b" xlink:label="lbl_reference699161691" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:label="lbl_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:to="lbl_reference699161691" xlink:type="arc"/>
+      <link:reference id="id_681f1b60" xlink:label="lbl_reference1746869088" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:label="lbl_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:to="lbl_reference1746869088" xlink:type="arc"/>
+      <link:reference id="id_3553e190" xlink:label="lbl_reference894689680" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsTransit" xlink:label="lbl_ContributionsFromLocalUnitsTransit" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsTransit" xlink:to="lbl_reference894689680" xlink:type="arc"/>
+      <link:reference id="id_3539bccd" xlink:label="lbl_reference892976333" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>581 - 599</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsAllOther" xlink:label="lbl_ContributionsFromLocalUnitsAllOther" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsFromLocalUnitsAllOther" xlink:to="lbl_reference892976333" xlink:type="arc"/>
+      <link:reference id="id_4969e8ab" xlink:label="lbl_reference1231677611" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>665 - 666</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterestAndDividends" xlink:label="lbl_RevenueFromInterestAndDividends" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromInterestAndDividends" xlink:to="lbl_reference1231677611" xlink:type="arc"/>
+      <link:reference id="id_1ea1ba51" xlink:label="lbl_reference513915473" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>667 - 668</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRentsAndRoyalties" xlink:label="lbl_RevenueFromRentsAndRoyalties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_reference513915473" xlink:type="arc"/>
+      <link:reference id="id_549da650" xlink:label="lbl_reference1419617872" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAActivityNumber>596</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksTransportationServices" xlink:label="lbl_ExpensesForPublicWorksTransportationServices" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksTransportationServices" xlink:to="lbl_reference1419617872" xlink:type="arc"/>
    </referenceLink>
 </linkbase>
