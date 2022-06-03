@@ -20,9 +20,15 @@
          <xs:documentation xml:lang="en">note</xs:documentation>
       </xs:annotation>
    </xs:element>
-      <xs:element abstract="false" id="MIUCAAccountNumber" name="MIUCAAccountNumber" nillable="false" substitutionGroup="link:part" type="xs:token">
+   <xs:element abstract="false" id="MIUCAAccountNumber" name="MIUCAAccountNumber" nillable="false" substitutionGroup="link:part" type="xs:token">
       <xs:annotation>
          <xs:documentation xml:lang="en">Michigan UCA Account Number</xs:documentation>
       </xs:annotation>
    </xs:element>
+    <xs:element abstract="false" id="MIUCAControlAccountFlag" name="MIUCAControlAccountFlag" nillable="false" substitutionGroup="link:part" type="xs:boolean">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">Michigan UCA Account Number</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
 </xs:schema>
