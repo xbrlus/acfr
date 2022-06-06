@@ -354,8 +354,6 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DueFromOtherFundsModifiedAccrual" xlink:to="lbl_reference144257744" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AccountsReceivableModifiedAccrual" xlink:label="lbl_AccountsReceivableModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AccountsReceivableModifiedAccrual" xlink:to="lbl_reference1336114035" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherFundsModifiedAccrual" xlink:label="lbl_AdvancesToOtherFundsModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherFundsModifiedAccrual" xlink:to="lbl_reference529527982" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueFromOtherGovernmentModifiedAccrual" xlink:label="lbl_DueFromOtherGovernmentModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DueFromOtherGovernmentModifiedAccrual" xlink:to="lbl_reference1871562519" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionAssetModifiedAccrual" xlink:label="lbl_NetPensionAssetModifiedAccrual" xlink:type="locator"/>
@@ -2477,12 +2475,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherFunds" xlink:label="lbl_AdvancesToOtherFunds" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherFunds" xlink:to="lbl_reference969678004" xlink:type="arc"/>
-      <link:reference id="id_78b95161" xlink:label="lbl_reference2025410913" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>194</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherGovernments" xlink:label="lbl_AdvancesToOtherGovernments" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherGovernments" xlink:to="lbl_reference2025410913" xlink:type="arc"/>
       <link:reference id="id_7229a25b" xlink:label="lbl_DeferredOutflowsOfResources_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>195</acfr-part:MIUCAAccountNumber>
@@ -4433,12 +4425,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesReceivableModifiedAccrual" xlink:label="lbl_NotesReceivableModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NotesReceivableModifiedAccrual" xlink:to="lbl_reference1448467241" xlink:type="arc"/>
-      <link:reference id="id_1c9329db" xlink:label="lbl_reference479406555" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>62</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesReceivableModifiedAccrual" xlink:label="lbl_LeasesReceivableModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LeasesReceivableModifiedAccrual" xlink:to="lbl_reference479406555" xlink:type="arc"/>
       <link:reference id="id_e732d6e" xlink:label="lbl_reference242429294" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>64</acfr-part:MIUCAAccountNumber>
@@ -4617,16 +4603,6 @@
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>190</acfr-part:MIUCAAccountNumber>
       </link:reference>
-      <link:reference id="id_1f8ff4ae" xlink:label="lbl_reference529527982" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>193</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:reference id="id_43d327d5" xlink:label="lbl_reference1137911765" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>194</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherGovernmentsModifiedAccrual" xlink:label="lbl_AdvancesToOtherGovernmentsModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherGovernmentsModifiedAccrual" xlink:to="lbl_reference1137911765" xlink:type="arc"/>
       <link:reference id="id_12d17ad" xlink:label="lbl_reference19732397" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>195</acfr-part:MIUCAAccountNumber>
@@ -4663,18 +4639,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ClaimsAndJudgmentsPayableModifiedAccrual" xlink:label="lbl_ClaimsAndJudgmentsPayableModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ClaimsAndJudgmentsPayableModifiedAccrual" xlink:to="lbl_reference1416882494" xlink:type="arc"/>
-      <link:reference id="id_78b0434b" xlink:label="lbl_reference2024817483" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>208</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesPayableModifiedAccrual" xlink:label="lbl_LeasesPayableModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LeasesPayableModifiedAccrual" xlink:to="lbl_reference2024817483" xlink:type="arc"/>
-      <link:reference id="id_6bc6f9e6" xlink:label="lbl_reference1808202214" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>207</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableModifiedAccrual" xlink:label="lbl_NotesPayableModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NotesPayableModifiedAccrual" xlink:to="lbl_reference1808202214" xlink:type="arc"/>
       <link:reference id="id_6c8194ce" xlink:label="lbl_reference1820431566" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>211</acfr-part:MIUCAAccountNumber>
@@ -8536,5 +8500,35 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterestAndRent" xlink:label="lbl_RevenueFromInterestAndRent" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromInterestAndRent" xlink:to="lbl_reference550695035" xlink:type="arc"/>
+      <link:reference id="id_166bc2d0" xlink:label="lbl_reference376160976" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>62</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesReceivableDueWithinOneYearModifiedAccrual" xlink:label="lbl_LeasesReceivableDueWithinOneYearModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LeasesReceivableDueWithinOneYearModifiedAccrual" xlink:to="lbl_reference376160976" xlink:type="arc"/>
+      <link:reference id="id_d453640" xlink:label="lbl_reference222639680" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>193</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:label="lbl_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:to="lbl_reference222639680" xlink:type="arc"/>
+      <link:reference id="id_3d221b43" xlink:label="lbl_reference1025645379" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>194</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:label="lbl_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:to="lbl_reference1025645379" xlink:type="arc"/>
+      <link:reference id="id_4a3dffed" xlink:label="lbl_reference1245577197" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>45</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:label="lbl_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:to="lbl_reference1245577197" xlink:type="arc"/>
+      <link:reference id="id_2cfb23df" xlink:label="lbl_reference754656223" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>207</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableDueWithinOneYearModifiedAccrual" xlink:label="lbl_NotesPayableDueWithinOneYearModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NotesPayableDueWithinOneYearModifiedAccrual" xlink:to="lbl_reference754656223" xlink:type="arc"/>
    </referenceLink>
 </linkbase>

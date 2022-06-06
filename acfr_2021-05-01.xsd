@@ -139,7 +139,7 @@
             <link:usedOn>link:definitionLink</link:usedOn>
          </link:roleType>
             <link:roleType id="roleType_GovFundsBalance" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundsBalance">
-            <link:definition>300000 - Statement - Governmental Funds Balance Sheet, Other Funds</link:definition>
+            <link:definition>300000 - Statement - Governmental Funds Balance Sheet, Other Funds (Unclassified)</link:definition>
             <link:usedOn>link:calculationLink</link:usedOn>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
@@ -196,7 +196,7 @@
             <link:usedOn>link:definitionLink</link:usedOn>
          </link:roleType>
             <link:roleType id="roleType_GovFundsBalanceSheetTotals" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundsBalanceSheetTotals">
-            <link:definition>300690 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals</link:definition>
+            <link:definition>300690 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Unclassified)</link:definition>
             <link:usedOn>link:presentationLink</link:usedOn>
             <link:usedOn>link:definitionLink</link:usedOn>
          </link:roleType>
@@ -752,6 +752,7 @@
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="formF65MIComponentStatementOfOperations" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIComponentStatementOfOperations">
             <definition xmlns="http://www.xbrl.org/2003/linkbase">805050 - Annual Form F65 MI - Component Unit - Statement of Operations</definition>
+            <link:usedOn>link:calculationLink</link:usedOn>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="pFCashBusinessReconciliation" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PFCashBusinessReconciliation">
@@ -760,6 +761,14 @@
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="pFCashActivitiesReconciliation" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PFCashActivitiesReconciliation">
             <definition xmlns="http://www.xbrl.org/2003/linkbase">704100 - Statement - Proprietary Funds Cash Flow - Type of Activities - Reconciliation</definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType><link:roleType id="govFundsBalanceClassified" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceClassified">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">3000001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType><link:roleType id="govFundsBalanceSheetTotalsClassified" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceSheetTotalsClassified">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">300691 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Classified)</definition>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType></xs:appinfo>
@@ -3902,4 +3911,43 @@
    <xs:element abstract="false" id="acfr_NoncashChangeNetOPEBLiability" name="NoncashChangeNetOPEBLiability" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_NonCashTransactionsAbstract" name="NonCashTransactionsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_NoncashTransactions" name="NoncashTransactions" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_SpecialAssessmentTaxesReceivableNoncurrentModifiedAccrual" name="SpecialAssessmentTaxesReceivableNoncurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AllowanceForSpecialAssessmentTaxesNoncurrentModifiedAccrual" name="AllowanceForSpecialAssessmentTaxesNoncurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_SpecialAssessmentTaxesReceivableNoncurrentNetOfAllowanceModifiedAccrual" name="SpecialAssessmentTaxesReceivableNoncurrentNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_SpecialAssessmentTaxesReceivableNoncurrentAbstract" name="SpecialAssessmentTaxesReceivableNoncurrentAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_LoansAndNotesReceivableDueWithinOneYearModifiedAccrual" name="LoansAndNotesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AllowanceForLoansAndNotesReceivableDueWithinOneYearModifiedAccrual" name="AllowanceForLoansAndNotesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansAndNotesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" name="LoansAndNotesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_LoansAndNotesReceivableNoncurrentAbstract" name="LoansAndNotesReceivableNoncurrentAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_LoansAndNotesReceivableDueInMoreThanOneYearModifiedAccrual" name="LoansAndNotesReceivableDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AllowanceForLoansAndNotesReceivableDueInMoreThanOneYearModifiedAccrual" name="AllowanceForLoansAndNotesReceivableDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansAndNotesReceivableDueInMoreThanOneYearNetOfAllowanceModifiedAccrual" name="LoansAndNotesReceivableDueInMoreThanOneYearNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LeasesReceivableDueWithinOneYearModifiedAccrual" name="LeasesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AllowanceForLeasesReceivableDueWithinOneYearModifiedAccrual" name="AllowanceForLeasesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LeasesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" name="LeasesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableDueWithinOneYearModifiedAccrual" name="LoansReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableAllowanceDueWithinOneYearModifiedAccrual" name="LoansReceivableAllowanceDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableNetOfAllowanceDueWithinOneYearModifiedAccrual" name="LoansReceivableNetOfAllowanceDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_LoansReceivableNoncurrentAbstract" name="LoansReceivableNoncurrentAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableDueInMoreThanOneYearModifiedAccrual" name="LoansReceivableDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableAllowanceDueInMoreThanOneYearModifiedAccrual" name="LoansReceivableAllowanceDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LoansReceivableNetOfAllowanceDueInMoreThanOneYearModifiedAccrual" name="LoansReceivableNetOfAllowanceDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_NotesReceivableNoncurrentAbstract" name="NotesReceivableNoncurrentAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableDueWithinOneYearModifiedAccrual" name="NotesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableAllowanceDueWithinOneYearModifiedAccrual" name="NotesReceivableAllowanceDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableNetOfAllowanceDueWithinOneYearModifiedAccrual" name="NotesReceivableNetOfAllowanceDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableDueInMoreThanOneYearModifiedAccrual" name="NotesReceivableDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableAllowanceDueInMoreThanOneYearModifiedAccrual" name="NotesReceivableAllowanceDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesReceivableNetOfAllowanceDueInMoreThanOneYearModifiedAccrual" name="NotesReceivableNetOfAllowanceDueInMoreThanOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToOtherFundsCurrentModifiedAccrual" name="AdvancesToOtherFundsCurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToOtherFundsNoncurrentModifiedAccrual" name="AdvancesToOtherFundsNoncurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToOtherGovernmentsCurrentModifiedAccrual" name="AdvancesToOtherGovernmentsCurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" name="AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToComponentUnitNoncurrentModifiedAccrual" name="AdvancesToComponentUnitNoncurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdvancesToComponentUnitCurrentModifiedAccrual" name="AdvancesToComponentUnitCurrentModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_SpecialAssessmentTaxesReceivableCurrentAbstract" name="SpecialAssessmentTaxesReceivableCurrentAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" name="SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AllowanceForSpecialAssessmentTaxesDueWithinOneYearModifiedAccrual" name="AllowanceForSpecialAssessmentTaxesDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_SpecialAssessmentTaxesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" name="SpecialAssessmentTaxesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NotesPayableDueWithinOneYearModifiedAccrual" name="NotesPayableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
 </xs:schema>
