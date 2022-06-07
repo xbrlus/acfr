@@ -764,7 +764,8 @@
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="govFundsBalanceClassified" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceClassified">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">3000001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</definition>
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">300001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</definition>
+            <link:usedOn>link:calculationLink</link:usedOn>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="govFundsBalanceSheetTotalsClassified" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceSheetTotalsClassified">
@@ -2507,7 +2508,6 @@
    <xs:element abstract="true" id="acfr_FormF65MichiganTable" name="FormF65MichiganTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_IssuerAxis" name="IssuerAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_IssuerAxis.domain" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_IssuerAxis.domain" name="IssuerAxis.domain" nillable="false" type="xs:string"/>
-   <xs:element abstract="true" id="acfr_DerivativesLineItems" name="DerivativesLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_AmountsPaidToOtherGovernmentsCorrections" name="AmountsPaidToOtherGovernmentsCorrections" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_AmountsPaidToOtherGovernmentsLocalSchools" name="AmountsPaidToOtherGovernmentsLocalSchools" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_AmountsPaidToOtherGovernmentsFinancialAdministration" name="AmountsPaidToOtherGovernmentsFinancialAdministration" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
@@ -2659,7 +2659,7 @@
          </xs:restriction>
       </xs:simpleContent>
    </xs:complexType>
-   <xs:element abstract="false" id="acfr_LocalGovernmentPaidTheNormalCostForEmployeesHiredAfterJune302018" name="LocalGovernmentPaidTheNormalCostForEmployeesHiredAfterJune302018" nillable="true" substitutionGroup="xbrli:item" type="acfr:NormalCostForEmployeesItemType" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_LocalGovernmentPaidTheNormalCostForEmployeesHiredAfterJune302018" name="LocalGovernmentPaidTheNormalCostForEmployeesHiredAfterJune302018" nillable="true" substitutionGroup="xbrli:item" type="acfr:NormalCostForEmployeesItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_PensionPlanInformationAbstract" name="PensionPlanInformationAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_DefinedBenefitPensionPlansAuditedFlag" name="DefinedBenefitPensionPlansAuditedFlag" nillable="true" substitutionGroup="xbrli:item" type="xbrli:booleanItemType" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_OPEBAnnualRequiredContribution" name="OPEBAnnualRequiredContribution" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
@@ -3204,7 +3204,6 @@
    <xs:element abstract="false" id="acfr_DeferredInflowsOfResourcesDrainFundModifiedAccrual" name="DeferredInflowsOfResourcesDrainFundModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_RedemptionsAndReconveyance" name="RedemptionsAndReconveyance" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromCommercialForestReserve" name="RevenueFromCommercialForestReserve" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" name="RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromCountyExpenseOfSale" name="RevenueFromCountyExpenseOfSale" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromAccomodationsTax" name="RevenueFromAccomodationsTax" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromCommunityWideSpecialAssessments" name="RevenueFromCommunityWideSpecialAssessments" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
@@ -3418,8 +3417,6 @@
    <xs:element abstract="false" id="acfr_ExpendituresForCorrectionsTrainingModifiedAccrual" name="ExpendituresForCorrectionsTrainingModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_Dup_1_InvestmentsHeldByThirdPartiesModifiedAccrual" name="Dup_1_InvestmentsHeldByThirdPartiesModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
    <xs:element abstract="true" id="acfr_InterestAndPenaltiesReceivableAbstract" name="InterestAndPenaltiesReceivableAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" name="CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" name="SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_DepreciationDepletionAndAmortizationExpenseModifiedAccrual" name="DepreciationDepletionAndAmortizationExpenseModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ExpendituresForProfessionalAndContractualServicesModifiedAccrual" name="ExpendituresForProfessionalAndContractualServicesModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ExpendituresForHospitalizationModifiedAccrual" name="ExpendituresForHospitalizationModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
@@ -3784,11 +3781,6 @@
    <xs:element abstract="true" id="acfr_AccruedWagesAndRelatedLiabilitiesPayableAbstract" name="AccruedWagesAndRelatedLiabilitiesPayableAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ExpensesForAllOtherPublicWorks" name="ExpensesForAllOtherPublicWorks" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_DefinedBenefitPlanAxis" name="DefinedBenefitPlanAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_GeneralEmployeesDefinedBenefitPlanMember" name="GeneralEmployeesDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_PoliceDefinedBenefitPlanMember" name="PoliceDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_FireDefinedBenefitPlanMember" name="FireDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_PoliceAndFireOrPublicSafetyDefinedBenefitPlanMember" name="PoliceAndFireOrPublicSafetyDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_OtherDefinedBenefitPlanMember" name="OtherDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_LeaseInvestmentIncome" name="LeaseInvestmentIncome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ChargesForServicesCourtRelatedCharges" name="ChargesForServicesCourtRelatedCharges" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ChargesForServicesFees" name="ChargesForServicesFees" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
@@ -3950,4 +3942,16 @@
    <xs:element abstract="false" id="acfr_AllowanceForSpecialAssessmentTaxesDueWithinOneYearModifiedAccrual" name="AllowanceForSpecialAssessmentTaxesDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_SpecialAssessmentTaxesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" name="SpecialAssessmentTaxesReceivableDueWithinOneYearNetOfAllowanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_NotesPayableDueWithinOneYearModifiedAccrual" name="NotesPayableDueWithinOneYearModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AssumedInvestmentRateOfReturnOnPensionAssetsNetOfInvestmentAndAdministrativeExpense" name="AssumedInvestmentRateOfReturnOnPensionAssetsNetOfInvestmentAndAdministrativeExpense" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_GeneralEmployeesDefinedBenefitPlanMember" name="GeneralEmployeesDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_PoliceDefinedBenefitPlanMember" name="PoliceDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_FireDefinedBenefitPlanMember" name="FireDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_OtherDefinedBenefitPlanMember" name="OtherDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_PoliceAndFireOrPublicSafetyDefinedBenefitPlanMember" name="PoliceAndFireOrPublicSafetyDefinedBenefitPlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_NoncurrentAssetsModifiedAccrual" name="NoncurrentAssetsModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_NoncurrentLiabilitiesModifiedAccrual" name="NoncurrentLiabilitiesModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_DerivativesLineItems" name="DerivativesLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_RevenueFromSubMarginalLandAct" name="RevenueFromSubMarginalLandAct" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_CommercialForestReserveModifiedAccrual" name="CommercialForestReserveModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_SubMarginalLandActModifiedAccrual" name="SubMarginalLandActModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
 </xs:schema>

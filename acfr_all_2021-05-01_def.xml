@@ -2437,8 +2437,7 @@
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCountyExpenseOfSale" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommercialForestReserve" xlink:label="lbl_RevenueFromCommercialForestReserve" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCommercialForestReserve" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:label="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxRevertedProperty" xlink:label="lbl_RevenueFromTaxRevertedProperty" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromTaxRevertedProperty" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentInLieuOfTaxes" xlink:label="lbl_PaymentInLieuOfTaxes" xlink:type="locator"/>
@@ -2588,6 +2587,7 @@
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRent" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRoyalties" xlink:type="arc"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsAndRoyalties" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/ActivitiesOtherProgramUsingRevenues" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfActivitiesLineItems" xlink:label="acfr_StatementOfActivitiesLineItems" xlink:type="locator"/>
@@ -5219,10 +5219,8 @@
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RedemptionsAndReconveyanceModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:label="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrual" xlink:type="arc"/>
+      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:label="lbl_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentInLieuOfTaxesModifiedAccrual" xlink:label="lbl_PaymentInLieuOfTaxesModifiedAccrual" xlink:type="locator"/>
@@ -5947,6 +5945,8 @@
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenuesFromRoyaltiesModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsAndRoyaltiesModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundRevenuessOtherRevenues" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract" xlink:label="acfr_GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract" xlink:type="locator"/>
@@ -6072,10 +6072,8 @@
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RedemptionsAndReconveyanceModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:label="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrual" xlink:type="arc"/>
+      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:label="lbl_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromTaxRevertedPropertyModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentInLieuOfTaxesModifiedAccrual" xlink:label="lbl_PaymentInLieuOfTaxesModifiedAccrual" xlink:type="locator"/>
@@ -6805,6 +6803,8 @@
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenuesFromRoyaltiesModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsAndRoyaltiesModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundRevenuessExpendituresOtherRevenuesTotals" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_GovernmentalFundsAxis" xlink:label="acfr_GovernmentalFundsAxis" xlink:type="locator"/>
@@ -9539,6 +9539,10 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsHeldForSaleNoncurrent" xlink:label="lbl_AssetsHeldForSaleNoncurrent" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RightToUseAsset" xlink:label="lbl_RightToUseAsset" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_IntangibleAssetsBeforeAmortizationAbstract" xlink:to="lbl_RightToUseAsset" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AccruedLiabilitiesNoncurrent" xlink:label="lbl_AccruedLiabilitiesNoncurrent" xlink:type="locator"/>
+      <link:definitionArc order="1.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCurrentLiabilitiesAbstract" xlink:to="lbl_AccruedLiabilitiesNoncurrent" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LandContractsPayable" xlink:label="lbl_LandContractsPayable" xlink:type="locator"/>
+      <link:definitionArc order="1.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_CurrentPortionOfLongTermLiabilitiesAbstract" xlink:to="lbl_LandContractsPayable" xlink:type="arc"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsStatementOfNetPositionLineItems" xlink:label="acfr_ProprietaryFundsStatementOfNetPositionLineItems" xlink:type="locator"/>
@@ -10002,8 +10006,6 @@
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCountyExpenseOfSale" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommercialForestReserve" xlink:label="lbl_RevenueFromCommercialForestReserve" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCommercialForestReserve" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:label="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxRevertedProperty" xlink:label="lbl_RevenueFromTaxRevertedProperty" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromTaxRevertedProperty" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentInLieuOfTaxes" xlink:label="lbl_PaymentInLieuOfTaxes" xlink:type="locator"/>
@@ -10020,7 +10022,6 @@
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RedemptionsAndReconveyance" xlink:type="arc"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromCountyExpenseOfSale" xlink:type="arc"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromCommercialForestReserve" xlink:type="arc"/>
-      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromTaxRevertedProperty" xlink:type="arc"/>
       <link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_PaymentInLieuOfTaxes" xlink:type="arc"/>
       <link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromPropertyTaxAdministrationFee" xlink:type="arc"/>
@@ -10321,6 +10322,9 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CostOfMaterialsAndServicesRendered" xlink:label="lbl_CostOfMaterialsAndServicesRendered" xlink:type="locator"/>
       <link:definitionArc order="25.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OperatingExpensesAbstract" xlink:to="lbl_CostOfMaterialsAndServicesRendered" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalServiceFundsMember" xlink:label="lbl_InternalServiceFundsMember" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxesAndTaxRelatedRevenues" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsRevenuesExpensesLineItems" xlink:label="acfr_ProprietaryFundsRevenuesExpensesLineItems" xlink:type="locator"/>
@@ -10697,8 +10701,7 @@
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCountyExpenseOfSale" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommercialForestReserve" xlink:label="lbl_RevenueFromCommercialForestReserve" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromCommercialForestReserve" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:label="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromTaxRevertedProperty" xlink:label="lbl_RevenueFromTaxRevertedProperty" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenuesAbstract" xlink:to="lbl_RevenueFromTaxRevertedProperty" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PaymentInLieuOfTaxes" xlink:label="lbl_PaymentInLieuOfTaxes" xlink:type="locator"/>
@@ -10969,6 +10972,7 @@
       <link:definitionArc order="21.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OperatingExpensesAbstract" xlink:to="lbl_ExpensesForEquipmentAndEquipmentRental" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CostOfMaterialsAndServicesRendered" xlink:label="lbl_CostOfMaterialsAndServicesRendered" xlink:type="locator"/>
       <link:definitionArc order="25.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OperatingExpensesAbstract" xlink:to="lbl_CostOfMaterialsAndServicesRendered" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/PFRevenuesExpensesBusinessOperatingRevenues" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsRevenuesExpensesLineItems" xlink:label="acfr_ProprietaryFundsRevenuesExpensesLineItems" xlink:type="locator"/>
@@ -11613,6 +11617,8 @@
       <link:definitionArc order="6.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="acfr_PensionPlansLineItems" xlink:to="lbl_PensionPlanAmortizationMethod" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:label="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:type="locator"/>
       <link:definitionArc order="6.6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="acfr_PensionPlansLineItems" xlink:to="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssumedInvestmentRateOfReturnOnPensionAssetsNetOfInvestmentAndAdministrativeExpense" xlink:label="lbl_AssumedInvestmentRateOfReturnOnPensionAssetsNetOfInvestmentAndAdministrativeExpense" xlink:type="locator"/>
+      <link:definitionArc order="8.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PlanActuarialAssumptionsAbstract" xlink:to="lbl_AssumedInvestmentRateOfReturnOnPensionAssetsNetOfInvestmentAndAdministrativeExpense" xlink:type="arc"/>
    </definitionLink>
    <definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/OPEB" xlink:type="extended">
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBAbstract" xlink:label="acfr_OPEBAbstract" xlink:type="locator"/>
@@ -11988,12 +11994,10 @@
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ClaimsAndJudgmentsPayableAbstract" xlink:to="lbl_ClaimsAndJudgmentsPayablePrincipalDueWithinOneYear" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:label="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="locator"/>
       <link:definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="arc"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="lbl_NoncurrentLiabilities" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="lbl_AdditionsToLongTermDebt" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromNoncurrentLiabilities" xlink:label="lbl_ReductionsFromNoncurrentLiabilities" xlink:type="locator"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="lbl_ReductionsFromNoncurrentLiabilities" xlink:type="arc"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="lbl_LongTermDebtPrincipalDueWithinOneYear" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableDueWithinOneYear" xlink:label="lbl_NotesPayableDueWithinOneYear" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LoansPayableDueWithinOneYear" xlink:label="lbl_LoansPayableDueWithinOneYear" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesPayableDueWithinOneYear" xlink:label="lbl_LeasesPayableDueWithinOneYear" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ClaimsAndJudgmentsPayable" xlink:label="lbl_ClaimsAndJudgmentsPayable" xlink:type="locator"/>
@@ -12005,7 +12009,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:label="lbl_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="lbl_LongTermDebtFootnoteTable" xlink:to="lbl_TypeOfGovernmentUnitAxis" xlink:type="arc"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="lbl_TypeOfGovernmentUnitAxis" xlink:to="lbl_ConsolidatedActivitiesDomain" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilities" xlink:label="lbl_NoncurrentLiabilities" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GeneralObligationBondsRollForward" xlink:label="lbl_GeneralObligationBondsRollForward" xlink:type="locator"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_GeneralObligationBondsRollForward" xlink:type="arc"/>
@@ -12021,10 +12024,65 @@
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenueBondsRollForward" xlink:to="lbl_RevenueBondsPrincipalDueWithinOneYear" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableRollForward" xlink:label="lbl_NotesPayableRollForward" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_NotesPayableRollForward" xlink:type="arc"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward" xlink:to="lbl_NotesPayableDueWithinOneYear" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward" xlink:to="lbl_AdditionsToNotesPayable" xlink:type="arc"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward" xlink:to="lbl_ReductionsFromNotesPayable" xlink:type="arc"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward" xlink:to="lbl_NotesPayablePrincipalDueWithinOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnlimitedTaxBondsRollForward" xlink:label="lbl_UnlimitedTaxBondsRollForward" xlink:type="locator"/>
+      <link:definitionArc order="4.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_UnlimitedTaxBondsRollForward" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnlimitedTaxRollForward" xlink:label="lbl_UnlimitedTaxRollForward" xlink:type="locator"/>
+      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnlimitedTaxBondsRollForward" xlink:to="lbl_UnlimitedTaxRollForward" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionsToUnlimitedTaxBonds" xlink:label="lbl_AdditionsToUnlimitedTaxBonds" xlink:type="locator"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnlimitedTaxBondsRollForward" xlink:to="lbl_AdditionsToUnlimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromUnlimitedTaxBonds" xlink:label="lbl_ReductionsFromUnlimitedTaxBonds" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnlimitedTaxBondsRollForward" xlink:to="lbl_ReductionsFromUnlimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:label="lbl_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
+      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnlimitedTaxBondsRollForward" xlink:to="lbl_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LimitedTaxBondsRollForward" xlink:label="lbl_LimitedTaxBondsRollForward" xlink:type="locator"/>
+      <link:definitionArc order="4.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_LimitedTaxBondsRollForward" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LimitedTaxBonds" xlink:label="lbl_LimitedTaxBonds" xlink:type="locator"/>
+      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LimitedTaxBondsRollForward" xlink:to="lbl_LimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionsToLimitedTaxBonds" xlink:label="lbl_AdditionsToLimitedTaxBonds" xlink:type="locator"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LimitedTaxBondsRollForward" xlink:to="lbl_AdditionsToLimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromLimitedTaxBonds" xlink:label="lbl_ReductionsFromLimitedTaxBonds" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LimitedTaxBondsRollForward" xlink:to="lbl_ReductionsFromLimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:label="lbl_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
+      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LimitedTaxBondsRollForward" xlink:to="lbl_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableDueInMoreThanOneYear" xlink:label="lbl_NotesPayableDueInMoreThanOneYear" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward" xlink:to="lbl_NotesPayableDueInMoreThanOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:label="lbl_UnamortizedPremiumOnBondsAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnamortizedPremiumOnBondsAbstract1" xlink:to="lbl_UnamortizedPremiumOnBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GeneralObligationBondsRollForward" xlink:label="lbl_GeneralObligationBondsRollForward1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_GeneralObligationBondsRollForward1" xlink:to="lbl_GeneralObligationBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesAbstract" xlink:label="lbl_LeasesAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LeasesAbstract1" xlink:to="lbl_LeasesPayableDueWithinOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueBondsRollForward" xlink:label="lbl_RevenueBondsRollForward1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenueBondsRollForward1" xlink:to="lbl_RevenueBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnlimitedTaxBondsRollForward" xlink:label="lbl_UnlimitedTaxBondsRollForward1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_UnlimitedTaxBondsRollForward1" xlink:to="lbl_UnlimitedTaxRollForward" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LimitedTaxBondsRollForward" xlink:label="lbl_LimitedTaxBondsRollForward1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LimitedTaxBondsRollForward1" xlink:to="lbl_LimitedTaxBonds" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:label="lbl_IntergovernmentalAgreementPayableAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_IntergovernmentalAgreementPayableAbstract1" xlink:to="lbl_IntergovernmentalAgreementPayable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LoansPayableAbstract" xlink:label="lbl_LoansPayableAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LoansPayableAbstract1" xlink:to="lbl_LoansPayableDueWithinOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CompensatedAbsencesAbstract" xlink:label="lbl_CompensatedAbsencesAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_CompensatedAbsencesAbstract1" xlink:to="lbl_CompensatedAbsencesPayableNonCurrent" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:label="lbl_PollutionRemediationObligationsAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PollutionRemediationObligationsAbstract1" xlink:to="lbl_PollutionRemediationObligation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetRetirementObligationsAbstract" xlink:label="lbl_AssetRetirementObligationsAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetRetirementObligationsAbstract1" xlink:to="lbl_AssetRetirementObligations" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAbstract" xlink:label="lbl_NetPensionLiabilityAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NetPensionLiabilityAbstract1" xlink:to="lbl_NetPensionLiabilityAsset" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetOPEBLiabilityAbstract" xlink:label="lbl_NetOPEBLiabilityAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NetOPEBLiabilityAbstract1" xlink:to="lbl_NetOPEBLiability" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:label="lbl_ClaimsAndJudgmentsPayableAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ClaimsAndJudgmentsPayableAbstract1" xlink:to="lbl_ClaimsAndJudgmentsPayable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtDueInMoreThanOneYear" xlink:label="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NotesPayableRollForward" xlink:label="lbl_NotesPayableRollForward1" xlink:type="locator"/>
+      <link:definitionArc order="0.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NotesPayableRollForward1" xlink:to="lbl_NotesPayableDueInMoreThanOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:label="lbl_LongTermDebtNonCurrentLiabilitiesAbstract1" xlink:type="locator"/>
+      <link:definitionArc order="0.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtNonCurrentLiabilitiesAbstract1" xlink:to="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtGeneralObligationBonds" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtFootnoteTable" xlink:label="lbl_LongTermDebtFootnoteTable" xlink:type="locator"/>
@@ -12212,7 +12270,6 @@
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="lbl_LongTermDebtFootnoteTable" xlink:to="lbl_NameOfLongTermDebtOtherLongTermObligationsAxis" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:label="lbl_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
       <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_LongTermDebtFootnoteTable" xlink:type="arc"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_NoncurrentLiabilities" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_AdditionsToLongTermDebt" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromNoncurrentLiabilities" xlink:label="lbl_ReductionsFromNoncurrentLiabilities" xlink:type="locator"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_ReductionsFromNoncurrentLiabilities" xlink:type="arc"/>
@@ -12224,7 +12281,10 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:label="lbl_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="lbl_LongTermDebtFootnoteTable" xlink:to="lbl_TypeOfGovernmentUnitAxis" xlink:type="arc"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="lbl_TypeOfGovernmentUnitAxis" xlink:to="lbl_ConsolidatedActivitiesDomain" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilities" xlink:label="lbl_NoncurrentLiabilities" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtDueInMoreThanOneYear" xlink:label="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="locator"/>
+      <link:definitionArc order="3.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems" xlink:to="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:label="lbl_LongTermDebtFootnoteLineItems1" xlink:type="locator"/>
+      <link:definitionArc order="1.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LongTermDebtFootnoteLineItems1" xlink:to="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtNotes" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtFootnoteTable" xlink:label="lbl_LongTermDebtFootnoteTable" xlink:type="locator"/>
@@ -14780,10 +14840,8 @@
       <link:definitionArc order="655.0" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_LeasesPayableCurrentModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExcessDeficiencyOfRevenuesOverUnderExpenditures" xlink:label="lbl_ExcessDeficiencyOfRevenuesOverUnderExpenditures" xlink:type="locator"/>
       <link:definitionArc order="656.0" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_ExcessDeficiencyOfRevenuesOverUnderExpenditures" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="654.5" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="653.5" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="654.5" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrual" xlink:type="arc"/>
+      <link:definitionArc order="653.5" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
       <link:definitionArc order="652.5" xlink:arcrole="http://www.xbrl.org/2021/arcrole/trait-concept" xlink:from="lbl_ModifiedAccrualAbstract" xlink:to="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
@@ -14822,6 +14880,8 @@
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/arcroles/accrual-modifiedAccrual" xlink:from="lbl_CurrentAssets" xlink:to="lbl_CurrentAssetsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RestrictedAssets" xlink:label="lbl_RestrictedAssets" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/arcroles/accrual-modifiedAccrual" xlink:from="lbl_RestrictedAssets" xlink:to="lbl_RestrictedAssetsModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PFNetPositionActivitiesCapitalAssetsNotBeingDepreciated" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsStatementOfNetPositionLineItems" xlink:label="lbl_ProprietaryFundsStatementOfNetPositionLineItems" xlink:type="locator"/>
@@ -15101,8 +15161,7 @@
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxAndTaxRelatedRevenueAbstract" xlink:to="lbl_SwampLandTaxesForestReserveAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TaxesNationalForestReserveModifiedAccrual" xlink:label="lbl_TaxesNationalForestReserveModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SwampLandTaxesForestReserveAbstract" xlink:to="lbl_TaxesNationalForestReserveModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SwampLandTaxesForestReserveAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SwampLandTaxesForestReserveAbstract" xlink:to="lbl_CommercialForestReserveModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SwampLandTaxesAndForestReserveModifiedAccrual" xlink:label="lbl_SwampLandTaxesAndForestReserveModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SwampLandTaxesForestReserveAbstract" xlink:to="lbl_SwampLandTaxesAndForestReserveModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommercialFacilitiesTaxModifiedAccrual" xlink:label="lbl_RevenueFromCommercialFacilitiesTaxModifiedAccrual" xlink:type="locator"/>
@@ -15137,8 +15196,7 @@
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RedemptionsAndReconveyanceModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommunityWideSpecialAssessmentsModifiedAccrual" xlink:label="lbl_RevenueFromCommunityWideSpecialAssessmentsModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCommunityWideSpecialAssessmentsModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_SubMarginalLandActModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCityUtilityUsersTaxModifiedAccrual" xlink:label="lbl_RevenueFromCityUtilityUsersTaxModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCityUtilityUsersTaxModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromMarijuanaTaxModifiedAccrual" xlink:label="lbl_RevenueFromMarijuanaTaxModifiedAccrual" xlink:type="locator"/>
@@ -15376,8 +15434,6 @@
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsRevenuesAbstract" xlink:to="lbl_OtherFinancingSourcesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromBondNoteIssuanceAbstract" xlink:label="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherFinancingSourcesAbstract" xlink:to="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromBondAndNoteIssuanceModifiedAccrual" xlink:label="lbl_ProceedsFromBondAndNoteIssuanceModifiedAccrual" xlink:type="locator"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:to="lbl_ProceedsFromBondAndNoteIssuanceModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PremiumOnIssuanceOfLongTermDebtModifiedAccrual" xlink:label="lbl_PremiumOnIssuanceOfLongTermDebtModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:to="lbl_PremiumOnIssuanceOfLongTermDebtModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BondOrInsuranceRecoveriesModifiedAccrual" xlink:label="lbl_BondOrInsuranceRecoveriesModifiedAccrual" xlink:type="locator"/>
@@ -15810,6 +15866,10 @@
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenuesFromRoyaltiesModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_RevenuesFromRentsAndRoyaltiesAbstract" xlink:to="lbl_RevenueFromRentsAndRoyaltiesModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSaleOfBondsNotesModifiedAccrual" xlink:label="lbl_ProceedsFromSaleOfBondsNotesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="2.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:to="lbl_ProceedsFromSaleOfBondsNotesModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65Michigan" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfOperationsTable" xlink:label="lbl_StatementOfOperationsTable" xlink:type="locator"/>
@@ -15860,8 +15920,6 @@
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxAbstract" xlink:to="lbl_RevenueFromCurrentPersonalPropertyTax" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenuesFromCurrentRealPropertyTax" xlink:label="lbl_RevenuesFromCurrentRealPropertyTax" xlink:type="locator"/>
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxAbstract" xlink:to="lbl_RevenuesFromCurrentRealPropertyTax" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromPropertyTax" xlink:label="lbl_RevenueFromPropertyTax" xlink:type="locator"/>
-      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxAbstract" xlink:to="lbl_RevenueFromPropertyTax" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromDelinquentRealPropertyTax" xlink:label="lbl_RevenueFromDelinquentRealPropertyTax" xlink:type="locator"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromDelinquentRealPropertyTax" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromDelinquentPersonalPropertyTax" xlink:label="lbl_RevenueFromDelinquentPersonalPropertyTax" xlink:type="locator"/>
@@ -15876,8 +15934,7 @@
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RedemptionsAndReconveyance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommunityWideSpecialAssessments" xlink:label="lbl_RevenueFromCommunityWideSpecialAssessments" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCommunityWideSpecialAssessments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:label="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCityUtilityUsersTax" xlink:label="lbl_RevenueFromCityUtilityUsersTax" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCityUtilityUsersTax" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromMarijuanaTax" xlink:label="lbl_RevenueFromMarijuanaTax" xlink:type="locator"/>
@@ -16239,6 +16296,9 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromBondAndNoteIssuance" xlink:label="lbl_ProceedsFromBondAndNoteIssuance" xlink:type="locator"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProceedsFromBondNoteIssuanceAbstract" xlink:to="lbl_ProceedsFromBondAndNoteIssuance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalServiceFundsMember" xlink:label="lbl_InternalServiceFundsMember" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherFinancingSources" xlink:label="lbl_OtherFinancingSources" xlink:type="locator"/>
+      <link:definitionArc order="1.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherFinancingSourcesAbstract" xlink:to="lbl_OtherFinancingSources" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIInternalServiceEnterpriseStatementOfPosition" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfPosition" xlink:label="lbl_StatementOfPosition" xlink:type="locator"/>
@@ -16247,14 +16307,12 @@
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:to="lbl_StatementOfOperationsLineItems" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TypeOfActivitiesProprietaryFundsAxis" xlink:label="lbl_TypeOfActivitiesProprietaryFundsAxis" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="lbl_StatementOfPosition" xlink:to="lbl_TypeOfActivitiesProprietaryFundsAxis" xlink:type="arc"/>
-      <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_StatementOfPosition" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsMember" xlink:label="lbl_ProprietaryFundsMember" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="lbl_TypeOfActivitiesProprietaryFundsAxis" xlink:to="lbl_ProprietaryFundsMember" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BusinessTypeActivitiesEnterpriseFundsMember" xlink:label="lbl_BusinessTypeActivitiesEnterpriseFundsMember" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProprietaryFundsMember" xlink:to="lbl_BusinessTypeActivitiesEnterpriseFundsMember" xlink:type="arc"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ProprietaryFundsMember" xlink:to="lbl_InternalServiceFundsMember" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsAndDeferredOutflowsAbstract" xlink:label="lbl_AssetsAndDeferredOutflowsAbstract" xlink:type="locator"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_AssetsAndDeferredOutflowsAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:label="lbl_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsAbstract" xlink:label="lbl_CashAndCashEquivalentsAbstract" xlink:type="locator"/>
@@ -16369,8 +16427,6 @@
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AllOtherReceivablesAbstract" xlink:to="lbl_ForfeitureCertificateRecordingFeesReceivable" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherReceivables" xlink:label="lbl_AllOtherReceivables" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AllOtherReceivablesAbstract" xlink:to="lbl_AllOtherReceivables" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Receivable" xlink:label="lbl_Receivable" xlink:type="locator"/>
-      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ReceivablesAbstract" xlink:to="lbl_Receivable" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:label="lbl_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ReceivablesAbstract" xlink:to="lbl_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCurrentAssetsAbstract" xlink:label="lbl_OtherCurrentAssetsAbstract" xlink:type="locator"/>
@@ -16503,14 +16559,11 @@
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermInvestmentsAbstract" xlink:to="lbl_OtherLongTermInvestments" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherLongTermAssets" xlink:label="lbl_OtherLongTermAssets" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermAssetsAbstract" xlink:to="lbl_OtherLongTermAssets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentAssets" xlink:label="lbl_NoncurrentAssets" xlink:type="locator"/>
-      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_NoncurrentAssets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Assets" xlink:label="lbl_Assets" xlink:type="locator"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_Assets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResources" xlink:label="lbl_DeferredOutflowsOfResources" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_DeferredOutflowsOfResources" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAndNetPositionAbstract" xlink:label="lbl_LiabilitiesAndNetPositionAbstract" xlink:type="locator"/>
-      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_LiabilitiesAndNetPositionAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CurrentLiabilitiesAbstract" xlink:label="lbl_CurrentLiabilitiesAbstract" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LiabilitiesAndNetPositionAbstract" xlink:to="lbl_CurrentLiabilitiesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueToOtherFunds" xlink:label="lbl_DueToOtherFunds" xlink:type="locator"/>
@@ -16679,6 +16732,26 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:label="lbl_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LiabilitiesAndNetPositionAbstract" xlink:to="lbl_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalServiceFundsMember" xlink:label="lbl_InternalServiceFundsMember" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SewerSystemNetOfAccumulatedDepreciation" xlink:label="lbl_SewerSystemNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SewerSystemsAbstract" xlink:to="lbl_SewerSystemNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_WaterSystemsNetOfAccumulatedDepreciation" xlink:label="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_WaterSystemAbstract" xlink:to="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_VehiclesNetOfAccumulatedDepreciation" xlink:label="lbl_VehiclesNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_VehiclesAbstract" xlink:to="lbl_VehiclesNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsAndDeferredOutflowsOfResources" xlink:label="lbl_AssetsAndDeferredOutflowsOfResources" xlink:type="locator"/>
+      <link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_AssetsAndDeferredOutflowsOfResources" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfPositionLineItems" xlink:label="lbl_StatementOfPositionLineItems" xlink:type="locator"/>
+      <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_StatementOfPosition" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsAbstract" xlink:label="lbl_AssetsAbstract" xlink:type="locator"/>
+      <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_AssetsAbstract" xlink:type="arc"/>
+      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:type="arc"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_ReceivablesAbstract" xlink:type="arc"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_OtherCurrentAssetsAbstract" xlink:type="arc"/>
+      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_CapitalAssetsAbstract" xlink:type="arc"/>
+      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_OtherLongTermAssetsAbstract" xlink:type="arc"/>
+      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_Assets" xlink:type="arc"/>
+      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_AssetsAndDeferredOutflowsAbstract" xlink:type="arc"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_LiabilitiesAndNetPositionAbstract" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MichiganModifiedAccrual" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfOperationsLineItems" xlink:label="lbl_StatementOfOperationsLineItems" xlink:type="locator"/>
@@ -16686,7 +16759,6 @@
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:to="lbl_StatementOfOperationsLineItems" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GovernmentalFundsAxis" xlink:label="lbl_GovernmentalFundsAxis" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfPosition" xlink:label="lbl_StatementOfPosition" xlink:type="locator"/>
-      <link:definitionArc order="2.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_StatementOfPosition" xlink:type="arc"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="lbl_StatementOfPosition" xlink:to="lbl_GovernmentalFundsAxis" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GovernmentalFundsMember" xlink:label="lbl_GovernmentalFundsMember" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="lbl_GovernmentalFundsAxis" xlink:to="lbl_GovernmentalFundsMember" xlink:type="arc"/>
@@ -16704,7 +16776,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OriginalBudgetMember" xlink:label="lbl_OriginalBudgetMember" xlink:type="locator"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="lbl_BudgetAxis" xlink:to="lbl_OriginalBudgetMember" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsAbstract" xlink:label="lbl_AssetsAbstract" xlink:type="locator"/>
-      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_AssetsAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:label="lbl_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_CashAndCashEquivalentsAndInvestmentsAbtract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsAbstract" xlink:label="lbl_CashAndCashEquivalentsAbstract" xlink:type="locator"/>
@@ -16863,10 +16934,7 @@
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermAssetsAbstract" xlink:to="lbl_OtherLongTermAssetsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsModifiedAccrual" xlink:label="lbl_AssetsModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAbstract" xlink:to="lbl_AssetsModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResourcesModifiedAccrual" xlink:label="lbl_DeferredOutflowsOfResourcesModifiedAccrual" xlink:type="locator"/>
-      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_DeferredOutflowsOfResourcesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAbstract" xlink:label="lbl_LiabilitiesAbstract" xlink:type="locator"/>
-      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_LiabilitiesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CurrentLiabilitiesAbstract" xlink:label="lbl_CurrentLiabilitiesAbstract" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LiabilitiesAbstract" xlink:to="lbl_CurrentLiabilitiesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueToOtherFundsModifiedAccrual" xlink:label="lbl_DueToOtherFundsModifiedAccrual" xlink:type="locator"/>
@@ -17015,7 +17083,6 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredInflowsOfResourcesModifiedAccrual" xlink:label="lbl_DeferredInflowsOfResourcesModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_DeferredInflowsOfResourcesAbstract" xlink:to="lbl_DeferredInflowsOfResourcesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalancesAbstract" xlink:label="lbl_FundBalancesAbstract" xlink:type="locator"/>
-      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_FundBalancesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InvestmentInCapitalAssetsModifiedAccrual" xlink:label="lbl_InvestmentInCapitalAssetsModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_FundBalancesAbstract" xlink:to="lbl_InvestmentInCapitalAssetsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalancesNonspendableAbstract" xlink:label="lbl_FundBalancesNonspendableAbstract" xlink:type="locator"/>
@@ -17038,14 +17105,21 @@
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_FundBalancesAbstract" xlink:to="lbl_FundBalanceUnassigned" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalance" xlink:label="lbl_FundBalance" xlink:type="locator"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_FundBalancesAbstract" xlink:to="lbl_FundBalance" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:label="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="locator"/>
-      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfOperationsLineItems" xlink:to="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:label="lbl_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="12.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_TaxUtilityAndAssessmentReceivablesAbstract" xlink:to="lbl_SpecialAssessmentTaxesReceivableDueWithinOneYearModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:label="lbl_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="2.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermAssetsAbstract" xlink:to="lbl_AdvancesToOtherFundsNoncurrentModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:label="lbl_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="2.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermAssetsAbstract" xlink:to="lbl_AdvancesToOtherGovernmentsNoncurrentModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfPositionLineItems" xlink:label="lbl_StatementOfPositionLineItems" xlink:type="locator"/>
+      <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_StatementOfPosition" xlink:type="arc"/>
+      <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_AssetsAbstract" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResourcesModifiedAccrual" xlink:label="lbl_DeferredOutflowsOfResourcesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_DeferredOutflowsOfResourcesModifiedAccrual" xlink:type="arc"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_LiabilitiesAbstract" xlink:type="arc"/>
+      <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_FundBalancesAbstract" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:label="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_StatementOfPositionLineItems" xlink:to="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIComponentUnitStatementOfPosition" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfPosition" xlink:label="lbl_StatementOfPosition" xlink:type="locator"/>
@@ -17182,8 +17256,6 @@
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AllOtherReceivablesAbstract" xlink:to="lbl_DueFromEmployees" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherReceivables" xlink:label="lbl_AllOtherReceivables" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AllOtherReceivablesAbstract" xlink:to="lbl_AllOtherReceivables" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Receivable" xlink:label="lbl_Receivable" xlink:type="locator"/>
-      <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ReceivablesAbstract" xlink:to="lbl_Receivable" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:label="lbl_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_ReceivablesAbstract" xlink:to="lbl_ReceivablesAndDueFromOtherGovernmentsAndFunds" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCurrentAssetsAbstract" xlink:label="lbl_OtherCurrentAssetsAbstract" xlink:type="locator"/>
@@ -17254,8 +17326,6 @@
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_CapitalAssetsAbstract" xlink:to="lbl_VehiclesAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AccumulatedDepreciationVehicles" xlink:label="lbl_AccumulatedDepreciationVehicles" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_VehiclesAbstract" xlink:to="lbl_AccumulatedDepreciationVehicles" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Vehicles" xlink:label="lbl_Vehicles" xlink:type="locator"/>
-      <link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_VehiclesAbstract" xlink:to="lbl_Vehicles" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SewerSystemsAbstract" xlink:label="lbl_SewerSystemsAbstract" xlink:type="locator"/>
       <link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_CapitalAssetsAbstract" xlink:to="lbl_SewerSystemsAbstract" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Sewer" xlink:label="lbl_Sewer" xlink:type="locator"/>
@@ -17316,8 +17386,6 @@
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermInvestmentsAbstract" xlink:to="lbl_OtherLongTermInvestments" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherLongTermAssets" xlink:label="lbl_OtherLongTermAssets" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_OtherLongTermAssetsAbstract" xlink:to="lbl_OtherLongTermAssets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentAssets" xlink:label="lbl_NoncurrentAssets" xlink:type="locator"/>
-      <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_NoncurrentAssets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Assets" xlink:label="lbl_Assets" xlink:type="locator"/>
       <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_Assets" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResources" xlink:label="lbl_DeferredOutflowsOfResources" xlink:type="locator"/>
@@ -17491,6 +17559,16 @@
       <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NetPositionAbstract" xlink:to="lbl_NetPosition" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:label="lbl_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:type="locator"/>
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_LiabilitiesAndNetPositionAbstract" xlink:to="lbl_LiabilitiesDeferredInflowsOfResourcesAndFundBalanceNetPosition" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_WaterSystemsNetOfAccumulatedDepreciation" xlink:label="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_WaterSystemAbstract" xlink:to="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SewerSystemNetOfAccumulatedDepreciation" xlink:label="lbl_SewerSystemNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_SewerSystemsAbstract" xlink:to="lbl_SewerSystemNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_VehiclesNetOfAccumulatedDepreciation" xlink:label="lbl_VehiclesNetOfAccumulatedDepreciation" xlink:type="locator"/>
+      <link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_VehiclesAbstract" xlink:to="lbl_VehiclesNetOfAccumulatedDepreciation" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Vehicles" xlink:label="lbl_Vehicles" xlink:type="locator"/>
+      <link:definitionArc order="0.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_VehiclesAbstract" xlink:to="lbl_Vehicles" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsAndDeferredOutflowsOfResources" xlink:label="lbl_AssetsAndDeferredOutflowsOfResources" xlink:type="locator"/>
+      <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AssetsAndDeferredOutflowsAbstract" xlink:to="lbl_AssetsAndDeferredOutflowsOfResources" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIComponentStatementOfOperations" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StatementOfOperationsTable" xlink:label="lbl_StatementOfOperationsTable" xlink:type="locator"/>
@@ -17583,8 +17661,7 @@
       <link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RedemptionsAndReconveyance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommunityWideSpecialAssessments" xlink:label="lbl_RevenueFromCommunityWideSpecialAssessments" xlink:type="locator"/>
       <link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCommunityWideSpecialAssessments" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:label="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromSubMarginalLandActHOWDOESCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromSubMarginalLandAct" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCityUtilityUsersTax" xlink:label="lbl_RevenueFromCityUtilityUsersTax" xlink:type="locator"/>
       <link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_PropertyTaxIncludesDelinquentTaxPenaltiesInterestFeesCommunityAssessmentsAbstract" xlink:to="lbl_RevenueFromCityUtilityUsersTax" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromMarijuanaTax" xlink:label="lbl_RevenueFromMarijuanaTax" xlink:type="locator"/>
@@ -17892,6 +17969,7 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesFees" xlink:label="lbl_ChargesForServicesFees" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesCourtFilingFees" xlink:label="lbl_ChargesForServicesCourtFilingFees" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesJuryDemandFees" xlink:label="lbl_ChargesForServicesJuryDemandFees" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MichiganDerivativeInstruments" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FormF65MichiganTable" xlink:label="lbl_FormF65MichiganTable" xlink:type="locator"/>
@@ -18184,6 +18262,12 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncashTransactions" xlink:label="lbl_NoncashTransactions" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCashTransactionsAbstract" xlink:to="lbl_NoncashTransactions" xlink:type="arc"/>
       <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_ProprietaryFundsStatementOfCashFlowsLineItems" xlink:to="lbl_ProprietaryFundsStatementOfCashFlowsTable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DepreciationExpense" xlink:label="lbl_DepreciationExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_DepreciationExpense" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AmortizationExpense" xlink:label="lbl_AmortizationExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_AmortizationExpense" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BadDebtExpense" xlink:label="lbl_BadDebtExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_BadDebtExpense" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/PFCashBusinessReconciliation" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProprietaryFundsStatementOfCashFlowsTable" xlink:label="lbl_ProprietaryFundsStatementOfCashFlowsTable" xlink:type="locator"/>
@@ -18253,6 +18337,12 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncashTransactions" xlink:label="lbl_NoncashTransactions" xlink:type="locator"/>
       <link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCashTransactionsAbstract" xlink:to="lbl_NoncashTransactions" xlink:type="arc"/>
       <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_ProprietaryFundsStatementOfCashFlowsLineItems" xlink:to="lbl_ProprietaryFundsStatementOfCashFlowsTable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DepreciationExpense" xlink:label="lbl_DepreciationExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_DepreciationExpense" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AmortizationExpense" xlink:label="lbl_AmortizationExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_AmortizationExpense" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BadDebtExpense" xlink:label="lbl_BadDebtExpense" xlink:type="locator"/>
+      <link:definitionArc order="0.7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_AdjustmentsToReconcileOperatingIncomeLossToNetCashProvidedByUsedInOperatingActivitiesAbstract" xlink:to="lbl_BadDebtExpense" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceClassified" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GovBalSheetTable" xlink:label="lbl_GovBalSheetTable" xlink:type="locator"/>
@@ -18976,6 +19066,10 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:label="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_GovBalSheetLineItems" xlink:to="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_GovBalSheetLineItems" xlink:to="lbl_GovBalSheetTable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentAssetsModifiedAccrual" xlink:label="lbl_NoncurrentAssetsModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="16.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCurrentAssetsAbstract" xlink:to="lbl_NoncurrentAssetsModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilitiesModifiedAccrual" xlink:label="lbl_NoncurrentLiabilitiesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCurrentLiabilitiesAbstract" xlink:to="lbl_NoncurrentLiabilitiesModifiedAccrual" xlink:type="arc"/>
    </link:definitionLink>
    <link:definitionLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceSheetTotalsClassified" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GovBalSheetTable" xlink:label="lbl_GovBalSheetTable" xlink:type="locator"/>
@@ -19707,5 +19801,9 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:label="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="locator"/>
       <link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_GovBalSheetLineItems" xlink:to="lbl_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual" xlink:type="arc"/>
       <link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="lbl_GovBalSheetLineItems" xlink:to="lbl_GovBalSheetTable" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CurrentLiabilitiesModifiedAccrual" xlink:label="lbl_CurrentLiabilitiesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="56.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_CurrentLiabilitiesAbstract" xlink:to="lbl_CurrentLiabilitiesModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NoncurrentLiabilitiesModifiedAccrual" xlink:label="lbl_NoncurrentLiabilitiesModifiedAccrual" xlink:type="locator"/>
+      <link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="lbl_NonCurrentLiabilitiesAbstract" xlink:to="lbl_NoncurrentLiabilitiesModifiedAccrual" xlink:type="arc"/>
    </link:definitionLink>
 </linkbase>
