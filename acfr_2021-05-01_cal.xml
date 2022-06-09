@@ -3162,10 +3162,8 @@
       <link:calculationArc order="9.97" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual1" xlink:to="lbl_RevenueFromCityUtilityUsersTaxModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromMarijuanaTaxModifiedAccrual" xlink:label="lbl_RevenueFromMarijuanaTaxModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="17.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual" xlink:to="lbl_RevenueFromMarijuanaTaxModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:calculationArc order="19.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual" xlink:to="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:calculationArc order="20.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual" xlink:to="lbl_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:calculationArc order="19.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual" xlink:to="lbl_AllowanceForChargebacksModifiedAccrual" xlink:type="arc"/>
+      <link:calculationArc order="20.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_RevenueFromTaxesModifiedAccrual" xlink:to="lbl_AllowanceForRefundsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TaxCollectionFeesModifiedAccrual" xlink:label="lbl_TaxCollectionFeesModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TaxRevenuesAndTaxRelatedRevenuesModifiedAccrual" xlink:to="lbl_TaxCollectionFeesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCommunityWideSpecialAssessmentsModifiedAccrual" xlink:label="lbl_RevenueFromCommunityWideSpecialAssessmentsModifiedAccrual" xlink:type="locator"/>
@@ -3610,6 +3608,10 @@
       <link:calculationArc order="4.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInFundBalance" xlink:to="lbl_ExtraordinaryItemsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFacilitiesMaintenanceModifiedAccrual" xlink:label="lbl_ExpendituresForFacilitiesMaintenanceModifiedAccrual" xlink:type="locator"/>
+      <link:calculationArc order="14.92" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpendituresModifiedAccrual" xlink:to="lbl_ExpendituresForFacilitiesMaintenanceModifiedAccrual" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacksModifiedAccrual" xlink:label="lbl_AllowanceForChargebacksModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForRefundsModifiedAccrual" xlink:label="lbl_AllowanceForRefundsModifiedAccrual" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/roles/GovFundsBalance" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsModifiedAccrual" xlink:label="lbl_AssetsModifiedAccrual" xlink:type="locator"/>
@@ -6023,8 +6025,7 @@
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionActualEmployeeContribution" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionNetInvestmentIncome" xlink:label="lbl_PensionNetInvestmentIncome" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionNetInvestmentIncome" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" xlink:type="arc"/>
+      <link:calculationArc order="5.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionAdministrativeExpenses" xlink:label="lbl_PensionAdministrativeExpenses" xlink:type="locator"/>
       <link:calculationArc order="6.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PensionPlanFiduciaryNetPositionIncreaseDecrease" xlink:to="lbl_PensionAdministrativeExpenses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherChangesSeparatelyIdentifiedIfIndividuallySignificant" xlink:label="lbl_OtherChangesSeparatelyIdentifiedIfIndividuallySignificant" xlink:type="locator"/>
@@ -6050,6 +6051,7 @@
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_TotalPensionLiability" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionPlanFiduciaryNetPosition" xlink:label="lbl_PensionPlanFiduciaryNetPosition" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_PensionPlanFiduciaryNetPosition" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBLiabilityPeriodIncreaseDecrease" xlink:label="lbl_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
@@ -7128,10 +7130,8 @@
       <link:calculationArc order="14.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_TaxCollectionFeesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:label="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="15.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_RevenueFromCountyExpenseOfSaleModifiedAccrual" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:calculationArc order="15.5" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:label="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="locator"/>
-      <link:calculationArc order="15.7" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" xlink:type="arc"/>
+      <link:calculationArc order="15.5" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_AllowanceForRefundsModifiedAccrual" xlink:type="arc"/>
+      <link:calculationArc order="15.7" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_AllowanceForChargebacksModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSpecialAssessmentsModifiedAccrual" xlink:label="lbl_RevenueFromSpecialAssessmentsModifiedAccrual" xlink:type="locator"/>
       <link:calculationArc order="16.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_PropertyTaxModifiedAccrualIncludesDelinquentTaxesPenaltiesInterestFeesCommunityWideSpecialAssessments" xlink:to="lbl_RevenueFromSpecialAssessmentsModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromInterestAndPenaltiesOnSpecialAssessmentsModifiedAccrual" xlink:label="lbl_RevenueFromInterestAndPenaltiesOnSpecialAssessmentsModifiedAccrual" xlink:type="locator"/>
@@ -7671,6 +7671,8 @@
       <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_NetChangeInFundBalance" xlink:to="lbl_ExpendituresAndOtherFinancingUsesModifiedAccrual" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CommercialForestReserveModifiedAccrual" xlink:label="lbl_CommercialForestReserveModifiedAccrual" xlink:type="locator"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_SubMarginalLandActModifiedAccrual" xlink:label="lbl_SubMarginalLandActModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForChargebacksModifiedAccrual" xlink:label="lbl_AllowanceForChargebacksModifiedAccrual" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllowanceForRefundsModifiedAccrual" xlink:label="lbl_AllowanceForRefundsModifiedAccrual" xlink:type="locator"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIComponentUnitStatementOfPosition" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsAndInvestments" xlink:label="lbl_CashAndCashEquivalentsAndInvestments" xlink:type="locator"/>
@@ -8106,86 +8108,10 @@
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ChargesForServicesLicensesAndPermitsAndFranchiseFees" xlink:to="lbl_ChargesForServicesNonBusinessLicensesAndPermits" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:label="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TOTALREVENUE" xlink:to="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsGeneralGovernment" xlink:label="lbl_FederalGrantsGeneralGovernment" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsGeneralGovernment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsPublicSafety" xlink:label="lbl_FederalGrantsPublicSafety" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsPublicSafety" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsSanitation" xlink:label="lbl_FederalGrantsSanitation" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsSanitation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsHealthAndHospital" xlink:label="lbl_FederalGrantsHealthAndHospital" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsHealthAndHospital" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsWelfare" xlink:label="lbl_FederalGrantsWelfare" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsWelfare" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsCultureAndRecreation" xlink:label="lbl_FederalGrantsCultureAndRecreation" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsCultureAndRecreation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsCommunityDevelopmentBlockGrants" xlink:label="lbl_FederalGrantsCommunityDevelopmentBlockGrants" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsCommunityDevelopmentBlockGrants" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsAllOther" xlink:label="lbl_FederalGrantsAllOther" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_FederalGrantsAllOther" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalCapitalGrants" xlink:label="lbl_FederalCapitalGrants" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_FederalGrantsAllOther" xlink:to="lbl_FederalCapitalGrants" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:label="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:type="locator"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TOTALREVENUE" xlink:to="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsStateRevenueSharing" xlink:label="lbl_StateGrantsStateRevenueSharing" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsStateRevenueSharing" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsAllPublicSafetyActivities" xlink:label="lbl_StateGrantsAllPublicSafetyActivities" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsAllPublicSafetyActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsPublicSafety" xlink:label="lbl_StateGrantsPublicSafety" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_StateGrantsPublicSafety" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsDrunkDrivingCaseFlowAssistance" xlink:label="lbl_StateGrantsDrunkDrivingCaseFlowAssistance" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_StateGrantsDrunkDrivingCaseFlowAssistance" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsDrugCaseInformationManagementAccount" xlink:label="lbl_StateGrantsDrugCaseInformationManagementAccount" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_StateGrantsDrugCaseInformationManagementAccount" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsCrimeVictimsRights" xlink:label="lbl_StateGrantsCrimeVictimsRights" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_StateGrantsCrimeVictimsRights" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsCourtEquity" xlink:label="lbl_StateGrantsCourtEquity" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllPublicSafetyActivities" xlink:to="lbl_StateGrantsCourtEquity" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsHighwaysAndStreets" xlink:label="lbl_StateGrantsHighwaysAndStreets" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsHighwaysAndStreets" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsSanitation" xlink:label="lbl_StateGrantsSanitation" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsSanitation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsHealth" xlink:label="lbl_StateGrantsHealth" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsHealth" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsWelfare" xlink:label="lbl_StateGrantsWelfare" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsWelfare" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsCultureAndRecreation" xlink:label="lbl_StateGrantsCultureAndRecreation" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsCultureAndRecreation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsAllOther" xlink:label="lbl_StateGrantsAllOther" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromStateGovernmentalEntities" xlink:to="lbl_StateGrantsAllOther" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsIndigentDefenseGrant" xlink:label="lbl_StateGrantsIndigentDefenseGrant" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_StateGrantsIndigentDefenseGrant" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsLocalCommunityStabilizationShare" xlink:label="lbl_StateGrantsLocalCommunityStabilizationShare" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_StateGrantsLocalCommunityStabilizationShare" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsSurveyAndRemonumentation" xlink:label="lbl_StateGrantsSurveyAndRemonumentation" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_StateGrantsSurveyAndRemonumentation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateGrantsSpecialElectionReimbursement" xlink:label="lbl_StateGrantsSpecialElectionReimbursement" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_StateGrantsSpecialElectionReimbursement" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_StateCapitalGrants" xlink:label="lbl_StateCapitalGrants" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_StateGrantsAllOther" xlink:to="lbl_StateCapitalGrants" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_GrantsContributionsAndDonationsFromLocalUnits" xlink:label="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:type="locator"/>
       <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TOTALREVENUE" xlink:to="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsGeneralGovernment" xlink:label="lbl_ContributionsFromLocalUnitsGeneralGovernment" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsGeneralGovernment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsPublicSafety" xlink:label="lbl_ContributionsFromLocalUnitsPublicSafety" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsPublicSafety" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsStreetsAndHighways" xlink:label="lbl_ContributionsFromLocalUnitsStreetsAndHighways" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsStreetsAndHighways" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsSanitation" xlink:label="lbl_ContributionsFromLocalUnitsSanitation" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsSanitation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsHealthAndHospitals" xlink:label="lbl_ContributionsFromLocalUnitsHealthAndHospitals" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsHealthAndHospitals" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsWelfare" xlink:label="lbl_ContributionsFromLocalUnitsWelfare" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsWelfare" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsCultureAndRecreation" xlink:label="lbl_ContributionsFromLocalUnitsCultureAndRecreation" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsCultureAndRecreation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:label="lbl_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:type="locator"/>
-      <link:calculationArc order="8.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsHousingAndCommunityDevelopment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:label="lbl_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:type="locator"/>
-      <link:calculationArc order="9.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsGasWaterAndElectricUtilities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsTransit" xlink:label="lbl_ContributionsFromLocalUnitsTransit" xlink:type="locator"/>
-      <link:calculationArc order="10.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsTransit" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsFromLocalUnitsAllOther" xlink:label="lbl_ContributionsFromLocalUnitsAllOther" xlink:type="locator"/>
-      <link:calculationArc order="11.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromLocalUnits" xlink:to="lbl_ContributionsFromLocalUnitsAllOther" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServices" xlink:label="lbl_ChargesForServices" xlink:type="locator"/>
       <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_TOTALREVENUE" xlink:to="lbl_ChargesForServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherServicesRenderedCharges" xlink:label="lbl_AllOtherServicesRenderedCharges" xlink:type="locator"/>
@@ -8293,39 +8219,16 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesAndOtherFinancingUses" xlink:label="lbl_ExpensesAndOtherFinancingUses" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ChangesInNetPosition" xlink:to="lbl_ExpensesAndOtherFinancingUses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServices" xlink:label="lbl_ExpensesForGeneralGovernmentServices" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_ExpensesForGeneralGovernmentServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:label="lbl_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForGeneralGovernmentServices" xlink:to="lbl_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksServices" xlink:label="lbl_ExpensesForPublicWorksServices" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_ExpensesForPublicWorksServices" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksNonAct51" xlink:label="lbl_ExpensesForPublicWorksNonAct51" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForPublicWorksNonAct51" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForDepartmentOfPublicWorksDPW" xlink:label="lbl_ExpensesForDepartmentOfPublicWorksDPW" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksNonAct51" xlink:to="lbl_ExpensesForDepartmentOfPublicWorksDPW" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForEngineersEngineering" xlink:label="lbl_ExpensesForEngineersEngineering" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksNonAct51" xlink:to="lbl_ExpensesForEngineersEngineering" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForSanitationLandfillSolidWaste" xlink:label="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForSanitationDepartment" xlink:label="lbl_ExpensesForSanitationDepartment" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:to="lbl_ExpensesForSanitationDepartment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForSanitaryLandfill" xlink:label="lbl_ExpensesForSanitaryLandfill" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:to="lbl_ExpensesForSanitaryLandfill" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForSewageDisposal" xlink:label="lbl_ExpensesForSewageDisposal" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:to="lbl_ExpensesForSewageDisposal" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForRubbishCollection" xlink:label="lbl_ExpensesForRubbishCollection" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForSanitationLandfillSolidWaste" xlink:to="lbl_ExpensesForRubbishCollection" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForWaterAndSewerSystems" xlink:label="lbl_ExpensesForWaterAndSewerSystems" xlink:type="locator"/>
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForWaterAndSewerSystems" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAirportsServices" xlink:label="lbl_ExpensesForAirportsServices" xlink:type="locator"/>
       <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForAirportsServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForTransportationServices" xlink:label="lbl_ExpensesForTransportationServices" xlink:type="locator"/>
       <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForTransportationServices" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksOtherPublicWorksEnterpriseActivities" xlink:label="lbl_ExpensesForPublicWorksOtherPublicWorksEnterpriseActivities" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForPublicWorksOtherPublicWorksEnterpriseActivities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHarborServices" xlink:label="lbl_ExpensesForHarborServices" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksOtherPublicWorksEnterpriseActivities" xlink:to="lbl_ExpensesForHarborServices" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHealthAndWelfare" xlink:label="lbl_ExpensesForHealthAndWelfare" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_ExpensesForHealthAndWelfare" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHospitalOperations" xlink:label="lbl_ExpensesForHospitalOperations" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForHealthAndWelfare" xlink:to="lbl_ExpensesForHospitalOperations" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAmbulance" xlink:label="lbl_ExpensesForAmbulance" xlink:type="locator"/>
@@ -8333,27 +8236,11 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHealthAndWelfareAllOtherHealthAndWelfare" xlink:label="lbl_ExpensesForHealthAndWelfareAllOtherHealthAndWelfare" xlink:type="locator"/>
       <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForHealthAndWelfare" xlink:to="lbl_ExpensesForHealthAndWelfareAllOtherHealthAndWelfare" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForRecreationAndCulture" xlink:label="lbl_ExpensesForRecreationAndCulture" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_ExpensesForRecreationAndCulture" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksAndRecreation" xlink:label="lbl_ExpensesForParksAndRecreation" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForRecreationAndCulture" xlink:to="lbl_ExpensesForParksAndRecreation" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksAndRecreationDepartment" xlink:label="lbl_ExpensesForParksAndRecreationDepartment" xlink:type="locator"/>
-      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksAndRecreationDepartment" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksAdministration" xlink:label="lbl_ExpensesForParksAdministration" xlink:type="locator"/>
-      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksAdministration" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksFacilities" xlink:label="lbl_ExpensesForParksFacilities" xlink:type="locator"/>
-      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksFacilities" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksSupervision" xlink:label="lbl_ExpensesForParksSupervision" xlink:type="locator"/>
-      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksSupervision" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksPolicing" xlink:label="lbl_ExpensesForParksPolicing" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksPolicing" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksLighting" xlink:label="lbl_ExpensesForParksLighting" xlink:type="locator"/>
-      <link:calculationArc order="6.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksLighting" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForParksMaintenance" xlink:label="lbl_ExpensesForParksMaintenance" xlink:type="locator"/>
-      <link:calculationArc order="7.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForParksAndRecreation" xlink:to="lbl_ExpensesForParksMaintenance" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAllOtherRecreationAndCulture" xlink:label="lbl_ExpensesForAllOtherRecreationAndCulture" xlink:type="locator"/>
       <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForRecreationAndCulture" xlink:to="lbl_ExpensesForAllOtherRecreationAndCulture" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherExpenses" xlink:label="lbl_AllOtherExpenses" xlink:type="locator"/>
-      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_AllOtherExpenses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherOperatingExpenses" xlink:label="lbl_OtherOperatingExpenses" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_AllOtherExpenses" xlink:to="lbl_OtherOperatingExpenses" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DebtServiceInterestAndFiscalCharges" xlink:label="lbl_DebtServiceInterestAndFiscalCharges" xlink:type="locator"/>
@@ -8365,6 +8252,29 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TransfersOut" xlink:label="lbl_TransfersOut" xlink:type="locator"/>
       <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_OtherFinancingUses" xlink:to="lbl_TransfersOut" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromSubMarginalLandAct" xlink:label="lbl_RevenueFromSubMarginalLandAct" xlink:type="locator"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_Expenses" xlink:label="lbl_Expenses" xlink:type="locator"/>
+      <link:calculationArc order="0.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesAndOtherFinancingUses" xlink:to="lbl_Expenses" xlink:type="arc"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForGeneralGovernmentServices" xlink:type="arc"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForPublicWorksServices" xlink:type="arc"/>
+      <link:calculationArc order="3.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForHealthAndWelfare" xlink:type="arc"/>
+      <link:calculationArc order="4.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForRecreationAndCulture" xlink:type="arc"/>
+      <link:calculationArc order="5.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_AllOtherExpenses" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesJudicial" xlink:label="lbl_ExpensesForGeneralGovernmentServicesJudicial" xlink:type="locator"/>
+      <link:calculationArc order="1.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForGeneralGovernmentServicesJudicial" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyServices" xlink:label="lbl_ExpensesForPublicSafetyServices" xlink:type="locator"/>
+      <link:calculationArc order="1.7" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_Expenses" xlink:to="lbl_ExpensesForPublicSafetyServices" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAllOtherPublicWorks" xlink:label="lbl_ExpensesForAllOtherPublicWorks" xlink:type="locator"/>
+      <link:calculationArc order="5.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForPublicWorksServices" xlink:to="lbl_ExpensesForAllOtherPublicWorks" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHarborServices" xlink:label="lbl_ExpensesForHarborServices" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForAllOtherPublicWorks" xlink:to="lbl_ExpensesForHarborServices" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForMedicalCareFacility" xlink:label="lbl_ExpensesForMedicalCareFacility" xlink:type="locator"/>
+      <link:calculationArc order="0.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForHealthAndWelfare" xlink:to="lbl_ExpensesForMedicalCareFacility" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForLibrary" xlink:label="lbl_ExpensesForLibrary" xlink:type="locator"/>
+      <link:calculationArc order="1.5" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_ExpensesForRecreationAndCulture" xlink:to="lbl_ExpensesForLibrary" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalGrants" xlink:label="lbl_CapitalGrants" xlink:type="locator"/>
+      <link:calculationArc order="1.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_CapitalGrants" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherGrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:label="lbl_AllOtherGrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:type="locator"/>
+      <link:calculationArc order="2.0" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="lbl_GrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:to="lbl_AllOtherGrantsContributionsAndDonationsFromFederalGovernmentalEntities" xlink:type="arc"/>
    </link:calculationLink>
    <link:calculationLink xlink:role="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/GovFundsBalanceClassified" xlink:type="extended">
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AssetsModifiedAccrual" xlink:label="lbl_AssetsModifiedAccrual" xlink:type="locator"/>

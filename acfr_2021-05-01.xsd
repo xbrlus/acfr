@@ -563,47 +563,11 @@
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="longTermDebtGeneralObligationBonds" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtGeneralObligationBonds">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801650 - Disclosures - Long Term Debt Footnote - General Obligation Bonds (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtRevenueBonds" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtRevenueBonds">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801700 - Disclosures - Long Term Debt Footnote - Revenue Bonds (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtLeasePayable" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtLeasePayable">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801750 - Disclosures - Long Term Debt Footnote - Leases (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtOtherLongTermObligations" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtOtherLongTermObligations">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801800 - Disclosures - Long Term Debt Footnote - Other Long Term Obligations (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="roles" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801760 - Disclosures - Long Term Debt Footnote - Pension Liabilities (Details)</definition>
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">801650 - Disclosures - Long Term Debt Footnote (Details)</definition>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:roleType id="capitalAssetsNonDepreciable" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/CapitalAssetsNonDepreciable">
             <definition xmlns="http://www.xbrl.org/2003/linkbase">801150 - Disclosures - Capital Assets Footnote (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtCertificatesOfParticipation" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtCertificatesOfParticipation">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801710 - Disclosures -  Long Term Debt Footnote - Certificates of Participation (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtNotes" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtNotes">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801720 - Disclosures - Long Term Debt Footnote - Notes (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtLoans" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtLoans">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801730 - Disclosures - Long Term Debt Footnote - Loans (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtOPEBLiabilities" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtOPEBLiabilities">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801770 - Disclosures - Long Term Debt Footnote - Other Post-Employment Benefit Liabilities (Details)</definition>
-            <link:usedOn>link:definitionLink</link:usedOn>
-            <link:usedOn>link:presentationLink</link:usedOn>
-         </link:roleType><link:roleType id="longTermDebtCompensatedAbsences" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/LongTermDebtCompensatedAbsences">
-            <definition xmlns="http://www.xbrl.org/2003/linkbase">801780 - Disclosures - Long Term Debt Footnote - Compensated Absences (Details)</definition>
             <link:usedOn>link:definitionLink</link:usedOn>
             <link:usedOn>link:presentationLink</link:usedOn>
          </link:roleType><link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="acfr_2021-05-01_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/><link:roleType id="netPositionAlternative" roleURI="http://xbrl.us/acfr/v0.3/2021-05-01/roles/NetPositionAlternative">
@@ -1351,14 +1315,11 @@
    <xs:element abstract="false" id="acfr_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" name="UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
    <xs:element abstract="true" id="acfr_LongTermDebtGeneralObligationsAbstract" name="LongTermDebtGeneralObligationsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_LongTermDebtRevenueBondsAbstract" name="LongTermDebtRevenueBondsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_NameOfLongTermDebtGeneralObligationBondAxis" name="NameOfLongTermDebtGeneralObligationBondAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_NameOfLongTermDebtGeneralObligationBondDomain" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_NameOfLongTermDebtRevenueObligationBondAxis" name="NameOfLongTermDebtRevenueObligationBondAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_NameOfLongTermDebtRevenueObligationBondDomain" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_LongTermDebtOtherLongTermObligationsAbstract" name="LongTermDebtOtherLongTermObligationsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_NameOfLongTermDebtOtherLongTermObligationsAxis" name="NameOfLongTermDebtOtherLongTermObligationsAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_NameOfLongTermDebtOtherLongTermObligationsDomain" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ReductionsFromNoncurrentLiabilities" name="ReductionsFromNoncurrentLiabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_NameOfLongTermDebtPensionLiabilitiesAxis" name="NameOfLongTermDebtPensionLiabilitiesAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_NameOfLongTermDebtPensionLiabilitiesDomain" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_AdditionsToHistoricalCost" name="AdditionsToHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_ReductionsFromHistoricalCost" name="ReductionsFromHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_WaterworksAndSewageSystemMember" name="WaterworksAndSewageSystemMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_ParkingDecksAndLotsMember" name="ParkingDecksAndLotsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_AdditionsToCompensatedAbsencesPayableNoncurrent" name="AdditionsToCompensatedAbsencesPayableNoncurrent" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
@@ -3252,8 +3213,6 @@
    <xs:element abstract="false" id="acfr_RevenueFromCurrentPersonalPropertyTaxModifiedAccrual" name="RevenueFromCurrentPersonalPropertyTaxModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromDelinquentPersonalPropertyTaxModifiedAccrual" name="RevenueFromDelinquentPersonalPropertyTaxModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromDelinquentRealPropertyTaxModifiedAccrual" name="RevenueFromDelinquentRealPropertyTaxModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" name="AllowanceForChargebacksModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" name="AllowanceForRefundsModifiedAccrualHOWDOESTHISCOUNTASGENERALREVENUE" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromAccomodationsTaxModifiedAccrual" name="RevenueFromAccomodationsTaxModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_TaxesNationalForestReserveModifiedAccrual" name="TaxesNationalForestReserveModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_RevenueFromCountyExpenseOfSaleModifiedAccrual" name="RevenueFromCountyExpenseOfSaleModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
@@ -3627,7 +3586,6 @@
    <xs:element abstract="true" id="acfr_ChangeInNetPensionLiabilityAssetRollForward" name="ChangeInNetPensionLiabilityAssetRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_NetPensionLiabilityAsset" name="NetPensionLiabilityAsset" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_NetChangeInPensionLiabilityAsset" name="NetChangeInPensionLiabilityAsset" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" name="BenefitPaymentsMadeByThePensionPlanFiduciaryNetPosition" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_PensionPlanInterestCost" name="PensionPlanInterestCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_PensionLiabilityPeriodIncreaseDecrease" name="PensionLiabilityPeriodIncreaseDecrease" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_PensionPlanFiduciaryNetPositionIncreaseDecrease" name="PensionPlanFiduciaryNetPositionIncreaseDecrease" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
@@ -3807,19 +3765,14 @@
    <xs:element abstract="true" id="acfr_LimitedTaxBondsRollForward" name="LimitedTaxBondsRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_UnlimitedTaxBondsRollForward" name="UnlimitedTaxBondsRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_TriggerSummaryAbstract" name="TriggerSummaryAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_CapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" name="CapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
-   <xs:element abstract="false" id="acfr_AdditionsToCapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" name="AdditionsToCapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_ReductionsFromCapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" name="ReductionsFromCapitalAssetsBeingDepreciatedAndNotBeingDepreciatedBeforeAccumulatedDepreciation" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_ProceedsFromSaleOfBondsNotesModifiedAccrual" name="ProceedsFromSaleOfBondsNotesModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_BenefitsExpensePensionAndOPEBAbstract" name="BenefitsExpensePensionAndOPEBAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_BenefitsExpensePensionAndOPEB" name="BenefitsExpensePensionAndOPEB" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_CapitalAssetCostBeforeReducingGross" name="CapitalAssetCostBeforeReducingGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
    <xs:element abstract="true" id="acfr_CapitalAssetsFootnoteRollForward" name="CapitalAssetsFootnoteRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_OtherCapitalAssetsBeingDepreciatedGross" name="OtherCapitalAssetsBeingDepreciatedGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" name="CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
    <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsBeingDepreciatedGross" name="TransfersWithinCapitalAssetsBeingDepreciatedGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsNotBeingDepreciated" name="TransfersWithinCapitalAssetsNotBeingDepreciated" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
-   <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsTotalAtHistoricalCost" name="TransfersWithinCapitalAssetsTotalAtHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_TransfersWithinAccumulatedDepreciation" name="TransfersWithinAccumulatedDepreciation" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" name="TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_CapitalAssetsNonDepreciableRollForward" name="CapitalAssetsNonDepreciableRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
@@ -3854,7 +3807,6 @@
    <xs:element abstract="true" id="acfr_EasementsRightOfWayMember" name="EasementsRightOfWayMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_LeaseAssetsRightOfUseMember" name="LeaseAssetsRightOfUseMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_ComputerEquipmentMember" name="ComputerEquipmentMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
-   <xs:element abstract="true" id="acfr_TiimberPropertiesMember" name="TiimberPropertiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_LandfillMember" name="LandfillMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_OtherCapitalAssetOne" name="OtherCapitalAssetOne" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
    <xs:element abstract="true" id="acfr_OtherCapitalAssetTwoMember" name="OtherCapitalAssetTwoMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
@@ -3954,4 +3906,31 @@
    <xs:element abstract="false" id="acfr_RevenueFromSubMarginalLandAct" name="RevenueFromSubMarginalLandAct" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_CommercialForestReserveModifiedAccrual" name="CommercialForestReserveModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
    <xs:element abstract="false" id="acfr_SubMarginalLandActModifiedAccrual" name="SubMarginalLandActModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ExpendituresForFacilitiesMaintenanceModifiedAccrual" name="ExpendituresForFacilitiesMaintenanceModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_TimberPropertiesMember" name="TimberPropertiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_CapitalAssetsBeingDepreciatedGross" name="CapitalAssetsBeingDepreciatedGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdditionsToCapitalAssetsBeingDepreciatedGross" name="AdditionsToCapitalAssetsBeingDepreciatedGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ReductionsFromCapitalAssetsBeingDepreciatedGross" name="ReductionsFromCapitalAssetsBeingDepreciatedGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_CapitalAssetsAtHistoricalCost" name="CapitalAssetsAtHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsAtHistoricalCost" name="TransfersWithinCapitalAssetsAtHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ReductionsFromCapitalAssetsAtHistoricalCost" name="ReductionsFromCapitalAssetsAtHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_AdditionsToCapitalAssetsAtHistoricalCost" name="AdditionsToCapitalAssetsAtHistoricalCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_CapitalAssetsBeingDepreciatedNetRollForward" name="CapitalAssetsBeingDepreciatedNetRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_AdditionsToCapitalAssetsBeingDepreciatedNet" name="AdditionsToCapitalAssetsBeingDepreciatedNet" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ReductionsFromCapitalAssetsBeingDepreciatedNet" name="ReductionsFromCapitalAssetsBeingDepreciatedNet" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_TransfersWithinCapitalAssetsBeingDepreciatedNet" name="TransfersWithinCapitalAssetsBeingDepreciatedNet" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_AllowanceForChargebacksModifiedAccrual" name="AllowanceForChargebacksModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_AllowanceForRefundsModifiedAccrual" name="AllowanceForRefundsModifiedAccrual" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_NameOfLongTermDebtAxis" name="NameOfLongTermDebtAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#acfr_NameOfLongTermDebtGeneralObligationBondDomain" xbrli:periodType="duration"/>
+   <xs:element abstract="true" id="acfr_BondPremiumRollForward" name="BondPremiumRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_BondPremium" name="BondPremium" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdditionsToBondPremium" name="AdditionsToBondPremium" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ReductionsFromBondPremium" name="ReductionsFromBondPremium" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_BondPremiumPrincipalDueWithinOneYear" name="BondPremiumPrincipalDueWithinOneYear" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="true" id="acfr_InstallmentDebtRollForward" name="InstallmentDebtRollForward" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_InstallmentDebt" name="InstallmentDebt" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_AdditionsToInstallmentDebt" name="AdditionsToInstallmentDebt" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_ReductionsFromInstallmentDebt" name="ReductionsFromInstallmentDebt" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
+   <xs:element abstract="false" id="acfr_InstallmentDebtPrincipalDueWithinOneYear" name="InstallmentDebtPrincipalDueWithinOneYear" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+   <xs:element abstract="false" id="acfr_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" name="BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration"/>
 </xs:schema>
