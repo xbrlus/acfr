@@ -1,0 +1,27 @@
+/**
+ACFR Rules
+ (c) Copyright 2017 - 2022, XBRL US Inc. All rights reserved.
+ See https://xbrl.us/acfr-license for license information.
+ See https://xbrl.us/acfr-patent for patent infringement notice.
+Taxonomy: ACFR 2022
+**/
+
+
+rule-name-prefix ACFR
+
+
+ASSERT req.0001 UNSATISFIED
+
+/** This rule identifies required elements using the contant REQUIRED_ELEMENTS **/
+
+$rule_id = rule-name();
+
+for $element in $REQUIRED_ELEMENTS
+
+    exists([covered @concept = $element])  
+message 
+"The element {$element} must be reported in the filing. 
+
+Rule Id:{$rule_id}
+"
+severity error

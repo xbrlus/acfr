@@ -1,0 +1,22 @@
+/**
+
+ACFR Rules
+ (c) Copyright 2017 - 2022, XBRL US Inc. All rights reserved.
+ See https://xbrl.us/dqc-license for license information.
+ See https://xbrl.us/dqc-patent for patent infringement notice.
+Taxonomy:ACFR 2022
+
+**/
+
+constant $ACFR = taxonomy('https://raw.githubusercontent.com/xbrlus/acfr/master/acfr_all_2021-05-01.xsd')
+
+constant $EXCHANGE = taxonomy('https://xbrl.sec.gov/exch/2022/exch-entire-2022.xsd')
+
+constant $STATE_PROVINCE = taxonomy('https://xbrl.sec.gov/stpr/2022/stpr-entire-2022.xsd')
+
+constant $NAICS = taxonomy('https://xbrl.sec.gov/naics/2022/naics-entire-2022.xsd')
+
+constant $SIC = taxonomy('https://xbrl.sec.gov/sic/2022/sic-entire-2022.xsd')
+
+
+constant $ALL_BASE_TAXONOMIES = list($ACFR, $EXCHANGE, $STATE_PROVINCE, $NAICS, $SIC)

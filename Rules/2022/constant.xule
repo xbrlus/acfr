@@ -1,0 +1,22 @@
+/**
+
+ACFR Rules
+ (c) Copyright 2017 - 2022, XBRL US Inc. All rights reserved.
+ See https://xbrl.us/acfr-license for license information.
+ See https://xbrl.us/acfr-patent for patent infringement notice.
+Taxonomy: ACFR 2022
+**/
+
+constant $REQUIRED_ELEMENTS = list(NameOfGovernment,
+									FiscalEndDate,
+									TypeOfGovernment,
+									FiscalStartDate,
+									NameOfAuditFirm,
+									AuditStatus,
+									AuditOpinion,
+									DateOfAuditOpinion,
+									NameOfState,
+									DateOfTransmittal,
+									DocumentTitle
+									
+									)

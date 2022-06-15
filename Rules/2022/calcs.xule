@@ -1,0 +1,137 @@
+/**
+ACFR Rules
+ (c) Copyright 2017 - 2022, XBRL US Inc. All rights reserved.
+ See https://xbrl.us/acfr-license for license information.
+ See https://xbrl.us/acfr-patent for patent infringement notice.
+Taxonomy: ACFR 2022
+**/
+
+rule-name-prefix ACFR
+
+ASSERT calc.0001 UNSATISFIED
+
+/** This rule identifies required elements using the contant REQUIRED_ELEMENTS **/
+
+$rule_id = rule-name();
+$NetPosition = {nonils @NetPosition};
+$CalcNP = {nonils @AssetsAndDeferredOutflowsOfResources}#ado <-> {nonils @LiabilitiesAndDeferredInflowsOfResources}#lda;
+$Decimals = list({nonils @AssetsAndDeferredOutflowsOfResources},{nonils @Assets},{nonils @LiabilitiesAndDeferredInflowsOfResources});
+
+$minDecimals = min(list(for $x in $Decimals
+				if $x == none 
+					skip
+				else
+					$x.decimals));
+
+$decimal_tolerance_factor = 2;
+
+if $CalcNP == none
+	skip
+else
+	tolerance_for_decimals_comp($NetPosition, $CalcNP, $minDecimals, $decimal_tolerance_factor)
+
+
+message
+
+"{$NetPosition.concept.label.text} with a value of {$NetPosition} is not equal to the AssetsAndDeferredOutflowsOfResources less  LiabilitiesAndDeferredInflowsOfResources  ( {$ado} + {$lda} ) with a value of {$CalcNP}. These values should be equal.
+The properties of this {$NetPosition.concept} fact are:
+Period :{$NetPosition.period}
+Dimensions :  {$NetPosition.dimensions.join(', ','=')}
+Unit : {$NetPosition.unit}
+Decimals of Net Position : {$NetPosition.decimals}
+Decimals of AssetsAndDeferredOutflowsOfResources : {$ado.decimals}
+Decimals of LiabilitiesAndDeferredInflowsOfResources : {$lda.decimals}
+
+Rule Element Id:{$rule_id}
+Rule version: {$ruleVersion}"
+
+
+severity error
+
+ASSERT calc.0002 UNSATISFIED
+
+/** This rule identifies required elements using the contant REQUIRED_ELEMENTS **/
+
+$rule_id = rule-name();
+
+$statementCube = first((FILTER taxonomy().cubes where $item.drs-role.description.contains('100000 - Statement - Net Position')).to-list)
+
+$conceptsInCube = filter $statementCube.facts returns $item.concept.name;
+
+$CalcRoleURI = list('http://xbrl.us/acfr/v0.3/2021-05-01/roles/NetPositionAlternative','http://xbrl.us/acfr/v0.3/2021-05-01/roles/NetPosition')
+
+for $calc in $CalcRoleURI.sort
+			/** get the calculations aligned with the cube role.  We assume that the same role is used for the cube and the dimension**/
+			$calcNetworkSource = navigate summation-item descendants include start role $calc returns set (source-name);
+			
+			for $concept_item in $calcNetworkSource
+				if $concept_item == none or (length($calcNetworkSource.intersect($conceptsInCube.to-set))==0)
+					skip
+				else
+
+                /** Determine the children of the concept to check **/
+                $calcComponents = navigate summation-item children from $concept_item role $calc returns  (target-name, weight);
+
+                $addend = sum(list(for $x in $calcComponents
+                                                            $targetElement = $x[1];
+                                                            $targetWeight = $x[2];
+                                                            first-value({nonils @concept = $targetElement @cube.drs-role = $statementCube.drs-role}, sum(list({nonils @concept = $targetElement @DisaggregationLineItemAxis = * @@TypeOfGovernmentUnitAxis = *}))) * $targetWeight
+                                                            ))
+
+                
+                /** Capture in a string what calc was performed  above to report in the rule message. **/
+				$addend_string = sum(list(for $x in $calcComponents.sort
+													$targetElement = $x[1];
+													$defaultFact = if exists({nonils @concept = $targetElement @cube.drs-role = $statementCube.drs-role})
+																		true
+																	else
+																		false;
+
+
+													
+													$factAmt  =  first-value({nonils @concept = $targetElement @cube.drs-role = $statementCube.drs-role}, sum(list({nonils @concept = $targetElement @DisaggregationLineItemAxis = * @@TypeOfGovernmentUnitAxis = *}))).string
+
+													
+													$weight =  if $x[2] == 1
+																		"+"
+																else
+																		"-";
+													$strLength = $targetElement.local-name.string.length;
+													$pad = sum(list(for $x in range(120 - $strLength - $factAmt.length)
+																					" " 
+																					)
+																			);
+											"" + $weight + "  \t" + $targetElement.local-name.string + $pad + $factAmt  + "\n"
+													)
+									);
+
+					/** Compare the addends to the sum.  This is only done for the all reporting periods.**/
+
+					$sum2 = {nonils @concept = $concept_item @cube.drs-role = $statementCube.drs-role};
+
+                    if $addend == none or $sum2 == none
+						skip
+					else
+						$calcComponentConcepts = (filter $calcComponents returns $item[1]).to-set
+                        tolerance_for_decimals_comp($sum2, $addend, $sum2.decimals, 2)
+    
+message
+"The statement {$statementCube.drs-role.description} includes an inconsistent calculation. The value of the concept {$concept_item} of {$sum2} {if length($sum2.dimensions.values) > 0 'for ' + $sum2.dimensions.values.join(',') else "in the default"} should be equal to the sum of its child components defined in the calculation linkbase. The sum of these child components is {$addend}. The values of the addends is determined by adding the values of the child concepts. If a value is not available then the values associated with the members of the disaggregated dimension  are used to complete the calculation. The values reported in the financial statement in the current reporting period of {$sum2.period} should be complete if the financial statement is to be mathematically accurate and complete. The components of {$concept_item} that should add to {$sum2} are comprised of the following:
+
+{$addend_string}
+
+The addends are calculated based on the calculation linkbase defined for {$statementCube.drs-role.description}. If addends are missing then the calculation tree should be amended. The rule will add dimension components as well, so if the calculation is correct and the breakdown is a dimension, then check to ensure that the dimensions are defined correctly. Values calculated by adding a dimension member are shown in the calculation.
+
+
+Total Element : {$concept_item}
+Total Value : {$sum2} 
+Total period : {$sum2.period} 
+Dimensions : {$sum2.dimensions.join(', ','=')}
+Decimals : {$sum2.decimals} 
+Rule Element Id:{$rule_id}
+Rule version: {$ruleVersion}"
+
+
+severity error
+
+rule-focus $sum2

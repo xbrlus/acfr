@@ -36,7 +36,7 @@ _license = 'Apache-2'
 _author = 'XBRL US Inc.'
 _copyright = '(c) 2017-2022'
 _rule_set_map_name = 'acfrMIRulesetMap.json'
-_latest_map_name = 'https://github.com/xbrlus/acfr/raw/master/validation/acfrMIRulesetMap.json' 
+_latest_map_name = 'https://github.com/xbrlus/acfr/raw/master/Rules/acfrMIRulesetMap.json' 
 
 """Do not change anything below this line."""
 _xule_plugin_info = None

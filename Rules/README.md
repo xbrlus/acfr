@@ -15,7 +15,7 @@ A typical command line syntax for Arelle is as follows (including optional param
 **Example:**  
 Results for this command will display in the terminal window because no log file is defined:
 
-`.\arellecmdline.exe --plugins xule --xule-rule-set https://github.com/xbrlus/acfr/raw/master/validation/acfr-mi-v0.3-ruleset.zip -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck`
+`.\arellecmdline.exe --plugins xule --xule-rule-set https://github.com/xbrlus/acfr/raw/master/Rules/acfr-taxonomyChecks-v1-ruleset.zip -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck`
 
 In addition the following optional parameters can be passed:
 
@@ -31,9 +31,9 @@ The ACFR-MI plugin options will be displayed at the bottom of the list under the
 
 ## Install a plug-in and validate from the command prompt or in Arelle's GUI
 
-[Download](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI-plugin.zip) and extract or copy the 
-- [ACFR-MI.py](https://github.com/xbrlus/acfr/raw/master/validation/ACFR-MI.py) to the `/plugin/`**`validate`** folder where Arelle is installed 
-- [acfrMIRulesetMap.json](https://github.com/xbrlus/acfr/raw/master/validation/acfrMIRulesetMap.json) to the `/plugin/`**`xule`** folder where Arelle is installed 
+[Download](https://github.com/xbrlus/acfr/raw/master/Rules/ACFR-MI-plugin.zip) and extract or copy the 
+- [ACFR-MI.py](https://github.com/xbrlus/acfr/raw/master/Rules/ACFR-MI.py) to the `/plugin/`**`validate`** folder where Arelle is installed 
+- [acfrMIRulesetMap.json](https://github.com/xbrlus/acfr/raw/master/Rules/acfrMIRulesetMap.json) to the `/plugin/`**`xule`** folder where Arelle is installed 
 
 ### Command line
 In this example, the plugin is specified and routes the selection of the rule set through the rulesetMap.json file, instead of specifying the rule set to be used.

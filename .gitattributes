@@ -4,3 +4,4 @@
 .gitattributes export-ignore
 docs export-ignore
 validation export-ignore
+Rules export-ignore
