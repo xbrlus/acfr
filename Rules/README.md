@@ -15,7 +15,7 @@ A typical command line syntax for Arelle is as follows (including optional param
 **Example:**  
 Results for this command will display in the terminal window because no log file is defined:
 
-`.\arellecmdline.exe --plugins xule --xule-rule-set https://github.com/xbrlus/acfr/raw/master/Rules/acfr-taxonomyChecks-v1-ruleset.zip -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck`
+`.\arellecmdline.exe --plugins xule --xule-rule-set https://github.com/xbrlus/acfr/raw/master/Rules/acfr-2022-v1-ruleset.zip -f https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm -v --xule-time .005 --xule-debug --noCertificateCheck`
 
 In addition the following optional parameters can be passed:
 
