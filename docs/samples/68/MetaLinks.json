@@ -3,7 +3,7 @@
   "SOUTHHAVEN.htm": {
    "axisCustom": 0,
    "axisStandard": 11,
-   "contextCount": 198,
+   "contextCount": 200,
    "dts": {
     "calculationLink": {
      "remote": [
@@ -70,11 +70,11 @@
    "elementCount": 3449,
    "entityCount": 1,
    "hidden": {
-    "http://xbrl.us/acfr/v0.3/2021-05-01/acfr": 45,
-    "total": 45
+    "http://xbrl.us/acfr/v0.3/2021-05-01/acfr": 49,
+    "total": 49
    },
    "keyCustom": 0,
-   "keyStandard": 242,
+   "keyStandard": 246,
    "memberCustom": 0,
    "memberStandard": 28,
    "nsprefix": "acfr-part",
@@ -1714,7 +1714,7 @@
        "html"
       ],
       "baseRef": "SOUTHHAVEN.htm",
-      "contextRef": "I20200630_PensionPlanNameDomain_MERS_Defined_Benefit_Plan",
+      "contextRef": "I20190630_PensionPlanNameDomain_MERS_Defined_Benefit_Plan",
       "decimals": "0",
       "lang": null,
       "name": "acfr:PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits",
@@ -1766,7 +1766,7 @@
        "html"
       ],
       "baseRef": "SOUTHHAVEN.htm",
-      "contextRef": "I20190630_PensionPlanNameDomain_MERS_Defined_Benefit_Plan",
+      "contextRef": "I20180630_PensionPlanNameDomain_MERS_Defined_Benefit_Plan",
       "decimals": "0",
       "lang": null,
       "name": "acfr:TotalPensionLiability",
@@ -2028,33 +2028,12 @@
      "uniqueAnchor": null
     },
     "R49": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "SOUTHHAVEN.htm",
-      "contextRef": "I20200630_BusinessTypeActivitiesEnterpriseFundsMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "acfr:AccountsReceivable",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
+     "firstAnchor": null,
      "groupType": "",
      "isDefault": "false",
-     "longName": "803000 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Position",
-     "role": "http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIInternalServiceEnterpriseStatementOfPosition",
-     "shortName": "Internal Service, Enterprise Funds - Statement of Position",
+     "longName": "802000 - Document and Entity Information",
+     "role": "http://xbrl.us/acfr/v0.3/2021-05-01/roles/DocumentAndEntity",
+     "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
     },
@@ -2126,6 +2105,37 @@
        "html"
       ],
       "baseRef": "SOUTHHAVEN.htm",
+      "contextRef": "I20200630_BusinessTypeActivitiesEnterpriseFundsMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "acfr:AccountsReceivable",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "803000 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Position",
+     "role": "http://xbrl.us/acfr/v0.3/2021-05-01/acfr/roles/FormF65MIInternalServiceEnterpriseStatementOfPosition",
+     "shortName": "Internal Service, Enterprise Funds - Statement of Position",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R51": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "SOUTHHAVEN.htm",
       "contextRef": "D20200630_BusinessTypeActivitiesEnterpriseFundsMember",
       "decimals": "0",
       "first": true,
@@ -2143,7 +2153,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R53": {
+    "R54": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -2174,7 +2184,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R54": {
+    "R55": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -2226,7 +2236,7 @@
       "xsiNil": "false"
      }
     },
-    "R56": {
+    "R57": {
      "firstAnchor": {
       "ancestors": [
        "td",

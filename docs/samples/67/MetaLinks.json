@@ -3,7 +3,7 @@
   "Ogemaw-20190930.htm": {
    "axisCustom": 0,
    "axisStandard": 8,
-   "contextCount": 230,
+   "contextCount": 242,
    "dts": {
     "calculationLink": {
      "remote": [
@@ -70,11 +70,11 @@
    "elementCount": 3449,
    "entityCount": 1,
    "hidden": {
-    "http://xbrl.us/acfr/v0.3/2021-05-01/acfr": 144,
-    "total": 144
+    "http://xbrl.us/acfr/v0.3/2021-05-01/acfr": 146,
+    "total": 146
    },
    "keyCustom": 0,
-   "keyStandard": 210,
+   "keyStandard": 212,
    "memberCustom": 0,
    "memberStandard": 13,
    "nsprefix": "acfr-part",
@@ -83,6 +83,7 @@
     "R1": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -98,7 +99,7 @@
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "acfr:CashAndCashEquivalents",
+      "name": "acfr:InvestmentsCurrent",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -111,6 +112,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -135,6 +137,7 @@
     "R10": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -163,6 +166,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -187,6 +191,7 @@
     "R11": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -215,6 +220,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -239,6 +245,7 @@
     "R12": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -267,6 +274,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -291,6 +299,7 @@
     "R13": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -322,6 +331,7 @@
     "R14": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -353,6 +363,7 @@
     "R15": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -382,6 +393,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -407,6 +419,7 @@
     "R16": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -436,6 +449,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -461,6 +475,7 @@
     "R17": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -492,6 +507,7 @@
     "R18": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -523,6 +539,7 @@
     "R19": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -552,6 +569,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -577,6 +595,7 @@
     "R2": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -606,6 +625,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -631,6 +651,7 @@
     "R20": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -662,6 +683,7 @@
     "R21": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -691,6 +713,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -716,6 +739,7 @@
     "R22": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -745,6 +769,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -770,6 +795,7 @@
     "R23": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -799,6 +825,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -824,6 +851,7 @@
     "R24": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -853,6 +881,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -878,6 +907,7 @@
     "R25": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -906,6 +936,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -930,6 +961,7 @@
     "R26": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -959,6 +991,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -984,6 +1017,7 @@
     "R27": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1013,6 +1047,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1038,6 +1073,7 @@
     "R28": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1066,6 +1102,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1090,6 +1127,7 @@
     "R3": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1119,6 +1157,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1144,6 +1183,7 @@
     "R31": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1173,6 +1213,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1198,6 +1239,7 @@
     "R32": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1227,6 +1269,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1252,6 +1295,7 @@
     "R34": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1281,6 +1325,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1306,6 +1351,7 @@
     "R35": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1335,6 +1381,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1360,6 +1407,7 @@
     "R36": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1389,6 +1437,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1414,6 +1463,7 @@
     "R37": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1442,6 +1492,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1466,6 +1517,7 @@
     "R38": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1497,6 +1549,7 @@
     "R39": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1525,6 +1578,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1549,6 +1603,7 @@
     "R4": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1578,6 +1633,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1603,6 +1659,7 @@
     "R40": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1632,6 +1689,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1657,6 +1715,7 @@
     "R41": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1686,6 +1745,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1711,6 +1771,7 @@
     "R42": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1742,6 +1803,7 @@
     "R43": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1771,6 +1833,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1796,6 +1859,7 @@
     "R44": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1825,6 +1889,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1850,6 +1915,7 @@
     "R45": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1879,6 +1945,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1904,6 +1971,7 @@
     "R46": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1932,6 +2000,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1956,6 +2025,7 @@
     "R47": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -1985,6 +2055,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2010,6 +2081,7 @@
     "R48": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2038,6 +2110,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2062,6 +2135,7 @@
     "R5": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2091,6 +2165,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2126,6 +2201,7 @@
     "R52": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2157,6 +2233,7 @@
     "R53": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2188,6 +2265,7 @@
     "R56": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2203,7 +2281,7 @@
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "acfr:CashAndCashEquivalents",
+      "name": "acfr:InvestmentsCurrent",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -2219,6 +2297,7 @@
     "R57": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2247,6 +2326,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2271,6 +2351,7 @@
     "R6": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2299,6 +2380,7 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2310,10 +2392,10 @@
        "html"
       ],
       "baseRef": "Ogemaw-20190930.htm",
-      "contextRef": "D20200930_PrimaryGovernmentActivitiesMember",
+      "contextRef": "D20200930_PrimaryGovernmentActivitiesMember_1",
       "decimals": "0",
       "lang": null,
-      "name": "acfr:NetExpenseRevenueForTransportationServices",
+      "name": "acfr:NetExpenseRevenueForLegislativeAndExecutive",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -2323,6 +2405,7 @@
     "R7": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2352,6 +2435,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2377,6 +2461,7 @@
     "R8": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2405,6 +2490,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2429,6 +2515,7 @@
     "R9": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2457,6 +2544,7 @@
      "subGroupType": "details",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
        "tbody",
@@ -2468,7 +2556,7 @@
        "html"
       ],
       "baseRef": "Ogemaw-20190930.htm",
-      "contextRef": "D20200930_DisaggregationLineItemAxis.domain_County_Park_PrimaryGovernmentActivitiesMember",
+      "contextRef": "D20200930_DisaggregationLineItemAxis.domain_Building_and_Zoning_PrimaryGovernmentActivitiesMember_1",
       "decimals": "0",
       "lang": null,
       "name": "acfr:OtherNetExpenseRevenue",
