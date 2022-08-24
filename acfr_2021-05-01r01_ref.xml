@@ -40,57 +40,6 @@
         </reference>
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherAssets" xlink:label="acfr_OtherAssets" xlink:type="locator"/>
       <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_OtherAssets" xlink:to="lbl_reference721798951" xlink:type="arc"/>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSchoolsServices" xlink:label="acfr_ExpendituresForPublicSchoolsServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForPublicSchoolsServices" xlink:to="label_acfr_ExpendituresForPublicSchoolsServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForPublicSchoolsServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForSecurityOfPersonsAndPropertyServices" xlink:label="acfr_ExpendituresForSecurityOfPersonsAndPropertyServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForSecurityOfPersonsAndPropertyServices" xlink:to="label_acfr_ExpendituresForSecurityOfPersonsAndPropertyServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForSecurityOfPersonsAndPropertyServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-            <acfr-part:note>Page 10 and 11 and Part III, 8.D. and 8.K.</acfr-part:note>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForEconomicDevelopmentServices" xlink:label="acfr_ExpendituresForEconomicDevelopmentServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForEconomicDevelopmentServices" xlink:to="label_acfr_ExpendituresForEconomicDevelopmentServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForEconomicDevelopmentServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForElectricityAndPowerServices" xlink:label="acfr_ExpendituresForElectricityAndPowerServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForElectricityAndPowerServices" xlink:to="label_acfr_ExpendituresForElectricityAndPowerServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForElectricityAndPowerServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForAirportServices" xlink:label="acfr_ExpendituresForAirportServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForAirportServices" xlink:to="label_acfr_ExpendituresForAirportServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForAirportServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForHarborServices" xlink:label="acfr_ExpendituresForHarborServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForHarborServices" xlink:to="label_acfr_ExpendituresForHarborServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForHarborServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForSanitarySewerServices" xlink:label="acfr_ExpendituresForSanitarySewerServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForSanitarySewerServices" xlink:to="label_acfr_ExpendituresForSanitarySewerServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForSanitarySewerServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForStormSewerServices" xlink:label="acfr_ExpendituresForStormSewerServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForStormSewerServices" xlink:to="label_acfr_ExpendituresForStormSewerServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForStormSewerServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForConventionCenterServices" xlink:label="acfr_ExpendituresForConventionCenterServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForConventionCenterServices" xlink:to="label_acfr_ExpendituresForConventionCenterServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForConventionCenterServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
-      <loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForConservationServices" xlink:label="acfr_ExpendituresForConservationServices" xlink:type="locator"/>
-      <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_ExpendituresForConservationServices" xlink:to="label_acfr_ExpendituresForConservationServices" xlink:type="arc"/>
-      <reference xlink:label="label_acfr_ExpendituresForConservationServices" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-        </reference>
       <loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBNetLiabilityAtDiscountRateMinus1" xlink:label="acfr_OPEBNetLiabilityAtDiscountRateMinus1" xlink:type="locator"/>
       <referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="acfr_OPEBNetLiabilityAtDiscountRateMinus1" xlink:to="label_acfr_OPEBNetLiabilityAtDiscountRateMinus1" xlink:type="arc"/>
       <reference xlink:label="label_acfr_OPEBNetLiabilityAtDiscountRateMinus1" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
@@ -139,34 +88,10 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromAccumulatedDepreciation" xlink:label="lbl_ReductionsFromAccumulatedDepreciation" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ReductionsFromAccumulatedDepreciation" xlink:to="lbl_reference762610346" xlink:type="arc"/>
-      <link:reference id="id_11caf6b9" xlink:label="lbl_reference298514105" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalAssetsDepreciable" xlink:label="lbl_CapitalAssetsDepreciable" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CapitalAssetsDepreciable" xlink:to="lbl_reference298514105" xlink:type="arc"/>
-      <link:reference id="id_d44ee4" xlink:label="lbl_reference13913828" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionsToCapitalAssetsDepreciable" xlink:label="lbl_AdditionsToCapitalAssetsDepreciable" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdditionsToCapitalAssetsDepreciable" xlink:to="lbl_reference13913828" xlink:type="arc"/>
-      <link:reference id="id_1645c3f7" xlink:label="lbl_reference373670903" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromCapitalAssetsDepreciable" xlink:label="lbl_ReductionsFromCapitalAssetsDepreciable" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ReductionsFromCapitalAssetsDepreciable" xlink:to="lbl_reference373670903" xlink:type="arc"/>
       <link:reference id="id_3f1f3d0e" xlink:label="lbl_reference1059011854" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
          <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
       </link:reference>
-      <link:reference id="id_8963520" xlink:label="lbl_reference144061728" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalAssetsDepreciableLabel" xlink:label="lbl_CapitalAssetsDepreciableLabel" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CapitalAssetsDepreciableLabel" xlink:to="lbl_reference144061728" xlink:type="arc"/>
       <link:reference id="id_20dac873" xlink:label="lbl_reference551209075" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
       </link:reference>
@@ -268,24 +193,12 @@
          <acfr-part:note>Can be used with NameOfCapitalAssetsNondepreciableAxis which is a typed dimension, to represent other nondepreciable capital assets not represented in the taxonomy. If not used, represents the sum of capital assets nondepreciable.</acfr-part:note>
          <acfr-part:publisher>0</acfr-part:publisher>
       </link:reference>
-      <link:reference id="id_2906de3" xlink:label="lbl_reference43019747" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AccumulatedDepreciationLabel" xlink:label="lbl_AccumulatedDepreciationLabel" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AccumulatedDepreciationLabel" xlink:to="lbl_reference43019747" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionsToLeases" xlink:label="lbl_AdditionsToLeases" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdditionsToLeases" xlink:to="lbl_reference551209075" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ReductionsFromLeases" xlink:label="lbl_ReductionsFromLeases" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ReductionsFromLeases" xlink:to="lbl_reference342031476" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LeasesPrincipalDueWithinOneYear" xlink:label="lbl_LeasesPrincipalDueWithinOneYear" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LeasesPrincipalDueWithinOneYear" xlink:to="lbl_reference1660806616" xlink:type="arc"/>
-      <link:reference id="id_d9965b2" xlink:label="lbl_reference228156850" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Page 11 and Part III, 8.R.</acfr-part:note>
-         <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityServices" xlink:label="lbl_ExpendituresForCommunityServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityServices" xlink:to="lbl_reference228156850" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashEquivalents" xlink:label="lbl_CashEquivalents" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashEquivalents" xlink:to="lbl_reference11496347" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InternalBalance" xlink:label="lbl_InternalBalance" xlink:type="locator"/>
@@ -371,18 +284,6 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LongTermInvestmentsModifiedAccrual" xlink:to="lbl_reference299991869" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TaxesReceivableModifiedAccrual" xlink:label="lbl_TaxesReceivableModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_TaxesReceivableModifiedAccrual" xlink:to="lbl_reference872580191" xlink:type="arc"/>
-      <link:reference id="id_6658ef4d" xlink:label="lbl_reference1717104461" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1800 and Paragraph 136</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesRegisterOfDeedsModifiedAccrual" xlink:label="lbl_ChargesForServicesRegisterOfDeedsModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ChargesForServicesRegisterOfDeedsModifiedAccrual" xlink:to="lbl_reference1717104461" xlink:type="arc"/>
-      <link:reference id="id_733d26c4" xlink:label="lbl_reference1933387460" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1800 and Paragraph 136</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesPoliceSheriffModifiedAccrual" xlink:label="lbl_ChargesForServicesPoliceSheriffModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ChargesForServicesPoliceSheriffModifiedAccrual" xlink:to="lbl_reference1933387460" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents" xlink:label="lbl_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents" xlink:to="lbl_reference1467783293" xlink:type="arc"/>
       <link:reference id="id_5fe9863f" xlink:label="lbl_reference1609139775" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
@@ -1698,14 +1599,14 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_PensionCoveredEmployeePayroll" xlink:label="lbl_PensionCoveredEmployeePayroll" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionCoveredEmployeePayroll" xlink:to="lbl_reference899063147" xlink:type="arc"/>
-      <link:reference id="id_2ef2cf41" xlink:label="lbl_reference787664705" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+      <link:reference id="id_2ef2cf41" xlink:label="lbl_OPEBPlanTotalLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>P50</ref:Section>
          <ref:Paragraph>555</ref:Paragraph>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OPEBPlanTotalLiability" xlink:label="lbl_OPEBPlanTotalLiability" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OPEBPlanTotalLiability" xlink:to="lbl_reference787664705" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OPEBPlanTotalLiability" xlink:to="lbl_OPEBPlanTotalLiability_references" xlink:type="arc"/>
       <link:reference id="id_301f3552" xlink:label="lbl_reference807351634" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -1764,14 +1665,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredInflowsOfResourcesOPEBItems" xlink:label="lbl_DeferredInflowsOfResourcesOPEBItems" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DeferredInflowsOfResourcesOPEBItems" xlink:to="lbl_reference513655332" xlink:type="arc"/>
-      <link:reference id="id_3901c385" xlink:label="lbl_reference956416901" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>GASB</ref:Publisher>
-         <ref:Name>Codification</ref:Name>
-         <ref:Section>P50</ref:Section>
-         <ref:Paragraph>152a</ref:Paragraph>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_TotalOPEBLiability" xlink:label="lbl_TotalOPEBLiability" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_TotalOPEBLiability" xlink:to="lbl_reference956416901" xlink:type="arc"/>
       <link:reference id="id_79ff4f10" xlink:label="lbl_NetOPEBLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -2755,12 +2648,12 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnamortizedPremiumOnBonds" xlink:label="lbl_UnamortizedPremiumOnBonds" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnamortizedPremiumOnBonds" xlink:to="lbl_reference1223536897" xlink:type="arc"/>
-      <link:reference id="id_2c5088f1" xlink:label="lbl_reference743475441" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_2c5088f1" xlink:label="lbl_LongTermDebtDueInMoreThanOneYear_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>300 - 307</acfr-part:MIUCAAccountNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LongTermDebtDueInMoreThanOneYear" xlink:label="lbl_LongTermDebtDueInMoreThanOneYear" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LongTermDebtDueInMoreThanOneYear" xlink:to="lbl_reference743475441" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LongTermDebtDueInMoreThanOneYear" xlink:to="lbl_LongTermDebtDueInMoreThanOneYear_references" xlink:type="arc"/>
       <link:reference id="id_495495b3" xlink:label="lbl_reference1230280115" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>304</acfr-part:MIUCAAccountNumber>
@@ -3058,12 +2951,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForChiefExecutiveOrganizationUnit" xlink:label="lbl_ExpensesForChiefExecutiveOrganizationUnit" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForChiefExecutiveOrganizationUnit" xlink:to="lbl_reference1159482926" xlink:type="arc"/>
-      <link:reference id="id_7a04fcc5" xlink:label="lbl_reference2047147205" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>191 - 260</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForFinancialAndTaxAdministration" xlink:label="lbl_ExpensesForFinancialAndTaxAdministration" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForFinancialAndTaxAdministration" xlink:to="lbl_reference2047147205" xlink:type="arc"/>
       <link:reference id="id_667a07cf" xlink:label="lbl_reference1719273423" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -3071,12 +2958,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:label="lbl_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForFinancialAndTaxAdministrationInformationTechnology" xlink:to="lbl_reference1719273423" xlink:type="arc"/>
-      <link:reference id="id_3d741296" xlink:label="lbl_reference1031017110" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>215 - 218</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForFinancialAndTaxAdministrationClerk" xlink:label="lbl_ExpensesForFinancialAndTaxAdministrationClerk" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForFinancialAndTaxAdministrationClerk" xlink:to="lbl_reference1031017110" xlink:type="arc"/>
       <link:reference id="id_65607dbd" xlink:label="lbl_reference1700822461" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -3466,13 +3347,13 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenuesFromPublicSafetyServicesModifiedAccrual" xlink:label="lbl_RevenuesFromPublicSafetyServicesModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenuesFromPublicSafetyServicesModifiedAccrual" xlink:to="lbl_reference2048072273" xlink:type="arc"/>
-      <link:reference id="id_501d4017" xlink:label="lbl_reference1344094231" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_501d4017" xlink:label="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>400</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual" xlink:label="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual" xlink:to="lbl_reference1344094231" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual" xlink:to="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual_references" xlink:type="arc"/>
       <link:reference id="id_258e1fa0" xlink:label="lbl_reference630071200" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -3534,8 +3415,6 @@
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>336, 336 - 344</acfr-part:MIUCAActivityNumber>
       </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireDepartmentModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireDepartmentModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFireDepartmentModifiedAccrual" xlink:to="lbl_reference97722072" xlink:type="arc"/>
       <link:reference id="id_482dfb49" xlink:label="lbl_reference1210973001" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>400</acfr-part:MIUCAAccountNumber>
@@ -3543,36 +3422,36 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenuesFromPublicSafetyFireDepartmentModifiedAccrual" xlink:label="lbl_RevenuesFromPublicSafetyFireDepartmentModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenuesFromPublicSafetyFireDepartmentModifiedAccrual" xlink:to="lbl_reference1210973001" xlink:type="arc"/>
-      <link:reference id="id_361d9b" xlink:label="lbl_reference3546523" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_361d9b" xlink:label="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>337</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentAdministrationModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual" xlink:to="lbl_reference3546523" xlink:type="arc"/>
-      <link:reference id="id_e5cad36" xlink:label="lbl_reference240954678" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual" xlink:to="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual_references" xlink:type="arc"/>
+      <link:reference id="id_e5cad36" xlink:label="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>339</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentFireFightingModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual" xlink:to="lbl_reference240954678" xlink:type="arc"/>
-      <link:reference id="id_129cda62" xlink:label="lbl_reference312269410" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual" xlink:to="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual_references" xlink:type="arc"/>
+      <link:reference id="id_129cda62" xlink:label="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>341</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentFirePreventionModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual" xlink:to="lbl_reference312269410" xlink:type="arc"/>
-      <link:reference id="id_704b0c8d" xlink:label="lbl_reference1883966605" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual" xlink:to="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual_references" xlink:type="arc"/>
+      <link:reference id="id_704b0c8d" xlink:label="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>342</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentTrainingModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual" xlink:to="lbl_reference1883966605" xlink:type="arc"/>
-      <link:reference id="id_763b20da" xlink:label="lbl_reference1983586522" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual" xlink:to="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual_references" xlink:type="arc"/>
+      <link:reference id="id_763b20da" xlink:label="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>343</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentCommunicationModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual" xlink:to="lbl_reference1983586522" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual" xlink:to="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual_references" xlink:type="arc"/>
       <link:reference id="id_63ef10d3" xlink:label="lbl_reference1676611795" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -3590,7 +3469,7 @@
       <link:reference id="id_37a362b1" xlink:label="lbl_reference933454513" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>351, 351 - 370</acfr-part:MIUCAActivityNumber>
+         <acfr-part:MIUCAActivityNumber>351</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyCorrectionsJailModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyCorrectionsJailModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyCorrectionsJailModifiedAccrual" xlink:to="lbl_reference933454513" xlink:type="arc"/>
@@ -3611,7 +3490,7 @@
       <link:reference id="id_10dcaa7c" xlink:label="lbl_reference282897020" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>371 - 399</acfr-part:MIUCAActivityNumber>
+         <acfr-part:MIUCAActivityNumber>371</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:reference id="id_7d348797" xlink:label="lbl_reference2100594583" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
@@ -3689,7 +3568,7 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicWorksLakeImprovementsModifiedAccrual" xlink:label="lbl_ExpendituresForPublicWorksLakeImprovementsModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicWorksLakeImprovementsModifiedAccrual" xlink:to="lbl_reference1214357818" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForAirportServicesModifiedAccrual" xlink:label="lbl_ExpendituresForAirportServicesModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForAirportServicesModifiedAccrual" xlink:to="lbl_reference1430585769" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForAirportServicesModifiedAccrual" xlink:to="lbl_ExpendituresForAirportServicesModifiedAccrual_references" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForTransportationServicesModifiedAccrual" xlink:label="lbl_ExpendituresForTransportationServicesModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForTransportationServicesModifiedAccrual" xlink:to="lbl_reference1866626297" xlink:type="arc"/>
       <link:reference id="id_3b90344b" xlink:label="lbl_reference999306315" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
@@ -3700,7 +3579,7 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenuesFromPublicWorksAirportServicesModifiedAccrual" xlink:label="lbl_RevenuesFromPublicWorksAirportServicesModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenuesFromPublicWorksAirportServicesModifiedAccrual" xlink:to="lbl_reference999306315" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForHarborMarinaModifiedAccrual" xlink:label="lbl_ExpendituresForHarborMarinaModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForHarborMarinaModifiedAccrual" xlink:to="lbl_reference1856901695" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForHarborMarinaModifiedAccrual" xlink:to="lbl_ExpendituresForHarborMarinaModifiedAccrual_references" xlink:type="arc"/>
       <link:reference id="id_2f40f217" xlink:label="lbl_reference792785431" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>400</acfr-part:MIUCAAccountNumber>
@@ -3811,7 +3690,7 @@
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>570</acfr-part:MIUCAActivityNumber>
       </link:reference>
-      <link:reference id="id_554501a9" xlink:label="lbl_reference1430585769" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_554501a9" xlink:label="lbl_ExpendituresForAirportServicesModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>595</acfr-part:MIUCAActivityNumber>
@@ -3821,7 +3700,7 @@
          <acfr-part:MIUCAAccountNumber>860 - 879</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>596</acfr-part:MIUCAActivityNumber>
       </link:reference>
-      <link:reference id="id_6eae123f" xlink:label="lbl_reference1856901695" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_6eae123f" xlink:label="lbl_ExpendituresForHarborMarinaModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>597</acfr-part:MIUCAActivityNumber>
@@ -4096,13 +3975,13 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityEconomicDevelopmentCooperativeExtensionModifiedAccrual" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentCooperativeExtensionModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityEconomicDevelopmentCooperativeExtensionModifiedAccrual" xlink:to="lbl_reference1018481304" xlink:type="arc"/>
-      <link:reference id="id_7291add6" xlink:label="lbl_reference1922149846" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_7291add6" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>711</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual" xlink:to="lbl_reference1922149846" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual" xlink:to="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual_references" xlink:type="arc"/>
       <link:reference id="id_2969387b" xlink:label="lbl_reference694761595" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -4117,13 +3996,13 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityEconomicDevelopmentSurveyorModifiedAccrual" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentSurveyorModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityEconomicDevelopmentSurveyorModifiedAccrual" xlink:to="lbl_reference800399035" xlink:type="arc"/>
-      <link:reference id="id_26443e84" xlink:label="lbl_reference642006660" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_26443e84" xlink:label="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>728</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForEconomicDevelopmentServicesModifiedAccrual" xlink:label="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual" xlink:to="lbl_reference642006660" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual" xlink:to="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual_references" xlink:type="arc"/>
       <link:reference id="id_372e5ab6" xlink:label="lbl_reference925784758" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -6153,41 +6032,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetExpenseRevenueForRevenueSharing" xlink:label="lbl_NetExpenseRevenueForRevenueSharing" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetExpenseRevenueForRevenueSharing" xlink:to="lbl_reference436367411" xlink:type="arc"/>
-      <link:reference id="id_4d84aef6" xlink:label="lbl_reference1300541174" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>337</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireDepartmentAdministrationModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireDepartmentAdministrationModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFireDepartmentAdministrationModifiedAccrual" xlink:to="lbl_reference1300541174" xlink:type="arc"/>
-      <link:reference id="id_44c7b339" xlink:label="lbl_reference1153938233" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>339</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireFightingModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireFightingModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFireFightingModifiedAccrual" xlink:to="lbl_reference1153938233" xlink:type="arc"/>
-      <link:reference id="id_510647c8" xlink:label="lbl_reference1359366088" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>341</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFirePreventionModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFirePreventionModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFirePreventionModifiedAccrual" xlink:to="lbl_reference1359366088" xlink:type="arc"/>
-      <link:reference id="id_3131d39f" xlink:label="lbl_reference825349023" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>342</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireTrainingModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireTrainingModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFireTrainingModifiedAccrual" xlink:to="lbl_reference825349023" xlink:type="arc"/>
-      <link:reference id="id_482866e9" xlink:label="lbl_reference1210607337" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
-         <acfr-part:MIUCAActivityNumber>343</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSafetyFireDepartmentCommunicationModifiedAccrual" xlink:to="lbl_reference1210607337" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityEconomicDevelopmentHomeDemolitionModifiedAccrual" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentHomeDemolitionModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityEconomicDevelopmentHomeDemolitionModifiedAccrual" xlink:to="lbl_reference925784758" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ChargesForServicesWritOfGarnishmentRestitutionAttachmentOrExecution" xlink:label="lbl_ChargesForServicesWritOfGarnishmentRestitutionAttachmentOrExecution" xlink:type="locator"/>
@@ -6310,12 +6154,6 @@
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>546</acfr-part:MIUCAAccountNumber>
       </link:reference>
-      <link:reference id="id_330a26b5" xlink:label="lbl_reference856303285" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>513</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_IntergovernmentalRevenueFromStateStreetsAndHighwaysNonAct51ModifiedAccrual" xlink:label="lbl_IntergovernmentalRevenueFromStateStreetsAndHighwaysNonAct51ModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IntergovernmentalRevenueFromStateStreetsAndHighwaysNonAct51ModifiedAccrual" xlink:to="lbl_reference856303285" xlink:type="arc"/>
       <link:reference id="id_1f8ee90d" xlink:label="lbl_reference529459469" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>555</acfr-part:MIUCAAccountNumber>
@@ -6572,12 +6410,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsCultureAndRecreation" xlink:label="lbl_FederalGrantsCultureAndRecreation" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalGrantsCultureAndRecreation" xlink:to="lbl_reference275140157" xlink:type="arc"/>
-      <link:reference id="id_26982229" xlink:label="lbl_reference647504425" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>543</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FederalGrantsHousingAndCommunityDevelopment" xlink:label="lbl_FederalGrantsHousingAndCommunityDevelopment" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FederalGrantsHousingAndCommunityDevelopment" xlink:to="lbl_reference647504425" xlink:type="arc"/>
       <link:reference id="id_48d1deb9" xlink:label="lbl_reference1221713593" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>501 - 538, Excludes 502, 505, 513, 516, 519, 523, 522</acfr-part:MIUCAAccountNumber>
@@ -7103,22 +6935,6 @@
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>385 through 389</acfr-part:MIUCAAccountNumber>
       </link:reference>
-      <link:reference id="id_2822d9fb" xlink:label="lbl_OtherFundBalancesUnassigned_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>GASB</ref:Publisher>
-         <ref:Name>Codification</ref:Name>
-         <ref:Section>1800</ref:Section>
-         <ref:Paragraph>177</ref:Paragraph>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherFundBalancesUnassigned" xlink:label="lbl_OtherFundBalancesUnassigned" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherFundBalancesUnassigned" xlink:to="lbl_OtherFundBalancesUnassigned_references" xlink:type="arc"/>
-      <link:reference id="id_3f33b957" xlink:label="lbl_OtherFundBalancesUnassigned_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>390</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:reference id="id_19c0610" xlink:label="lbl_reference27002384" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>690</acfr-part:MIUCAAccountNumber>
-      </link:reference>
       <link:reference id="id_7bb1aff8" xlink:label="lbl_reference2075242488" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -7137,8 +6953,6 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnfundedActuarialLiabilityStabilizationPayment" xlink:to="lbl_reference668789021" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:label="lbl_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InterestExpenseImputedOnAnnuitizedPrizeLiability" xlink:to="lbl_reference1567609958" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdditionalOtherFinancingSourcesUses" xlink:label="lbl_AdditionalOtherFinancingSourcesUses" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdditionalOtherFinancingSourcesUses" xlink:to="lbl_reference27002384" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromCapitalGrants" xlink:label="lbl_ProceedsFromCapitalGrants" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromCapitalGrants" xlink:to="lbl_reference1800608437" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:label="lbl_ProceedsFromSpecialAssessmentsForFinancingCapitalAssets" xlink:type="locator"/>
@@ -7235,21 +7049,12 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:label="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsInRelationToTheActuariallyDeterminedPensionContribution" xlink:to="lbl_reference1164664872" xlink:type="arc"/>
-      <link:reference id="id_3b565fca" xlink:label="lbl_NetPensionLiabilityAsset_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
-         <ref:Publisher>GASB</ref:Publisher>
-         <ref:Name>Codification</ref:Name>
-         <ref:Section>P20</ref:Section>
-         <ref:Paragraph>119</ref:Paragraph>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiabilityAsset" xlink:label="lbl_NetPensionLiabilityAsset" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_NetPensionLiabilityAsset_references" xlink:type="arc"/>
-      <link:reference id="id_690e1ac2" xlink:label="lbl_NetPensionLiabilityAsset_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+      <link:reference id="id_690e1ac2" xlink:label="lbl_reference1749903853" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
          <ref:Section>P20</ref:Section>
          <ref:Paragraph>144a</ref:Paragraph>
       </link:reference>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiabilityAsset" xlink:to="lbl_reference2064615240" xlink:type="arc"/>
       <link:reference id="id_7bb3543" xlink:label="lbl_reference129709379" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
          <ref:Publisher>GASB</ref:Publisher>
          <ref:Name>Codification</ref:Name>
@@ -7356,12 +7161,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueFromRentsAndRoyalties" xlink:label="lbl_RevenueFromRentsAndRoyalties" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueFromRentsAndRoyalties" xlink:to="lbl_reference513915473" xlink:type="arc"/>
-      <link:reference id="id_549da650" xlink:label="lbl_reference1419617872" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>596</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksTransportationServices" xlink:label="lbl_ExpensesForPublicWorksTransportationServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksTransportationServices" xlink:to="lbl_reference1419617872" xlink:type="arc"/>
       <link:reference id="id_2fbe106a" xlink:label="lbl_reference800985194" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>001 - 016</acfr-part:MIUCAAccountNumber>
@@ -7404,188 +7203,20 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesLegislativeAndExecutive" xlink:label="lbl_ExpensesForGeneralGovernmentServicesLegislativeAndExecutive" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesLegislativeAndExecutive" xlink:to="lbl_reference1659627380" xlink:type="arc"/>
-      <link:reference id="id_66ad1401" xlink:label="lbl_reference1722618881" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>253</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesTreasurer" xlink:label="lbl_ExpensesForGeneralGovernmentServicesTreasurer" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesTreasurer" xlink:to="lbl_reference1722618881" xlink:type="arc"/>
-      <link:reference id="id_493f82" xlink:label="lbl_reference4800386" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>243, 245, 247, 257</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesAssessingEqualization" xlink:label="lbl_ExpensesForGeneralGovernmentServicesAssessingEqualization" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesAssessingEqualization" xlink:to="lbl_reference4800386" xlink:type="arc"/>
-      <link:reference id="id_4755eacd" xlink:label="lbl_reference1196813005" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>262</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesElections" xlink:label="lbl_ExpensesForGeneralGovernmentServicesElections" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesElections" xlink:to="lbl_reference1196813005" xlink:type="arc"/>
-      <link:reference id="id_cbc69de" xlink:label="lbl_reference213674462" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>265</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesBuildingAndGrounds" xlink:label="lbl_ExpensesForGeneralGovernmentServicesBuildingAndGrounds" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesBuildingAndGrounds" xlink:to="lbl_reference213674462" xlink:type="arc"/>
-      <link:reference id="id_d9a4ac2" xlink:label="lbl_reference228215490" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>266</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesAttorneyCorporationCounsel" xlink:label="lbl_ExpensesForGeneralGovernmentServicesAttorneyCorporationCounsel" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesAttorneyCorporationCounsel" xlink:to="lbl_reference228215490" xlink:type="arc"/>
       <link:reference id="id_3da50319" xlink:label="lbl_reference1034224409" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAActivityNumber>100 - 279, excluding 101-128, 171-190</acfr-part:MIUCAActivityNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForGeneralGovernmentServicesOther" xlink:label="lbl_ExpensesForGeneralGovernmentServicesOther" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForGeneralGovernmentServicesOther" xlink:to="lbl_reference1034224409" xlink:type="arc"/>
-      <link:reference id="id_3b527b58" xlink:label="lbl_reference995261272" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>281</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialTrialCourt" xlink:label="lbl_ExpensesForJudicialTrialCourt" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialTrialCourt" xlink:to="lbl_reference995261272" xlink:type="arc"/>
-      <link:reference id="id_79da23e9" xlink:label="lbl_reference2044339177" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>283</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialCircuitCourt" xlink:label="lbl_ExpensesForJudicialCircuitCourt" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialCircuitCourt" xlink:to="lbl_reference2044339177" xlink:type="arc"/>
-      <link:reference id="id_63d7386f" xlink:label="lbl_reference1675049071" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>286</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialDistrictAndMunicipalCourt" xlink:label="lbl_ExpensesForJudicialDistrictAndMunicipalCourt" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialDistrictAndMunicipalCourt" xlink:to="lbl_reference1675049071" xlink:type="arc"/>
-      <link:reference id="id_3f6b4dc7" xlink:label="lbl_reference1063996871" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>289</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialFriendOfTheCourt" xlink:label="lbl_ExpensesForJudicialFriendOfTheCourt" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialFriendOfTheCourt" xlink:to="lbl_reference1063996871" xlink:type="arc"/>
-      <link:reference id="id_51692326" xlink:label="lbl_reference1365844774" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>290</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialFriendOfTheCourtCooperativeReimbursementProgram" xlink:label="lbl_ExpensesForJudicialFriendOfTheCourtCooperativeReimbursementProgram" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialFriendOfTheCourtCooperativeReimbursementProgram" xlink:to="lbl_reference1365844774" xlink:type="arc"/>
-      <link:reference id="id_5542fdc5" xlink:label="lbl_reference1430453701" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>292</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialLawLibrary" xlink:label="lbl_ExpensesForJudicialLawLibrary" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialLawLibrary" xlink:to="lbl_reference1430453701" xlink:type="arc"/>
-      <link:reference id="id_5922a763" xlink:label="lbl_reference1495443299" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>294</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialProbateCourt" xlink:label="lbl_ExpensesForJudicialProbateCourt" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialProbateCourt" xlink:to="lbl_reference1495443299" xlink:type="arc"/>
-      <link:reference id="id_67779217" xlink:label="lbl_reference1735889431" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>295</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialProbation" xlink:label="lbl_ExpensesForJudicialProbation" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialProbation" xlink:to="lbl_reference1735889431" xlink:type="arc"/>
-      <link:reference id="id_7aeab936" xlink:label="lbl_reference2062203190" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>296</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialProsecutingAttorney" xlink:label="lbl_ExpensesForJudicialProsecutingAttorney" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialProsecutingAttorney" xlink:to="lbl_reference2062203190" xlink:type="arc"/>
-      <link:reference id="id_504e6706" xlink:label="lbl_reference1347315462" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>297</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialGrandJury" xlink:label="lbl_ExpensesForJudicialGrandJury" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialGrandJury" xlink:to="lbl_reference1347315462" xlink:type="arc"/>
-      <link:reference id="id_2f5dc290" xlink:label="lbl_reference794673808" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>298</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForJudicialFamilyCounselingServices" xlink:label="lbl_ExpensesForJudicialFamilyCounselingServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForJudicialFamilyCounselingServices" xlink:to="lbl_reference794673808" xlink:type="arc"/>
-      <link:reference id="id_43b11f2e" xlink:label="lbl_reference1135681326" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyPoliceSheriffAndConstable" xlink:label="lbl_ExpensesForPublicSafetyPoliceSheriffAndConstable" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyPoliceSheriffAndConstable" xlink:to="lbl_reference1135681326" xlink:type="arc"/>
-      <link:reference id="id_24a465a6" xlink:label="lbl_reference614753702" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>336 - 344</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyFire" xlink:label="lbl_ExpensesForPublicSafetyFire" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyFire" xlink:to="lbl_reference614753702" xlink:type="arc"/>
-      <link:reference id="id_6e86be07" xlink:label="lbl_reference1854324231" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>345</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyCombinedPublicSafetyDepartment" xlink:label="lbl_ExpensesForPublicSafetyCombinedPublicSafetyDepartment" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyCombinedPublicSafetyDepartment" xlink:to="lbl_reference1854324231" xlink:type="arc"/>
-      <link:reference id="id_1feb86a4" xlink:label="lbl_reference535529124" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>325</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyEmergency911Dispatch" xlink:label="lbl_ExpensesForPublicSafetyEmergency911Dispatch" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyEmergency911Dispatch" xlink:to="lbl_reference535529124" xlink:type="arc"/>
-      <link:reference id="id_a5eb69c" xlink:label="lbl_reference173979292" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>351 - 370</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyCorrectionsJail" xlink:label="lbl_ExpensesForPublicSafetyCorrectionsJail" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyCorrectionsJail" xlink:to="lbl_reference173979292" xlink:type="arc"/>
-      <link:reference id="id_53615b4a" xlink:label="lbl_reference1398889290" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>371 - 399</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyBuildingInspectionsAndRegulationsActivities" xlink:label="lbl_ExpensesForPublicSafetyBuildingInspectionsAndRegulationsActivities" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyBuildingInspectionsAndRegulationsActivities" xlink:to="lbl_reference1398889290" xlink:type="arc"/>
-      <link:reference id="id_4c317af6" xlink:label="lbl_reference1278311158" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>300 - 439</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicSafetyAllOtherPublicSafetyActivities" xlink:label="lbl_ExpensesForPublicSafetyAllOtherPublicSafetyActivities" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicSafetyAllOtherPublicSafetyActivities" xlink:to="lbl_reference1278311158" xlink:type="arc"/>
-      <link:reference id="id_302e1352" xlink:label="lbl_reference808325970" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>441, 442, 444 - 448</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksInfrastructure" xlink:label="lbl_ExpensesForPublicWorksInfrastructure" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksInfrastructure" xlink:to="lbl_reference808325970" xlink:type="arc"/>
-      <link:reference id="id_3b851602" xlink:label="lbl_reference998577666" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksRoadCommissionStreetDepartment" xlink:label="lbl_ExpensesForPublicWorksRoadCommissionStreetDepartment" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksRoadCommissionStreetDepartment" xlink:to="lbl_reference998577666" xlink:type="arc"/>
-      <link:reference id="id_d329c92" xlink:label="lbl_reference221420690" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksSanitationLandillSolidWaste" xlink:label="lbl_ExpensesForPublicWorksSanitationLandillSolidWaste" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksSanitationLandillSolidWaste" xlink:to="lbl_reference221420690" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForWaterAndSewerSystems" xlink:label="lbl_ExpensesForWaterAndSewerSystems" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForWaterAndSewerSystems" xlink:to="lbl_reference2081454154" xlink:type="arc"/>
-      <link:reference id="id_87dcb91" xlink:label="lbl_reference142461841" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForPublicWorksAirportServices" xlink:label="lbl_ExpensesForPublicWorksAirportServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForPublicWorksAirportServices" xlink:to="lbl_reference142461841" xlink:type="arc"/>
-      <link:reference id="id_442444dd" xlink:label="lbl_reference1143227613" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_442444dd" xlink:label="lbl_ExpensesForElections_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>264</acfr-part:MIUCAAccountNumber>
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForElections" xlink:label="lbl_ExpensesForElections" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForElections" xlink:to="lbl_reference1143227613" xlink:type="arc"/>
-      <link:reference id="id_485acd74" xlink:label="lbl_reference1213910388" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAActivityNumber>266</acfr-part:MIUCAActivityNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForCivilServiceMeritSystem" xlink:label="lbl_ExpensesForCivilServiceMeritSystem" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForCivilServiceMeritSystem" xlink:to="lbl_reference1213910388" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForElections" xlink:to="lbl_ExpensesForElections_references" xlink:type="arc"/>
       <link:reference id="id_6ca2cf14" xlink:label="lbl_reference1822609172" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
@@ -7602,11 +7233,9 @@
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForRubbishCollection" xlink:label="lbl_ExpensesForRubbishCollection" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForRubbishCollection" xlink:to="lbl_reference374374254" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForTransportationServices" xlink:label="lbl_ExpensesForTransportationServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForTransportationServices" xlink:to="lbl_reference1572849120" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForTransportationServices" xlink:to="lbl_ExpensesForTransportationServices_references" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForSanitaryLandfill" xlink:label="lbl_ExpensesForSanitaryLandfill" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForSanitaryLandfill" xlink:to="lbl_reference1931445264" xlink:type="arc"/>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAirportsServices" xlink:label="lbl_ExpensesForAirportsServices" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForAirportsServices" xlink:to="lbl_reference309609641" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForHarborServices" xlink:label="lbl_ExpensesForHarborServices" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForHarborServices" xlink:to="lbl_reference781838762" xlink:type="arc"/>
       <link:reference id="id_b31c33a" xlink:label="lbl_reference187810618" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
@@ -7848,12 +7477,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_MiscellaneousOtherRevenue" xlink:label="lbl_MiscellaneousOtherRevenue" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_MiscellaneousOtherRevenue" xlink:to="lbl_reference1492544268" xlink:type="arc"/>
-      <link:reference id="id_64cece73" xlink:label="lbl_reference1691274867" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>698</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ProceedsFromBondsNoteIssuance" xlink:label="lbl_ProceedsFromBondsNoteIssuance" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProceedsFromBondsNoteIssuance" xlink:to="lbl_reference1691274867" xlink:type="arc"/>
       <link:reference id="id_18c6b19c" xlink:label="lbl_reference415674780" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>696</acfr-part:MIUCAAccountNumber>
@@ -7910,12 +7533,12 @@
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>536</acfr-part:MIUCAActivityNumber>
       </link:reference>
-      <link:reference id="id_127444a9" xlink:label="lbl_reference309609641" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_127444a9" xlink:label="lbl_ExpensesForAirportServices_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>595</acfr-part:MIUCAActivityNumber>
       </link:reference>
-      <link:reference id="id_5dbfc5e0" xlink:label="lbl_reference1572849120" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+      <link:reference id="id_5dbfc5e0" xlink:label="lbl_ExpensesForTransportationServices_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
          <acfr-part:MIUCAActivityNumber>596</acfr-part:MIUCAActivityNumber>
@@ -7982,12 +7605,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DueFromOtherGovernmentsAndUnitsModifiedAccrual" xlink:label="lbl_DueFromOtherGovernmentsAndUnitsModifiedAccrual" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DueFromOtherGovernmentsAndUnitsModifiedAccrual" xlink:to="lbl_reference2112459060" xlink:type="arc"/>
-      <link:reference id="id_389609a0" xlink:label="lbl_reference949356960" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
-         <acfr-part:MIUCAAccountNumber>18 - 100, excluding 19-70, 71-81, 84</acfr-part:MIUCAAccountNumber>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherReceivablesModifiedAccrual" xlink:label="lbl_OtherReceivablesModifiedAccrual" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherReceivablesModifiedAccrual" xlink:to="lbl_reference949356960" xlink:type="arc"/>
       <link:reference id="id_187ae7ac" xlink:label="lbl_reference410707884" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
          <acfr-part:MIUCAAccountNumber>101 - 129</acfr-part:MIUCAAccountNumber>
@@ -8402,12 +8019,6 @@
       </link:reference>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_WaterSystemsNetOfAccumulatedDepreciation" xlink:label="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_WaterSystemsNetOfAccumulatedDepreciation" xlink:to="lbl_reference1497548387" xlink:type="arc"/>
-      <link:reference id="id_6bedb81b" xlink:label="lbl_reference1810741275" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
-         <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
-         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
-      </link:reference>
-      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherCapitalAssetsBeingDepreciatedGross" xlink:label="lbl_OtherCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherCapitalAssetsBeingDepreciatedGross" xlink:to="lbl_reference1810741275" xlink:type="arc"/>
       <link:reference id="id_7a112184" xlink:label="lbl_reference2047943044" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
          <acfr-part:note>Section 1400 and Paragraph 103. Can be used with NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis which is a typed dimension which can be used to represent a specific type of Capital Assets, Depreciable which is not represented in the taxonomy. If no axis is used, this element represents total Capital Assets, Depreciable, Net of Accumulated Depreciation and Amortization.</acfr-part:note>
          <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
@@ -8562,5 +8173,286 @@
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InstallmentDebt" xlink:to="lbl_reference631245929" xlink:type="arc"/>
       <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:label="lbl_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:type="locator"/>
       <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BenefitPaymentsMadeByPensionPlanFiduciaryNetPosition" xlink:to="lbl_reference129709379" xlink:type="arc"/>
+      <link:reference id="id_219b2ce7" xlink:label="lbl_reference563817703" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>343</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CompensatedAbsencesPayable" xlink:label="lbl_CompensatedAbsencesPayable" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CompensatedAbsencesPayable" xlink:to="lbl_reference563817703" xlink:type="arc"/>
+      <link:reference id="id_7d75efaa" xlink:label="lbl_reference2104881066" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>2200</ref:Section>
+         <ref:Paragraph>180</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RestrictedAssetsCustom" xlink:label="lbl_RestrictedAssetsCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RestrictedAssetsCustom" xlink:to="lbl_reference2104881066" xlink:type="arc"/>
+      <link:reference id="id_14689046" xlink:label="lbl_reference342396998" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1400</ref:Section>
+         <ref:Paragraph>103</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalAssetsNotBeingDepreciatedCustom" xlink:label="lbl_CapitalAssetsNotBeingDepreciatedCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CapitalAssetsNotBeingDepreciatedCustom" xlink:to="lbl_reference342396998" xlink:type="arc"/>
+      <link:reference id="id_797757ee" xlink:label="lbl_reference2037864430" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1400</ref:Section>
+         <ref:Paragraph>103</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_CapitalAssetsBeingDepreciatedNetOfAccumulatedDepreciationAndAmortizationCustom" xlink:label="lbl_CapitalAssetsBeingDepreciatedNetOfAccumulatedDepreciationAndAmortizationCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CapitalAssetsBeingDepreciatedNetOfAccumulatedDepreciationAndAmortizationCustom" xlink:to="lbl_reference2037864430" xlink:type="arc"/>
+      <link:reference id="id_6dc84b70" xlink:label="lbl_reference1841843056" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>GASB Concepts Statement No. 4</ref:Name>
+         <ref:Paragraph>32</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResourcesCustom" xlink:label="lbl_DeferredOutflowsOfResourcesCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DeferredOutflowsOfResourcesCustom" xlink:to="lbl_reference1841843056" xlink:type="arc"/>
+      <link:reference id="id_3837afc5" xlink:label="lbl_reference943173573" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>955 - 958</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_6bd7e747" xlink:label="lbl_reference1809311559" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:Sentence>TypeOfProgramRevenuesAxis=ProgramRevenuesFromOperatingGrantsAndContributionsStateGrantsMember</ref:Sentence>
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>528</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_RevenueForOtherProgramsCustom" xlink:label="lbl_RevenueForOtherProgramsCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueForOtherProgramsCustom" xlink:to="lbl_reference1809311559" xlink:type="arc"/>
+      <link:reference id="id_c680443" xlink:label="lbl_reference208143427" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <acfr-part:note>Section 2200 and Paragraph 143 and 144 and 108. Can be used with the typed dimension NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesAxis which can be used to represent a specific type of Adjustment for Transfer of Revenues Within Activities which is not represented in the taxonomy. If no axis is used, this element represents the total of Adjustment for Transfer of Revenues Within Activities not represented by other line items.</acfr-part:note>
+         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AdjustmentsForTransferOfRevenuesWithinActivitiesCustom" xlink:label="lbl_AdjustmentsForTransferOfRevenuesWithinActivitiesCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdjustmentsForTransferOfRevenuesWithinActivitiesCustom" xlink:to="lbl_reference208143427" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesCustom" xlink:label="lbl_ExpensesCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesCustom" xlink:to="lbl_reference943173573" xlink:type="arc"/>
+      <link:reference id="id_1fe4fedc" xlink:label="lbl_reference535101148" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>195</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredOutflowsOfResourcesCustomModifiedAccrual" xlink:label="lbl_DeferredOutflowsOfResourcesCustomModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DeferredOutflowsOfResourcesCustomModifiedAccrual" xlink:to="lbl_reference535101148" xlink:type="arc"/>
+      <link:reference id="id_6b39535" xlink:label="lbl_reference112432437" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>339</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_UnearnedRevenueCustomModifiedAccrual" xlink:label="lbl_UnearnedRevenueCustomModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnearnedRevenueCustomModifiedAccrual" xlink:to="lbl_reference112432437" xlink:type="arc"/>
+      <link:reference id="id_3a93bb45" xlink:label="lbl_reference982760261" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>360</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_DeferredInflowsOfResourcesCustomModifiedAccrual" xlink:label="lbl_DeferredInflowsOfResourcesCustomModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DeferredInflowsOfResourcesCustomModifiedAccrual" xlink:to="lbl_reference982760261" xlink:type="arc"/>
+      <link:reference id="id_5599f3e" xlink:label="lbl_FundBalanceNonspendableCustom_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>166</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalanceNonspendableCustom" xlink:label="lbl_FundBalanceNonspendableCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundBalanceNonspendableCustom" xlink:to="lbl_FundBalanceNonspendableCustom_references" xlink:type="arc"/>
+      <link:reference id="id_589728e3" xlink:label="lbl_FundBalanceNonspendableCustom_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>370 through 374</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_210ba3bf" xlink:label="lbl_FundBalanceRestrictedCustom_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>168</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalanceRestrictedCustom" xlink:label="lbl_FundBalanceRestrictedCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundBalanceRestrictedCustom" xlink:to="lbl_FundBalanceRestrictedCustom_references" xlink:type="arc"/>
+      <link:reference id="id_4a80d558" xlink:label="lbl_FundBalanceRestrictedCustom_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>375 through 379</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_62f8bccd" xlink:label="lbl_FundBalanceCommittedCustom_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>170</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalanceCommittedCustom" xlink:label="lbl_FundBalanceCommittedCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundBalanceCommittedCustom" xlink:to="lbl_FundBalanceCommittedCustom_references" xlink:type="arc"/>
+      <link:reference id="id_2b5095d" xlink:label="lbl_FundBalanceCommittedCustom_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>380 through 384</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_5e8ccb2f" xlink:label="lbl_FundBalanceAssignedCustom_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>173</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_FundBalanceAssignedCustom" xlink:label="lbl_FundBalanceAssignedCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FundBalanceAssignedCustom" xlink:to="lbl_FundBalanceAssignedCustom_references" xlink:type="arc"/>
+      <link:reference id="id_5f62eed" xlink:label="lbl_FundBalanceAssignedCustom_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>385 through 389</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:reference id="id_98a7c2b" xlink:label="lbl_reference160070699" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>955</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresCustomModifiedAccrual" xlink:label="lbl_ExpendituresCustomModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresCustomModifiedAccrual" xlink:to="lbl_reference160070699" xlink:type="arc"/>
+      <link:reference id="id_1ab1151d" xlink:label="lbl_reference447812893" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>690</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OtherFinancingSourcesUsesCustom" xlink:label="lbl_OtherFinancingSourcesUsesCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherFinancingSourcesUsesCustom" xlink:to="lbl_reference447812893" xlink:type="arc"/>
+      <link:reference id="id_6cf404db" xlink:label="lbl_reference1827931355" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>955 - 958</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_OperatingExpensesCustom" xlink:label="lbl_OperatingExpensesCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OperatingExpensesCustom" xlink:to="lbl_reference1827931355" xlink:type="arc"/>
+      <link:reference id="id_72eb7dc4" xlink:label="lbl_reference1928035780" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>1800</ref:Section>
+         <ref:Paragraph>144</ref:Paragraph>
+      </link:reference>
+      <link:reference id="id_74bfc39e" xlink:label="lbl_reference1958724510" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_LotteryCostsCustom" xlink:label="lbl_LotteryCostsCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LotteryCostsCustom" xlink:to="lbl_reference1958724510" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ContributionsCustom" xlink:label="lbl_ContributionsCustom" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ContributionsCustom" xlink:to="lbl_reference1928035780" xlink:type="arc"/>
+      <link:reference id="id_42d404d9" xlink:label="lbl_RevenueFromPublicSafetyPoliceSheriffAndConstableModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <acfr-part:note>Section 1800 and Paragraph 136</acfr-part:note>
+         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
+      </link:reference>
+      <reference xlink:label="lbl_ExpendituresForAirportServicesModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForCommunityServicesModifiedAccrual" xlink:label="lbl_ExpendituresForCommunityServicesModifiedAccrual" xlink:type="locator"/>
+      <link:reference id="id_1b5d6132" xlink:label="lbl_reference459104562" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <acfr-part:note>Page 11 and Part III, 8.R.</acfr-part:note>
+         <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+      </link:reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForCommunityServicesModifiedAccrual" xlink:to="lbl_reference459104562" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForConservationServicesModifiedAccrual" xlink:label="lbl_ExpendituresForConservationServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference2083261962" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForConservationServicesModifiedAccrual" xlink:to="lbl_reference2083261962" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForConventionCenterServicesModifiedAccrual" xlink:label="lbl_ExpendituresForConventionCenterServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference884299694" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForConventionCenterServicesModifiedAccrual" xlink:to="lbl_reference884299694" xlink:type="arc"/>
+      <reference xlink:label="lbl_ExpendituresForEconomicDevelopmentServicesModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForElectricityAndPowerServicesModifiedAccrual" xlink:label="lbl_ExpendituresForElectricityAndPowerServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference1775785599" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForElectricityAndPowerServicesModifiedAccrual" xlink:to="lbl_reference1775785599" xlink:type="arc"/>
+      <link:reference id="id_7a416234" xlink:label="lbl_ExpendituresForFireDepartmentAdministrationModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAActivityNumber>337</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_5562b52c" xlink:label="lbl_ExpendituresForFireDepartmentFireFightingModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAActivityNumber>339</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_e602a73" xlink:label="lbl_ExpendituresForFireDepartmentFirePreventionModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAActivityNumber>341</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_1d50bf00" xlink:label="lbl_ExpendituresForFireDepartmentTrainingModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAActivityNumber>342</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_1a8e15d0" xlink:label="lbl_ExpendituresForFireDepartmentCommunicationModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>700</acfr-part:MIUCAAccountNumber>
+         <acfr-part:MIUCAActivityNumber>343</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForFireDepartmentModifiedAccrual" xlink:label="lbl_ExpendituresForFireDepartmentModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForFireDepartmentModifiedAccrual" xlink:to="lbl_reference97722072" xlink:type="arc"/>
+      <reference xlink:label="lbl_ExpendituresForHarborMarinaModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForPublicSchoolsServicesModifiedAccrual" xlink:label="lbl_ExpendituresForPublicSchoolsServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference1640030605" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForPublicSchoolsServicesModifiedAccrual" xlink:to="lbl_reference1640030605" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForSanitarySewerServicesModifiedAccrual" xlink:label="lbl_ExpendituresForSanitarySewerServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference679701171" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForSanitarySewerServicesModifiedAccrual" xlink:to="lbl_reference679701171" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForSecurityOfPersonsAndPropertyServicesModifiedAccrual" xlink:label="lbl_ExpendituresForSecurityOfPersonsAndPropertyServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference209675449" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+            <acfr-part:note>Page 10 and 11 and Part III, 8.D. and 8.K.</acfr-part:note>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForSecurityOfPersonsAndPropertyServicesModifiedAccrual" xlink:to="lbl_reference209675449" xlink:type="arc"/>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpendituresForStormSewerServicesModifiedAccrual" xlink:label="lbl_ExpendituresForStormSewerServicesModifiedAccrual" xlink:type="locator"/>
+      <reference xlink:label="lbl_reference2135420580" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+            <acfr-part:publisher>US Census Bureau: F28</acfr-part:publisher>
+        </reference>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpendituresForStormSewerServicesModifiedAccrual" xlink:to="lbl_reference2135420580" xlink:type="arc"/>
+      <link:reference id="id_47781b18" xlink:label="lbl_ExpensesForElections_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAActivityNumber>262</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_352514ce" xlink:label="lbl_ExpensesForTransportationServices_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAActivityNumber>596</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_ExpensesForAirportServices" xlink:label="lbl_ExpensesForAirportServices" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesForAirportServices" xlink:to="lbl_ExpensesForAirportServices_references" xlink:type="arc"/>
+      <link:reference id="id_3efebd8b" xlink:label="lbl_ExpensesForAirportServices_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAActivityNumber>301</acfr-part:MIUCAActivityNumber>
+      </link:reference>
+      <link:reference id="id_1f06d6ff" xlink:label="lbl_reference520541951" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <ref:URI>https://www.michigan.gov/documents/uniformchart_24524_7.pdf</ref:URI>
+         <acfr-part:MIUCAAccountNumber>18 - 100, excluding 19-70, 71-81, 84</acfr-part:MIUCAAccountNumber>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_AllOtherReceivablesModifiedAccrual" xlink:label="lbl_AllOtherReceivablesModifiedAccrual" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AllOtherReceivablesModifiedAccrual" xlink:to="lbl_reference520541951" xlink:type="arc"/>
+      <link:reference id="id_63877e2f" xlink:label="lbl_ExpendituresForCommunityEconomicDevelopmentRegisterOfDeedsModifiedAccrual_references" xlink:role="http://acfr.us/roles/reference" xlink:type="resource">
+         <acfr-part:note>Section 1800 and Paragraph 136</acfr-part:note>
+         <acfr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</acfr-part:publisher>
+      </link:reference>
+      <link:reference id="id_150995c8" xlink:label="lbl_LongTermDebtDueInMoreThanOneYear_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>2300</ref:Section>
+         <ref:Paragraph>120</ref:Paragraph>
+      </link:reference>
+      <link:reference id="id_4bf6e9c7" xlink:label="lbl_reference1274472903" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>P20</ref:Section>
+         <ref:Paragraph>119</ref:Paragraph>
+      </link:reference>
+      <link:loc xlink:href="acfr_2021-05-01.xsd#acfr_NetPensionLiability" xlink:label="lbl_NetPensionLiability" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiability" xlink:to="lbl_reference1274472903" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiability" xlink:to="lbl_reference1749903853" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetPensionLiability" xlink:to="lbl_reference2064615240" xlink:type="arc"/>
+      <link:reference id="id_4091e1e2" xlink:label="lbl_OPEBPlanTotalLiability_references" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource">
+         <ref:Publisher>GASB</ref:Publisher>
+         <ref:Name>Codification</ref:Name>
+         <ref:Section>P50</ref:Section>
+         <ref:Paragraph>152a</ref:Paragraph>
+      </link:reference>
    </referenceLink>
 </linkbase>
