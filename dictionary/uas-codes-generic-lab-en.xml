@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2020
+Released by State of Florida Department of Financial Services
+Release date October 16th, 2020
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd">
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" xlink:type="simple"/>
+  <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated_loc" xlink:to="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated_loc" xlink:to="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_No_loc" xlink:to="uas-codes_No_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Suppporting_Documentation_Audit_loc" xlink:to="uas-codes_Suppporting_Documentation_Audit_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Suppporting_Documentation_Data_Element_Worksheet_loc" xlink:to="uas-codes_Suppporting_Documentation_Data_Element_Worksheet_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Type_Of_Government_County_loc" xlink:to="uas-codes_Type_Of_Government_County_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Type_Of_Government_Municipality_loc" xlink:to="uas-codes_Type_Of_Government_Municipality_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Type_Of_Government_Other_Entity_loc" xlink:to="uas-codes_Type_Of_Government_Other_Entity_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Type_Of_Government_Special_District_loc" xlink:to="uas-codes_Type_Of_Government_Special_District_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Yes_No_NotApplicable_No_loc" xlink:to="uas-codes_Yes_No_NotApplicable_No_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Yes_No_NotApplicable_Not_Applicable_loc" xlink:to="uas-codes_Yes_No_NotApplicable_Not_Applicable_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Yes_No_NotApplicable_Yes_loc" xlink:to="uas-codes_Yes_No_NotApplicable_Yes_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_Yes_loc" xlink:to="uas-codes_Yes_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType_loc" xlink:to="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_districtTypeItemType_loc" xlink:to="uas-codes_districtTypeItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_supportingDocumentationItemType_loc" xlink:to="uas-codes_supportingDocumentationItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_typeOfGovernmentItemType_loc" xlink:to="uas-codes_typeOfGovernmentItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_yesNoItemType_loc" xlink:to="uas-codes_yesNoItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas-codes_yesNoNotApplicableItemType_loc" xlink:to="uas-codes_yesNoNotApplicableItemType_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_01_loc" xlink:to="uas_codes_District_Type_01_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_02_loc" xlink:to="uas_codes_District_Type_02_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_03_loc" xlink:to="uas_codes_District_Type_03_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_04_loc" xlink:to="uas_codes_District_Type_04_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_05_loc" xlink:to="uas_codes_District_Type_05_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_06_loc" xlink:to="uas_codes_District_Type_06_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_07_loc" xlink:to="uas_codes_District_Type_07_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_08_loc" xlink:to="uas_codes_District_Type_08_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_09_loc" xlink:to="uas_codes_District_Type_09_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_10_loc" xlink:to="uas_codes_District_Type_10_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_11_loc" xlink:to="uas_codes_District_Type_11_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_12_loc" xlink:to="uas_codes_District_Type_12_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_13_loc" xlink:to="uas_codes_District_Type_13_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_14_loc" xlink:to="uas_codes_District_Type_14_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_15_loc" xlink:to="uas_codes_District_Type_15_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_16_loc" xlink:to="uas_codes_District_Type_16_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_17_loc" xlink:to="uas_codes_District_Type_17_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_18_loc" xlink:to="uas_codes_District_Type_18_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_19_loc" xlink:to="uas_codes_District_Type_19_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_20_loc" xlink:to="uas_codes_District_Type_20_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_21_loc" xlink:to="uas_codes_District_Type_21_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_22_loc" xlink:to="uas_codes_District_Type_22_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_23_loc" xlink:to="uas_codes_District_Type_23_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_24_loc" xlink:to="uas_codes_District_Type_24_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_25_loc" xlink:to="uas_codes_District_Type_25_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_26_loc" xlink:to="uas_codes_District_Type_26_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_27_loc" xlink:to="uas_codes_District_Type_27_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_28_loc" xlink:to="uas_codes_District_Type_28_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_29_loc" xlink:to="uas_codes_District_Type_29_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_30_loc" xlink:to="uas_codes_District_Type_30_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_31_loc" xlink:to="uas_codes_District_Type_31_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_32_loc" xlink:to="uas_codes_District_Type_32_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_33_loc" xlink:to="uas_codes_District_Type_33_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_34_loc" xlink:to="uas_codes_District_Type_34_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_35_loc" xlink:to="uas_codes_District_Type_35_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_36_loc" xlink:to="uas_codes_District_Type_36_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_37_loc" xlink:to="uas_codes_District_Type_37_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_38_loc" xlink:to="uas_codes_District_Type_38_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_99_loc" xlink:to="uas_codes_District_Type_99_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_GF_loc" xlink:to="uas_codes_District_Type_GF_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_MP_loc" xlink:to="uas_codes_District_Type_MP_label_en" xlink:type="arc"/>
+    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="uas_codes_District_Type_PC_loc" xlink:to="uas_codes_District_Type_PC_label_en" xlink:type="arc"/>
+    <label:label id="uas-codes_Suppporting_Documentation_Audit_label_en" xlink:label="uas-codes_Suppporting_Documentation_Audit_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Audit</label:label>
+    <label:label id="uas_codes_District_Type_01_label_en" xlink:label="uas_codes_District_Type_01_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Aviation Authorities</label:label>
+    <label:label id="uas_codes_District_Type_02_label_en" xlink:label="uas_codes_District_Type_02_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Beach and Shore Preservation Districts</label:label>
+    <label:label id="uas_codes_District_Type_36_label_en" xlink:label="uas_codes_District_Type_36_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Capital Projects Financing Authorities</label:label>
+    <label:label id="uas_codes_District_Type_03_label_en" xlink:label="uas_codes_District_Type_03_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Community Development Districts</label:label>
+    <label:label id="uas_codes_District_Type_04_label_en" xlink:label="uas_codes_District_Type_04_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Community Redevelopment Agencies</label:label>
+    <label:label id="uas_codes_District_Type_05_label_en" xlink:label="uas_codes_District_Type_05_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">County Health Care Special Districts</label:label>
+    <label:label id="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType_label_en" xlink:label="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">County area incorporated or unincorporated</label:label>
+    <label:label id="uas-codes_Type_Of_Government_County_label_en" xlink:label="uas-codes_Type_Of_Government_County_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">County</label:label>
+    <label:label id="uas-codes_Suppporting_Documentation_Data_Element_Worksheet_label_en" xlink:label="uas-codes_Suppporting_Documentation_Data_Element_Worksheet_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Data Element Worksheet</label:label>
+    <label:label id="uas-codes_districtTypeItemType_label_en" xlink:label="uas-codes_districtTypeItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">District type</label:label>
+    <label:label id="uas_codes_District_Type_06_label_en" xlink:label="uas_codes_District_Type_06_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Downtown Development Authorities</label:label>
+    <label:label id="uas_codes_District_Type_33_label_en" xlink:label="uas_codes_District_Type_33_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Educational Facilities</label:label>
+    <label:label id="uas_codes_District_Type_07_label_en" xlink:label="uas_codes_District_Type_07_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Expressway and Bridge Authorities</label:label>
+    <label:label id="uas_codes_District_Type_08_label_en" xlink:label="uas_codes_District_Type_08_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Fire Contol or Prevention Districts</label:label>
+    <label:label id="uas_codes_District_Type_09_label_en" xlink:label="uas_codes_District_Type_09_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Health Facility Authorities</label:label>
+    <label:label id="uas_codes_District_Type_10_label_en" xlink:label="uas_codes_District_Type_10_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Historic Preservation Boards</label:label>
+    <label:label id="uas_codes_District_Type_11_label_en" xlink:label="uas_codes_District_Type_11_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Hospital Districts</label:label>
+    <label:label id="uas_codes_District_Type_12_label_en" xlink:label="uas_codes_District_Type_12_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Housing Authorities</label:label>
+    <label:label id="uas_codes_District_Type_13_label_en" xlink:label="uas_codes_District_Type_13_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Housing Finance Authorities</label:label>
+    <label:label id="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated_label_en" xlink:label="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Incorporated</label:label>
+    <label:label id="uas_codes_District_Type_14_label_en" xlink:label="uas_codes_District_Type_14_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Industrial Development Authorities</label:label>
+    <label:label id="uas_codes_District_Type_37_label_en" xlink:label="uas_codes_District_Type_37_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Information Systems</label:label>
+    <label:label id="uas_codes_District_Type_38_label_en" xlink:label="uas_codes_District_Type_38_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Infrastructure Provision</label:label>
+    <label:label id="uas_codes_District_Type_15_label_en" xlink:label="uas_codes_District_Type_15_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Juvenile Welfare Boards</label:label>
+    <label:label id="uas_codes_District_Type_16_label_en" xlink:label="uas_codes_District_Type_16_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Library Districts</label:label>
+    <label:label id="uas_codes_District_Type_17_label_en" xlink:label="uas_codes_District_Type_17_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Mobile Home Park Recreation Districts</label:label>
+    <label:label id="uas_codes_District_Type_18_label_en" xlink:label="uas_codes_District_Type_18_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Mosquito Control Districts</label:label>
+    <label:label id="uas-codes_Type_Of_Government_Municipality_label_en" xlink:label="uas-codes_Type_Of_Government_Municipality_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Municipality</label:label>
+    <label:label id="uas_codes_District_Type_19_label_en" xlink:label="uas_codes_District_Type_19_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Navigation Districts</label:label>
+    <label:label id="uas_codes_District_Type_20_label_en" xlink:label="uas_codes_District_Type_20_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Neighborhood Improvement Authorities</label:label>
+    <label:label id="uas-codes_No_label_en" xlink:label="uas-codes_No_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">No</label:label>
+    <label:label id="uas-codes_Yes_No_NotApplicable_No_label_en" xlink:label="uas-codes_Yes_No_NotApplicable_No_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">No</label:label>
+    <label:label id="uas-codes_Yes_No_NotApplicable_Not_Applicable_label_en" xlink:label="uas-codes_Yes_No_NotApplicable_Not_Applicable_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Not applicable</label:label>
+    <label:label id="uas-codes_Type_Of_Government_Other_Entity_label_en" xlink:label="uas-codes_Type_Of_Government_Other_Entity_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Other Entity</label:label>
+    <label:label id="uas_codes_District_Type_99_label_en" xlink:label="uas_codes_District_Type_99_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Other Special District</label:label>
+    <label:label id="uas_codes_District_Type_GF_label_en" xlink:label="uas_codes_District_Type_GF_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Other-Government Finance Agency</label:label>
+    <label:label id="uas_codes_District_Type_MP_label_en" xlink:label="uas_codes_District_Type_MP_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Other-Municpal Power Agency</label:label>
+    <label:label id="uas_codes_District_Type_PC_label_en" xlink:label="uas_codes_District_Type_PC_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Other-Regional Planning Council</label:label>
+    <label:label id="uas_codes_District_Type_21_label_en" xlink:label="uas_codes_District_Type_21_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Port Authorities</label:label>
+    <label:label id="uas_codes_District_Type_34_label_en" xlink:label="uas_codes_District_Type_34_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Public Facilities</label:label>
+    <label:label id="uas_codes_District_Type_22_label_en" xlink:label="uas_codes_District_Type_22_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Recreation Districts</label:label>
+    <label:label id="uas_codes_District_Type_23_label_en" xlink:label="uas_codes_District_Type_23_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Regional Jails</label:label>
+    <label:label id="uas_codes_District_Type_24_label_en" xlink:label="uas_codes_District_Type_24_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Regional Transportation Authorities</label:label>
+    <label:label id="uas_codes_District_Type_25_label_en" xlink:label="uas_codes_District_Type_25_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Regional Water Supply Authorities</label:label>
+    <label:label id="uas_codes_District_Type_26_label_en" xlink:label="uas_codes_District_Type_26_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Research and Development Authorities</label:label>
+    <label:label id="uas_codes_District_Type_27_label_en" xlink:label="uas_codes_District_Type_27_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Soil and Water Conservation Districts</label:label>
+    <label:label id="uas-codes_Type_Of_Government_Special_District_label_en" xlink:label="uas-codes_Type_Of_Government_Special_District_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Special District</label:label>
+    <label:label id="uas-codes_supportingDocumentationItemType_label_en" xlink:label="uas-codes_supportingDocumentationItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Supporting documentation</label:label>
+    <label:label id="uas-codes_typeOfGovernmentItemType_label_en" xlink:label="uas-codes_typeOfGovernmentItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Type of government</label:label>
+    <label:label id="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated_label_en" xlink:label="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Unincorporated</label:label>
+    <label:label id="uas_codes_District_Type_35_label_en" xlink:label="uas_codes_District_Type_35_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Utilities and Municipal Services</label:label>
+    <label:label id="uas_codes_District_Type_28_label_en" xlink:label="uas_codes_District_Type_28_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Water Control Districts</label:label>
+    <label:label id="uas_codes_District_Type_29_label_en" xlink:label="uas_codes_District_Type_29_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Water Management Districts</label:label>
+    <label:label id="uas_codes_District_Type_30_label_en" xlink:label="uas_codes_District_Type_30_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Water and Sewer Districts</label:label>
+    <label:label id="uas_codes_District_Type_31_label_en" xlink:label="uas_codes_District_Type_31_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Watershed Improvement Districts</label:label>
+    <label:label id="uas_codes_District_Type_32_label_en" xlink:label="uas_codes_District_Type_32_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Waterways Development District</label:label>
+    <label:label id="uas-codes_yesNoNotApplicableItemType_label_en" xlink:label="uas-codes_yesNoNotApplicableItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Yes / No / Not applicable</label:label>
+    <label:label id="uas-codes_yesNoItemType_label_en" xlink:label="uas-codes_yesNoItemType_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Yes / No</label:label>
+    <label:label id="uas-codes_Yes_No_NotApplicable_Yes_label_en" xlink:label="uas-codes_Yes_No_NotApplicable_Yes_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Yes</label:label>
+    <label:label id="uas-codes_Yes_label_en" xlink:label="uas-codes_Yes_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Yes</label:label>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated" xlink:label="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated" xlink:label="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_No" xlink:label="uas-codes_No_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Suppporting_Documentation_Audit" xlink:label="uas-codes_Suppporting_Documentation_Audit_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Suppporting_Documentation_Data_Element_Worksheet" xlink:label="uas-codes_Suppporting_Documentation_Data_Element_Worksheet_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Type_Of_Government_County" xlink:label="uas-codes_Type_Of_Government_County_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Type_Of_Government_Municipality" xlink:label="uas-codes_Type_Of_Government_Municipality_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Type_Of_Government_Other_Entity" xlink:label="uas-codes_Type_Of_Government_Other_Entity_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Type_Of_Government_Special_District" xlink:label="uas-codes_Type_Of_Government_Special_District_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Yes_No_NotApplicable_No" xlink:label="uas-codes_Yes_No_NotApplicable_No_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Yes_No_NotApplicable_Not_Applicable" xlink:label="uas-codes_Yes_No_NotApplicable_Not_Applicable_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Yes_No_NotApplicable_Yes" xlink:label="uas-codes_Yes_No_NotApplicable_Yes_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_Yes" xlink:label="uas-codes_Yes_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_countyAreaIncorporatedOrUnincorporatedItemType" xlink:label="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_districtTypeItemType" xlink:label="uas-codes_districtTypeItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_supportingDocumentationItemType" xlink:label="uas-codes_supportingDocumentationItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_typeOfGovernmentItemType" xlink:label="uas-codes_typeOfGovernmentItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_yesNoItemType" xlink:label="uas-codes_yesNoItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas-codes_yesNoNotApplicableItemType" xlink:label="uas-codes_yesNoNotApplicableItemType_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_01" xlink:label="uas_codes_District_Type_01_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_02" xlink:label="uas_codes_District_Type_02_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_03" xlink:label="uas_codes_District_Type_03_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_04" xlink:label="uas_codes_District_Type_04_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_05" xlink:label="uas_codes_District_Type_05_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_06" xlink:label="uas_codes_District_Type_06_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_07" xlink:label="uas_codes_District_Type_07_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_08" xlink:label="uas_codes_District_Type_08_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_09" xlink:label="uas_codes_District_Type_09_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_10" xlink:label="uas_codes_District_Type_10_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_11" xlink:label="uas_codes_District_Type_11_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_12" xlink:label="uas_codes_District_Type_12_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_13" xlink:label="uas_codes_District_Type_13_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_14" xlink:label="uas_codes_District_Type_14_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_15" xlink:label="uas_codes_District_Type_15_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_16" xlink:label="uas_codes_District_Type_16_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_17" xlink:label="uas_codes_District_Type_17_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_18" xlink:label="uas_codes_District_Type_18_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_19" xlink:label="uas_codes_District_Type_19_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_20" xlink:label="uas_codes_District_Type_20_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_21" xlink:label="uas_codes_District_Type_21_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_22" xlink:label="uas_codes_District_Type_22_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_23" xlink:label="uas_codes_District_Type_23_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_24" xlink:label="uas_codes_District_Type_24_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_25" xlink:label="uas_codes_District_Type_25_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_26" xlink:label="uas_codes_District_Type_26_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_27" xlink:label="uas_codes_District_Type_27_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_28" xlink:label="uas_codes_District_Type_28_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_29" xlink:label="uas_codes_District_Type_29_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_30" xlink:label="uas_codes_District_Type_30_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_31" xlink:label="uas_codes_District_Type_31_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_32" xlink:label="uas_codes_District_Type_32_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_33" xlink:label="uas_codes_District_Type_33_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_34" xlink:label="uas_codes_District_Type_34_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_35" xlink:label="uas_codes_District_Type_35_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_36" xlink:label="uas_codes_District_Type_36_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_37" xlink:label="uas_codes_District_Type_37_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_38" xlink:label="uas_codes_District_Type_38_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_99" xlink:label="uas_codes_District_Type_99_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_GF" xlink:label="uas_codes_District_Type_GF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_MP" xlink:label="uas_codes_District_Type_MP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="uas-codes.xsd#uas_codes_District_Type_PC" xlink:label="uas_codes_District_Type_PC_loc" xlink:type="locator"/>
+  </gen:link>
+</link:linkbase>

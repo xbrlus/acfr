@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version {year}
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-enum-linkroles" xmlns:uas-enum-lr="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-enum-linkroles"
+ xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:annotation>
+<xs:appinfo>
+<link:roleType id="uas-enum-lr_ReportingUnits" roleURI="urn:uas:linkrole:reporting-units">
+<link:definition>Domain of Reporting Units</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_Auditors" roleURI="urn:uas:linkrole:auditors">
+<link:definition>Domain of Approved Auditors</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_GeoLocations" roleURI="urn:uas:linkrole:geolocations">
+<link:definition>Domain of Geographic locations for use with addresses</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_ClassesOfAfrNoData" roleURI="urn:uas:linkrole:classes-of-afr-no-data">
+<link:definition>Classes of Afr No Data types</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_EligibleReportingUnits" roleURI="urn:uas:linkrole:eligible-reporting-units">
+<link:definition>Domain of Eligible Reporting Units for Restricted Accounts</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_EligibleTables" roleURI="urn:uas:linkrole:eligible-tables">
+<link:definition>Domain of Eligible Reporting Units for Specific tables (e.g. revenues, expenditures etc)</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-enum-lr_ClassesOfAffiliateNoData" roleURI="urn:uas:linkrole:classes-of-affiliate-no-data">
+<link:definition>Classes of Affiliate No Data types</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://xbrl.org/2008/generic" schemaLocation="http://www.xbrl.org/2008/generic-link.xsd"/>
+</xs:schema>

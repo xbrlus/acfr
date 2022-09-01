@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2020
+Released by State of Florida Department of Financial Services
+Release date October 16th, 2020
+-->
+<xs:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:uas-codes="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="uas-codes-generic-lab-en.xml" xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:complexType id="uas-codes_countyAreaIncorporatedOrUnincorporatedItemType" name="countyAreaIncorporatedOrUnincorporatedItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas-codes_County_Area_Incorporated_Or_Unincorporated_Incorporated" value="Incorporated"/>
+        <xs:enumeration id="uas-codes_County_Area_Incorporated_Or_Unincorporated_Unincorporated" value="Unincorporated"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType id="uas-codes_districtTypeItemType" name="districtTypeItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas_codes_District_Type_01" value="01"/>
+        <xs:enumeration id="uas_codes_District_Type_02" value="02"/>
+        <xs:enumeration id="uas_codes_District_Type_03" value="03"/>
+        <xs:enumeration id="uas_codes_District_Type_04" value="04"/>
+        <xs:enumeration id="uas_codes_District_Type_05" value="05"/>
+        <xs:enumeration id="uas_codes_District_Type_06" value="06"/>
+        <xs:enumeration id="uas_codes_District_Type_07" value="07"/>
+        <xs:enumeration id="uas_codes_District_Type_08" value="08"/>
+        <xs:enumeration id="uas_codes_District_Type_09" value="09"/>
+        <xs:enumeration id="uas_codes_District_Type_10" value="10"/>
+        <xs:enumeration id="uas_codes_District_Type_11" value="11"/>
+        <xs:enumeration id="uas_codes_District_Type_12" value="12"/>
+        <xs:enumeration id="uas_codes_District_Type_13" value="13"/>
+        <xs:enumeration id="uas_codes_District_Type_14" value="14"/>
+        <xs:enumeration id="uas_codes_District_Type_15" value="15"/>
+        <xs:enumeration id="uas_codes_District_Type_16" value="16"/>
+        <xs:enumeration id="uas_codes_District_Type_17" value="17"/>
+        <xs:enumeration id="uas_codes_District_Type_18" value="18"/>
+        <xs:enumeration id="uas_codes_District_Type_19" value="19"/>
+        <xs:enumeration id="uas_codes_District_Type_20" value="20"/>
+        <xs:enumeration id="uas_codes_District_Type_21" value="21"/>
+        <xs:enumeration id="uas_codes_District_Type_22" value="22"/>
+        <xs:enumeration id="uas_codes_District_Type_23" value="23"/>
+        <xs:enumeration id="uas_codes_District_Type_24" value="24"/>
+        <xs:enumeration id="uas_codes_District_Type_25" value="25"/>
+        <xs:enumeration id="uas_codes_District_Type_26" value="26"/>
+        <xs:enumeration id="uas_codes_District_Type_27" value="27"/>
+        <xs:enumeration id="uas_codes_District_Type_28" value="28"/>
+        <xs:enumeration id="uas_codes_District_Type_29" value="29"/>
+        <xs:enumeration id="uas_codes_District_Type_30" value="30"/>
+        <xs:enumeration id="uas_codes_District_Type_31" value="31"/>
+        <xs:enumeration id="uas_codes_District_Type_32" value="32"/>
+        <xs:enumeration id="uas_codes_District_Type_33" value="33"/>
+        <xs:enumeration id="uas_codes_District_Type_34" value="34"/>
+        <xs:enumeration id="uas_codes_District_Type_35" value="35"/>
+        <xs:enumeration id="uas_codes_District_Type_36" value="36"/>
+        <xs:enumeration id="uas_codes_District_Type_37" value="37"/>
+        <xs:enumeration id="uas_codes_District_Type_38" value="38"/>
+        <xs:enumeration id="uas_codes_District_Type_99" value="99"/>
+        <xs:enumeration id="uas_codes_District_Type_GF" value="GF"/>
+        <xs:enumeration id="uas_codes_District_Type_MP" value="MP"/>
+        <xs:enumeration id="uas_codes_District_Type_PC" value="PC"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType id="uas-codes_supportingDocumentationItemType" name="supportingDocumentationItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas-codes_Suppporting_Documentation_Audit" value="Audit"/>
+        <xs:enumeration id="uas-codes_Suppporting_Documentation_Data_Element_Worksheet" value="Data_Element_Worksheet"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType id="uas-codes_typeOfGovernmentItemType" name="typeOfGovernmentItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas-codes_Type_Of_Government_County" value="County"/>
+        <xs:enumeration id="uas-codes_Type_Of_Government_Municipality" value="Municipality"/>
+        <xs:enumeration id="uas-codes_Type_Of_Government_Other_Entity" value="Other_Entity"/>
+        <xs:enumeration id="uas-codes_Type_Of_Government_Special_District" value="Special_District"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType id="uas-codes_yesNoItemType" name="yesNoItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas-codes_No" value="No"/>
+        <xs:enumeration id="uas-codes_Yes" value="Yes"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType id="uas-codes_yesNoNotApplicableItemType" name="yesNoNotApplicableItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="uas-codes_Yes_No_NotApplicable_No" value="No"/>
+        <xs:enumeration id="uas-codes_Yes_No_NotApplicable_Not_Applicable" value="Not_applicable"/>
+        <xs:enumeration id="uas-codes_Yes_No_NotApplicable_Yes" value="Yes"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

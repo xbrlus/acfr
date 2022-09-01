@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:classes-of-impact-fee-dwellings" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_ClassesOfImpactFeeDwellings" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:classes-of-impact-fee-dwellings" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_ImpactFeeDwellingAxis" xlink:label="uas-dim_ImpactFeeDwellingAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_01_OfficeBuildingsMember" xlink:label="uas-dm_DWELLING_01_OfficeBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_02_ResidentialBuildingsMember" xlink:label="uas-dm_DWELLING_02_ResidentialBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_03_RetailBuildingsMember" xlink:label="uas-dm_DWELLING_03_RetailBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_04_HospitalityBuildingsMember" xlink:label="uas-dm_DWELLING_04_HospitalityBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_05_InstitutionalCivicBuildingsMember" xlink:label="uas-dm_DWELLING_05_InstitutionalCivicBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_06_GatheringBuildingsMember" xlink:label="uas-dm_DWELLING_06_GatheringBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_07_ReligiousBuildingsMember" xlink:label="uas-dm_DWELLING_07_ReligiousBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_08_EducationalBuildingsMember" xlink:label="uas-dm_DWELLING_08_EducationalBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_09_IndustrialBuildingsMember" xlink:label="uas-dm_DWELLING_09_IndustrialBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_10_AgriculturalBuildingsMember" xlink:label="uas-dm_DWELLING_10_AgriculturalBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_11_TransportationBuildingsMember" xlink:label="uas-dm_DWELLING_11_TransportationBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_12_RecreationalBuildingsMember" xlink:label="uas-dm_DWELLING_12_RecreationalBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_13_MultiPurposeBuildingsMember" xlink:label="uas-dm_DWELLING_13_MultiPurposeBuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_DWELLING_19_OtherBuildingsMember" xlink:label="uas-dm_DWELLING_19_OtherBuildingsMember_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_01_OfficeBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_02_ResidentialBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_03_RetailBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_04_HospitalityBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_05_InstitutionalCivicBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_06_GatheringBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_07_ReligiousBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_08_EducationalBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_09_IndustrialBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_10_AgriculturalBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_11_TransportationBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_12_RecreationalBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_13_MultiPurposeBuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ImpactFeeDwellingAxis_loc" xlink:to="uas-dm_DWELLING_19_OtherBuildingsMember_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

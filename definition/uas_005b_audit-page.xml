@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:uas_005b_audit-page" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_005b_AuditPage" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:uas_005b_audit-page" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_LineItems" xlink:label="uas-dim-c_LineItems_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_Hypercube" xlink:label="uas-dim-c_Hypercube_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_AuditPageAxis" xlink:label="uas-dim_AuditPageAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_AuditPageMember" xlink:label="uas-dm_AuditPageMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_POBox" xlink:label="uas-i_POBox_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressCityOrTown" xlink:label="uas-i_AddressCityOrTown_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressCounty" xlink:label="uas-i_AddressCounty_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressPostalZipCode" xlink:label="uas-i_AddressPostalZipCode_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressState" xlink:label="uas-i_AddressState_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Address" xlink:label="uas-i_Address_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AuditFirmName" xlink:label="uas-i_AuditFirmName_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AuditPerformed" xlink:label="uas-i_AuditPerformed_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_CompletionDateFinancialAudit" xlink:label="uas-i_CompletionDateFinancialAudit_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_EmailAddress" xlink:label="uas-i_EmailAddress_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_FaxNumber" xlink:label="uas-i_FaxNumber_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_PhoneExtension" xlink:label="uas-i_PhoneExtension_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_PhoneNumber" xlink:label="uas-i_PhoneNumber_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:closed="true" xbrldt:contextElement="scenario" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-dim-c_Hypercube_loc" xlink:type="arc"/>
+<link:definitionArc  order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uas-dim-c_Hypercube_loc" xlink:to="uas-dim_AuditPageAxis_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_AuditPageAxis_loc" xlink:to="uas-dm_AuditPageMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_POBox_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AddressCityOrTown_loc" xlink:type="arc"/>
+<link:definitionArc  order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AddressCounty_loc" xlink:type="arc"/>
+<link:definitionArc  order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AddressPostalZipCode_loc" xlink:type="arc"/>
+<link:definitionArc  order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AddressState_loc" xlink:type="arc"/>
+<link:definitionArc  order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_Address_loc" xlink:type="arc"/>
+<link:definitionArc  order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AuditFirmName_loc" xlink:type="arc"/>
+<link:definitionArc  order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AuditPerformed_loc" xlink:type="arc"/>
+<link:definitionArc  order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_CompletionDateFinancialAudit_loc" xlink:type="arc"/>
+<link:definitionArc  order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_EmailAddress_loc" xlink:type="arc"/>
+<link:definitionArc  order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_FaxNumber_loc" xlink:type="arc"/>
+<link:definitionArc  order="16" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_PhoneExtension_loc" xlink:type="arc"/>
+<link:definitionArc  order="17" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_PhoneNumber_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

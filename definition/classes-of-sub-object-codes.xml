@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:classes-of-sub-object-codes" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_ClassesOfSubObjectCodes" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:classes-of-sub-object-codes" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_ObjectCodesAxis" xlink:label="uas-dim_ObjectCodesAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_TotalObjectCodesMember" xlink:label="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_10_PersonnelServicesMember" xlink:label="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_11_ExecutiveSalariesMember" xlink:label="uas-dm_SUB_11_ExecutiveSalariesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_12_RegularSalariesAndWagesMember" xlink:label="uas-dm_SUB_12_RegularSalariesAndWagesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_13_OtherSalariesAndWagesMember" xlink:label="uas-dm_SUB_13_OtherSalariesAndWagesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_14_OvertimeMember" xlink:label="uas-dm_SUB_14_OvertimeMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_15_SpecialPayMember" xlink:label="uas-dm_SUB_15_SpecialPayMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_16_CompensatedAnnualLeaveMember" xlink:label="uas-dm_SUB_16_CompensatedAnnualLeaveMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_17_CompensatedSickLeaveMember" xlink:label="uas-dm_SUB_17_CompensatedSickLeaveMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_18_CompensatedCompensatoryLeaveMember" xlink:label="uas-dm_SUB_18_CompensatedCompensatoryLeaveMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_21_FicaTaxesMember" xlink:label="uas-dm_SUB_21_FicaTaxesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_22_RetirementContributionsMember" xlink:label="uas-dm_SUB_22_RetirementContributionsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_23_LifeAndHealthInsuranceMember" xlink:label="uas-dm_SUB_23_LifeAndHealthInsuranceMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_24_WorkersCompensationMember" xlink:label="uas-dm_SUB_24_WorkersCompensationMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_25_UnemploymentCompensationMember" xlink:label="uas-dm_SUB_25_UnemploymentCompensationMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_26_OtherPostemploymentBenefitsOpebMember" xlink:label="uas-dm_SUB_26_OtherPostemploymentBenefitsOpebMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_30_OperatingExpendituresExpensesMember" xlink:label="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_31_ProfessionalServicesMember" xlink:label="uas-dm_SUB_31_ProfessionalServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_32_AccountingAndAuditingMember" xlink:label="uas-dm_SUB_32_AccountingAndAuditingMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_33_CourtReporterServicesMember" xlink:label="uas-dm_SUB_33_CourtReporterServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_34_OtherServicesMember" xlink:label="uas-dm_SUB_34_OtherServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_35_InvestigationsMember" xlink:label="uas-dm_SUB_35_InvestigationsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_36_PensionBenefitsMember" xlink:label="uas-dm_SUB_36_PensionBenefitsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_40_TravelAndPerDiemMember" xlink:label="uas-dm_SUB_40_TravelAndPerDiemMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_41_CommunicationServicesDevicesAndAccessoriesMember" xlink:label="uas-dm_SUB_41_CommunicationServicesDevicesAndAccessoriesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_42_FreightPostageServicesMember" xlink:label="uas-dm_SUB_42_FreightPostageServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_43_UtilityServicesMember" xlink:label="uas-dm_SUB_43_UtilityServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_44_RentalsAndLeasesMember" xlink:label="uas-dm_SUB_44_RentalsAndLeasesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_45_InsuranceMember" xlink:label="uas-dm_SUB_45_InsuranceMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_46_RepairAndMaintenanceServicesMember" xlink:label="uas-dm_SUB_46_RepairAndMaintenanceServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_47_PrintingAndBindingMember" xlink:label="uas-dm_SUB_47_PrintingAndBindingMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_48_PromotionalActivitiesMember" xlink:label="uas-dm_SUB_48_PromotionalActivitiesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_49_OtherCurrentChargesAndObligationsMember" xlink:label="uas-dm_SUB_49_OtherCurrentChargesAndObligationsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_51_OfficeSuppliesMember" xlink:label="uas-dm_SUB_51_OfficeSuppliesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_52_OperatingSuppliesMember" xlink:label="uas-dm_SUB_52_OperatingSuppliesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_53_RoadMaterialsAndSuppliesMember" xlink:label="uas-dm_SUB_53_RoadMaterialsAndSuppliesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_54_BooksPublicationsSubscriptionsAndMembershipsMember" xlink:label="uas-dm_SUB_54_BooksPublicationsSubscriptionsAndMembershipsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_55_TrainingMember" xlink:label="uas-dm_SUB_55_TrainingMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_59_DepreciationMember" xlink:label="uas-dm_SUB_59_DepreciationMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_60_CapitalOutlayMember" xlink:label="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_61_LandMember" xlink:label="uas-dm_SUB_61_LandMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_62_BuildingsMember" xlink:label="uas-dm_SUB_62_BuildingsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_63_InfrastructureMember" xlink:label="uas-dm_SUB_63_InfrastructureMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_64_MachineryAndEquipmentMember" xlink:label="uas-dm_SUB_64_MachineryAndEquipmentMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_65_ConstructionInProgressMember" xlink:label="uas-dm_SUB_65_ConstructionInProgressMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_66_BooksPublicationsAndLibraryMaterialsMember" xlink:label="uas-dm_SUB_66_BooksPublicationsAndLibraryMaterialsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_67_WorksOfArtCollectionsMember" xlink:label="uas-dm_SUB_67_WorksOfArtCollectionsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_68_IntangibleAssetsMember" xlink:label="uas-dm_SUB_68_IntangibleAssetsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_70_DebtServiceMember" xlink:label="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_71_PrincipalMember" xlink:label="uas-dm_SUB_71_PrincipalMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_72_InterestMember" xlink:label="uas-dm_SUB_72_InterestMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_73_OtherDebtServiceCostsMember" xlink:label="uas-dm_SUB_73_OtherDebtServiceCostsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_80_GrantsandAidsMember" xlink:label="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_81_AidsToGovernmentAgenciesMember" xlink:label="uas-dm_SUB_81_AidsToGovernmentAgenciesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_82_AidsToPrivateOrganizationsMember" xlink:label="uas-dm_SUB_82_AidsToPrivateOrganizationsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_83_OtherGrantsAndMember" xlink:label="uas-dm_SUB_83_OtherGrantsAndMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_90_OtherUsesMember" xlink:label="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_91_IntragovernmentalTransfersMember" xlink:label="uas-dm_SUB_91_IntragovernmentalTransfersMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_92_AdvancesMember" xlink:label="uas-dm_SUB_92_AdvancesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_93_NonoperatingInterestProprietaryFundsMember" xlink:label="uas-dm_SUB_93_NonoperatingInterestProprietaryFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_94_NonoperatingGrantExpenseProprietaryFundsMember" xlink:label="uas-dm_SUB_94_NonoperatingGrantExpenseProprietaryFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_95_OtherNonoperatingUsesProprietaryFundsMember" xlink:label="uas-dm_SUB_95_OtherNonoperatingUsesProprietaryFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_SUB_99_OtherUsesMember" xlink:label="uas-dm_SUB_99_OtherUsesMember_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_11_ExecutiveSalariesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_12_RegularSalariesAndWagesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_13_OtherSalariesAndWagesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_14_OvertimeMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_15_SpecialPayMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_16_CompensatedAnnualLeaveMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_17_CompensatedSickLeaveMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_18_CompensatedCompensatoryLeaveMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_21_FicaTaxesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_22_RetirementContributionsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_23_LifeAndHealthInsuranceMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_24_WorkersCompensationMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="16" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_25_UnemploymentCompensationMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="17" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:to="uas-dm_SUB_26_OtherPostemploymentBenefitsOpebMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="18" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="19" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_31_ProfessionalServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="20" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_32_AccountingAndAuditingMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="21" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_33_CourtReporterServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="22" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_34_OtherServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="23" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_35_InvestigationsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="24" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_36_PensionBenefitsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="25" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_40_TravelAndPerDiemMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="26" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_41_CommunicationServicesDevicesAndAccessoriesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="27" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_42_FreightPostageServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="28" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_43_UtilityServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="29" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_44_RentalsAndLeasesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="30" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_45_InsuranceMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="31" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_46_RepairAndMaintenanceServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="32" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_47_PrintingAndBindingMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="33" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_48_PromotionalActivitiesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="34" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_49_OtherCurrentChargesAndObligationsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="35" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_51_OfficeSuppliesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="36" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_52_OperatingSuppliesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="37" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_53_RoadMaterialsAndSuppliesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="38" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_54_BooksPublicationsSubscriptionsAndMembershipsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="39" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_55_TrainingMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="40" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:to="uas-dm_SUB_59_DepreciationMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="41" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="42" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_61_LandMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="43" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_62_BuildingsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="44" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_63_InfrastructureMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="45" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_64_MachineryAndEquipmentMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="46" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_65_ConstructionInProgressMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="47" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_66_BooksPublicationsAndLibraryMaterialsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="48" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_67_WorksOfArtCollectionsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="49" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:to="uas-dm_SUB_68_IntangibleAssetsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="50" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="51" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:to="uas-dm_SUB_71_PrincipalMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="52" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:to="uas-dm_SUB_72_InterestMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="53" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:to="uas-dm_SUB_73_OtherDebtServiceCostsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="54" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="55" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:to="uas-dm_SUB_81_AidsToGovernmentAgenciesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="56" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:to="uas-dm_SUB_82_AidsToPrivateOrganizationsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="57" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:to="uas-dm_SUB_83_OtherGrantsAndMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="58" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_TotalObjectCodesMember_loc" xlink:to="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="59" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_91_IntragovernmentalTransfersMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="60" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_92_AdvancesMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="61" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_93_NonoperatingInterestProprietaryFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="62" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_94_NonoperatingGrantExpenseProprietaryFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="63" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_95_OtherNonoperatingUsesProprietaryFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="64" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:to="uas-dm_SUB_99_OtherUsesMember_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

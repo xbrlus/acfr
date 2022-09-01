@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:roleRef roleURI="urn:uas:linkrole:uas_020_revenue_dwellings_and_fees" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_020_Revenue_dwellings_and_fees" xlink:type="simple"/>
+<link:presentationLink xlink:role="urn:uas:linkrole:uas_020_revenue_dwellings_and_fees" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_RevenueImpactFeesTitle" xlink:label="uas-abstr_RevenueImpactFeesTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_3xxxxx_Revenue" xlink:label="uas-i_Rev_3xxxxx_Revenue_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_32xxxx_PermitsFeesAndSpecialAssessments" xlink:label="uas-i_Rev_32xxxx_PermitsFeesAndSpecialAssessments_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324xxx_ImpactFees" xlink:label="uas-i_Rev_324xxx_ImpactFees_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324110_ImpactFeesResidentialPublicSafety" xlink:label="uas-i_Rev_324110_ImpactFeesResidentialPublicSafety_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324120_ImpactFeesCommercialPublicSafety" xlink:label="uas-i_Rev_324120_ImpactFeesCommercialPublicSafety_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324210_ImpactFeesResidentialPhysicalEnvironment" xlink:label="uas-i_Rev_324210_ImpactFeesResidentialPhysicalEnvironment_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324220_ImpactFeesCommercialPhysicalEnvironment" xlink:label="uas-i_Rev_324220_ImpactFeesCommercialPhysicalEnvironment_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324310_ImpactFeesResidentialTransportation" xlink:label="uas-i_Rev_324310_ImpactFeesResidentialTransportation_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324320_ImpactFeesCommercialTransportation" xlink:label="uas-i_Rev_324320_ImpactFeesCommercialTransportation_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324410_ImpactFeesResidentialEconomicEnvironment" xlink:label="uas-i_Rev_324410_ImpactFeesResidentialEconomicEnvironment_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324420_ImpactFeesCommercialEconomicEnvironment" xlink:label="uas-i_Rev_324420_ImpactFeesCommercialEconomicEnvironment_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324510_ImpactFeesResidentialHumanServices" xlink:label="uas-i_Rev_324510_ImpactFeesResidentialHumanServices_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324520_ImpactFeesCommercialHumanServices" xlink:label="uas-i_Rev_324520_ImpactFeesCommercialHumanServices_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324610_ImpactFeesResidentialCultureRecreation" xlink:label="uas-i_Rev_324610_ImpactFeesResidentialCultureRecreation_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324620_ImpactFeesCommercialCultureRecreation" xlink:label="uas-i_Rev_324620_ImpactFeesCommercialCultureRecreation_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324710_ImpactFeesResidentialOther" xlink:label="uas-i_Rev_324710_ImpactFeesResidentialOther_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_324720_ImpactFeesCommercialOther" xlink:label="uas-i_Rev_324720_ImpactFeesCommercialOther_loc" xlink:type="locator"/>
+<link:presentationArc  order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_RevenueImpactFeesTitle_loc" xlink:to="uas-i_Rev_3xxxxx_Revenue_loc" xlink:type="arc"/>
+<link:presentationArc  order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_3xxxxx_Revenue_loc" xlink:to="uas-i_Rev_32xxxx_PermitsFeesAndSpecialAssessments_loc" xlink:type="arc"/>
+<link:presentationArc  order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_32xxxx_PermitsFeesAndSpecialAssessments_loc" xlink:to="uas-i_Rev_324xxx_ImpactFees_loc" xlink:type="arc"/>
+<link:presentationArc  order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324110_ImpactFeesResidentialPublicSafety_loc" xlink:type="arc"/>
+<link:presentationArc  order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324120_ImpactFeesCommercialPublicSafety_loc" xlink:type="arc"/>
+<link:presentationArc  order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324210_ImpactFeesResidentialPhysicalEnvironment_loc" xlink:type="arc"/>
+<link:presentationArc  order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324220_ImpactFeesCommercialPhysicalEnvironment_loc" xlink:type="arc"/>
+<link:presentationArc  order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324310_ImpactFeesResidentialTransportation_loc" xlink:type="arc"/>
+<link:presentationArc  order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324320_ImpactFeesCommercialTransportation_loc" xlink:type="arc"/>
+<link:presentationArc  order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324410_ImpactFeesResidentialEconomicEnvironment_loc" xlink:type="arc"/>
+<link:presentationArc  order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324420_ImpactFeesCommercialEconomicEnvironment_loc" xlink:type="arc"/>
+<link:presentationArc  order="13" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324510_ImpactFeesResidentialHumanServices_loc" xlink:type="arc"/>
+<link:presentationArc  order="14" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324520_ImpactFeesCommercialHumanServices_loc" xlink:type="arc"/>
+<link:presentationArc  order="15" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324610_ImpactFeesResidentialCultureRecreation_loc" xlink:type="arc"/>
+<link:presentationArc  order="16" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324620_ImpactFeesCommercialCultureRecreation_loc" xlink:type="arc"/>
+<link:presentationArc  order="17" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324710_ImpactFeesResidentialOther_loc" xlink:type="arc"/>
+<link:presentationArc  order="18" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-i_Rev_324xxx_ImpactFees_loc" xlink:to="uas-i_Rev_324720_ImpactFeesCommercialOther_loc" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

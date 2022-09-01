@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:roleRef roleURI="urn:uas:linkrole:uas_001b_afr-no-data-declarations" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_001b_AfrNoDataDeclarations" xlink:type="simple"/>
+<link:presentationLink xlink:role="urn:uas:linkrole:uas_001b_afr-no-data-declarations" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_AfrNoDataTitle" xlink:label="uas-abstr_AfrNoDataTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AFRND_NoData" xlink:label="uas-i_AFRND_NoData_loc" xlink:type="locator"/>
+<link:presentationArc  order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_AfrNoDataTitle_loc" xlink:to="uas-i_AFRND_NoData_loc" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

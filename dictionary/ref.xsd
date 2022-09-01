@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.xbrl.org/2006/ref" xmlns:ref="http://www.xbrl.org/2006/ref"
+ xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+ xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:uas-codes="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dtr-types='http://www.xbrl.org/dtr/type/2020-01-21'>
+<xs:annotation>
+<xs:appinfo>
+
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+<xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+<xs:import namespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes" schemaLocation="../dictionary/uas-codes.xsd"/>
+<xs:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
+<xs:import namespace='http://www.xbrl.org/dtr/type/2020-01-21' schemaLocation='https://www.xbrl.org/dtr/type/2020-01-21/types.xsd' />
+
+<xs:element abstract="false" id="ref_Appendix" name="Appendix" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Article" name="Article" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Chapter" name="Chapter" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Clause" name="Clause" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Example" name="Example" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Exhibit" name="Exhibit" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Footnote" name="Footnote" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_IssueDate" name="IssueDate" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Name" name="Name" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Note" name="Note" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Number" name="Number" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Page" name="Page" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Paragraph" name="Paragraph" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Publisher" name="Publisher" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Section" name="Section" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Sentence" name="Sentence" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Subclause" name="Subclause" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Subparagraph" name="Subparagraph" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_Subsection" name="Subsection" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="ref_URI" name="URI" nillable="false" substitutionGroup="link:part" type="xs:anyUri"  />
+<xs:element abstract="false" id="ref_URIDate" name="URIDate" nillable="false" substitutionGroup="link:part" type="xs:date"  />
+
+</xs:schema>

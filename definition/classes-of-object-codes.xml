@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:classes-of-object-codes" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_ClassesOfObjectCodes" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:classes-of-object-codes" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_ObjectCodesAxis" xlink:label="uas-dim_ObjectCodesAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_10_PersonnelServicesMember" xlink:label="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_30_OperatingExpendituresExpensesMember" xlink:label="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_60_CapitalOutlayMember" xlink:label="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_70_DebtServiceMember" xlink:label="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_80_GrantsandAidsMember" xlink:label="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_OBJ_90_OtherUsesMember" xlink:label="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_10_PersonnelServicesMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_30_OperatingExpendituresExpensesMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_60_CapitalOutlayMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_70_DebtServiceMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_80_GrantsandAidsMember_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_ObjectCodesAxis_loc" xlink:to="uas-dm_OBJ_90_OtherUsesMember_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

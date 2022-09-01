@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:roleRef roleURI="urn:uas:linkrole:uas_001_unit-information" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_001_UnitInformation" xlink:type="simple"/>
+<link:presentationLink xlink:role="urn:uas:linkrole:uas_001_unit-information" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_UnitInformationTitle" xlink:label="uas-abstr_UnitInformationTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_DurationTitle" xlink:label="uas-abstr_DurationTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-enum.xsd#uas-enum_UnitId" xlink:label="uas-enum_UnitId_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_UnitName" xlink:label="uas-i_UnitName_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_TypeOfGovernment" xlink:label="uas-i_TypeOfGovernment_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_CountyIncorporatedUnincorporatedAreas" xlink:label="uas-i_CountyIncorporatedUnincorporatedAreas_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_FiscalYearStartDate" xlink:label="uas-i_FiscalYearStartDate_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_FiscalYearEndDate" xlink:label="uas-i_FiscalYearEndDate_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_FiscalYearReporting" xlink:label="uas-i_FiscalYearReporting_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_InstantTitle" xlink:label="uas-abstr_InstantTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_ReceivedDate" xlink:label="uas-i_ReceivedDate_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Population" xlink:label="uas-i_Population_loc" xlink:type="locator"/>
+<link:presentationArc  order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_UnitInformationTitle_loc" xlink:to="uas-abstr_DurationTitle_loc" xlink:type="arc"/>
+<link:presentationArc  order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-enum_UnitId_loc" xlink:type="arc"/>
+<link:presentationArc  order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_UnitName_loc" xlink:type="arc"/>
+<link:presentationArc  order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_TypeOfGovernment_loc" xlink:type="arc"/>
+<link:presentationArc  order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_CountyIncorporatedUnincorporatedAreas_loc" xlink:type="arc"/>
+<link:presentationArc  order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_FiscalYearStartDate_loc" xlink:type="arc"/>
+<link:presentationArc  order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_FiscalYearEndDate_loc" xlink:type="arc"/>
+<link:presentationArc  order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_DurationTitle_loc" xlink:to="uas-i_FiscalYearReporting_loc" xlink:type="arc"/>
+<link:presentationArc  order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_UnitInformationTitle_loc" xlink:to="uas-abstr_InstantTitle_loc" xlink:type="arc"/>
+<link:presentationArc  order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_InstantTitle_loc" xlink:to="uas-i_ReceivedDate_loc" xlink:type="arc"/>
+<link:presentationArc  order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_InstantTitle_loc" xlink:to="uas-i_Population_loc" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

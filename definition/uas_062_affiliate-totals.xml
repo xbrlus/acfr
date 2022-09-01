@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:uas_062_affiliate-totals" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_062_AffiliateTotals" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:reporting-units" xlink:href="../dictionary/uas-enum-linkroles.xsd#uas-enum-lr_ReportingUnits" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:uas_062_affiliate-totals" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_LineItems" xlink:label="uas-dim-c_LineItems_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_Hypercube" xlink:label="uas-dim-c_Hypercube_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-enum-dim.xsd#uas-enum-dim_ReportingUnitAxis" xlink:label="uas-enum-dim_ReportingUnitAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Rev_3xxxxx_Revenue" xlink:label="uas-i_Rev_3xxxxx_Revenue_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Exp_5xxxx_7xxxx_Expenditures" xlink:label="uas-i_Exp_5xxxx_7xxxx_Expenditures_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AffiliateLongTermDebt" xlink:label="uas-i_AffiliateLongTermDebt_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:closed="true" xbrldt:contextElement="scenario" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-dim-c_Hypercube_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:targetRole="urn:uas:linkrole:reporting-units" order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uas-dim-c_Hypercube_loc" xlink:to="uas-enum-dim_ReportingUnitAxis_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_Rev_3xxxxx_Revenue_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_Exp_5xxxx_7xxxx_Expenditures_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i_AffiliateLongTermDebt_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

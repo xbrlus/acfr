@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:classes-of-bond-types" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_ClassesOfBondTypes" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:classes-of-bond-types" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_BondTypeAxis" xlink:label="uas-dim_BondTypeAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_BondTypeDomain" xlink:label="uas-dm_BondTypeDomain_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_AdValoremMember" xlink:label="uas-dm_AdValoremMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_NonAdValoremMember" xlink:label="uas-dm_NonAdValoremMember_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_BondTypeAxis_loc" xlink:to="uas-dm_BondTypeDomain_loc" xlink:type="arc"/>
+<link:definitionArc  order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_BondTypeDomain_loc" xlink:to="uas-dm_AdValoremMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_BondTypeDomain_loc" xlink:to="uas-dm_NonAdValoremMember_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

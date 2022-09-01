@@ -1,0 +1,624 @@
+United States of America
+ Alabama
+  Enterprise
+  Birmingham
+  Andalusia
+  Springville
+  Dothan
+ Alaska
+ Arizona
+ Arkansas
+ California
+ Colorado
+ Connecticut
+ Delaware
+ District of Columbia
+ Florida
+  Duval
+   Atlantic Beach
+   Baldwin
+   Jacksonville
+   Jacksonville Beach
+   Neptune Beach
+  Alachua
+   Alachua
+   Archer
+   Gainesville
+   Hawthorne
+   High Springs
+   LaCrosse
+   Micanopy
+   Newberry
+   Waldo
+  Baker
+   Glen Saint Mary
+   Macclenny
+  Bay
+   Callaway
+   Lynn Haven
+   Mexico Beach
+   Panama City
+   Panama City Beach
+   Parker
+   Springfield
+  Bradford
+   Brooker
+   Hampton
+   Lawtey
+   Starke
+  Brevard
+   Cape Canaveral
+   Cocoa
+   Cocoa Beach
+   Grant-Valkaria
+   Indialantic
+   Indian Harbour Beach
+   Malabar
+   Melbourne
+   Melbourne Beach
+   Melbourne Village
+   Palm Bay
+   Palm Shores
+   Rockledge
+   Satellite Beach
+   Titusville
+   West Melbourne
+   Barefoot Bay
+   Grant Valkaria
+   Merritt Island
+   Exploration Park
+   Viera
+  Broward
+   Coconut Creek
+   Cooper City
+   Coral Springs
+   Dania Beach
+   Davie
+   Deerfield Beach
+   Fort Lauderdale
+   Hallandale Beach
+   Hillsboro Beach
+   Hollywood
+   Lauderdale Lakes
+   Lauderdale-by-the-Sea
+   Lauderhill
+   Lazy Lake Village
+   Lighthouse Point
+   Margate
+   Miramar
+   North Lauderdale
+   Oakland Park
+   Parkland
+   Pembroke Park
+   Pembroke Pines
+   Plantation
+   Pompano Beach
+   Sea Ranch Lakes
+   Southwest Ranches
+   Sunrise
+   Tamarac
+   West Park
+   Weston
+   Wilton Manors
+   Lazy Lake
+   Hallandale
+  Calhoun
+   Altha
+   Blountstown
+  Charlotte
+   Punta Gorda
+   Port Charlotte
+  Citrus
+   Crystal River
+   Inverness
+   Lecanto
+   Homosassa
+  Clay
+   Green Cove Springs
+   Keystone Heights
+   Orange Park
+   Penney Farms
+   Fleming Island
+   Doctor's Inlet
+  Collier
+   Everglades City
+   Marco Island
+   Naples
+   Immokalee
+  Columbia
+   Fort White
+   Lake City
+  Desoto
+   Arcadia
+  Dixie
+   Cross City
+   Horseshoe Beach
+   Steinhatchee
+   Suwannee
+  Escambia
+   Century
+   Pensacola
+   Molino
+  Flagler
+   Beverly Beach
+   Bunnell
+   Flagler Beach
+   Marineland
+   Palm Coast
+  Franklin
+   Apalachicola
+   Carrabelle
+   Alligator Point
+   Eastpoint
+  Gadsden
+   Chattahoochee
+   Greensboro
+   Gretna
+   Havana
+   Midway
+   Quincy
+  Gilchrist
+   Bell
+   Fanning Springs
+   Trenton
+  Glades
+   Moore Haven
+  Gulf
+   Port Saint Joe
+   Wewahitchka
+  Hamilton
+   Jasper
+   Jennings
+   White Springs
+  Hardee
+   Bowling Green
+   Wauchula
+   Zolfo Springs
+  Hendry
+   Clewiston
+   LaBelle
+   Dania
+   Felda
+  Hernando
+   Brooksville
+   Weeki Wachee
+   Spring Hill
+  Highlands
+   Avon Park
+   Lake Placid
+   Sebring
+  Hillsborough
+   Plant City
+   Tampa
+   Temple Terrace
+   Riverview
+   Lutz
+   BRANDON
+   Valrico
+   Odessa
+   Seffner
+  Holmes
+   Bonifay
+   Esto
+   Noma
+   Ponce De Leon
+   Westville
+  Indian River
+   Fellsmere
+   Indian River Shores
+   Orchid
+   Sebastian
+   Vero Beach
+  Jackson
+   Alford
+   Bascom
+   Campbellton
+   Cottondale
+   Graceville
+   Grand Ridge
+   Greenwood
+   Jacob City
+   Malone
+   Marianna
+   Sneads
+   Jacob
+  Jefferson
+   Monticello
+  Lafayette
+   Mayo
+  Lake
+   Astatula
+   Clermont
+   Eustis
+   Fruitland Park
+   Groveland
+   Howey-in-the-Hills
+   Lady Lake
+   Leesburg
+   Mascotte
+   Minneola
+   Montverde
+   Mount Dora
+   Tavares
+   Umatilla
+  Lee
+   Bonita Springs
+   Cape Coral
+   Estero, The Villages of
+   Fort Myers
+   Fort Myers Beach
+   Sanibel
+   Alva
+   North Fort Myers
+   Captiva
+   Estero
+   Lehigh Acres
+   Bokeelia
+   North Captiva Island
+  Leon
+   Tallahassee
+  Levy
+   Bronson
+   Cedar Key
+   Chiefland
+   Inglis
+   Otter Creek
+   Williston
+   Yankeetown
+  Liberty
+   Bristol
+  Madison
+   Greenville
+   Lee
+   Madison
+  Manatee
+   Anna Maria
+   Bradenton
+   Bradenton Beach
+   Holmes Beach
+   Longboat Key
+   Palmetto
+   Lakewood Ranch
+   Duette
+   Myakka City
+   Parrish
+   University Park
+  Marion
+   Belleview
+   Dunnellon
+   McIntosh
+   Ocala
+   Reddick
+  Martin
+   Indiantown
+   Jupiter Island
+   Ocean Breeze
+   Sewalls Point
+   Stuart
+   Hobe Sound
+   Jensen Beach
+   Sewall's Point
+  Miami-Dade
+   Aventura
+   Bal Harbour Village
+   Bay Harbor Islands
+   Biscayne Park
+   Coral Gables
+   Cutler Bay
+   Doral
+   El Portal
+   Florida City
+   Golden Beach
+   Hialeah
+   Hialeah Gardens
+   Homestead
+   Indian Creek Village
+   Key Biscayne
+   Medley
+   Miami
+   Miami Beach
+   Miami Gardens
+   Miami Lakes
+   Miami Shores Village
+   Miami Springs
+   North Bay Village
+   North Miami
+   North Miami Beach
+   Opa-locka
+   Palmetto Bay
+   Pinecrest
+   South Miami
+   Sunny Isles Beach
+   Surfside
+   Sweetwater
+   Virginia Gardens
+   West Miami
+   Bal Harbour
+   Indian Creek
+   Miami Shores
+   Village of Palmetto Bay
+  Monroe
+   Islamorada, Village of Islands
+   Key Colony Beach
+   Key West
+   Layton
+   Marathon
+   Islamorada
+   Long Key
+  Nassau
+   Callahan
+   Fernandina Beach
+   Hilliard
+   Yulee
+  Okaloosa
+   Cinco Bayou
+   Crestview
+   Destin
+   Fort Walton Beach
+   Laurel Hill
+   Mary Esther
+   Niceville
+   Shalimar
+   Valparaiso
+   Baker
+   Holt
+  Okeechobee
+   Okeechobee
+  Orange
+   Apopka
+   Bay Lake
+   Belle Isle
+   Eatonville
+   Edgewood
+   Lake Buena Vista
+   Maitland
+   Oakland
+   Ocoee
+   Orlando
+   Windermere
+   Winter Garden
+   Winter Park
+  Osceola
+   Kissimmee
+   Saint Cloud
+   Celebration
+  Palm Beach
+   Atlantis
+   Belle Glade
+   Boca Raton
+   Boynton Beach
+   Briny Breezes
+   Cloud Lake
+   Delray Beach
+   Glen Ridge
+   Golf
+   Greenacres
+   Gulf Stream
+   Haverhill
+   Highland Beach
+   Hypoluxo
+   Juno Beach
+   Jupiter
+   Jupiter Inlet Colony
+   Lake Clarke Shores
+   Lake Park
+   Lake Worth
+   Lantana
+   Loxahatchee Groves
+   Manalapan
+   Mangonia Park
+   North Palm Beach
+   Ocean Ridge
+   Pahokee
+   Palm Beach
+   Palm Beach Gardens
+   Palm Beach Shores
+   Palm Springs
+   Riviera Beach
+   Royal Palm Beach
+   South Bay
+   South Palm Beach
+   Tequesta
+   Wellington
+   West Palm Beach
+   Westlake
+   village of golf
+  Pasco
+   Dade City
+   New Port Richey
+   Port Richey
+   San Antonio
+   Saint Leo
+   Zephyrhills
+  Pinellas
+   Belleair
+   Belleair Beach
+   Belleair Bluffs
+   Belleair Shore
+   Clearwater
+   Dunedin
+   Gulfport
+   Indian Rocks Beach
+   Indian Shores
+   Kenneth City
+   Largo
+   Madeira Beach
+   North Redington Beach
+   Oldsmar
+   Pinellas Park
+   Redington Beach
+   Redington Shores
+   Safety Harbor
+   Seminole
+   South Pasadena
+   Saint Pete Beach
+   Saint Petersburg
+   Tarpon Springs
+   Treasure Island
+   Palm Harbor
+   City of Saint Pete Beach
+  Polk
+   Auburndale
+   Bartow
+   Davenport
+   Dundee
+   Eagle Lake
+   Fort Meade
+   Frostproof
+   Haines City
+   Highland Park
+   Hillcrest Heights
+   Lake Alfred
+   Lake Hamilton
+   Lake Wales
+   Lakeland
+   Mulberry
+   Polk City
+   Winter Haven
+   Babson Park
+  Putnam
+   Crescent City
+   Interlachen
+   Palatka
+   Pomona Park
+   Welaka
+   East Palatka
+  Santa Rosa
+   Gulf Breeze
+   Jay
+   Milton
+   Navarre
+   Pace
+  Sarasota
+   North Port
+   Sarasota
+   Venice
+   Englewood
+  Seminole
+   Altamonte Springs
+   Casselberry
+   Lake Mary
+   Longwood
+   Oviedo
+   Sanford
+   Winter Springs
+   Chuluota
+  St Johns
+   Saint Augustine
+   Saint Augustine Beach
+   Ponte Vedra Beach
+   Ponte Vedra
+  St Lucie
+   Fort Pierce
+   Port Saint Lucie
+   Saint Lucie Village
+  Sumter
+   Bushnell
+   Center Hill
+   Coleman
+   Webster
+   Wildwood
+   The Villages
+  Suwannee
+   Branford
+   Live Oak
+  Taylor
+   Perry
+  Union
+   Lake Butler
+   Raiford
+   Worthington Springs
+  Volusia
+   Daytona Beach
+   Daytona Beach Shores
+   DeBary
+   Deland
+   Deltona
+   Edgewater
+   Holly Hill
+   Lake Helen
+   New Smyrna Beach
+   Oak Hill
+   Orange City
+   Ormond Beach
+   Pierson
+   Ponce Inlet
+   Port Orange
+   South Daytona
+  Wakulla
+   Sopchoppy
+   Saint Marks
+   Crawfordville
+  Walton
+   DeFuniak Springs
+   Freeport
+   Paxton
+   Argyle
+   Santa Rosa Beach
+   Miramar Beach
+  Washington
+   Caryville
+   Chipley
+   Ebro
+   Vernon
+   Wausau
+  unknown
+  AVENTUA
+ Georgia
+  Valdosta
+  Albany
+  Lawrenceville
+  Bainbridge
+  Loganville
+  Atlanta
+ Hawaii
+ Idaho
+ Illinois
+ Indiana
+ Iowa
+  Davenport
+ Kansas
+ Kentucky
+ Louisiana
+ Maine
+ Maryland
+ Massachusetts
+ Michigan
+  Detroit
+  Flint
+  Southfield
+ Minnesota
+ Mississippi
+ Missouri
+ Montana
+ Nebraska
+ Nevada
+ New Hampshire
+ New Jersey
+ New Mexico
+ New York
+  Williamsville
+ North Carolina
+  Raleigh
+ North Dakota
+ Ohio
+ Oklahoma
+ Oregon
+ Pennsylvania
+ Rhode Island
+ South Carolina
+ South Dakota
+ Tennessee
+ Texas
+ Utah
+ Vermont
+ Virginia
+ Washington
+ West Virginia
+ Wisconsin
+ Wyoming
+ American Samoa
+ Guam
+ Northern Mariana Islands
+ Puerto Rico
+ Virgin Islands

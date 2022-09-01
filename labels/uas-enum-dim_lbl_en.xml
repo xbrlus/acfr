@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-enum-dim.xsd#uas-enum-dim_ReportingUnitAxis" xlink:label="uas-enum-dim_ReportingUnitAxis_loc" xlink:type="locator"/>
+<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-enum-dim_ReportingUnitAxis_lbl_label" xlink:type="arc"/>
+<link:label id="uas-enum-dim_ReportingUnitAxis_lbl_label" xlink:label="uas-enum-dim_ReportingUnitAxis_lbl_label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Reporting unit</link:label>
+</link:labelLink>
+</link:linkbase>

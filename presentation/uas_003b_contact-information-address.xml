@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:roleRef roleURI="urn:uas:linkrole:uas_003b_contact-information-address" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_003b_ContactInformationAddress" xlink:type="simple"/>
+<link:presentationLink xlink:role="urn:uas:linkrole:uas_003b_contact-information-address" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_ContactInformationAddressTitle" xlink:label="uas-abstr_ContactInformationAddressTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_PhoneNumber" xlink:label="uas-i_PhoneNumber_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_PhoneExtension" xlink:label="uas-i_PhoneExtension_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_FaxNumber" xlink:label="uas-i_FaxNumber_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_EmailAddress" xlink:label="uas-i_EmailAddress_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_Address" xlink:label="uas-i_Address_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_POBox" xlink:label="uas-i_POBox_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressCityOrTown" xlink:label="uas-i_AddressCityOrTown_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressCounty" xlink:label="uas-i_AddressCounty_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressState" xlink:label="uas-i_AddressState_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i.xsd#uas-i_AddressPostalZipCode" xlink:label="uas-i_AddressPostalZipCode_loc" xlink:type="locator"/>
+<link:presentationArc  order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_PhoneNumber_loc" xlink:type="arc"/>
+<link:presentationArc  order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_PhoneExtension_loc" xlink:type="arc"/>
+<link:presentationArc  order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_FaxNumber_loc" xlink:type="arc"/>
+<link:presentationArc  order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_EmailAddress_loc" xlink:type="arc"/>
+<link:presentationArc  order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_Address_loc" xlink:type="arc"/>
+<link:presentationArc  order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_POBox_loc" xlink:type="arc"/>
+<link:presentationArc  order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_AddressCityOrTown_loc" xlink:type="arc"/>
+<link:presentationArc  order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_AddressCounty_loc" xlink:type="arc"/>
+<link:presentationArc  order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_AddressState_loc" xlink:type="arc"/>
+<link:presentationArc  order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uas-abstr_ContactInformationAddressTitle_loc" xlink:to="uas-i_AddressPostalZipCode_loc" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:eligible-tables" xlink:href="../dictionary/uas-enum-linkroles.xsd#uas-enum-lr_EligibleTables" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:eligible-tables" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-enum-dim.xsd#uas-enum-dim_ReportingUnitAxis" xlink:label="uas-enum-dim_ReportingUnitAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_UnitInformationTitle" xlink:label="uas-abstr_UnitInformationTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_ReportingUnitDomainAll" xlink:label="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_County" xlink:label="uas-dm-un-rep_County_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_City" xlink:label="uas-dm-un-rep_City_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_SpecialDistrict" xlink:label="uas-dm-un-rep_SpecialDistrict_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_OtherEntity" xlink:label="uas-dm-un-rep_OtherEntity_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_RevenueTitle" xlink:label="uas-abstr_RevenueTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_ExpendituresTitle" xlink:label="uas-abstr_ExpendituresTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_AffiliateTotalsTitle" xlink:label="uas-abstr_AffiliateTotalsTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_DataElementWorksheetTitle" xlink:label="uas-abstr_DataElementWorksheetTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_UAS_005_LongTermDebtTitle" xlink:label="uas-abstr_UAS_005_LongTermDebtTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_AfrNoDataTitle" xlink:label="uas-abstr_AfrNoDataTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_RevenueImpactFeesTitle" xlink:label="uas-abstr_RevenueImpactFeesTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_ProjectsTitle" xlink:label="uas-abstr_ProjectsTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly" xlink:label="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_CompensationTitle" xlink:label="uas-abstr_CompensationTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_MillageRatesTitle" xlink:label="uas-abstr_MillageRatesTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_SpecialAssessmentRatesTitle" xlink:label="uas-abstr_SpecialAssessmentRatesTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_BondsTitle" xlink:label="uas-abstr_BondsTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_ProjectsTitleForAffiliate" xlink:label="uas-abstr_ProjectsTitleForAffiliate_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm-un-rep.xsd#uas-dm-un-rep_ReportingUnitDomainPrimaryOnly" xlink:label="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_CompensationTitleForAffiliate" xlink:label="uas-abstr_CompensationTitleForAffiliate_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_AffiliateNoDataTitle" xlink:label="uas-abstr_AffiliateNoDataTitle_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-abstr.xsd#uas-abstr_BalanceSheetTitle" xlink:label="uas-abstr_BalanceSheetTitle_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_UnitInformationTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_UnitInformationTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:to="uas-dm-un-rep_County_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:to="uas-dm-un-rep_City_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:to="uas-dm-un-rep_SpecialDistrict_loc" xlink:type="arc"/>
+<link:definitionArc  order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:to="uas-dm-un-rep_OtherEntity_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_RevenueTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_RevenueTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_ExpendituresTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_ExpendituresTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_AffiliateTotalsTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_AffiliateTotalsTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_DataElementWorksheetTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_DataElementWorksheetTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="16" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_UAS_005_LongTermDebtTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="17" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_UAS_005_LongTermDebtTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="18" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_AfrNoDataTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="19" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_AfrNoDataTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="20" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_RevenueImpactFeesTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="21" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_RevenueImpactFeesTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="22" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_ProjectsTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="23" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_ProjectsTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="arc"/>
+<link:definitionArc  order="24" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:to="uas-dm-un-rep_SpecialDistrict_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="25" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_CompensationTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="26" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_CompensationTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="27" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_MillageRatesTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="28" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_MillageRatesTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="29" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_SpecialAssessmentRatesTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="30" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_SpecialAssessmentRatesTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="31" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_BondsTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="32" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_BondsTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainSpecialDistrictOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="33" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_ProjectsTitleForAffiliate_loc" xlink:type="arc"/>
+<link:definitionArc  order="34" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_ProjectsTitleForAffiliate_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:type="arc"/>
+<link:definitionArc  order="35" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:to="uas-dm-un-rep_County_loc" xlink:type="arc"/>
+<link:definitionArc  order="36" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:to="uas-dm-un-rep_City_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="37" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_CompensationTitleForAffiliate_loc" xlink:type="arc"/>
+<link:definitionArc  order="38" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_CompensationTitleForAffiliate_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="39" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_AffiliateNoDataTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="40" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_AffiliateNoDataTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainPrimaryOnly_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:usable="true" order="41" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-enum-dim_ReportingUnitAxis_loc" xlink:to="uas-abstr_BalanceSheetTitle_loc" xlink:type="arc"/>
+<link:definitionArc  order="42" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-abstr_BalanceSheetTitle_loc" xlink:to="uas-dm-un-rep_ReportingUnitDomainAll_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

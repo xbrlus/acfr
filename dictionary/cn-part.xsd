@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fasb.org/cn-part/2020-01-31" xmlns:cn-part="http://fasb.org/cn-part/2020-01-31"
+ xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+ xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:uas-codes="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dtr-types='http://www.xbrl.org/dtr/type/2020-01-21'>
+<xs:annotation>
+<xs:appinfo>
+
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+<xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+<xs:import namespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes" schemaLocation="../dictionary/uas-codes.xsd"/>
+<xs:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
+<xs:import namespace='http://www.xbrl.org/dtr/type/2020-01-21' schemaLocation='https://www.xbrl.org/dtr/type/2020-01-21/types.xsd' />
+
+<xs:element abstract="false" id="cn-part_ChangeDate" name="ChangeDate" nillable="false" substitutionGroup="link:part" type="xs:date"  />
+<xs:element abstract="false" id="cn-part_DeprecatedDate" name="DeprecatedDate" nillable="false" substitutionGroup="link:part" type="xs:date"  />
+<xs:element abstract="false" id="cn-part_DeprecatedLabel" name="DeprecatedLabel" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="cn-part_DeprecationReplacement" name="DeprecationReplacement" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="cn-part_ElementDeprecated" name="ElementDeprecated" nillable="false" substitutionGroup="link:part" type="xs:boolean"  />
+<xs:element abstract="false" id="cn-part_SourceName" name="SourceName" nillable="false" substitutionGroup="link:part" type="xs:string"  />
+<xs:element abstract="false" id="cn-part_TaxonomyVersion" name="TaxonomyVersion" nillable="false" substitutionGroup="link:part" type="xs:gYear"  />
+
+</xs:schema>

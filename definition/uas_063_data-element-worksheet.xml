@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:uas_063_data-element-worksheet" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_UAS_063_DataElementWorksheet" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:dew-fund-categories" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_DewFundCategories" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:uas_063_data-element-worksheet" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_LineItems" xlink:label="uas-dim-c_LineItems_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dim-c.xsd#uas-dim-c_Hypercube" xlink:label="uas-dim-c_Hypercube_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_FundGroupsAxis" xlink:label="uas-dim_FundGroupsAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910001_AssignedFundBalance" xlink:label="uas-i-dew_DEW_910001_AssignedFundBalance_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910002_UnassignedFundBalance" xlink:label="uas-i-dew_DEW_910002_UnassignedFundBalance_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910004_RestrictedNetPosition" xlink:label="uas-i-dew_DEW_910004_RestrictedNetPosition_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910005_CashAndInvestments" xlink:label="uas-i-dew_DEW_910005_CashAndInvestments_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910006_CurrentLiabilities" xlink:label="uas-i-dew_DEW_910006_CurrentLiabilities_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910007_LongTermDebt" xlink:label="uas-i-dew_DEW_910007_LongTermDebt_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920001_TotalRevenues" xlink:label="uas-i-dew_DEW_920001_TotalRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920002_IntergovernmentalRevenues" xlink:label="uas-i-dew_DEW_920002_IntergovernmentalRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920003_TotalOperatingRevenues" xlink:label="uas-i-dew_DEW_920003_TotalOperatingRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930001_TotalExpenditures" xlink:label="uas-i-dew_DEW_930001_TotalExpenditures_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930002_DebtServiceExpenditures" xlink:label="uas-i-dew_DEW_930002_DebtServiceExpenditures_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930003_TotalOperatingExpenses" xlink:label="uas-i-dew_DEW_930003_TotalOperatingExpenses_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:closed="true" xbrldt:contextElement="scenario" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-dim-c_Hypercube_loc" xlink:type="arc"/>
+<link:definitionArc xbrldt:targetRole="urn:uas:linkrole:dew-fund-categories" order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uas-dim-c_Hypercube_loc" xlink:to="uas-dim_FundGroupsAxis_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910001_AssignedFundBalance_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910002_UnassignedFundBalance_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910004_RestrictedNetPosition_loc" xlink:type="arc"/>
+<link:definitionArc  order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910005_CashAndInvestments_loc" xlink:type="arc"/>
+<link:definitionArc  order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910006_CurrentLiabilities_loc" xlink:type="arc"/>
+<link:definitionArc  order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_910007_LongTermDebt_loc" xlink:type="arc"/>
+<link:definitionArc  order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_920001_TotalRevenues_loc" xlink:type="arc"/>
+<link:definitionArc  order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_920002_IntergovernmentalRevenues_loc" xlink:type="arc"/>
+<link:definitionArc  order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_920003_TotalOperatingRevenues_loc" xlink:type="arc"/>
+<link:definitionArc  order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_930001_TotalExpenditures_loc" xlink:type="arc"/>
+<link:definitionArc  order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_930002_DebtServiceExpenditures_loc" xlink:type="arc"/>
+<link:definitionArc  order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dim-c_LineItems_loc" xlink:to="uas-i-dew_DEW_930003_TotalOperatingExpenses_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

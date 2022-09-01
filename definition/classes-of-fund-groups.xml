@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+<link:roleRef roleURI="urn:uas:linkrole:classes-of-fund-groups" xlink:href="../dictionary/uas-linkroles.xsd#uas-lr_ClassesOfFundGroups" xlink:type="simple"/>
+<link:definitionLink xlink:role="urn:uas:linkrole:classes-of-fund-groups" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-dim.xsd#uas-dim_FundGroupsAxis" xlink:label="uas-dim_FundGroupsAxis_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_TotalFundGroupsMember" xlink:label="uas-dm_FG_TotalFundGroupsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_001_GeneralFundMember" xlink:label="uas-dm_FG_001_GeneralFundMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_005_GovernmentalActivitiesGovernmentWideFinancialReportingMember" xlink:label="uas-dm_FG_005_GovernmentalActivitiesGovernmentWideFinancialReportingMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_050_PermanentFundsMember" xlink:label="uas-dm_FG_050_PermanentFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_100_SpecialRevenueFundsMember" xlink:label="uas-dm_FG_100_SpecialRevenueFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_200_DebtServiceFundsMember" xlink:label="uas-dm_FG_200_DebtServiceFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_300_CapitalProjectsFundsMember" xlink:label="uas-dm_FG_300_CapitalProjectsFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_400_EnterpriseFundsMember" xlink:label="uas-dm_FG_400_EnterpriseFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_500_InternalServiceFundsMember" xlink:label="uas-dm_FG_500_InternalServiceFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_600_CustodialFundsMember" xlink:label="uas-dm_FG_600_CustodialFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_650_PensionTrustFundsMember" xlink:label="uas-dm_FG_650_PensionTrustFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_700_InvestmentTrustFundsMember" xlink:label="uas-dm_FG_700_InvestmentTrustFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_750_PrivatePurposeTrustFundsMember" xlink:label="uas-dm_FG_750_PrivatePurposeTrustFundsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_800_RevolvingFundsAndClearingAccountsMember" xlink:label="uas-dm_FG_800_RevolvingFundsAndClearingAccountsMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_900_GeneralFixedAssetsAccountGroupMember" xlink:label="uas-dm_FG_900_GeneralFixedAssetsAccountGroupMember_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-dm.xsd#uas-dm_FG_950_GeneralLongTermDebtAccountGroupMember" xlink:label="uas-dm_FG_950_GeneralLongTermDebtAccountGroupMember_loc" xlink:type="locator"/>
+<link:definitionArc xbrldt:usable="true" order="2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uas-dim_FundGroupsAxis_loc" xlink:to="uas-dm_FG_TotalFundGroupsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_001_GeneralFundMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="4" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_005_GovernmentalActivitiesGovernmentWideFinancialReportingMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_050_PermanentFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="6" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_100_SpecialRevenueFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="7" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_200_DebtServiceFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="8" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_300_CapitalProjectsFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="9" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_400_EnterpriseFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="10" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_500_InternalServiceFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="11" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_600_CustodialFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="12" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_650_PensionTrustFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="13" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_700_InvestmentTrustFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="14" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_750_PrivatePurposeTrustFundsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="15" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_800_RevolvingFundsAndClearingAccountsMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="16" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_900_GeneralFixedAssetsAccountGroupMember_loc" xlink:type="arc"/>
+<link:definitionArc  order="17" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uas-dm_FG_TotalFundGroupsMember_loc" xlink:to="uas-dm_FG_950_GeneralLongTermDebtAccountGroupMember_loc" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

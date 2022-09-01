@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version {year}
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-linkroles" xmlns:uas-lr="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-linkroles"
+ xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:annotation>
+<xs:appinfo>
+<link:roleType id="uas-lr_ClassesOfFundGroups" roleURI="urn:uas:linkrole:classes-of-fund-groups">
+<link:definition>Classes of fund groups</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_HierarchyOfFundGroups" roleURI="urn:uas:linkrole:hierarchy-of-fund-groups">
+<link:definition>Classes of fund groups organized by functional grouping (e.g. Governmental, Proprietary,Fiduciary etc)</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfReportingTypes" roleURI="urn:uas:linkrole:classes-of-reporting-types">
+<link:definition>Classes of reporting types</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfObjectCodes" roleURI="urn:uas:linkrole:classes-of-object-codes">
+<link:definition>Classes of object codes</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfSubObjectCodes" roleURI="urn:uas:linkrole:classes-of-sub-object-codes">
+<link:definition>Classes of sub object codes</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_001_UnitInformation" roleURI="urn:uas:linkrole:uas_001_unit-information">
+<link:definition>Unit information</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_061_AffiliateInformation" roleURI="urn:uas:linkrole:uas_061_affiliate-information">
+<link:definition>Affiliate information</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_001b_AfrNoDataDeclarations" roleURI="urn:uas:linkrole:uas_001b_afr-no-data-declarations">
+<link:definition>Afr No Data Declarations</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_002a_LocationInformationPersonDetails" roleURI="urn:uas:linkrole:uas_002a_location-information-person-details">
+<link:definition>Location information - Person details</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_002b_LocationInformationAddress" roleURI="urn:uas:linkrole:uas_002b_location-information-address">
+<link:definition>Location information - Address</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_003a_ContactInformationContactPerson" roleURI="urn:uas:linkrole:uas_003a_contact-information-contact-person">
+<link:definition>Contact information - Contact person</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_003b_ContactInformationAddress" roleURI="urn:uas:linkrole:uas_003b_contact-information-address">
+<link:definition>Contact information - Address</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_004a_CertificationPage" roleURI="urn:uas:linkrole:uas_004a_certification-page">
+<link:definition>Certification page</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_004b_CertificationPagePersonDetails" roleURI="urn:uas:linkrole:uas_004b_certification-page-person-details">
+<link:definition>Certification page - Person details</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_005a_LongTermDebt" roleURI="urn:uas:linkrole:uas_005a_long-term-debt">
+<link:definition>Long-term debt</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_005b_AuditPage" roleURI="urn:uas:linkrole:uas_005b_audit-page">
+<link:definition>Audit page</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_020_Revenue" roleURI="urn:uas:linkrole:uas_020_revenue">
+<link:definition>Revenue</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_034_Expenditures" roleURI="urn:uas:linkrole:uas_034_expenditures">
+<link:definition>Expenditures</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_062_AffiliateTotals" roleURI="urn:uas:linkrole:uas_062_affiliate-totals">
+<link:definition>Affiliate totals (for dependents)</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_DewFundCategories" roleURI="urn:uas:linkrole:dew-fund-categories">
+<link:definition>Categories of fund groups (e.g. Governmental, Proprietary,Fiduciary etc)</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_063_DataElementWorksheet" roleURI="urn:uas:linkrole:uas_063_data-element-worksheet">
+<link:definition>Data Element Worksheet</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfCapitalProjectsFunds" roleURI="urn:uas:linkrole:classes-of-capital-projects-funds">
+<link:definition>Classes of capital projects funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfCustodialFunds" roleURI="urn:uas:linkrole:classes-of-custodial-funds">
+<link:definition>Classes of custodial funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfDebtServiceFunds" roleURI="urn:uas:linkrole:classes-of-debt-service-funds">
+<link:definition>Classes of debt service funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfEnterpriseFunds" roleURI="urn:uas:linkrole:classes-of-enterprise-funds">
+<link:definition>Classes of enterprise funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfGeneralFixedAssetsGroupOfAccounts" roleURI="urn:uas:linkrole:classes-of-general-fixed-assets-group-of-accounts">
+<link:definition>Classes of general fixed assets group of accounts</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfGeneralLongTermDebtGroupOfAccounts" roleURI="urn:uas:linkrole:classes-of-general-long-term-debt-group-of-accounts">
+<link:definition>Classes of general long term debt group of accounts</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfInternalServiceFunds" roleURI="urn:uas:linkrole:classes-of-internal-service-funds">
+<link:definition>Classes of internal service funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfInvestmentTrustFunds" roleURI="urn:uas:linkrole:classes-of-investment-trust-funds">
+<link:definition>Classes of investment trust funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfPensionTrustFunds" roleURI="urn:uas:linkrole:classes-of-pension-trust-funds">
+<link:definition>Classes of pension trust funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfPermanentFunds" roleURI="urn:uas:linkrole:classes-of-permanent-funds">
+<link:definition>Classes of permanent funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfPrivatePurposeTrustFunds" roleURI="urn:uas:linkrole:classes-of-privte-purpose-trust-funds">
+<link:definition>Classes of private-purpose trust funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfRevolvingFundsAndClearingAccounts" roleURI="urn:uas:linkrole:classes-of-revolving-funds-and-clearing-accounts">
+<link:definition>Classes of revolving funds and clearing accounts</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfSpecialRevenueFunds" roleURI="urn:uas:linkrole:classes-of-special-revenue-funds">
+<link:definition>Classes of special revenue funds</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfImpactFeeDwellings" roleURI="urn:uas:linkrole:classes-of-impact-fee-dwellings">
+<link:definition>Classes of Impact Fee Dwellings</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfImpactFeeSchedules" roleURI="urn:uas:linkrole:classes-of-impact-fee-schedules">
+<link:definition>Classes of Impact Fee Schedules</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_020_Revenue_dwellings_and_fees" roleURI="urn:uas:linkrole:uas_020_revenue_dwellings_and_fees">
+<link:definition>Revenue</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_020_Revenue_wo_breakdowns" roleURI="urn:uas:linkrole:uas_020_revenue_wo_breakdowns">
+<link:definition>Revenue</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_001ba_AfrNoDataDeclarations" roleURI="urn:uas:linkrole:uas_001ba_afr-no-data-declarations">
+<link:definition>Affiliate No Data Declarations</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_064_Projects" roleURI="urn:uas:linkrole:uas_064_projects">
+<link:definition>Project accounting</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_064a_Projects" roleURI="urn:uas:linkrole:uas_064a_projects">
+<link:definition>Project accounting for affiliates</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_065_Compensation" roleURI="urn:uas:linkrole:uas_065_compensation">
+<link:definition>Compensation</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_065a_Compensation" roleURI="urn:uas:linkrole:uas_065a_compensation">
+<link:definition>Compensation for affiliates</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_066_MillageRates" roleURI="urn:uas:linkrole:uas_066_millage-rates">
+<link:definition>Millage Rates</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_067_SpecialAssessmentRates" roleURI="urn:uas:linkrole:uas_067_special-assessment-rates">
+<link:definition>Special Assessment Rates</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_068_Bonds" roleURI="urn:uas:linkrole:uas_068_bonds">
+<link:definition>Bonds</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfCompensationCategory" roleURI="urn:uas:linkrole:classes-of-compensation-category">
+<link:definition>Compensation Category</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfPayPeriod" roleURI="urn:uas:linkrole:classes-of-pay-period">
+<link:definition>Pay Period options</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfRange" roleURI="urn:uas:linkrole:classes-of-range">
+<link:definition>Range options</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_ClassesOfBondTypes" roleURI="urn:uas:linkrole:classes-of-bond-types">
+<link:definition>Bond Types</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="uas-lr_UAS_006_BalanceSheet" roleURI="urn:uas:linkrole:uas_006_balance-sheet">
+<link:definition>Balance sheet</link:definition>
+<link:usedOn>gen:link</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+<link:usedOn>link:presentationLink</link:usedOn>
+</link:roleType>
+<link:roleType id="court-related" roleURI="urn:uas:referencerole:court-related">
+<link:definition>Court Related</link:definition>
+<link:usedOn>link:reference</link:usedOn>
+</link:roleType>
+<link:roleType id="dew" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew">
+<link:definition>DEW Attributes</link:definition>
+<link:usedOn>link:reference</link:usedOn>
+</link:roleType>
+<link:roleType id="changeNote" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/changeNote">
+<link:definition>FASB model change notes</link:definition>
+<link:usedOn>link:reference</link:usedOn>
+</link:roleType>
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://xbrl.org/2008/generic" schemaLocation="http://www.xbrl.org/2008/generic-link.xsd"/>
+</xs:schema>

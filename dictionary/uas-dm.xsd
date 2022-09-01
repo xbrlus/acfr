@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2022/dictionary/uas-domains" xmlns:uas-dm="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2022/dictionary/uas-domains"
+ xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+ xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:uas-codes="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dtr-types='http://www.xbrl.org/dtr/type/2020-01-21'>
+<xs:annotation>
+<xs:appinfo>
+<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../labels/uas-dm_lbl_en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+<xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+<xs:import namespace="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/2019/dictionary/uas-codes" schemaLocation="../dictionary/uas-codes.xsd"/>
+<xs:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
+<xs:import namespace='http://www.xbrl.org/dtr/type/2020-01-21' schemaLocation='https://www.xbrl.org/dtr/type/2020-01-21/types.xsd' />
+
+<xs:element abstract="false" id="uas-dm_AdValoremMember" name="AdValoremMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AffiliateInformationMember" name="AffiliateInformationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_AfrAffiliateNoDataDomain" name="AFRND_AfrAffiliateNoDataDomain" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_AfrNoDataDomain" name="AFRND_AfrNoDataDomain" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_BalanceSheetMember" name="AFRND_BalanceSheetMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_BondsMember" name="AFRND_BondsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_ConstructionProjectsMember" name="AFRND_ConstructionProjectsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_ExpendituresMember" name="AFRND_ExpendituresMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AFRND_RevenuesMember" name="AFRND_RevenuesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_AuditPageMember" name="AuditPageMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_BondTypeDomain" name="BondTypeDomain" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_CertificationPageMember" name="CertificationPageMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_ChairmanElectedOfficialMember" name="ChairmanElectedOfficialMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_ChiefFinancialOfficerMember" name="ChiefFinancialOfficerMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_CompensationCategoryDomain" name="CompensationCategoryDomain" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_ContactInformationMember" name="ContactInformationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_ContactPersonMember" name="ContactPersonMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_ContractorMember" name="ContractorMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_01_OfficeBuildingsMember" name="DWELLING_01_OfficeBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_02_ResidentialBuildingsMember" name="DWELLING_02_ResidentialBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_03_RetailBuildingsMember" name="DWELLING_03_RetailBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_04_HospitalityBuildingsMember" name="DWELLING_04_HospitalityBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_05_InstitutionalCivicBuildingsMember" name="DWELLING_05_InstitutionalCivicBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_06_GatheringBuildingsMember" name="DWELLING_06_GatheringBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_07_ReligiousBuildingsMember" name="DWELLING_07_ReligiousBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_08_EducationalBuildingsMember" name="DWELLING_08_EducationalBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_09_IndustrialBuildingsMember" name="DWELLING_09_IndustrialBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_10_AgriculturalBuildingsMember" name="DWELLING_10_AgriculturalBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_11_TransportationBuildingsMember" name="DWELLING_11_TransportationBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_12_RecreationalBuildingsMember" name="DWELLING_12_RecreationalBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_13_MultiPurposeBuildingsMember" name="DWELLING_13_MultiPurposeBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_DWELLING_19_OtherBuildingsMember" name="DWELLING_19_OtherBuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_EmployeeMember" name="EmployeeMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FEESCHEDULE_01_FlatFeeScheduleMember" name="FEESCHEDULE_01_FlatFeeScheduleMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FEESCHEDULE_02_TieredBedroomsFeeScheduleMember" name="FEESCHEDULE_02_TieredBedroomsFeeScheduleMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FEESCHEDULE_03_TieredFootageFeeScheduleMember" name="FEESCHEDULE_03_TieredFootageFeeScheduleMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FEESCHEDULE_09_OtherFeeScheduleMember" name="FEESCHEDULE_09_OtherFeeScheduleMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_000_ComponentUnitsMember" name="FG_000_ComponentUnitsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_001_399_GovernmentalFundsMember" name="FG_001_399_GovernmentalFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_001_GeneralFundMember" name="FG_001_GeneralFundMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_005_GovernmentalActivitiesGovernmentWideFinancialReportingMember" name="FG_005_GovernmentalActivitiesGovernmentWideFinancialReportingMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_050_PermanentFundsMember" name="FG_050_PermanentFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_100_SpecialRevenueFundsMember" name="FG_100_SpecialRevenueFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_200_DebtServiceFundsMember" name="FG_200_DebtServiceFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_300_CapitalProjectsFundsMember" name="FG_300_CapitalProjectsFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_400_599_ProprietaryFundsMember" name="FG_400_599_ProprietaryFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_400_EnterpriseFundsMember" name="FG_400_EnterpriseFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_500_InternalServiceFundsMember" name="FG_500_InternalServiceFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_600_799_FiduciaryFundsMember" name="FG_600_799_FiduciaryFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_600_CustodialFundsMember" name="FG_600_CustodialFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_650_PensionTrustFundsMember" name="FG_650_PensionTrustFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_700_InvestmentTrustFundsMember" name="FG_700_InvestmentTrustFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_750_PrivatePurposeTrustFundsMember" name="FG_750_PrivatePurposeTrustFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_800_RevolvingFundsAndClearingAccountsMember" name="FG_800_RevolvingFundsAndClearingAccountsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_900_GeneralFixedAssetsAccountGroupMember" name="FG_900_GeneralFixedAssetsAccountGroupMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_950_GeneralLongTermDebtAccountGroupMember" name="FG_950_GeneralLongTermDebtAccountGroupMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FG_TotalFundGroupsMember" name="FG_TotalFundGroupsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_FinancialOfficerMember" name="FinancialOfficerMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_LocationInformationMember" name="LocationInformationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_MaximumMember" name="MaximumMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_MedianMember" name="MedianMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_MinimumMember" name="MinimumMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_NonAdValoremMember" name="NonAdValoremMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_10_PersonnelServicesMember" name="OBJ_10_PersonnelServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_30_OperatingExpendituresExpensesMember" name="OBJ_30_OperatingExpendituresExpensesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_60_CapitalOutlayMember" name="OBJ_60_CapitalOutlayMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_70_DebtServiceMember" name="OBJ_70_DebtServiceMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_80_GrantsandAidsMember" name="OBJ_80_GrantsandAidsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_90_OtherUsesMember" name="OBJ_90_OtherUsesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_OBJ_TotalObjectCodesMember" name="OBJ_TotalObjectCodesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PayPeriodMember" name="PayPeriodMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_BiWeeklyMember" name="PP_BiWeeklyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_ContractMember" name="PP_ContractMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_MonthlyMember" name="PP_MonthlyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_SemiMonthlyMember" name="PP_SemiMonthlyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_UnspecifiedMember" name="PP_UnspecifiedMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_PP_WeeklyMember" name="PP_WeeklyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RangeMember" name="RangeMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_BlendedMember" name="RT_BlendedMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_DiscreteMember" name="RT_DiscreteMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_IndependentMember" name="RT_IndependentMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_NonComponentMember" name="RT_NonComponentMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_ReportingTypeDomain" name="RT_ReportingTypeDomain" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_RT_ZeroReportMember" name="RT_ZeroReportMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_11_ExecutiveSalariesMember" name="SUB_11_ExecutiveSalariesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_12_RegularSalariesAndWagesMember" name="SUB_12_RegularSalariesAndWagesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_13_OtherSalariesAndWagesMember" name="SUB_13_OtherSalariesAndWagesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_14_OvertimeMember" name="SUB_14_OvertimeMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_15_SpecialPayMember" name="SUB_15_SpecialPayMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_16_CompensatedAnnualLeaveMember" name="SUB_16_CompensatedAnnualLeaveMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_17_CompensatedSickLeaveMember" name="SUB_17_CompensatedSickLeaveMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_18_CompensatedCompensatoryLeaveMember" name="SUB_18_CompensatedCompensatoryLeaveMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_21_FicaTaxesMember" name="SUB_21_FicaTaxesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_22_RetirementContributionsMember" name="SUB_22_RetirementContributionsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_23_LifeAndHealthInsuranceMember" name="SUB_23_LifeAndHealthInsuranceMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_24_WorkersCompensationMember" name="SUB_24_WorkersCompensationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_25_UnemploymentCompensationMember" name="SUB_25_UnemploymentCompensationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_26_OtherPostemploymentBenefitsOpebMember" name="SUB_26_OtherPostemploymentBenefitsOpebMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_31_ProfessionalServicesMember" name="SUB_31_ProfessionalServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_32_AccountingAndAuditingMember" name="SUB_32_AccountingAndAuditingMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_33_CourtReporterServicesMember" name="SUB_33_CourtReporterServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_34_OtherServicesMember" name="SUB_34_OtherServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_35_InvestigationsMember" name="SUB_35_InvestigationsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_36_PensionBenefitsMember" name="SUB_36_PensionBenefitsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_40_TravelAndPerDiemMember" name="SUB_40_TravelAndPerDiemMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_41_CommunicationServicesDevicesAndAccessoriesMember" name="SUB_41_CommunicationServicesDevicesAndAccessoriesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_42_FreightPostageServicesMember" name="SUB_42_FreightPostageServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_43_UtilityServicesMember" name="SUB_43_UtilityServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_44_RentalsAndLeasesMember" name="SUB_44_RentalsAndLeasesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_45_InsuranceMember" name="SUB_45_InsuranceMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_46_RepairAndMaintenanceServicesMember" name="SUB_46_RepairAndMaintenanceServicesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_47_PrintingAndBindingMember" name="SUB_47_PrintingAndBindingMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_48_PromotionalActivitiesMember" name="SUB_48_PromotionalActivitiesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_49_OtherCurrentChargesAndObligationsMember" name="SUB_49_OtherCurrentChargesAndObligationsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_51_OfficeSuppliesMember" name="SUB_51_OfficeSuppliesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_52_OperatingSuppliesMember" name="SUB_52_OperatingSuppliesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_53_RoadMaterialsAndSuppliesMember" name="SUB_53_RoadMaterialsAndSuppliesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_54_BooksPublicationsSubscriptionsAndMembershipsMember" name="SUB_54_BooksPublicationsSubscriptionsAndMembershipsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_55_TrainingMember" name="SUB_55_TrainingMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_59_DepreciationMember" name="SUB_59_DepreciationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_61_LandMember" name="SUB_61_LandMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_62_BuildingsMember" name="SUB_62_BuildingsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_63_InfrastructureMember" name="SUB_63_InfrastructureMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_64_MachineryAndEquipmentMember" name="SUB_64_MachineryAndEquipmentMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_65_ConstructionInProgressMember" name="SUB_65_ConstructionInProgressMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_66_BooksPublicationsAndLibraryMaterialsMember" name="SUB_66_BooksPublicationsAndLibraryMaterialsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_67_WorksOfArtCollectionsMember" name="SUB_67_WorksOfArtCollectionsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_68_IntangibleAssetsMember" name="SUB_68_IntangibleAssetsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_71_PrincipalMember" name="SUB_71_PrincipalMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_72_InterestMember" name="SUB_72_InterestMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_73_OtherDebtServiceCostsMember" name="SUB_73_OtherDebtServiceCostsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_81_AidsToGovernmentAgenciesMember" name="SUB_81_AidsToGovernmentAgenciesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_82_AidsToPrivateOrganizationsMember" name="SUB_82_AidsToPrivateOrganizationsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_83_OtherGrantsAndMember" name="SUB_83_OtherGrantsAndMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_91_IntragovernmentalTransfersMember" name="SUB_91_IntragovernmentalTransfersMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_92_AdvancesMember" name="SUB_92_AdvancesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_93_NonoperatingInterestProprietaryFundsMember" name="SUB_93_NonoperatingInterestProprietaryFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_94_NonoperatingGrantExpenseProprietaryFundsMember" name="SUB_94_NonoperatingGrantExpenseProprietaryFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_95_OtherNonoperatingUsesProprietaryFundsMember" name="SUB_95_OtherNonoperatingUsesProprietaryFundsMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_SUB_99_OtherUsesMember" name="SUB_99_OtherUsesMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+<xs:element abstract="false" id="uas-dm_UnitInformationMember" name="UnitInformationMember" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+
+</xs:schema>

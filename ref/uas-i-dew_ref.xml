@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version 2022
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:uas-part="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/parts" xmlns:uas-dew-part="https://www.apps.fldfs.com/LocalGov/taxonomies/uas/dew/parts"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd https://www.apps.fldfs.com/LocalGov/taxonomies/uas/parts ../dictionary/uas-part.xsd https://www.apps.fldfs.com/LocalGov/taxonomies/uas/dew/parts ../dictionary/uas-dew-part.xsd " >
+<link:roleRef roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:href="../dictionary/uas-linkroles.xsd#dew" xlink:type="simple"/>
+<link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910003_UnassignedAndAssignedFundBalance" xlink:label="uas-i-dew_DEW_910003_UnassignedAndAssignedFundBalance_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910004_RestrictedNetPosition" xlink:label="uas-i-dew_DEW_910004_RestrictedNetPosition_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910005_CashAndInvestments" xlink:label="uas-i-dew_DEW_910005_CashAndInvestments_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910006_CurrentLiabilities" xlink:label="uas-i-dew_DEW_910006_CurrentLiabilities_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_910007_LongTermDebt" xlink:label="uas-i-dew_DEW_910007_LongTermDebt_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920001_TotalRevenues" xlink:label="uas-i-dew_DEW_920001_TotalRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920002_IntergovernmentalRevenues" xlink:label="uas-i-dew_DEW_920002_IntergovernmentalRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_920003_TotalOperatingRevenues" xlink:label="uas-i-dew_DEW_920003_TotalOperatingRevenues_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930001_TotalExpenditures" xlink:label="uas-i-dew_DEW_930001_TotalExpenditures_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930002_DebtServiceExpenditures" xlink:label="uas-i-dew_DEW_930002_DebtServiceExpenditures_loc" xlink:type="locator"/>
+<link:loc xlink:href="../dictionary/uas-i-dew.xsd#uas-i-dew_DEW_930003_TotalOperatingExpenses" xlink:label="uas-i-dew_DEW_930003_TotalOperatingExpenses_loc" xlink:type="locator"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_910003_UnassignedAndAssignedFundBalance_loc" xlink:to="lab_10003" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_910004_RestrictedNetPosition_loc" xlink:to="lab_10004" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_910005_CashAndInvestments_loc" xlink:to="lab_10005" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_910006_CurrentLiabilities_loc" xlink:to="lab_10006" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_910007_LongTermDebt_loc" xlink:to="lab_10007" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_920001_TotalRevenues_loc" xlink:to="lab_20001" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_920002_IntergovernmentalRevenues_loc" xlink:to="lab_20002" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_920003_TotalOperatingRevenues_loc" xlink:to="lab_20003" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_930001_TotalExpenditures_loc" xlink:to="lab_30001" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_930002_DebtServiceExpenditures_loc" xlink:to="lab_30002" xlink:type="arc"/>
+<link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uas-i-dew_DEW_930003_TotalOperatingExpenses_loc" xlink:to="lab_30003" xlink:type="arc"/>
+<link:reference id="lab_10003" xlink:label="lab_10003" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/UnassignedAndAssignedFundBalance</uas-part:UASID>
+<uas-dew-part:DEWAccount>271</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Balance Sheet for Governmental Funds in the Fund Balances Section (some may be in major while others are in non major)</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Calculated by subtracting total liabilities from total assets and then remove any balances that are reserved (notes and loans receivable, deposits, and prepaid costs etc.)</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_10004" xlink:label="lab_10004" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/RestrictedNetPosition</uas-part:UASID>
+<uas-dew-part:DEWAccount>276</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Net Assets for Proprietary Funds in the Net Assets section.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Net Assets) by subtracting total liabilities from total assets and then remove any balances that are restricted for a specific use or are invested in capital assets (net of accumulated depreciation, less any outstanding debt remaining on the capital assets).</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_10005" xlink:label="lab_10005" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/CashAndCashInvestments</uas-part:UASID>
+<uas-dew-part:DEWAccount>101.000 through 104.000 and 151.000 through 151.900</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Balance Sheet for Governmental Funds in the Assets Section (some may be in major while others are in non major)</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a balance sheet) by adding the fair market value of all investments (both current and non-current) to the cash on hand and the cash in the bank.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_10006" xlink:label="lab_10006" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/CurrentLiabilities</uas-part:UASID>
+<uas-dew-part:DEWAccount>201.000 through 235.000 ending in .000 (NOT .900)</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Balance Sheet for Governmental Funds</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a balance sheet) by summing all liabilities that fall into the “Current” category for all Governmental Funds.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_10007" xlink:label="lab_10007" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/LongTermDebt</uas-part:UASID>
+<uas-dew-part:DEWAccount>203.900 through 239.900 ending in .900 (NOT .000)</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Reconciliation of the Balance Sheet to the Statement of Net Assets – Governmental Funds</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce the reconciliation) by summing all liabilities that fall into the “Non-Current” or “Long-Term” category for all Governmental Funds</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_20001" xlink:label="lab_20001" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/TotalRevenues</uas-part:UASID>
+<uas-dew-part:DEWAccount>311.000 through 393.000</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Balances for Governmental Funds as a total of all revenues listed.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and changes in Fund Balances for Governmental Funds) by summing all revenues for the fiscal year including taxes, special assessments, licenses and permits, etc.  Make sure to include Intergovernmental Revenues as well. NOTE: This amount should match what’s recorded in the Revenue section of the AFR’s Governmental Funds.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_20002" xlink:label="lab_20002" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/InterGovernmentalRevenues</uas-part:UASID>
+<uas-dew-part:DEWAccount>331.100 through 339.000</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Balances for Governmental Funds under Revenues.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and changes in Fund Balances for Governmental Funds) by summing all revenues received from other governmental entities during the fiscal year.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_20003" xlink:label="lab_20003" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/TotalOperatingRevenues</uas-part:UASID>
+<uas-dew-part:DEWAccount>341.100 through 349.000</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Net Assets for Proprietary Funds.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and Changes in Fund Net Assets for Proprietary Funds) by summing all fees and charges generated by producing and providing goods and services to customers.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_30001" xlink:label="lab_30001" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/TotalExpenditures</uas-part:UASID>
+<uas-dew-part:DEWAccount>511.00 through 769.00</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Balances for Governmental Funds</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and changes in Fund Balances for Governmental Funds) by summing all expenditures received during the fiscal year including Capital Outlay and current Debt Service payments. NOTE: This amount should match what’s recorded in the Expenditure section of the AFR’s Governmental Funds.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_30002" xlink:label="lab_30002" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/DebtServiceExpenditures</uas-part:UASID>
+<uas-dew-part:DEWAccount>517.00 and 518.00</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Balances for Governmental Funds in the Expenditures section.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and changes in Fund Balances for Governmental Funds) by summing amounts paid for Interest and Principal on amounts borrowed (including principal payments on retirement) and other fiscal charges related to the borrowed amount.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+<link:reference id="lab_30003" xlink:label="lab_30003" xlink:role="https://www.apps.fldfs.com/LocalGov/uas/roles/reference/dew" xlink:type="resource">
+<ref:IssueDate>2019-09-30</ref:IssueDate>
+<uas-part:UASID>https://www.fldfs.com/LocalGov/uas/reference/dew/TotalOperatingExpenses</uas-part:UASID>
+<uas-dew-part:DEWAccount>513.00, 531.00 through 579.00</uas-dew-part:DEWAccount>
+<uas-dew-part:DEWSource>Found on the Statement of Revenues, Expenditures, and Changes in Fund Net Assets for Proprietary Funds as a total below the Operating Revenues and Expenses sections.</uas-dew-part:DEWSource>
+<uas-dew-part:DEWCalculation>Can be calculated (if you do not produce a Statement of Revenues, Expenditures, and Changes in Fund Net Assets for Proprietary Funds) by summing all expenses included in the cost of producing and providing goods and services to customers as well as the cost of collecting payment from them.</uas-dew-part:DEWCalculation>
+</link:reference>
+
+</link:referenceLink>
+</link:linkbase>

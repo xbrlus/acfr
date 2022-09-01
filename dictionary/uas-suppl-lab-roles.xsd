@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Uniform Accounting System (UAS) Taxonomy
+Copyrights reserved for State of Florida Department of Financial Services
+Version {year}
+Released by State of Florida Department of Financial Services
+Release date {releasedate}
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.apps.fldfs.com/LocalGov/uas/roles/label" xmlns:unknown="https://www.apps.fldfs.com/LocalGov/uas/roles/label"
+ xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase"
+ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:annotation>
+<xs:appinfo>
+<link:roleType id="AccountCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/AccountCode">
+<link:definition>Account Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="FundCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/FundCode">
+<link:definition>Fund Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="UnitInfoCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/UnitInfoCode">
+<link:definition>Unit Information Fact Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="LocationCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/LocationCode">
+<link:definition>Geographic location Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="DwellingCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/DwellingCode">
+<link:definition>Dwelling Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="FeeCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/FeeCode">
+<link:definition>Fee Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="ReportingTypeCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/ReportingTypeCode">
+<link:definition>Reporting Type Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="RepUnitCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/RepUnitCode">
+<link:definition>Reporting Unit Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="ObjectCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/ObjectCode">
+<link:definition>Object Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+<link:roleType id="AuditorCode" roleURI="https://www.apps.fldfs.com/LocalGov/uas/roles/label/AuditorCode">
+<link:definition>Auditor Codes</link:definition>
+<link:usedOn>link:label</link:usedOn>
+</link:roleType>
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://xbrl.org/2008/generic" schemaLocation="http://www.xbrl.org/2008/generic-link.xsd"/>
+</xs:schema>
