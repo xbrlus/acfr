@@ -1,0 +1,38 @@
+<tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="en-US">
+  <tp:identifier>https://taxonomies.xbrl.us/grip/2022</tp:identifier>
+  <tp:name xml:lang="en">Government Reporting Information Package (GRIP) Taxonomy</tp:name>
+  <tp:description xml:lang="en-US">This taxonomy packacge contains the taxonomies used government reporting</tp:description>
+  <tp:version>2022</tp:version>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>ACFR</tp:name>
+      <tp:description>ACFR Taxonomy</tp:description>
+      <tp:version>2022</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2022/acfr/acfr-all_2022.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Grants</tp:name>
+      <tp:description>Grants Taxonomy</tp:description>
+      <tp:version>2022</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2022/grants/grants-all_2022.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>State MI</tp:name>
+      <tp:description>MI taxonomy</tp:description>
+      <tp:version>2022</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2022/acfr/state/MI/MI-all_2022.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Single Audit</tp:name>
+      <tp:description>Single Audit Taxonomy</tp:description>
+      <tp:version>2022</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2022/singleaudit/singleaudit-all_2022.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Main Entry Point</tp:name>
+      <tp:description>Main entry point for the Government Reporting Information Package Taxonomy</tp:description>
+      <tp:version>2022</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2022/grip-all_2022.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>

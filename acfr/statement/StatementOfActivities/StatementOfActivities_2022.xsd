@@ -1,0 +1,71 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statementofactivities="https://taxonomies.xbrl.us/grip/2022/StatementOfActivities/2022" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2022/StatementOfActivities/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:appinfo>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfActivities_cal_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfActivities_def_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfActivities_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesAdjustmentsForTransfers" id="ActivitiesAdjustmentsForTransfers">
+        <linkbase:definition>200400 - Statement - Activities - Adjustments for Transfers (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForPrograms" id="ActivitiesExpensesAndRevenuesForPrograms">
+        <linkbase:definition>200000 - Statement - Activities - Expenses and Revenues for Programs</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForProgramsAltCalc2" id="ActivitiesExpensesAndRevenuesForProgramsAltCalc2">
+        <linkbase:definition>200002 - Statement - Activities - Expenses And Revenues for Programs  - By Activity</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit" id="ActivitiesExpensesAndRevenuesForProgramsComponentUnit">
+        <linkbase:definition>200070 - Statement - Activities, Component Unit - Expenses and Revenues for Programs</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesGeneralRevenues" id="ActivitiesGeneralRevenues">
+        <linkbase:definition>200110 - Statement - Activities - General Revenues and Changes in Net Position</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherExpenses" id="ActivitiesOtherExpenses">
+        <linkbase:definition>200040 - Statement - Activities - Other Expenses (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherExpensesComponentUnit" id="ActivitiesOtherExpensesComponentUnit">
+        <linkbase:definition>200080 - Statement - Activities, Component Unit - Other Expenses (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherGeneralRevenues" id="ActivitiesOtherGeneralRevenues">
+        <linkbase:definition>200300 - Statement - Activities - Other General Revenues (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherNetExpenseRevenue" id="ActivitiesOtherNetExpenseRevenue">
+        <linkbase:definition>200060 - Statement - Activities - Other Net (Expense) Revenue (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherNetExpenseRevenueComponentUnit" id="ActivitiesOtherNetExpenseRevenueComponentUnit">
+        <linkbase:definition>200095 - Statement - Activities, Component Unit - Other Net (Expense) Revenue (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherProgramUsingRevenues" id="ActivitiesOtherProgramUsingRevenues">
+        <linkbase:definition>200050 - Statement - Activities - Other Program Revenues (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit" id="ActivitiesOtherProgramUsingRevenuesComponentUnit">
+        <linkbase:definition>200090 - Statement - Activities, Component Unit - Other Program Revenues (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+      </linkbase:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arcoles="https://taxonomies.xbrl.us/grip/acfr/arcoles/2022" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/arcoles/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>This schema contains arcroles for the ACFR taxonomy</xs:documentation>
+    <xs:appinfo>
+      <linkbase:arcroleType arcroleURI="https://taxonomies.xbrl.us/grip/acfr/roles/accrual-modifiedAccrual" cyclesAllowed="any" id="accrual-modifiedAccrual">
+        <linkbase:definition>Relates the accrual element to its matching modified accrual element.</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionArc</linkbase:usedOn>
+      </linkbase:arcroleType>
+      <linkbase:arcroleType arcroleURI="https://taxonomies.xbrl.us/grip/acfr/roles/activity-element" cyclesAllowed="any" id="activity-element">
+        <linkbase:definition>Defines those elements related to a specific government program, business or activity.</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionArc</linkbase:usedOn>
+      </linkbase:arcroleType>
+      <linkbase:arcroleType arcroleURI="https://taxonomies.xbrl.us/grip/acfr/roles/entity-report" cyclesAllowed="undirected" id="entity-report">
+        <linkbase:definition>Entity Report</linkbase:definition>
+        <linkbase:usedOn>linkbase:definitionArc</linkbase:usedOn>
+      </linkbase:arcroleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

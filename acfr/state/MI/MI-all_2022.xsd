@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="acfr/state/MI/all/2022" targetNamespace="acfr/state/MI/all/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:appinfo>
+      <ns0:linkbaseRef xmlns:ns0="http://www.xbrl.org/2003/linkbase" xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="MI_def_2022.xml" ns1:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns1:type="simple"/>
+      <ns0:linkbaseRef xmlns:ns0="http://www.xbrl.org/2003/linkbase" xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="MI_pre_2022.xml" ns1:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns1:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/statAnnualLocalUnitFiscalReportFormF65Michigan/2022" schemaLocation="AnnualLocalUnitFiscalReportFormF65Michigan/AnnualLocalUnitFiscalReportFormF65Michigan_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/statChartOfAccountsMichigan/2022" schemaLocation="ChartOfAccountsMichigan/ChartOfAccountsMichigan_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/statForm5572Michigan/2022" schemaLocation="Form5572Michigan/Form5572Michigan_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/state/MI" schemaLocation="elts/MI_2022.xsd"/>
+</xs:schema>

@@ -1,0 +1,12 @@
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationOtherBudgetInformation" xlink:href="ApplicationForFederalAssistanceOtherBudgetInformation_2022.xsd#GrantsManagementApplicationOtherBudgetInformation" xlink:type="simple"/>
+  <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationOtherBudgetInformation" xlink:type="extended">
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceOtherBudgetInformationAbstract" xlink:href="../../elts/grants_2022.xsd#sap_ApplicationForFederalAssistanceOtherBudgetInformationAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_DirectChargesDescription" xlink:href="../../elts/grants_2022.xsd#sap_DirectChargesDescription" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceOtherBudgetInformationAbstract" xlink:to="ns2_DirectChargesDescription" order="1"/>
+    <link:loc xlink:label="ns2_IndirectChargesDescription" xlink:href="../../elts/grants_2022.xsd#sap_IndirectChargesDescription" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceOtherBudgetInformationAbstract" xlink:to="ns2_IndirectChargesDescription" order="2"/>
+    <link:loc xlink:label="ns2_Remarks" xlink:href="../../elts/grants_2022.xsd#sap_Remarks" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceOtherBudgetInformationAbstract" xlink:to="ns2_Remarks" order="3"/>
+  </link:presentationLink>
+</link:linkbase>

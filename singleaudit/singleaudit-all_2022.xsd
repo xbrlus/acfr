@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="https://taxonomies.xbrl.us/grip/singleaudit/all/2022" targetNamespace="https://taxonomies.xbrl.us/grip/singleaudit/all/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAudit" schemaLocation="elts/singleaudit_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAAuditFinding/2022" schemaLocation="singleaudit/AuditFinding/AuditFinding_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAAuditeeDUNSContinuationList/2022" schemaLocation="singleaudit/AuditeeDUNSContinuationList/AuditeeDUNSContinuationList_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAAuditeeEINContinuationList/2022" schemaLocation="singleaudit/AuditeeEINContinuationList/AuditeeEINContinuationList_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleACFDATotals/2022" schemaLocation="singleaudit/CFDATotals/CFDATotals_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAClusterTotals/2022" schemaLocation="singleaudit/ClusterTotals/ClusterTotals_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAFederalAwardingAgencyTotals/2022" schemaLocation="singleaudit/FederalAwardingAgencyTotals/FederalAwardingAgencyTotals_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAFederalSubprogramIdentifier/2022" schemaLocation="singleaudit/FederalSubprogramIdentifier/FederalSubprogramIdentifier_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAGeneralInformation/2022" schemaLocation="singleaudit/GeneralInformation/GeneralInformation_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAInformationAboutFindingsandQuestionedCosts/2022" schemaLocation="singleaudit/InformationAboutFindingsandQuestionedCosts/InformationAboutFindingsandQuestionedCosts_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleANotesToTheSEFA/2022" schemaLocation="singleaudit/NotesToTheSEFA/NotesToTheSEFA_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/singleAScheduleOfFederalAwardsAndQuestionedCosts/2022" schemaLocation="singleaudit/ScheduleOfFederalAwardsAndQuestionedCosts/ScheduleOfFederalAwardsAndQuestionedCosts_2022.xsd"/>
+</xs:schema>
