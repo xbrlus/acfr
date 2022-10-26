@@ -6,8 +6,8 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="GovernmentalFundsBalanceSheetFundBalances_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalance" id="GovFundsBalance">
         <linkbase:definition>300000 - Statement - Governmental Funds Balance Sheet, Other Funds (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAltCalc1" id="GovFundsBalanceAltCalc1">
@@ -16,79 +16,79 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAssetsTotals" id="GovFundsBalanceAssetsTotals">
         <linkbase:definition>300710 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAssigned" id="GovFundsBalanceAssigned">
         <linkbase:definition>300680 - Statement - Governmental Funds Balance Sheet, Other Funds - Fund Balances Assigned (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAssignedTotals" id="GovFundsBalanceAssignedTotals">
         <linkbase:definition>300780 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Fund Balances Assigned (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceClassified" id="GovFundsBalanceClassified">
         <linkbase:definition>300001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceCommitted" id="GovFundsBalanceCommitted">
         <linkbase:definition>300670 - Statement - Governmental Funds Balance Sheet, Other Funds - Fund Balances Committed (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceCommittedTotals" id="GovFundsBalanceCommittedTotals">
         <linkbase:definition>300770 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Fund Balances Committed (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceDeferredInflows" id="GovFundsBalanceDeferredInflows">
         <linkbase:definition>300600 - Statement - Governmental Funds Balance Sheet, Other Funds - Other Deferred Inflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceDeferredOutflows" id="GovFundsBalanceDeferredOutflows">
         <linkbase:definition>300300 - Statement - Governmental Funds Balance Sheet, Other Funds  - Other Deferred Outflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceNonspendable" id="GovFundsBalanceNonspendable">
         <linkbase:definition>300650 - Statement - Governmental Funds Balance Sheet, Other Funds - Fund Balances Nonspendable (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceNonspendableTotals" id="GovFundsBalanceNonspendableTotals">
         <linkbase:definition>300750 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Fund Balances Nonspendable (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherAssets" id="GovFundsBalanceOtherAssets">
         <linkbase:definition>300200 - Statement - Governmental Funds Balance Sheet, Other Funds  - Other Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherDeferredInflowsTotals" id="GovFundsBalanceOtherDeferredInflowsTotals">
         <linkbase:definition>300720 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Deferred Outflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherDeferredOutflowsTotals" id="GovFundsBalanceOtherDeferredOutflowsTotals">
         <linkbase:definition>300745 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Deferred Inflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherLiabilities" id="GovFundsBalanceOtherLiabilities">
         <linkbase:definition>300500 - Statement - Governmental Funds Balance Sheet, Other Funds  - Other Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherLiabilitiesTotals" id="GovFundsBalanceOtherLiabilitiesTotals">
         <linkbase:definition>300740 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceOtherUnearnedRevenue" id="GovFundsBalanceOtherUnearnedRevenue">
         <linkbase:definition>300450 - Statement - Governmental Funds Balance Sheet, Other Funds  - Other Unearned Revenue (Details)</linkbase:definition>
@@ -102,39 +102,39 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalancePayableFromRestrictedAssets" id="GovFundsBalancePayableFromRestrictedAssets">
         <linkbase:definition>300400 - Statement - Governmental Funds Balance Sheet, Other Funds  - Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalancePayableFromRestrictedAssetsTotals" id="GovFundsBalancePayableFromRestrictedAssetsTotals">
         <linkbase:definition>300730 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceRestricted" id="GovFundsBalanceRestricted">
         <linkbase:definition>300660 - Statement - Governmental Funds Balance Sheet, Other Funds 
 - Fund Balances Restricted (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceRestrictedAssets" id="GovFundsBalanceRestrictedAssets">
         <linkbase:definition>300100 - Statement - Governmental Funds Balance Sheet, Other Funds - Other Restricted Assets  (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceRestrictedAssetsTotals" id="GovFundsBalanceRestrictedAssetsTotals">
         <linkbase:definition>300700 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Other Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceRestrictedTotals" id="GovFundsBalanceRestrictedTotals">
         <linkbase:definition>300760 - Statement - Governmental Funds Balance Sheet, General, Nonmajor, Totals - Fund Balances Restricted (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceSheetTotals" id="GovFundsBalanceSheetTotals">
         <linkbase:definition>300690 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceSheetTotalsClassified" id="GovFundsBalanceSheetTotalsClassified">
         <linkbase:definition>300691 - Statement - Governmental Funds Balance Sheet, General, Aggregate Nonmajor, Totals (Classified)</linkbase:definition>

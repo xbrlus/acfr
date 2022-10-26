@@ -6,34 +6,34 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ProprietaryFundsStatementOfCashFlows_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivities" id="PFCashActivities">
         <linkbase:definition>700000 - Statement - Proprietary Funds Cash Flows - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesCapitalFinancing" id="PFCashActivitiesCapitalFinancing">
         <linkbase:definition>703000 - Statement - Proprietary Funds Cash Flows - Type of Activities Other Capital Financing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesInvesting" id="PFCashActivitiesInvesting">
         <linkbase:definition>704000 - Statement - Proprietary Funds Cash Flows - Type of Activities Other Investing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesNonCapitalFinancing" id="PFCashActivitiesNonCapitalFinancing">
         <linkbase:definition>702000 - Statement - Proprietary Funds Cash Flows - Type of Activities Other Non Capital Financing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesOperating" id="PFCashActivitiesOperating">
         <linkbase:definition>701000 - Statement - Proprietary Funds Cash Flows - Type of Activities Other Operating Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesReconciliation" id="PFCashActivitiesReconciliation">
         <linkbase:definition>704100 - Statement - Proprietary Funds Cash Flows - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesReconciliationOtherIncreaseDecreaseAssets" id="PFCashActivitiesReconciliationOtherIncreaseDecreaseAssets">
@@ -58,28 +58,28 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusiness" id="PFCashBusiness">
         <linkbase:definition>705000 - Statement - Proprietary Funds Cash Flows - Business Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessCapitalFinancing" id="PFCashBusinessCapitalFinancing">
         <linkbase:definition>708000 - Statement - Proprietary Funds Cash Flows - Business Activities Other Capital Financing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessInvesting" id="PFCashBusinessInvesting">
         <linkbase:definition>709000 - Statement - Proprietary Funds Cash Flows - Business Activities Other Investing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessNonCapitalFinancing" id="PFCashBusinessNonCapitalFinancing">
         <linkbase:definition>707000 - Statement - Proprietary Funds Cash Flows - Business Activities Other Non Capital Financing Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessOperating" id="PFCashBusinessOperating">
         <linkbase:definition>706000 - Statement - Proprietary Funds Cash Flows - Business Activities Other Operating Activities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashBusinessReconciliation" id="PFCashBusinessReconciliation">
         <linkbase:definition>709100 - Statement - Proprietary Funds Cash Flows - Business Activities - Reconciliation</linkbase:definition>

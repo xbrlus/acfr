@@ -9,7 +9,7 @@
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/GovernmentServicesAndActivitiesDomain/2022" schemaLocation="meta/GovernmentServicesAndActivitiesDomain/GovernmentServicesAndActivitiesDomain_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/statAnnualLocalUnitFiscalReportFormF65Michigan/2022" schemaLocation="state/MI/AnnualLocalUnitFiscalReportFormF65Michigan/AnnualLocalUnitFiscalReportFormF65Michigan_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/acfr/statForm5572Michigan/2022" schemaLocation="state/MI/Form5572Michigan/Form5572Michigan_2022.xsd"/>
-  <xs:import namespace="acfr/state/MI/all/2022" schemaLocation="state/MI/MI-all_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2022" schemaLocation="state/MI/MI-all_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/GovernmentalFundsBalanceSheetFundBalances/2022" schemaLocation="statement/GovernmentalFundsBalanceSheetFundBalances/GovernmentalFundsBalanceSheetFundBalances_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/GovernmentalFundsStatementOfRevenuesAndExpenditures/2022" schemaLocation="statement/GovernmentalFundsStatementOfRevenuesAndExpenditures/GovernmentalFundsStatementOfRevenuesAndExpenditures_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/ProprietaryFundsRevenuesExpenses/2022" schemaLocation="statement/ProprietaryFundsRevenuesExpenses/ProprietaryFundsRevenuesExpenses_2022.xsd"/>

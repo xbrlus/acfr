@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grip-all="https://taxonomies.xbrl.us/grip/2022/grip-all" targetNamespace="https://taxonomies.xbrl.us/grip/2022/grip-all" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="https://taxonomies.xbrl.us/grip/acfr/all/2022" schemaLocation="acfr/acfr-all_2022.xsd"/>
-  <xs:import namespace="acfr/state/MI/all/2022" schemaLocation="acfr/state/MI/MI-all_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2022" schemaLocation="acfr/state/MI/MI-all_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/grants/all/2022" schemaLocation="grants/grants-all_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/singleaudit/all/2022" schemaLocation="singleaudit/singleaudit-all_2022.xsd"/>
 </xs:schema>

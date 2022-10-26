@@ -6,8 +6,8 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ProprietaryFundsStatementOfNetPosition_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivities" id="PFNetPositionActivities">
         <linkbase:definition>500000 - Statement - Proprietary Funds Net Position - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesAlt1" id="PFNetPositionActivitiesAlt1">
@@ -21,63 +21,63 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherCapitalAssets" id="PFNetPositionActivitiesOtherCapitalAssets">
         <linkbase:definition>500300 - Statement - Proprietary Funds Net Position - Type of Activities Capital Assets Being Depreciated (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherCurrentLiabilities" id="PFNetPositionActivitiesOtherCurrentLiabilities">
         <linkbase:definition>500600 - Statement - Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable" id="PFNetPositionActivitiesOtherCurrentLiabilitiesPayable">
         <linkbase:definition>500700 - Statement - Proprietary Funds Net Position - Type of Activities Other Current Liabilities Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherDeferredInflows" id="PFNetPositionActivitiesOtherDeferredInflows">
         <linkbase:definition>501000 - Statement - Proprietary Funds Net Position - Type of Activities Other Deferred Inflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherDeferredOutflows" id="PFNetPositionActivitiesOtherDeferredOutflows">
         <linkbase:definition>500500 - Statement - Proprietary Funds Net Position - Type of Activities Other Deferred Outflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherNoncurrentAssets" id="PFNetPositionActivitiesOtherNoncurrentAssets">
         <linkbase:definition>500400 - Statement - Proprietary Funds Net Position - Type of Activities Other Noncurrent Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities" id="PFNetPositionActivitiesOtherNoncurrentLiabilities">
         <linkbase:definition>500800 - Statement - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable" id="PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable">
         <linkbase:definition>500900 - Statement - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets" id="PFNetPositionActivitiesOtherRestrictedCurrentAssets">
         <linkbase:definition>500200 - Statement - Proprietary Funds Net Position - Type of Activities Other Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherRestrictedNetPosition" id="PFNetPositionActivitiesOtherRestrictedNetPosition">
         <linkbase:definition>501100 - Statement - Proprietary Funds Net Position - Type of Activities Other Restricted Components of Net Position (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets" id="PFNetPositionActivitiesOtherUnrestrictedCurrentAssets">
         <linkbase:definition>500100 - Statement - Proprietary Funds Net Position - Type of Activities Other Current Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusiness" id="PFNetPositionBusiness">
         <linkbase:definition>501200 - Statement - Proprietary Funds Net Position - Business Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessActivitesCapitalAssetsBeingDepreciated" id="PFNetPositionBusinessActivitesCapitalAssetsBeingDepreciated">
         <linkbase:definition>501550 - Statement - Proprietary Funds Net Position - Business Activities Capital Assets Being Depreciated (Details)</linkbase:definition>
@@ -86,58 +86,58 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherCapitalAssets" id="PFNetPositionBusinessOtherCapitalAssets">
         <linkbase:definition>501500 - Statement - Proprietary Funds Net Position - Business Activities Capital Assets Not Being Depreciated (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherCurrentLiabilities" id="PFNetPositionBusinessOtherCurrentLiabilities">
         <linkbase:definition>501800 - Statement - Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable" id="PFNetPositionBusinessOtherCurrentLiabilitiesPayable">
         <linkbase:definition>501900 - Statement - Proprietary Funds Net Position - Business Activities Other Current Liabilities Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherDeferredInflows" id="PFNetPositionBusinessOtherDeferredInflows">
         <linkbase:definition>502200 - Statement - Proprietary Funds Net Position - Business Activities Other Deferred Inflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherDeferredOutflows" id="PFNetPositionBusinessOtherDeferredOutflows">
         <linkbase:definition>501700 - Statement - Proprietary Funds Net Position - Business Activities Other Deferred Outflows (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherNoncurrentAssets" id="PFNetPositionBusinessOtherNoncurrentAssets">
         <linkbase:definition>501600 - Statement - Proprietary Funds Net Position - Business Activities Other Noncurrent Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherNoncurrentLiabilities" id="PFNetPositionBusinessOtherNoncurrentLiabilities">
         <linkbase:definition>502000 - Statement - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable" id="PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable">
         <linkbase:definition>502100 - Statement - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets" id="PFNetPositionBusinessOtherRestrictedCurrentAssets">
         <linkbase:definition>501400 - Statement - Proprietary Funds Net Position - Business Activities Other Restricted Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherRestrictedNetPosition" id="PFNetPositionBusinessOtherRestrictedNetPosition">
         <linkbase:definition>502300 - Statement - Proprietary Funds Net Position - Business Activities Other Restricted Components of Net Position (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets" id="PFNetPositionBusinessOtherUnrestrictedCurrentAssets">
         <linkbase:definition>501300 - Statement - Proprietary Funds Net Position - Business Activities Other Current Assets (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

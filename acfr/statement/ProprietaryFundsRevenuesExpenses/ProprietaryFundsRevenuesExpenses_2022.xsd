@@ -6,24 +6,24 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ProprietaryFundsRevenuesExpenses_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivities" id="PFRevenuesExpensesActivities">
         <linkbase:definition>600000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses" id="PFRevenuesExpensesActivitiesNonoperatingGainsLosses">
         <linkbase:definition>603000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Nonoperating Revenues Expenses (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesOperatingExpenses" id="PFRevenuesExpensesActivitiesOperatingExpenses">
         <linkbase:definition>602000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Operating Expenses (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesOperatingRevenues" id="PFRevenuesExpensesActivitiesOperatingRevenues">
         <linkbase:definition>601000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Operating Revenues (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesOtherContributionsAndTransfers" id="PFRevenuesExpensesActivitiesOtherContributionsAndTransfers">
         <linkbase:definition>603050 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Contributions (Details)</linkbase:definition>
@@ -37,23 +37,23 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusiness" id="PFRevenuesExpensesBusiness">
         <linkbase:definition>604000 - Statement - Proprietary Funds Revenues Expenses -  Business Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses" id="PFRevenuesExpensesBusinessNonoperatingGainsLosses">
         <linkbase:definition>607000 - Statement - Proprietary Funds Revenues Expenses - Business Activities Other Nonoperating Revenues Expenses (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessOperatingExpenses" id="PFRevenuesExpensesBusinessOperatingExpenses">
         <linkbase:definition>606000 - Statement - Proprietary Funds Revenues Expenses -  Business Activities Other Operating Expenses (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessOperatingRevenues" id="PFRevenuesExpensesBusinessOperatingRevenues">
         <linkbase:definition>605000 - Statement - Proprietary Funds Revenues Expenses -  Business Activities Other Operating Revenues (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesBusinessOtherContributionsAndTransfers" id="PFRevenuesExpensesBusinessOtherContributionsAndTransfers">
         <linkbase:definition>607050 - Statement - Proprietary Funds Revenues Expenses - Business Activities Other Contributions (Details)</linkbase:definition>

@@ -6,32 +6,32 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="AnnualLocalUnitFiscalReportFormF65Michigan_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIComponentStatementOfOperations" id="FormF65MIComponentStatementOfOperations">
         <linkbase:definition>805050 - Annual Form F65 MI - Component Unit - Statement of Operations</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIComponentUnitStatementOfPosition" id="FormF65MIComponentUnitStatementOfPosition">
         <linkbase:definition>805000 - Annual Form F65 MI - Component Unit - Statement of Position</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIGovernmentalFundsStatementOfOperations" id="FormF65MIGovernmentalFundsStatementOfOperations">
         <linkbase:definition>804050 - Annual Form F65 MI - Governmental Funds - Statement of Operations</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MIInternalServiceEnterpriseStatementOfPosition" id="FormF65MIInternalServiceEnterpriseStatementOfPosition">
         <linkbase:definition>803000 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Position</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65Michigan" id="FormF65Michigan">
         <linkbase:definition>803050 - Annual Form F65 MI - Internal Service, Enterprise Funds - Statement of Operations</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MichiganCapitalOutlay" id="FormF65MichiganCapitalOutlay">
@@ -56,8 +56,8 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MichiganModifiedAccrual" id="FormF65MichiganModifiedAccrual">
         <linkbase:definition>804000 - Annual Form F65 MI - Governmental Funds - Statement of Position</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/FormF65MichiganOPEBPlanTotals" id="FormF65MichiganOPEBPlanTotals">
