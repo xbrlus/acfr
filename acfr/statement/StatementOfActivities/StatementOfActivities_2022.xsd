@@ -11,9 +11,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForPrograms" id="ActivitiesExpensesAndRevenuesForPrograms">
         <linkbase:definition>200000 - Statement - Activities - Expenses and Revenues for Programs</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForProgramsAltCalc2" id="ActivitiesExpensesAndRevenuesForProgramsAltCalc2">
         <linkbase:definition>200002 - Statement - Activities - Expenses And Revenues for Programs  - By Activity</linkbase:definition>
@@ -26,9 +26,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesGeneralRevenues" id="ActivitiesGeneralRevenues">
         <linkbase:definition>200110 - Statement - Activities - General Revenues and Changes in Net Position</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherExpenses" id="ActivitiesOtherExpenses">
         <linkbase:definition>200040 - Statement - Activities - Other Expenses (Details)</linkbase:definition>

@@ -5,13 +5,13 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="LongTermDebtFootnote_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtFootnote" id="LongTermDebtFootnote">
         <linkbase:definition>801600 - Disclosures - Long Term Debt Footnote</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtGeneralObligationBonds" id="LongTermDebtGeneralObligationBonds">
         <linkbase:definition>801650 - Disclosures - Long Term Debt Footnote (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

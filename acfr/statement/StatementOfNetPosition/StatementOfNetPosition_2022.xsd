@@ -6,9 +6,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfNetPosition_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPosition" id="NetPosition">
         <linkbase:definition>100000 - Statement - Net Position</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionAlternative" id="NetPositionAlternative">
         <linkbase:definition>100001 - Statement - Net Position - Alternative Calculation</linkbase:definition>

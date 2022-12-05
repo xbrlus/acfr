@@ -7,6 +7,7 @@
       <ns0:linkbaseRef xmlns:ns0="http://www.xbrl.org/2003/linkbase" xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="singleaudit_ref_2022.xml" ns1:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns1:type="simple"/>
     </xs:appinfo>
   </xs:annotation>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/grip" schemaLocation="../../grip/elts/grip_2022.xsd"/>
   <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
   <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
   <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
@@ -50,7 +51,7 @@
   <xs:element name="AuditorOpinionFinancialStatementsNotUSGAAP" id="sap_AuditorOpinionFinancialStatementsNotUSGAAP" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="AuditorOpinionFinancialStatementsQualified" id="sap_AuditorOpinionFinancialStatementsQualified" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="AuditorOpinionFinancialStatementsUnmodified" id="sap_AuditorOpinionFinancialStatementsUnmodified" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
-  <xs:element name="AwardPassedThroughToSubrecipients" id="sap_AwardPassedThroughToSubrecipients" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="AwardPassedThroughToSubrecipients" id="sap_AwardPassedThroughToSubrecipients" type="type:YesNoSingleCharItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="CCDFClusterMember" id="sap_CCDFClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="CDBGDisasterRecoverGrantsPublLNo1132ClusterMember" id="sap_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="CDBGEntitlementGrantsClusterMember" id="sap_CDBGEntitlementGrantsClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -110,7 +111,7 @@
   <xs:element name="DepartmentOftheInterior15Member" id="sap_DepartmentOftheInterior15Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="DepartmentOftheTreasury21Member" id="sap_DepartmentOftheTreasury21Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="DirectAmountExpended" id="sap_DirectAmountExpended" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
-  <xs:element name="DirectAward" id="sap_DirectAward" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="DirectAward" id="sap_DirectAward" type="type:YesNoSingleCharItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="EconomicDevelopmentClusterMember" id="sap_EconomicDevelopmentClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="ElectionAssistanceCommission90Member" id="sap_ElectionAssistanceCommission90Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="EmploymentServiceClusterMember" id="sap_EmploymentServiceClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -125,7 +126,7 @@
   <xs:element name="FederalAwardingAgencyTotalsTable" id="sap_FederalAwardingAgencyTotalsTable" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration"/>
   <xs:element name="FederalAwardsAndMajorProgramsAbstract" id="sap_FederalAwardsAndMajorProgramsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="FederalCommunicationsCommission32Member" id="sap_FederalCommunicationsCommission32Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
-  <xs:element name="FederalLoanOrLoanGuarantee" id="sap_FederalLoanOrLoanGuarantee" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="FederalLoanOrLoanGuarantee" id="sap_FederalLoanOrLoanGuarantee" type="type:YesNoSingleCharItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="FederalMaritimeCommission33Member" id="sap_FederalMaritimeCommission33Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="FederalMediationandConciliationService34Member" id="sap_FederalMediationandConciliationService34Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="FederalProgramIdentifierEnumerated" id="sap_FederalProgramIdentifierEnumerated" type="type:federalProgramIdentifierItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -154,6 +155,8 @@
   <xs:element name="GRMLegalEntityAuditPriorAuditFindingsIndicator" id="sap_GRMLegalEntityAuditPriorAuditFindingsIndicator" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="GRMLegalEntityLowRiskIndicator" id="sap_GRMLegalEntityLowRiskIndicator" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="GeneralInformationAbstract" id="sap_GeneralInformationAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="GeneralInformationLineItems" id="sap_GeneralInformationLineItems" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="GeneralInformationTable" id="sap_GeneralInformationTable" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration"/>
   <xs:element name="GeneralServicesAdministration39Member" id="sap_GeneralServicesAdministration39Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="GoingConcernFinancialStressParagraph" id="sap_GoingConcernFinancialStressParagraph" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="GovernmentPrintingOffice40Member" id="sap_GovernmentPrintingOffice40Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -226,6 +229,7 @@
   <xs:element name="PrimaryAuditorContactName" id="sap_PrimaryAuditorContactName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="PrimaryAuditorContactPhone" id="sap_PrimaryAuditorContactPhone" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="PrimaryAuditorContactTitle" id="sap_PrimaryAuditorContactTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="PrimaryAuditorEmployerIdentificationNumber" id="sap_PrimaryAuditorEmployerIdentificationNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="PrimaryAuditorInformationAbstract" id="sap_PrimaryAuditorInformationAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="PrimaryAuditorName" id="sap_PrimaryAuditorName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="ProgramOrAwardAmount" id="sap_ProgramOrAwardAmount" type="xbrli:monetaryItemType" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -249,6 +253,7 @@
   <xs:element name="SecondaryAuditorContactName" id="sap_SecondaryAuditorContactName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="SecondaryAuditorContactPhone" id="sap_SecondaryAuditorContactPhone" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="SecondaryAuditorContactTitle" id="sap_SecondaryAuditorContactTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="SecondaryAuditorEmployerIdentificationNumber" id="sap_SecondaryAuditorEmployerIdentificationNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="SecondaryAuditorInformationAbstract" id="sap_SecondaryAuditorInformationAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="SecondaryAuditorName" id="sap_SecondaryAuditorName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="SecondaryAuditorUsed" id="sap_SecondaryAuditorUsed" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
@@ -275,7 +280,7 @@
   <xs:element name="TrioClusterMember" id="sap_TrioClusterMember" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="TypeOfAuditAbstract" id="sap_TypeOfAuditAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="TypeOfAuditFindingAbstract" id="sap_TypeOfAuditFindingAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
-  <xs:element name="TypeofSingleAuditOpinion" id="sap_TypeofSingleAuditOpinion" type="type:auditReportItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="TypeofSingleAuditOpinion" id="sap_TypeofSingleAuditOpinion" type="type:auditReportItemType" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="U.S.AgencyForInternationalDevelopment98Member" id="sap_U.S.AgencyForInternationalDevelopment98Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="UniformGuidanceAuditType" id="sap_UniformGuidanceAuditType" type="type:uniformAuditGuidanceItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
   <xs:element name="UnitedStatesInstituteOfPeace91Member" id="sap_UnitedStatesInstituteOfPeace91Member" type="non-numeric:domainItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>

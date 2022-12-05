@@ -6,9 +6,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ProprietaryFundsStatementOfNetPosition_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivities" id="PFNetPositionActivities">
         <linkbase:definition>500000 - Statement - Proprietary Funds Net Position - Type of Activities</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesAlt1" id="PFNetPositionActivitiesAlt1">
         <linkbase:definition>500001 - Statement - Proprietary Funds Net Position - Type of Activities</linkbase:definition>
@@ -16,8 +16,8 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesCapitalAssetsNotBeingDepreciated" id="PFNetPositionActivitiesCapitalAssetsNotBeingDepreciated">
         <linkbase:definition>500325 - Statement - Proprietary Funds Net Position - Type of Activities Capital Assets Not Being Depreciated (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesOtherCapitalAssets" id="PFNetPositionActivitiesOtherCapitalAssets">
         <linkbase:definition>500300 - Statement - Proprietary Funds Net Position - Type of Activities Capital Assets Being Depreciated (Details)</linkbase:definition>
@@ -81,8 +81,8 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessActivitesCapitalAssetsBeingDepreciated" id="PFNetPositionBusinessActivitesCapitalAssetsBeingDepreciated">
         <linkbase:definition>501550 - Statement - Proprietary Funds Net Position - Business Activities Capital Assets Being Depreciated (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionBusinessOtherCapitalAssets" id="PFNetPositionBusinessOtherCapitalAssets">
         <linkbase:definition>501500 - Statement - Proprietary Funds Net Position - Business Activities Capital Assets Not Being Depreciated (Details)</linkbase:definition>

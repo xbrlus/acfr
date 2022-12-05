@@ -41,9 +41,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsRevenuesExpenditures" id="GovFundsRevenuesExpenditures">
         <linkbase:definition>400000 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>
