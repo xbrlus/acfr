@@ -1,5 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="https://taxonomies.xbrl.us/grip/acfr/all/2022" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/all/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/CapitalAssetsFootnote/2022" schemaLocation="disclosure/CapitalAssetsFootnote/CapitalAssetsFootnote_2022.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/DisclosuresEducation/2022" schemaLocation="disclosure/DisclosuresEducation/DisclosuresEducation_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/LongTermDebtFootnote/2022" schemaLocation="disclosure/LongTermDebtFootnote/LongTermDebtFootnote_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/OPEB/2022" schemaLocation="disclosure/OPEB/OPEB_2022.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2022/PensionPlans/2022" schemaLocation="disclosure/PensionPlans/PensionPlans_2022.xsd"/>

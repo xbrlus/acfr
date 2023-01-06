@@ -5,13 +5,13 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="Form5572Michigan_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Form5572MichiganOPEB" id="Form5572MichiganOPEB">
         <linkbase:definition>808750 - Form 5572 Michigan - OPEB</linkbase:definition>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Form5572MichiganPension" id="Form5572MichiganPension">
         <linkbase:definition>808700 - Form 5572 Michigan - Pension</linkbase:definition>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

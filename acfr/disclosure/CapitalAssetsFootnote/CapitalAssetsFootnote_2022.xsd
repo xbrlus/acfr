@@ -5,18 +5,18 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="CapitalAssetsFootnote_pre_2022.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsFootnote" id="CapitalAssetsFootnote">
         <linkbase:definition>801100 - Disclosures - Capital Assets Footnote</linkbase:definition>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsNonDepreciable" id="CapitalAssetsNonDepreciable">
         <linkbase:definition>801150 - Disclosures - Capital Assets Footnote (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/DepreciationExpense" id="DepreciationExpense">
         <linkbase:definition>801500 - Disclosures - Capital Assets Footnote, Depreciation Expense (Details)</linkbase:definition>
-        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>
