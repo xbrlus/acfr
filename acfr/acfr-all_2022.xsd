@@ -1,5 +1,5 @@
 <!-- 
-(c) 2018-2023 XBRL US, Inc. and (c) 2022 University of Michigan's Center for Local State and Urban Policy CLOSUP
+(c) 2018-2023 XBRL US, Inc. and (c) 2022 The Regents of the University of Michigan through the Center for Local, State, and Urban Policy (CLOSUP)
 Notice: Authorized Uses are Set Forth at https://xbrl.us/acfr_legal
  -->  
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="https://taxonomies.xbrl.us/grip/acfr/all/2022" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/all/2022" elementFormDefault="qualified" attributeFormDefault="unqualified">
