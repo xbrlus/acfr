@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grip="https://taxonomies.xbrl.us/grip/2023/grip" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2023/grip" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>Government Reporting Information Package Taxonomy</xs:documentation>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:element name="Appendix" id="ref_Appendix" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Chapter" id="ref_Chapter" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Footnote" id="ref_Footnote" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Name" id="ref_Name" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Note" id="ref_Note" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Paragraph" id="ref_Paragraph" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Publisher" id="ref_Publisher" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Section" id="ref_Section" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Sentence" id="ref_Sentence" type="xs:string" substitutionGroup="linkbase:part"/>
+  <xs:element name="Subsection" id="ref_Subsection" type="xs:string" substitutionGroup="linkbase:part"/>
+</xs:schema>

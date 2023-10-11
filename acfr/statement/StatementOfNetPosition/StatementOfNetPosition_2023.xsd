@@ -1,0 +1,98 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statementofnetposition="https://taxonomies.xbrl.us/grip/2023/StatementOfNetPosition/2023" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2023/StatementOfNetPosition/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:appinfo>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfNetPosition_cal_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfNetPosition_def_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfNetPosition_pre_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPosition" id="NetPosition">
+        <linkbase:definition>100000 - Statement - Net Position</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionAlternative" id="NetPositionAlternative">
+        <linkbase:definition>100001 - Statement - Net Position - Alternative Calculation</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionBase" id="NetPositionBase">
+        <linkbase:definition>790000 - Statement - Net Position, Base</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionCapitalAssetsDepreciable" id="NetPositionCapitalAssetsDepreciable">
+        <linkbase:definition>100550 - Statement - Net Position - Other Capital Assets Being Depreciated, Net (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionCapitalAssetsNondepreciable" id="NetPositionCapitalAssetsNondepreciable">
+        <linkbase:definition>100525 - Statement - Net Position - Other Capital Assets Not Being Depreciated (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionFire" id="NetPositionFire">
+        <linkbase:definition>760000 - Statement - Net Position, Fire</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionMetro" id="NetPositionMetro">
+        <linkbase:definition>770000 - Statement - Net Position, Metropolitan</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionNetRestricted" id="NetPositionNetRestricted">
+        <linkbase:definition>101100 - Statement - Net Position - Other Restricted Components of Net Position (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherCurrentAssets" id="NetPositionOtherCurrentAssets">
+        <linkbase:definition>100100 - Statement - Net Position - Other Current Assets (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherCurrentLiabilities" id="NetPositionOtherCurrentLiabilities">
+        <linkbase:definition>100700 - Statement - Net Position - Other Current Liabilities (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherDeferredInflows" id="NetPositionOtherDeferredInflows">
+        <linkbase:definition>101000 - Statement - Net Position - Other Deferred Inflows (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherDeferredOutflows" id="NetPositionOtherDeferredOutflows">
+        <linkbase:definition>100600 - Statement - Net Position - Other Deferred Outflows (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherNoncurrentAssets" id="NetPositionOtherNoncurrentAssets">
+        <linkbase:definition>100400 - Statement - Net Position - Other Noncurrent Assets (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherNoncurrentLiabilities" id="NetPositionOtherNoncurrentLiabilities">
+        <linkbase:definition>100800 - Statement - Net Position - Other Noncurrent Liabilities (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionOtherRestrictedAssets" id="NetPositionOtherRestrictedAssets">
+        <linkbase:definition>100500 - Statement - Net Position - Other Restricted Assets (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionPayableRestrictedAssets" id="NetPositionPayableRestrictedAssets">
+        <linkbase:definition>100900 - Statement - Net Position - Payable from Restricted Assets (Details)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionSchoolDistrict" id="NetPositionSchoolDistrict">
+        <linkbase:definition>710000 - Statement - Net Position, School</linkbase:definition>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

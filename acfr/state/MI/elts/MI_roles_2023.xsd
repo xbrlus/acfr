@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roles="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/2023" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>This schema contains roles for the GRIP taxonomy</xs:documentation>
+    <xs:appinfo>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI5572" id="MI5572">
+        <linkbase:definition>Labels for Michigan 5572 Pension and Healthcare (OPEB) Report</linkbase:definition>
+        <linkbase:usedOn>linkbase:label</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65FederalGrantsRole" id="MI65FederalGrantsRole">
+        <linkbase:definition>Michigan F-65 Form - Federal Grants</linkbase:definition>
+        <linkbase:usedOn>linkbase:label</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65LocalUnitsGrantsRole" id="MI65LocalUnitsGrantsRole">
+        <linkbase:definition>Michigan F-65 Form - Local Units Grants</linkbase:definition>
+        <linkbase:usedOn>linkbase:label</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65StateGrantsRole" id="MI65StateGrantsRole">
+        <linkbase:definition>Michigan F-65 Form - State Grants</linkbase:definition>
+        <linkbase:usedOn>linkbase:label</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MIChartOfAccounts" id="MIChartOfAccounts">
+        <linkbase:definition>Michigan Chart of Accounts</linkbase:definition>
+        <linkbase:usedOn>linkbase:reference</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MIF65Label" id="MIF65Label">
+        <linkbase:definition>Michigan F-65 Form</linkbase:definition>
+        <linkbase:usedOn>linkbase:label</linkbase:usedOn>
+      </linkbase:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

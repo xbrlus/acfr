@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="https://taxonomies.xbrl.us/grip/2023/acfr/state/CO" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2023/acfr/state/CO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>CO taxonomy</xs:documentation>
+    <xs:appinfo>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="CO_lab_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="CO_ref_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:element name="CO" id="acfr_CO" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="ChartOfAccountsColoradoSchoolDistrictAbstract" id="acfr_ChartOfAccountsColoradoSchoolDistrictAbstract" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="CDEBalanceSheetAccountCode" id="CDEBalanceSheetAccountCode" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="CDEObjectCode" id="CDEObjectCode" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="CDEProgramCode" id="CDEProgramCode" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="CDESourceCode" id="CDESourceCode" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="URI" id="ref_URI" type="xs:anyURI" substitutionGroup="linkbase:part"/>
+</xs:schema>

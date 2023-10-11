@@ -1,0 +1,147 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:type="https://taxonomies.xbrl.us/grip/acfr/type/2023" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/type/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>This schema contains types for the ACFR taxonomy</xs:documentation>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:complexType abstract="false" mixed="false" name="EmployeeRetirementSystemAdministeredByItemType" id="EmployeeRetirementSystemAdministeredByItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Insurance Company"/>
+            <xs:enumeration value="Financial Institution"/>
+            <xs:enumeration value="Self"/>
+            <xs:enumeration value="MERS"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="NormalCostForEmployeesItemType" id="NormalCostForEmployeesItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Yes"/>
+            <xs:enumeration value="No"/>
+            <xs:enumeration value="Not Applicable"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="UnitTypeItemType" id="UnitTypeItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Drain District"/>
+            <xs:enumeration value="Authority"/>
+            <xs:enumeration value="School"/>
+            <xs:enumeration value="Township"/>
+            <xs:enumeration value="Village"/>
+            <xs:enumeration value="Hospital Finance Authority"/>
+            <xs:enumeration value="Library"/>
+            <xs:enumeration value="City"/>
+            <xs:enumeration value="County"/>
+            <xs:enumeration value="Road Commission"/>
+            <xs:enumeration value="ISD"/>
+            <xs:enumeration value="Community College"/>
+            <xs:enumeration value="School Academy"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="auditOpinionItemType" id="auditOpinionItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Qualified"/>
+            <xs:enumeration value="Adverse"/>
+            <xs:enumeration value="Unmodified"/>
+            <xs:enumeration value="Disclaimed"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="auditStatusItemType" id="auditStatusItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Audited"/>
+            <xs:enumeration value="Unaudited"/>
+            <xs:enumeration value="Reviewed"/>
+            <xs:enumeration value="Unreviewed"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="fundTypeItemType" id="fundTypeItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Special Revenue"/>
+            <xs:enumeration value="Capital Project"/>
+            <xs:enumeration value="Debt Service"/>
+            <xs:enumeration value="Permanent"/>
+            <xs:enumeration value="Other"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="oPEBPlanItemType" id="oPEBPlanItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="single"/>
+            <xs:enumeration value="multi-employer agency"/>
+            <xs:enumeration value="multi-employer cost sharing"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="oPEBPlanStatusItemType" id="oPEBPlanStatusItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Open"/>
+            <xs:enumeration value="Closed"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="participatingEmployeeItemType" id="participatingEmployeeItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Fire"/>
+            <xs:enumeration value="Police &amp; Fire or Public Safety"/>
+            <xs:enumeration value="Police"/>
+            <xs:enumeration value="Teachers"/>
+            <xs:enumeration value="Elected Official"/>
+            <xs:enumeration value="Judges"/>
+            <xs:enumeration value="Mixed"/>
+            <xs:enumeration value="Other"/>
+            <xs:enumeration value="General Employees"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="pensionPlanCategoryItemType" id="pensionPlanCategoryItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="defined benefit"/>
+            <xs:enumeration value="defined contribution"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="pensionPlanStatusItemType" id="pensionPlanStatusItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Open"/>
+            <xs:enumeration value="Closed"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="planTypeItemType" id="planTypeItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="single"/>
+            <xs:enumeration value="agency multi-employer"/>
+            <xs:enumeration value="cost sharing multi-employer"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="typeOfGovernmentItemType" id="typeOfGovernmentItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="State"/>
+            <xs:enumeration value="County"/>
+            <xs:enumeration value="City"/>
+            <xs:enumeration value="Town"/>
+            <xs:enumeration value="Village"/>
+            <xs:enumeration value="Borough"/>
+            <xs:enumeration value="School district"/>
+            <xs:enumeration value="Special district"/>
+            <xs:enumeration value="Other general purpose government"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>

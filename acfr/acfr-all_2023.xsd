@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="https://taxonomies.xbrl.us/grip/acfr/all/2023" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/all/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:appinfo>
+      <ns0:linkbaseRef xmlns:ns0="http://www.xbrl.org/2003/linkbase" xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="GovernmentEntity_def_2023.xml" ns1:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns1:type="simple"/>
+      <ns0:linkbaseRef xmlns:ns0="http://www.xbrl.org/2003/linkbase" xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="GovernmentEntity_pre_2023.xml" ns1:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns1:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/CapitalAssetsFootnote/2023" schemaLocation="disclosure/CapitalAssetsFootnote/CapitalAssetsFootnote_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/DisclosuresCapitalAssetsNet/2023" schemaLocation="disclosure/DisclosuresCapitalAssetsNet/DisclosuresCapitalAssetsNet_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/DisclosuresEducation/2023" schemaLocation="disclosure/DisclosuresEducation/DisclosuresEducation_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/LongTermDebtFootnote/2023" schemaLocation="disclosure/LongTermDebtFootnote/LongTermDebtFootnote_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/OPEB/2023" schemaLocation="disclosure/OPEB/OPEB_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/PensionPlans/2023" schemaLocation="disclosure/PensionPlans/PensionPlans_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/DocumentAndEntity/2023" schemaLocation="document/DocumentAndEntity/DocumentAndEntity_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/acfr" schemaLocation="elts/acfr_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/GovernmentEntity/2023" schemaLocation="meta/GovernmentEntity/GovernmentEntity_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/GovernmentServicesAndActivitiesDomain/2023" schemaLocation="meta/GovernmentServicesAndActivitiesDomain/GovernmentServicesAndActivitiesDomain_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/acfr/state/CO/all/2023" schemaLocation="state/CO/CO-all_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/acfr/statAnnualLocalUnitFiscalReportFormF65Michigan/2023" schemaLocation="state/MI/AnnualLocalUnitFiscalReportFormF65Michigan/AnnualLocalUnitFiscalReportFormF65Michigan_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/acfr/statForm5572Michigan/2023" schemaLocation="state/MI/Form5572Michigan/Form5572Michigan_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2023" schemaLocation="state/MI/MI-all_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/GovernmentalFundsBalanceSheetFundBalances/2023" schemaLocation="statement/GovernmentalFundsBalanceSheetFundBalances/GovernmentalFundsBalanceSheetFundBalances_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/GovernmentalFundsStatementOfRevenuesAndExpenditures/2023" schemaLocation="statement/GovernmentalFundsStatementOfRevenuesAndExpenditures/GovernmentalFundsStatementOfRevenuesAndExpenditures_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/ProprietaryFundsRevenuesExpenses/2023" schemaLocation="statement/ProprietaryFundsRevenuesExpenses/ProprietaryFundsRevenuesExpenses_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/ProprietaryFundsStatementOfCashFlows/2023" schemaLocation="statement/ProprietaryFundsStatementOfCashFlows/ProprietaryFundsStatementOfCashFlows_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/ProprietaryFundsStatementOfNetPosition/2023" schemaLocation="statement/ProprietaryFundsStatementOfNetPosition/ProprietaryFundsStatementOfNetPosition_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/StatementOfActivities/2023" schemaLocation="statement/StatementOfActivities/StatementOfActivities_2023.xsd"/>
+  <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/StatementOfNetPosition/2023" schemaLocation="statement/StatementOfNetPosition/StatementOfNetPosition_2023.xsd"/>
+</xs:schema>

@@ -1,0 +1,62 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:type="https://taxonomies.xbrl.us/grip/grants/type/2023" targetNamespace="https://taxonomies.xbrl.us/grip/grants/type/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>This schema contains types for the Grants taxonomy</xs:documentation>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:complexType abstract="false" mixed="false" name="applicationSubjectToStateReviewUnderExecutiveOrder12372" id="applicationSubjectToStateReviewUnderExecutiveOrder12372">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="This application was made available to the State under the Executive Order Process for review. If this is selected, use concept State12372ReviewDate."/>
+            <xs:enumeration value="Program is subject to E.O. 12372 but has not been selected by the State for review."/>
+            <xs:enumeration value="Program is not covered by E.O. 12372."/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="basisOfAccountingItemType" id="basisOfAccountingItemType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Cash"/>
+            <xs:enumeration value="Accrual"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="grantApplicationSubmissionTypeCode" id="grantApplicationSubmissionTypeCode">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="Preapplication"/>
+            <xs:enumeration value="Application"/>
+            <xs:enumeration value="Changed/Corrected Application"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="grantApplicationTypeOfRevision" id="grantApplicationTypeOfRevision">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="A. Increase Award"/>
+            <xs:enumeration value="B. Decrease Award"/>
+            <xs:enumeration value="C. Increase Duration"/>
+            <xs:enumeration value="D. Decrease Duration"/>
+            <xs:enumeration value="E. Other (specify)"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="grantFinancialReportType" id="grantFinancialReportType">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:pattern value="Quarterly"/>
+            <xs:pattern value="Semi-Annual"/>
+            <xs:pattern value="Annual"/>
+            <xs:pattern value="Final"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+  <xs:complexType abstract="false" mixed="false" name="grantTypeOfApplication" id="grantTypeOfApplication">
+      <xs:simpleContent>
+         <xs:restriction base="xbrli:stringItemType">
+            <xs:enumeration value="New"/>
+            <xs:enumeration value="Continuation"/>
+            <xs:enumeration value="Revision"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>

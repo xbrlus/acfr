@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mi="https://taxonomies.xbrl.us/grip/2023/acfr/state/MI" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2023/acfr/state/MI" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>MI taxonomy</xs:documentation>
+    <xs:appinfo>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="MI_doc_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="MI_lab_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+      <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="MI_ref_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:element name="AnnualLocalUnitFiscalReportFormF65MichiganAbstract" id="acfr_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="ChartOfAccountsMichiganAbstract" id="acfr_ChartOfAccountsMichiganAbstract" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="Form5572MichiganAbstract" id="acfr_Form5572MichiganAbstract" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="MI" id="acfr_MI" type="xbrli:stringItemType" abstract="true" nillable="true" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <xs:element name="MIUCAAccountNumber" id="MIUCAAccountNumber" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="MIUCAActivityNumber" id="MIUCAActivityNumber" type="xs:token" substitutionGroup="linkbase:part"/>
+  <xs:element name="MIUCAControlAccountFlag" id="MIUCAControlAccountFlag" type="xs:boolean" substitutionGroup="linkbase:part"/>
+</xs:schema>

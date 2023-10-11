@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roles="https://taxonomies.xbrl.us/grip/acfr/state/CO/roles/2023" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/state/CO/roles/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation>This schema contains roles for the GRIP taxonomy</xs:documentation>
+    <xs:appinfo>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/state/CO/roles/CDEChartOfAccounts" id="CDEChartOfAccounts">
+        <linkbase:definition>Colorado Department of Education Chart of Accounts</linkbase:definition>
+        <linkbase:usedOn>linkbase:reference</linkbase:usedOn>
+      </linkbase:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

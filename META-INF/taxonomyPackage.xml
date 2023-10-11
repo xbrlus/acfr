@@ -1,0 +1,44 @@
+<tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="en-US">
+  <tp:identifier>https://taxonomies.xbrl.us/grip/2023</tp:identifier>
+  <tp:name xml:lang="en">Government Reporting Information Package (GRIP) Taxonomy</tp:name>
+  <tp:description xml:lang="en-US">This taxonomy packacge contains the taxonomies used government reporting</tp:description>
+  <tp:version>2023</tp:version>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>ACFR</tp:name>
+      <tp:description>ACFR Taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/acfr/acfr-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>State CO</tp:name>
+      <tp:description>CO taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/acfr/state/CO/CO-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Grants</tp:name>
+      <tp:description>Grants Taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/grants/grants-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>State MI</tp:name>
+      <tp:description>MI taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/acfr/state/MI/MI-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Single Audit</tp:name>
+      <tp:description>Single Audit Taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/singleaudit/singleaudit-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Main Entry Point</tp:name>
+      <tp:description>Main entry point for the Government Reporting Information Package Taxonomy</tp:description>
+      <tp:version>2023</tp:version>
+      <tp:entryPointDocument href="https://taxonomies.xbrl.us/grip/2023/grip-all_2023.xsd"></tp:entryPointDocument>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>
