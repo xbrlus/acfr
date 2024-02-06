@@ -1,3 +1,7 @@
+<!--
+c 2024 XBRL US, Inc.
+Notice: Authorized Uses are Set Forth at https://xbrl.us/acfr_legal
+ -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:all="https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2023" targetNamespace="https://taxonomies.xbrl.us/grip/acfr/state/MI/all/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/acfr/statAnnualLocalUnitFiscalReportFormF65Michigan/2023" schemaLocation="AnnualLocalUnitFiscalReportFormF65Michigan/AnnualLocalUnitFiscalReportFormF65Michigan_2023.xsd"/>
   <xs:import namespace="https://taxonomies.xbrl.us/grip/2023/acfr/statChartOfAccountsMichigan/2023" schemaLocation="ChartOfAccountsMichigan/ChartOfAccountsMichigan_2023.xsd"/>

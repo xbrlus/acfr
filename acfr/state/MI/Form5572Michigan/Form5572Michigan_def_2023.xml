@@ -1,3 +1,7 @@
+<!--
+c 2024 XBRL US, Inc.
+Notice: Authorized Uses are Set Forth at https://xbrl.us/acfr_legal
+ -->
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Form5572MichiganOPEB" xlink:href="Form5572Michigan_2023.xsd#Form5572MichiganOPEB" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Form5572MichiganPension" xlink:href="Form5572Michigan_2023.xsd#Form5572MichiganPension" xlink:type="simple"/>

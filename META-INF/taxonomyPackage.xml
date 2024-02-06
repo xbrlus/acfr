@@ -1,3 +1,7 @@
+<!--
+c 2024 XBRL US, Inc.
+Notice: Authorized Uses are Set Forth at https://xbrl.us/acfr_legal
+ -->
 <tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="en-US">
   <tp:identifier>https://taxonomies.xbrl.us/grip/2023</tp:identifier>
   <tp:name xml:lang="en">Government Reporting Information Package (GRIP) Taxonomy</tp:name>

@@ -1,3 +1,7 @@
+<!--
+c 2024 XBRL US, Inc.
+Notice: Authorized Uses are Set Forth at https://xbrl.us/acfr_legal
+ -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grgrantsmanagementapplicationforfederalassistance="https://taxonomies.xbrl.us/grip/2023/grGrantsManagementApplicationForFederalAssistance/2023" xmlns:linkbase="http://www.xbrl.org/2003/linkbase" targetNamespace="https://taxonomies.xbrl.us/grip/2023/grGrantsManagementApplicationForFederalAssistance/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xs:annotation>
     <xs:appinfo>
