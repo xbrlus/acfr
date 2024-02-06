@@ -1,9 +1,9 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Pension" xlink:href="PensionPlans_2023.xsd#Pension" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PensionChangeNetPensionLiabilitySchedule" xlink:href="PensionPlans_2023.xsd#PensionChangeNetPensionLiabilitySchedule" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PensionTotals" xlink:href="PensionPlans_2023.xsd#PensionTotals" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/Pension" xlink:href="PensionPlans_2023.xsd#Pension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/PensionChangeNetPensionLiabilitySchedule" xlink:type="extended">
     <link:loc xlink:label="ns13_PensionPlansTable" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansTable" xlink:type="locator"/>
@@ -11,19 +11,14 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns13_PensionPlansTable" xlink:to="ns13_PensionPlanNameAxis" order="1"/>
     <link:loc xlink:label="ns13_PensionPlansLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlansTable" order="1" xbrldt:contextElement="segment"/>
-    <link:loc xlink:label="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_ChangeInNetPensionLiabilityAssetRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:to="ns13_NetPensionLiability" order="1"/>
-    <link:loc xlink:label="ns13_NetChangeInPensionLiabilityAsset" xlink:href="../../elts/acfr_2023.xsd#acfr_NetChangeInPensionLiabilityAsset" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:to="ns13_NetChangeInPensionLiabilityAsset" order="2"/>
     <link:loc xlink:label="ns13_PensionPlanName" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanName" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlanName" order="1"/>
     <link:loc xlink:label="ns13_ChangeInPensionLiabilitiesRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_ChangeInPensionLiabilitiesRollForward" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_ChangeInPensionLiabilitiesRollForward" order="2"/>
     <link:loc xlink:label="ns13_ChangeInFiduciaryNetPositionRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_ChangeInFiduciaryNetPositionRollForward" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_ChangeInFiduciaryNetPositionRollForward" order="3"/>
-    <link:loc xlink:label="ns13_ChangeInNetPensionLiabilityAssetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ChangeInNetPensionLiabilityAssetRollForward" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_ChangeInNetPensionLiabilityAssetRollForward_1" order="4"/>
+    <link:loc xlink:label="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_ChangeInNetPensionLiabilityAssetRollForward" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_ChangeInNetPensionLiabilityAssetRollForward" order="4"/>
     <link:loc xlink:label="ns13_PensionPlanFiduciaryNetPosition" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanFiduciaryNetPosition" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInFiduciaryNetPositionRollForward" xlink:to="ns13_PensionPlanFiduciaryNetPosition" order="1"/>
     <link:loc xlink:label="ns13_PensionEmployerContribution" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionEmployerContribution" xlink:type="locator"/>
@@ -58,21 +53,26 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInPensionLiabilitiesRollForward" xlink:to="ns13_PensionBenefitPayments" order="7"/>
     <link:loc xlink:label="ns13_PensionLiabilityPeriodIncreaseDecrease" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInPensionLiabilitiesRollForward" xlink:to="ns13_PensionLiabilityPeriodIncreaseDecrease" order="8"/>
-  </link:definitionLink>
-  <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/PensionTotals" xlink:type="extended">
-    <link:loc xlink:label="ns13_PensionPlansTable" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PensionPlansLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlansTable" order="1" xbrldt:contextElement="segment"/>
     <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_NetPensionLiability" order="1"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPension" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPension" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_DeferredOutflowsOfResourcesPension" order="2"/>
-    <link:loc xlink:label="ns13_DeferredInflowsOfResourcesPension" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResourcesPension" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_DeferredInflowsOfResourcesPension" order="3"/>
-    <link:loc xlink:label="ns13_PensionExpense" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionExpense" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionExpense" order="4"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:to="ns13_NetPensionLiability" order="1"/>
+    <link:loc xlink:label="ns13_NetChangeInPensionLiabilityAsset" xlink:href="../../elts/acfr_2023.xsd#acfr_NetChangeInPensionLiabilityAsset" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_ChangeInNetPensionLiabilityAssetRollForward" xlink:to="ns13_NetChangeInPensionLiabilityAsset" order="2"/>
   </link:definitionLink>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/Pension" xlink:type="extended">
+    <link:loc xlink:label="ns13_PensionPlansTable" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PensionPlanNameAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanNameAxis" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns13_PensionPlansTable" xlink:to="ns13_PensionPlanNameAxis" order="1"/>
+    <link:loc xlink:label="ns13_PensionPlansLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlansTable" order="1" xbrldt:contextElement="segment"/>
+    <link:loc xlink:label="ns13_PlanDescriptiveInformationLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanDescriptiveInformationLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PensionPlanName" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanName" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanName" order="1"/>
+    <link:loc xlink:label="ns13_PensionPlanStatus" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanStatus" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanStatus" order="2"/>
+    <link:loc xlink:label="ns13_PensionPlanType" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanType" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanType" order="3"/>
+    <link:loc xlink:label="ns13_PensionPlanCategory" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanCategory" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanCategory" order="4"/>
     <link:loc xlink:label="ns13_PensionPlanDeferredInflowOfResourcesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDeferredInflowOfResourcesAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_DeferredInflowsofResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredInflowsofResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredInflowOfResourcesAbstract" xlink:to="ns13_DeferredInflowsofResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" order="1"/>
@@ -86,63 +86,14 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredInflowOfResourcesAbstract" xlink:to="ns13_DeferredInflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" order="5"/>
     <link:loc xlink:label="ns13_DeferredInflowsOfResources" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResources" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredInflowOfResourcesAbstract" xlink:to="ns13_DeferredInflowsOfResources" order="6"/>
-    <link:loc xlink:label="ns13_PlanDescriptiveInformationLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanDescriptiveInformationLineItems" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PensionPlanName" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanName" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanName" order="1"/>
-    <link:loc xlink:label="ns13_PensionPlanStatus" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanStatus" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanStatus" order="2"/>
-    <link:loc xlink:label="ns13_PensionPlanType" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanType" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanType" order="3"/>
-    <link:loc xlink:label="ns13_PensionPlanCategory" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanCategory" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanDescriptiveInformationLineItems" xlink:to="ns13_PensionPlanCategory" order="4"/>
-    <link:loc xlink:label="ns13_SensitivityAnalysisAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_SensitivityAnalysisAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PensionNetLiabilityAtDiscountRateMinus1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionNetLiabilityAtDiscountRateMinus1" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_SensitivityAnalysisAbstract" xlink:to="ns13_PensionNetLiabilityAtDiscountRateMinus1" order="1"/>
-    <link:loc xlink:label="ns13_PensionNetLiabilityAtDiscountRatePlus1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionNetLiabilityAtDiscountRatePlus1" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_SensitivityAnalysisAbstract" xlink:to="ns13_PensionNetLiabilityAtDiscountRatePlus1" order="2"/>
-    <link:loc xlink:label="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" order="1"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionChangesInAssumptions" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionChangesInAssumptions" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionChangesInAssumptions" order="2"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" order="3"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsFromPensionChangesInProportion" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsFromPensionChangesInProportion" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsFromPensionChangesInProportion" order="4"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" order="5"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResources" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResources" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResources" order="6"/>
-    <link:loc xlink:label="ns13_PlanMembershipInformationAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanMembershipInformationAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PensionPlanEmployeeCategory" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanEmployeeCategory" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanEmployeeCategory" order="1"/>
-    <link:loc xlink:label="ns13_PensionPlanActiveEmployees" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanActiveEmployees" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanActiveEmployees" order="2"/>
-    <link:loc xlink:label="ns13_PensionPlanInactiveMembers" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanInactiveMembers" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanInactiveMembers" order="3"/>
-    <link:loc xlink:label="ns13_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" order="4"/>
-    <link:loc xlink:label="ns13_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" order="5"/>
-    <link:loc xlink:label="ns13_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" order="6"/>
-    <link:loc xlink:label="ns13_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" order="7"/>
-    <link:loc xlink:label="ns13_PensionPlanTotalPlanMembership" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanTotalPlanMembership" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanTotalPlanMembership" order="8"/>
-    <link:loc xlink:label="ns13_PensionPlansTable" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PensionPlanNameAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanNameAxis" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns13_PensionPlansTable" xlink:to="ns13_PensionPlanNameAxis" order="1"/>
-    <link:loc xlink:label="ns13_PensionPlansLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlansTable" order="1" xbrldt:contextElement="segment"/>
     <link:loc xlink:label="ns13_PlanDescriptiveInformationLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanDescriptiveInformationLineItems" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PlanDescriptiveInformationLineItems_1" order="1"/>
-    <link:loc xlink:label="ns13_PlanMembershipInformationAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanMembershipInformationAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PlanMembershipInformationAbstract_1" order="2"/>
+    <link:loc xlink:label="ns13_PlanMembershipInformationAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanMembershipInformationAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PlanMembershipInformationAbstract" order="2"/>
     <link:loc xlink:label="ns13_PlanActuarialAssumptionsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanActuarialAssumptionsAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PlanActuarialAssumptionsAbstract" order="3"/>
-    <link:loc xlink:label="ns13_SensitivityAnalysisAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_SensitivityAnalysisAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_SensitivityAnalysisAbstract_1" order="4"/>
+    <link:loc xlink:label="ns13_SensitivityAnalysisAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_SensitivityAnalysisAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_SensitivityAnalysisAbstract" order="4"/>
     <link:loc xlink:label="ns13_PensionExpense" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionExpense" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionExpense" order="5"/>
     <link:loc xlink:label="ns13_PensionPlanContributionRatesAsAPercentageOfPayroll" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanContributionRatesAsAPercentageOfPayroll" xlink:type="locator"/>
@@ -163,8 +114,8 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_UnfundedActuarialLiabilityStabilizationPayment" order="13"/>
     <link:loc xlink:label="ns13_PensionCoveredEmployeePayroll" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionCoveredEmployeePayroll" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionCoveredEmployeePayroll" order="14"/>
-    <link:loc xlink:label="ns13_PensionPlanDeferredOutflowOfResourcesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlanDeferredOutflowOfResourcesAbstract_1" order="15"/>
+    <link:loc xlink:label="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" order="15"/>
     <link:loc xlink:label="ns13_PensionPlanDeferredInflowOfResourcesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDeferredInflowOfResourcesAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionPlanDeferredInflowOfResourcesAbstract_1" order="16"/>
     <link:loc xlink:label="ns13_NetPensionLiabilityasPercentCoveredPayroll" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityasPercentCoveredPayroll" xlink:type="locator"/>
@@ -177,6 +128,38 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_RiskWeightedPensionAssets" order="20"/>
     <link:loc xlink:label="ns13_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability" order="21"/>
+    <link:loc xlink:label="ns13_PensionPlanEmployeeCategory" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanEmployeeCategory" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanEmployeeCategory" order="1"/>
+    <link:loc xlink:label="ns13_PensionPlanActiveEmployees" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanActiveEmployees" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanActiveEmployees" order="2"/>
+    <link:loc xlink:label="ns13_PensionPlanInactiveMembers" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanInactiveMembers" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanInactiveMembers" order="3"/>
+    <link:loc xlink:label="ns13_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanRetireesAndBeneficiariesCurrentlyReceivingNormalAndDisabilityBenefits" order="4"/>
+    <link:loc xlink:label="ns13_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanTerminatedEmployeesEntitledToBenefitsButNotYetReceivingBenefits" order="5"/>
+    <link:loc xlink:label="ns13_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanDROPParticipantsReceivingBenefitsIntoTheirDROPAccounts" order="6"/>
+    <link:loc xlink:label="ns13_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits" order="7"/>
+    <link:loc xlink:label="ns13_PensionPlanTotalPlanMembership" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanTotalPlanMembership" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanMembershipInformationAbstract" xlink:to="ns13_PensionPlanTotalPlanMembership" order="8"/>
+    <link:loc xlink:label="ns13_PensionNetLiabilityAtDiscountRateMinus1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionNetLiabilityAtDiscountRateMinus1" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_SensitivityAnalysisAbstract" xlink:to="ns13_PensionNetLiabilityAtDiscountRateMinus1" order="1"/>
+    <link:loc xlink:label="ns13_PensionNetLiabilityAtDiscountRatePlus1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionNetLiabilityAtDiscountRatePlus1" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_SensitivityAnalysisAbstract" xlink:to="ns13_PensionNetLiabilityAtDiscountRatePlus1" order="2"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionNetDifProjectedAndActualEarningsPensionPlanInvestments" order="1"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionChangesInAssumptions" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionChangesInAssumptions" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionChangesInAssumptions" order="2"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsofResourcesPensionDifferenceExpectedAndActual" order="3"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsFromPensionChangesInProportion" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsFromPensionChangesInProportion" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsFromPensionChangesInProportion" order="4"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResourcesPensionContributionsMadeAfterMeasurementDate" order="5"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResources" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResources" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlanDeferredOutflowOfResourcesAbstract" xlink:to="ns13_DeferredOutflowsOfResources" order="6"/>
     <link:loc xlink:label="ns13_PensionActuarialValuationDate" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionActuarialValuationDate" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanActuarialAssumptionsAbstract" xlink:to="ns13_PensionActuarialValuationDate" order="1"/>
     <link:loc xlink:label="ns13_PensionPlanLiabilityMeasurementDate" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanLiabilityMeasurementDate" xlink:type="locator"/>
@@ -201,5 +184,19 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanActuarialAssumptionsAbstract" xlink:to="ns13_PensionPlanMortalityRateTableDescription" order="11"/>
     <link:loc xlink:label="ns13_PensionPlanMortalityRateTableYear" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlanMortalityRateTableYear" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PlanActuarialAssumptionsAbstract" xlink:to="ns13_PensionPlanMortalityRateTableYear" order="12"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/PensionTotals" xlink:type="extended">
+    <link:loc xlink:label="ns13_PensionPlansLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_NetPensionLiability" order="1"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResourcesPension" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResourcesPension" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_DeferredOutflowsOfResourcesPension" order="2"/>
+    <link:loc xlink:label="ns13_DeferredInflowsOfResourcesPension" xlink:href="../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResourcesPension" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_DeferredInflowsOfResourcesPension" order="3"/>
+    <link:loc xlink:label="ns13_PensionExpense" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionExpense" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems" xlink:to="ns13_PensionExpense" order="4"/>
+    <link:loc xlink:label="ns13_PensionPlansTable" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PensionPlansLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PensionPlansLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns13_PensionPlansLineItems_1" xlink:to="ns13_PensionPlansTable" order="1" xbrldt:contextElement="segment"/>
   </link:definitionLink>
 </link:linkbase>

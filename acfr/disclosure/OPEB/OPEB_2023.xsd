@@ -11,9 +11,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" id="OPEBChangeNetOPEBLiabilitySchedule">
         <linkbase:definition>801005 - Disclosures - OPEB Plan Change in Net OPEB Liability Schedule</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/OPEBTotals" id="OPEBTotals">
         <linkbase:definition>801010 - Disclosures - OPEB Plan Totals</linkbase:definition>

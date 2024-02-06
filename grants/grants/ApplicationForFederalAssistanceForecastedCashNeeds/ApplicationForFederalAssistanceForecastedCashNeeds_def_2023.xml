@@ -1,27 +1,12 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationForecastedCashNeeds" xlink:href="ApplicationForFederalAssistanceForecastedCashNeeds_2023.xsd#GrantsManagementApplicationForecastedCashNeeds" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationForecastedCashNeeds" xlink:type="extended">
-    <link:loc xlink:label="ns2_PeriodAxis" xlink:href="../../elts/grants_2023.xsd#sap_PeriodAxis" xlink:type="locator"/>
     <link:loc xlink:label="ns2_PeriodDomain" xlink:href="../../elts/grants_2023.xsd#sap_PeriodDomain" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:from="ns2_PeriodAxis" xlink:to="ns2_PeriodDomain" order="1"/>
-    <link:loc xlink:label="ns2_PeriodDomain_1" xlink:href="../../elts/grants_2023.xsd#sap_PeriodDomain" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="arc" xlink:from="ns2_PeriodAxis" xlink:to="ns2_PeriodDomain_1" order="1"/>
-    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceTable" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns2_PeriodAxis_1" xlink:href="../../elts/grants_2023.xsd#sap_PeriodAxis" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceTable" xlink:to="ns2_PeriodAxis_1" order="1"/>
-    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ApplicationForFederalAssistanceTable" order="1" xbrldt:contextElement="segment"/>
-    <link:loc xlink:label="ns2_ForecastedCashNeedsFederal" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeedsFederal" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeedsFederal" order="1"/>
-    <link:loc xlink:label="ns2_ForecastedCashNeedsNonFederal" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeedsNonFederal" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeedsNonFederal" order="2"/>
-    <link:loc xlink:label="ns2_ForecastedCashNeeds" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeeds" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeeds" order="3"/>
     <link:loc xlink:label="ns2_FirstQuarterMember" xlink:href="../../elts/grants_2023.xsd#sap_FirstQuarterMember" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_PeriodDomain" xlink:to="ns2_FirstQuarterMember" order="1"/>
     <link:loc xlink:label="ns2_SecondQuarterMember" xlink:href="../../elts/grants_2023.xsd#sap_SecondQuarterMember" xlink:type="locator"/>
@@ -32,5 +17,21 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_PeriodDomain" xlink:to="ns2_FourthQuarterMember" order="4"/>
     <link:loc xlink:label="ns2_FirstYearMember" xlink:href="../../elts/grants_2023.xsd#sap_FirstYearMember" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_PeriodDomain" xlink:to="ns2_FirstYearMember" order="5"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_ForecastedCashNeedsFederal" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeedsFederal" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeedsFederal" order="1"/>
+    <link:loc xlink:label="ns2_ForecastedCashNeedsNonFederal" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeedsNonFederal" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeedsNonFederal" order="2"/>
+    <link:loc xlink:label="ns2_ForecastedCashNeeds" xlink:href="../../elts/grants_2023.xsd#sap_ForecastedCashNeeds" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ForecastedCashNeeds" order="3"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceTable" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_PeriodAxis" xlink:href="../../elts/grants_2023.xsd#sap_PeriodAxis" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceTable" xlink:to="ns2_PeriodAxis" order="1"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems_1" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems_1" xlink:to="ns2_ApplicationForFederalAssistanceTable" order="1" xbrldt:contextElement="segment"/>
+    <link:loc xlink:label="ns2_PeriodDomain_1" xlink:href="../../elts/grants_2023.xsd#sap_PeriodDomain" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:from="ns2_PeriodAxis" xlink:to="ns2_PeriodDomain_1" order="1"/>
+    <link:loc xlink:label="ns2_PeriodDomain_2" xlink:href="../../elts/grants_2023.xsd#sap_PeriodDomain" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="arc" xlink:from="ns2_PeriodAxis" xlink:to="ns2_PeriodDomain_2" order="1"/>
   </link:definitionLink>
 </link:linkbase>

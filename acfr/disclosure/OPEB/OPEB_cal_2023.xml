@@ -1,24 +1,32 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" xlink:href="OPEB_2023.xsd#OPEBChangeNetOPEBLiabilitySchedule" xlink:type="simple"/>
   <link:calculationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/OPEBChangeNetOPEBLiabilitySchedule" xlink:type="extended">
-    <link:loc xlink:label="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:href="../../elts/acfr_2023.xsd#acfr_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" order="5" weight="-1.0"/>
     <link:loc xlink:label="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_OPEBBenefitPayments" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBBenefitPayments" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBBenefitPayments" order="6" weight="-1.0"/>
+    <link:loc xlink:label="ns13_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanChangesOfAssumptionOrOtherInputs" order="5" weight="1.0"/>
+    <link:loc xlink:label="ns13_OPEBPlanChangesInBenefitTerms" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanChangesInBenefitTerms" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanChangesInBenefitTerms" order="3" weight="1.0"/>
+    <link:loc xlink:label="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_OPEBNetInvestmentIncome" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBNetInvestmentIncome" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_OPEBNetInvestmentIncome" order="4" weight="1.0"/>
+    <link:loc xlink:label="ns13_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:href="../../elts/acfr_2023.xsd#acfr_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" order="3" weight="1.0"/>
+    <link:loc xlink:label="ns13_NetChangeInNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetChangeInNetOPEBLiability" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_OPEBLiabilityPeriodIncreaseDecrease_1" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_NetChangeInNetOPEBLiability" xlink:to="ns13_OPEBLiabilityPeriodIncreaseDecrease_1" order="1" weight="1.0"/>
     <link:loc xlink:label="ns13_OPEBAdministrativeExpenses" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBAdministrativeExpenses" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_OPEBAdministrativeExpenses" order="6" weight="-1.0"/>
-    <link:loc xlink:label="ns13_OPEBPlanOtherChangesToLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanOtherChangesToLiability" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanOtherChangesToLiability" order="7" weight="1.0"/>
+    <link:loc xlink:label="ns13_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:href="../../elts/acfr_2023.xsd#acfr_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_BenefitPaymentsMadeByTheOPEBPlanFiduciaryNetPosition" order="5" weight="-1.0"/>
     <link:loc xlink:label="ns13_NetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
     <link:loc xlink:label="ns13_FiduciaryNetPositionOPEB" xlink:href="../../elts/acfr_2023.xsd#acfr_FiduciaryNetPositionOPEB" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_NetOPEBLiability" xlink:to="ns13_FiduciaryNetPositionOPEB" order="1" weight="-1.0"/>
-    <link:loc xlink:label="ns13_NetChangeInNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetChangeInNetOPEBLiability" xlink:type="locator"/>
     <link:loc xlink:label="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease_1" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_NetChangeInNetOPEBLiability" xlink:to="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease_1" order="2" weight="-1.0"/>
     <link:loc xlink:label="ns13_OPEBPlanTotalLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanTotalLiability" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_NetOPEBLiability" xlink:to="ns13_OPEBPlanTotalLiability" order="2" weight="1.0"/>
+    <link:loc xlink:label="ns13_OPEBPlanOtherChangesToLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanOtherChangesToLiability" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanOtherChangesToLiability" order="7" weight="1.0"/>
     <link:loc xlink:label="ns13_OPEBServiceCost" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBServiceCost" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBServiceCost" order="1" weight="1.0"/>
     <link:loc xlink:label="ns13_OPEBPlanEmployerContributions" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanEmployerContributions" xlink:type="locator"/>
@@ -27,17 +35,9 @@
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanFromDifferenceExpectedAndActualExperience" order="4" weight="1.0"/>
     <link:loc xlink:label="ns13_OPEBInterestCost" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBInterestCost" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBInterestCost" order="2" weight="1.0"/>
+    <link:loc xlink:label="ns13_OPEBBenefitPayments" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBBenefitPayments" xlink:type="locator"/>
+    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBBenefitPayments" order="6" weight="-1.0"/>
     <link:loc xlink:label="ns13_OPEBPlanNonemployerContributingEntities" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanNonemployerContributingEntities" xlink:type="locator"/>
     <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanNonemployerContributingEntities" order="2" weight="1.0"/>
-    <link:loc xlink:label="ns13_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanChangesOfAssumptionOrOtherInputs" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanChangesOfAssumptionOrOtherInputs" order="5" weight="1.0"/>
-    <link:loc xlink:label="ns13_OPEBPlanChangesInBenefitTerms" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBPlanChangesInBenefitTerms" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBLiabilityPeriodIncreaseDecrease" xlink:to="ns13_OPEBPlanChangesInBenefitTerms" order="3" weight="1.0"/>
-    <link:loc xlink:label="ns13_OPEBNetInvestmentIncome" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBNetInvestmentIncome" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_OPEBNetInvestmentIncome" order="4" weight="1.0"/>
-    <link:loc xlink:label="ns13_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:href="../../elts/acfr_2023.xsd#acfr_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_OPEBPlanFiduciaryNetPositionPeriodIncreaseDecrease" xlink:to="ns13_ContributionsFromActiveEmployeesAndInactiveEmployeesNotYetReceivingBenefitPayments" order="3" weight="1.0"/>
-    <link:loc xlink:label="ns13_OPEBLiabilityPeriodIncreaseDecrease_1" xlink:href="../../elts/acfr_2023.xsd#acfr_OPEBLiabilityPeriodIncreaseDecrease" xlink:type="locator"/>
-    <link:calculationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:from="ns13_NetChangeInNetOPEBLiability" xlink:to="ns13_OPEBLiabilityPeriodIncreaseDecrease_1" order="1" weight="1.0"/>
   </link:calculationLink>
 </link:linkbase>

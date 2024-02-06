@@ -6,10 +6,10 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListTable" xlink:to="ns11_AuditeeDUNSContinuationListLineItems" order="2"/>
     <link:loc xlink:label="ns11_AuditeeDUNSContinuationListAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListAxis" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListTable" xlink:to="ns11_AuditeeDUNSContinuationListAxis" order="1"/>
-    <link:loc xlink:label="ns2_GranteeDUNSNumber" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeDUNSNumber" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems" xlink:to="ns2_GranteeDUNSNumber" order="1"/>
     <link:loc xlink:label="ns11_AuditeeDUNSContinuationListAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns11_AuditeeDUNSContinuationListTable_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListTable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListAbstract" xlink:to="ns11_AuditeeDUNSContinuationListTable_1" order="1"/>
+    <link:loc xlink:label="ns2_GranteeDUNSNumber" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeDUNSNumber" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems" xlink:to="ns2_GranteeDUNSNumber" order="1"/>
   </link:presentationLink>
 </link:linkbase>

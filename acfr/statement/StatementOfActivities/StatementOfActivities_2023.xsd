@@ -21,9 +21,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForPrograms" id="ActivitiesExpensesAndRevenuesForPrograms">
         <linkbase:definition>200000 - Statement - Activities - Expenses and Revenues for Programs</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesExpensesAndRevenuesForProgramsAltCalc2" id="ActivitiesExpensesAndRevenuesForProgramsAltCalc2">
         <linkbase:definition>200002 - Statement - Activities - Expenses And Revenues for Programs  - By Activity</linkbase:definition>
@@ -36,9 +36,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesFire" id="ActivitiesFire">
         <linkbase:definition>760010 - Statement - Activities - Expenses and Revenues for Programs, Fire</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesFireComponentUnit" id="ActivitiesFireComponentUnit">
         <linkbase:definition>760020 - Statement - Activities, Component Unit - Expenses and Revenues for Programs, Fire</linkbase:definition>
@@ -47,21 +47,33 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesFireGeneralRevenues" id="ActivitiesFireGeneralRevenues">
         <linkbase:definition>760030 - Statement - Activities - General Revenues and Changes in Net Position, Fire</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesGeneralRevenues" id="ActivitiesGeneralRevenues">
         <linkbase:definition>200110 - Statement - Activities - General Revenues and Changes in Net Position</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesHospital" id="ActivitiesHospital">
+        <linkbase:definition>780010 - Statement - Activities - Expenses and Revenues for Programs, Hospital</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesHospitalGeneralRevenues" id="ActivitiesHospitalGeneralRevenues">
+        <linkbase:definition>780020 - Statement - Activities - General Revenues and Changes in Net Position, Hospital</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesMetro" id="ActivitiesMetro">
         <linkbase:definition>770010 - Statement - Activities - Expenses and Revenues for Programs, Metropolitan</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesMetroComponentUnit" id="ActivitiesMetroComponentUnit">
         <linkbase:definition>770020 - Statement - Activities, Component Unit - Expenses and Revenues for Program, Metropolitan</linkbase:definition>
@@ -70,9 +82,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesMetroGeneralRevenues" id="ActivitiesMetroGeneralRevenues">
         <linkbase:definition>770030 - Statement - Activities - General Revenues and Changes in Net Position, Metropolitan</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesOtherExpenses" id="ActivitiesOtherExpenses">
         <linkbase:definition>200040 - Statement - Activities - Other Expenses (Details)</linkbase:definition>
@@ -111,9 +123,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesSchool" id="ActivitiesSchool">
         <linkbase:definition>720000 - Statement - Activities - Expenses and Revenues for Programs, School</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesSchoolComponentUnit" id="ActivitiesSchoolComponentUnit">
         <linkbase:definition>720004 - Statement - Activities, Component Unit - Expenses and Revenues for Programs, School</linkbase:definition>
@@ -122,9 +134,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ActivitiesSchoolGeneralRevenue" id="ActivitiesSchoolGeneralRevenue">
         <linkbase:definition>720008 - Statement - Activities, General Revenues and Changes in Net Position, School</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

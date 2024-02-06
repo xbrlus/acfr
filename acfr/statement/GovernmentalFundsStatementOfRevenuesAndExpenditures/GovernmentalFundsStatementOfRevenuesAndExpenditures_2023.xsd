@@ -11,9 +11,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundFireRevenuesExpenditures" id="GovFundFireRevenuesExpenditures">
         <linkbase:definition>765040 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Fire, Other Funds</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundRevenuessExpendituresOtherExpendituresTotals" id="GovFundRevenuessExpendituresOtherExpendituresTotals">
         <linkbase:definition>404200 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, General, Aggregate Nonmajor - Other Expenditures (Details)</linkbase:definition>
@@ -52,9 +52,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundSchoolRevenuesExpenditures" id="GovFundSchoolRevenuesExpenditures">
         <linkbase:definition>730050 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, School, Other Funds</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundSchoolRevenuesExpendituresGeneralAggregateNonmajor" id="GovFundSchoolRevenuesExpendituresGeneralAggregateNonmajor">
         <linkbase:definition>730060 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, School, General, Aggregate Nonmajor</linkbase:definition>
@@ -66,17 +66,28 @@
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
-      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroRevenuesExpendituresOtherFunds" id="GovFundsMetroRevenuesExpendituresOtherFunds">
-        <linkbase:definition>771030 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Metropolitan, Other Funds</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalRevenuesExpendituresAggregateNonmajor" id="GovFundsHospitalRevenuesExpendituresAggregateNonmajor">
+        <linkbase:definition>781061 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Hospital, General Aggregate Nonmajor</linkbase:definition>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
       </linkbase:roleType>
-      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsRevenuesExpenditures" id="GovFundsRevenuesExpenditures">
-        <linkbase:definition>400000 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalRevenuesExpendituresOtherFunds" id="GovFundsHospitalRevenuesExpendituresOtherFunds">
+        <linkbase:definition>781060 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Hospital, Other Funds</linkbase:definition>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroRevenuesExpendituresOtherFunds" id="GovFundsMetroRevenuesExpendituresOtherFunds">
+        <linkbase:definition>771030 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Metropolitan, Other Funds</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsRevenuesExpenditures" id="GovFundsRevenuesExpenditures">
+        <linkbase:definition>400000 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balances, Other Funds</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

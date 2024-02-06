@@ -1,214 +1,77 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/MichChartOfAccounts" xlink:href="ChartOfAccountsMichigan_2023.xsd#MichChartOfAccounts" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/MichChartOfAccounts" xlink:type="extended">
-    <link:loc xlink:label="ns13_CurrentAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentAssets" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CashAndCashEquivalentsAndInvestments" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashAndCashEquivalentsAndInvestments" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_CashAndCashEquivalentsAndInvestments" order="1"/>
-    <link:loc xlink:label="ns13_CashChecking" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashChecking" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashChecking" order="1"/>
-    <link:loc xlink:label="ns13_Receivables" xlink:href="../../../elts/acfr_2023.xsd#acfr_Receivables" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_TaxesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_TaxesReceivable" order="1"/>
-    <link:loc xlink:label="ns13_TaxesReceivableRealPropertyCurrentLevy" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableRealPropertyCurrentLevy" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableRealPropertyCurrentLevy" order="1"/>
-    <link:loc xlink:label="ns13_Inventory" xlink:href="../../../elts/acfr_2023.xsd#acfr_Inventory" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_InventoryRoadMaterials" xlink:href="../../../elts/acfr_2023.xsd#acfr_InventoryRoadMaterials" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Inventory" xlink:to="ns13_InventoryRoadMaterials" order="1"/>
-    <link:loc xlink:label="ns13_Assets" xlink:href="../../../elts/acfr_2023.xsd#acfr_Assets" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CurrentAssets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentAssets" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_CurrentAssets_1" order="1"/>
-    <link:loc xlink:label="ns13_Liabilities" xlink:href="../../../elts/acfr_2023.xsd#acfr_Liabilities" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CurrentLiabilities" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentLiabilities" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_CurrentLiabilities" order="1"/>
-    <link:loc xlink:label="ns13_VouchersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_VouchersPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_VouchersPayable" order="1"/>
-    <link:loc xlink:label="ns13_DeferredInflowsOfResources" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResources" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_DeferredInflowsOfResourcesDrainOrders" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResourcesDrainOrders" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_DeferredInflowsOfResources" xlink:to="ns13_DeferredInflowsOfResourcesDrainOrders" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_Land" xlink:href="../../../elts/acfr_2023.xsd#acfr_Land" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_Land" order="1"/>
-    <link:loc xlink:label="ns13_CertificatesOfDeposit" xlink:href="../../../elts/acfr_2023.xsd#acfr_CertificatesOfDeposit" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CertificatesOfDeposit" order="3"/>
     <link:loc xlink:label="ns13_NoncurrentLiabilities" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentLiabilities" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BondPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_BondPayableDueInMoreThanOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_BondPayableDueInMoreThanOneYear" order="1"/>
-    <link:loc xlink:label="ns13_Receivables_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Receivables" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_Receivables_1" order="2"/>
-    <link:loc xlink:label="ns13_NoncurrentAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentAssets" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_InvestmentsOfSurplusFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_InvestmentsOfSurplusFunds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_InvestmentsOfSurplusFunds" order="1"/>
-    <link:loc xlink:label="ns13_CashSavings" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashSavings" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashSavings" order="2"/>
-    <link:loc xlink:label="ns13_NoncurrentLiabilities_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentLiabilities" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_NoncurrentLiabilities_1" order="2"/>
-    <link:loc xlink:label="ns13_TaxesReceivablePersonalPropertyCurrentLevy" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivablePersonalPropertyCurrentLevy" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivablePersonalPropertyCurrentLevy" order="2"/>
-    <link:loc xlink:label="ns13_InterestAndPenaltiesReceivableOnTaxes" xlink:href="../../../elts/acfr_2023.xsd#acfr_InterestAndPenaltiesReceivableOnTaxes" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_InterestAndPenaltiesReceivableOnTaxes" order="2"/>
-    <link:loc xlink:label="ns13_InventoryEquipmentMaterialsAndParts" xlink:href="../../../elts/acfr_2023.xsd#acfr_InventoryEquipmentMaterialsAndParts" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Inventory" xlink:to="ns13_InventoryEquipmentMaterialsAndParts" order="2"/>
-    <link:loc xlink:label="ns13_AccountsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccountsPayable" order="2"/>
-    <link:loc xlink:label="ns13_NoncurrentAssets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentAssets" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_NoncurrentAssets_1" order="2"/>
-    <link:loc xlink:label="ns13_LeasesPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeasesPayableDueInMoreThanOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_LeasesPayableDueInMoreThanOneYear" order="2"/>
-    <link:loc xlink:label="ns13_AnnuitiesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AnnuitiesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AnnuitiesPayable" order="5"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" order="8"/>
-    <link:loc xlink:label="ns13_TaxesReceivableDelinquentPersonalProperty" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableDelinquentPersonalProperty" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableDelinquentPersonalProperty" order="4"/>
-    <link:loc xlink:label="ns13_AdvancesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AdvancesReceivable" order="7"/>
-    <link:loc xlink:label="ns13_LandImprovementsNonDepreciating" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandImprovementsNonDepreciating" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandImprovementsNonDepreciating" order="2"/>
-    <link:loc xlink:label="ns13_SpecialAssessmentTaxesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_SpecialAssessmentTaxesReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_SpecialAssessmentTaxesReceivable" order="8"/>
-    <link:loc xlink:label="ns13_AdvancesFromStateNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromStateNoncurrent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromStateNoncurrent" order="5"/>
-    <link:loc xlink:label="ns13_UtilitiesAndWaterReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_UtilitiesAndWaterReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_UtilitiesAndWaterReceivable" order="3"/>
-    <link:loc xlink:label="ns13_AccountsReceivableAllowance" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsReceivableAllowance" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccountsReceivableAllowance" order="6"/>
-    <link:loc xlink:label="ns13_AccountsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccountsReceivable" order="5"/>
-    <link:loc xlink:label="ns13_CashPayrollBankAccount" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashPayrollBankAccount" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashPayrollBankAccount" order="5"/>
-    <link:loc xlink:label="ns16_ChartOfAccountsMichiganAbstract" xlink:href="../elts/MI_2023.xsd#acfr_ChartOfAccountsMichiganAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_Assets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Assets" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_ChartOfAccountsMichiganAbstract" xlink:to="ns13_Assets_1" order="1"/>
-    <link:loc xlink:label="ns13_TaxesReceivableDelinquentRealProperty" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableDelinquentRealProperty" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableDelinquentRealProperty" order="3"/>
-    <link:loc xlink:label="ns13_Inventory_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Inventory" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_Inventory_1" order="3"/>
-    <link:loc xlink:label="ns13_DeferredOutflowsOfResources" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResources" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_DeferredOutflowsOfResources" order="3"/>
-    <link:loc xlink:label="ns13_DrainOrdersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_DrainOrdersPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DrainOrdersPayable" order="3"/>
-    <link:loc xlink:label="ns13_DeferredInflowsOfResources_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResources" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_DeferredInflowsOfResources_1" order="3"/>
-    <link:loc xlink:label="ns13_CashOnHand" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashOnHand" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashOnHand" order="4"/>
-    <link:loc xlink:label="ns13_DerivativeInstrumentsAssetsNonCurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_DerivativeInstrumentsAssetsNonCurrent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_DerivativeInstrumentsAssetsNonCurrent" order="6"/>
-    <link:loc xlink:label="ns13_LongTermContractsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_LongTermContractsReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_LongTermContractsReceivable" order="5"/>
-    <link:loc xlink:label="ns13_DelinquentUtilityBillsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_DelinquentUtilityBillsReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DelinquentUtilityBillsReceivable" order="4"/>
-    <link:loc xlink:label="ns13_NotesPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_NotesPayableDueInMoreThanOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_NotesPayableDueInMoreThanOneYear" order="3"/>
-    <link:loc xlink:label="ns13_LandImprovementsDepreciating" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandImprovementsDepreciating" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandImprovementsDepreciating" order="3"/>
-    <link:loc xlink:label="ns13_Liabilities_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Liabilities" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_ChartOfAccountsMichiganAbstract" xlink:to="ns13_Liabilities_1" order="2"/>
-    <link:loc xlink:label="ns13_PrepaidExpenses" xlink:href="../../../elts/acfr_2023.xsd#acfr_PrepaidExpenses" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_PrepaidExpenses" order="4"/>
-    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" order="4"/>
-    <link:loc xlink:label="ns13_InvestmentsInJointVentures" xlink:href="../../../elts/acfr_2023.xsd#acfr_InvestmentsInJointVentures" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_InvestmentsInJointVentures" order="2"/>
     <link:loc xlink:label="ns13_AdvancesFromOtherFundsNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromOtherFundsNoncurrent" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromOtherFundsNoncurrent" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
     <link:loc xlink:label="ns13_AccumulatedDepreciationLandImprovements" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationLandImprovements" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationLandImprovements" order="4"/>
+    <link:loc xlink:label="ns13_CashAndCashEquivalentsAndInvestments" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashAndCashEquivalentsAndInvestments" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CashPayrollBankAccount" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashPayrollBankAccount" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashPayrollBankAccount" order="5"/>
+    <link:loc xlink:label="ns13_Receivables" xlink:href="../../../elts/acfr_2023.xsd#acfr_Receivables" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AccountsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccountsReceivable" order="5"/>
+    <link:loc xlink:label="ns13_CurrentAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentAssets" xlink:type="locator"/>
     <link:loc xlink:label="ns13_AssetsHeldForSale" xlink:href="../../../elts/acfr_2023.xsd#acfr_AssetsHeldForSale" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_AssetsHeldForSale" order="5"/>
-    <link:loc xlink:label="ns13_BuildingsAndImprovements" xlink:href="../../../elts/acfr_2023.xsd#acfr_BuildingsAndImprovements" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_BuildingsAndImprovements" order="7"/>
-    <link:loc xlink:label="ns13_OtherAdvances" xlink:href="../../../elts/acfr_2023.xsd#acfr_OtherAdvances" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_OtherAdvances" order="9"/>
-    <link:loc xlink:label="ns13_AdvancesFromOtherGovernmentsNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromOtherGovernmentsNoncurrent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromOtherGovernmentsNoncurrent" order="7"/>
+    <link:loc xlink:label="ns13_CurrentLiabilities" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentLiabilities" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AnnuitiesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AnnuitiesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AnnuitiesPayable" order="5"/>
+    <link:loc xlink:label="ns13_NoncurrentAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentAssets" xlink:type="locator"/>
     <link:loc xlink:label="ns13_LeaseAssetsRightOfUse" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeaseAssetsRightOfUse" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_LeaseAssetsRightOfUse" order="3"/>
-    <link:loc xlink:label="ns13_AdvancesFromFederalGovernmentNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromFederalGovernmentNoncurrent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromFederalGovernmentNoncurrent" order="6"/>
-    <link:loc xlink:label="ns13_LeasesPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeasesPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_LeasesPayableDueWithinOneYear" order="7"/>
-    <link:loc xlink:label="ns13_RetainagePayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_RetainagePayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_RetainagePayable" order="8"/>
+    <link:loc xlink:label="ns13_AdvancesFromStateNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromStateNoncurrent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromStateNoncurrent" order="5"/>
     <link:loc xlink:label="ns13_DepletableAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_DepletableAssets" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_DepletableAssets" order="5"/>
+    <link:loc xlink:label="ns13_LeasesPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeasesPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_LeasesPayableDueWithinOneYear" order="7"/>
+    <link:loc xlink:label="ns13_DerivativeInstrumentsAssetsNonCurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_DerivativeInstrumentsAssetsNonCurrent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_DerivativeInstrumentsAssetsNonCurrent" order="6"/>
     <link:loc xlink:label="ns13_LeaseAssetsAccumulatedAmortization" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeaseAssetsAccumulatedAmortization" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_LeaseAssetsAccumulatedAmortization" order="4"/>
-    <link:loc xlink:label="ns13_AdvancesSpecialAssessmentDistricts" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesSpecialAssessmentDistricts" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesSpecialAssessmentDistricts" order="8"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" order="6"/>
-    <link:loc xlink:label="ns13_NotesPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_NotesPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_NotesPayableDueWithinOneYear" order="6"/>
-    <link:loc xlink:label="ns13_BondsPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_BondsPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_BondsPayableDueWithinOneYear" order="27"/>
-    <link:loc xlink:label="ns13_DueToCourtWards" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToCourtWards" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToCourtWards" order="37"/>
-    <link:loc xlink:label="ns13_DueFromTownshipsRoadAgreements" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromTownshipsRoadAgreements" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromTownshipsRoadAgreements" order="26"/>
-    <link:loc xlink:label="ns13_DueFromEmployees" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromEmployees" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromEmployees" order="28"/>
-    <link:loc xlink:label="ns13_SpecialAssessmentsReceivableDelinquent" xlink:href="../../../elts/acfr_2023.xsd#acfr_SpecialAssessmentsReceivableDelinquent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_SpecialAssessmentsReceivableDelinquent" order="9"/>
-    <link:loc xlink:label="ns13_AccruedVacationPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedVacationPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedVacationPayable" order="32"/>
-    <link:loc xlink:label="ns13_Sewer" xlink:href="../../../elts/acfr_2023.xsd#acfr_Sewer" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_Sewer" order="25"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciationSewerSystem" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationSewerSystem" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationSewerSystem" order="26"/>
+    <link:loc xlink:label="ns13_BuildingsAndImprovements" xlink:href="../../../elts/acfr_2023.xsd#acfr_BuildingsAndImprovements" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_BuildingsAndImprovements" order="7"/>
     <link:loc xlink:label="ns13_LeasesReceivableNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeasesReceivableNoncurrent" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_LeasesReceivableNoncurrent" order="7"/>
-    <link:loc xlink:label="ns13_CourtOrdersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CourtOrdersPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CourtOrdersPayable" order="36"/>
-    <link:loc xlink:label="ns13_UnclaimedMoney" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnclaimedMoney" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UnclaimedMoney" order="38"/>
-    <link:loc xlink:label="ns13_GarnishmentsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_GarnishmentsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_GarnishmentsPayable" order="39"/>
-    <link:loc xlink:label="ns13_RoadEquipment" xlink:href="../../../elts/acfr_2023.xsd#acfr_RoadEquipment" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_RoadEquipment" order="9"/>
+    <link:loc xlink:label="ns13_LongTermContractsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_LongTermContractsReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_LongTermContractsReceivable" order="5"/>
+    <link:loc xlink:label="ns13_AdvancesSpecialAssessmentDistricts" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesSpecialAssessmentDistricts" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesSpecialAssessmentDistricts" order="8"/>
+    <link:loc xlink:label="ns13_SpecialAssessmentTaxesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_SpecialAssessmentTaxesReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_SpecialAssessmentTaxesReceivable" order="8"/>
+    <link:loc xlink:label="ns13_RetainagePayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_RetainagePayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_RetainagePayable" order="8"/>
+    <link:loc xlink:label="ns13_OtherAdvances" xlink:href="../../../elts/acfr_2023.xsd#acfr_OtherAdvances" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_OtherAdvances" order="9"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationBuildingsBuildingAdditionsAndImprovements" order="8"/>
+    <link:loc xlink:label="ns13_SpecialAssessmentsReceivableDelinquent" xlink:href="../../../elts/acfr_2023.xsd#acfr_SpecialAssessmentsReceivableDelinquent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_SpecialAssessmentsReceivableDelinquent" order="9"/>
     <link:loc xlink:label="ns13_LandContractsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandContractsPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_LandContractsPayable" order="9"/>
-    <link:loc xlink:label="ns13_PatientsOrInmatesTrustMoneyPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_PatientsOrInmatesTrustMoneyPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_PatientsOrInmatesTrustMoneyPayable" order="40"/>
-    <link:loc xlink:label="ns13_DueToOtherFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToOtherFunds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToOtherFunds" order="10"/>
-    <link:loc xlink:label="ns13_RestitutionsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_RestitutionsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_RestitutionsPayable" order="41"/>
-    <link:loc xlink:label="ns13_UndistributedReceipts" xlink:href="../../../elts/acfr_2023.xsd#acfr_UndistributedReceipts" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UndistributedReceipts" order="42"/>
     <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_NetPensionLiability" order="10"/>
-    <link:loc xlink:label="ns13_UndistributedTaxCollections" xlink:href="../../../elts/acfr_2023.xsd#acfr_UndistributedTaxCollections" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UndistributedTaxCollections" order="43"/>
-    <link:loc xlink:label="ns13_NetOPEBLiability" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_NetOPEBLiability" order="11"/>
+    <link:loc xlink:label="ns13_RoadEquipment" xlink:href="../../../elts/acfr_2023.xsd#acfr_RoadEquipment" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_RoadEquipment" order="9"/>
     <link:loc xlink:label="ns13_SpecialAssessmentTaxesReceivableUnavailable" xlink:href="../../../elts/acfr_2023.xsd#acfr_SpecialAssessmentTaxesReceivableUnavailable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_SpecialAssessmentTaxesReceivableUnavailable" order="10"/>
-    <link:loc xlink:label="ns13_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" order="44"/>
-    <link:loc xlink:label="ns13_ReceiptsRefundable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ReceiptsRefundable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_ReceiptsRefundable" order="45"/>
-    <link:loc xlink:label="ns13_LandConstructionInProgressAndOtherNonDepreciableAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandConstructionInProgressAndOtherNonDepreciableAssets" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandConstructionInProgressAndOtherNonDepreciableAssets" order="29"/>
-    <link:loc xlink:label="ns13_PerformanceDepositsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_PerformanceDepositsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_PerformanceDepositsPayable" order="46"/>
+    <link:loc xlink:label="ns13_DueToOtherFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToOtherFunds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToOtherFunds" order="10"/>
     <link:loc xlink:label="ns13_NetPensionAsset" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetPensionAsset" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_NetPensionAsset" order="8"/>
-    <link:loc xlink:label="ns13_AccruedWagesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedWagesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedWagesPayable" order="34"/>
-    <link:loc xlink:label="ns13_NetOPEBAsset" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetOPEBAsset" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_NetOPEBAsset" order="9"/>
-    <link:loc xlink:label="ns13_DueToCities" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToCities" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToCities" order="11"/>
-    <link:loc xlink:label="ns13_DueToFiscalAgent" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToFiscalAgent" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToFiscalAgent" order="47"/>
-    <link:loc xlink:label="ns13_AccruedInterestReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedInterestReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccruedInterestReceivable" order="11"/>
-    <link:loc xlink:label="ns13_AccruedWagesAndRelatedLiabilitiesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedWagesAndRelatedLiabilitiesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedWagesAndRelatedLiabilitiesPayable" order="30"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UnamortizedPremiumOnBonds" order="48"/>
+    <link:loc xlink:label="ns13_NetOPEBLiability" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_NetOPEBLiability" order="11"/>
     <link:loc xlink:label="ns13_AccumulatedDepreciationRoadEquipment" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationRoadEquipment" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationRoadEquipment" order="10"/>
+    <link:loc xlink:label="ns13_NetOPEBAsset" xlink:href="../../../elts/acfr_2023.xsd#acfr_NetOPEBAsset" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_NetOPEBAsset" order="9"/>
+    <link:loc xlink:label="ns13_AccruedInterestReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedInterestReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccruedInterestReceivable" order="11"/>
+    <link:loc xlink:label="ns13_DueToCities" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToCities" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToCities" order="11"/>
     <link:loc xlink:label="ns13_UnamortizedDiscountsOnBondsSoldByLocalUnit" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnamortizedDiscountsOnBondsSoldByLocalUnit" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_UnamortizedDiscountsOnBondsSoldByLocalUnit" order="10"/>
     <link:loc xlink:label="ns13_UnearnedRevenueNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnearnedRevenueNoncurrent" xlink:type="locator"/>
@@ -305,31 +168,170 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromFederalGovernment" order="25"/>
     <link:loc xlink:label="ns13_DueToCommunityCollege" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToCommunityCollege" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToCommunityCollege" order="25"/>
+    <link:loc xlink:label="ns13_Sewer" xlink:href="../../../elts/acfr_2023.xsd#acfr_Sewer" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_Sewer" order="25"/>
+    <link:loc xlink:label="ns13_DueFromTownshipsRoadAgreements" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromTownshipsRoadAgreements" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromTownshipsRoadAgreements" order="26"/>
     <link:loc xlink:label="ns13_DueToSpecialEducation" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToSpecialEducation" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToSpecialEducation" order="26"/>
-    <link:loc xlink:label="ns13_TaxesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_TaxesPayable" order="31"/>
-    <link:loc xlink:label="ns13_CashBondsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashBondsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CashBondsPayable" order="35"/>
-    <link:loc xlink:label="ns13_ServiceFeesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ServiceFeesReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_ServiceFeesReceivable" order="31"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciationSewerSystem" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationSewerSystem" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationSewerSystem" order="26"/>
     <link:loc xlink:label="ns13_DueFromOtherGovernments" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromOtherGovernments" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromOtherGovernments" order="27"/>
-    <link:loc xlink:label="ns13_DueFromOtherFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromOtherFunds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromOtherFunds" order="29"/>
-    <link:loc xlink:label="ns13_CourtOrdersReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CourtOrdersReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_CourtOrdersReceivable" order="30"/>
-    <link:loc xlink:label="ns13_AccruedSickLeavePayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedSickLeavePayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedSickLeavePayable" order="33"/>
+    <link:loc xlink:label="ns13_BondsPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_BondsPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_BondsPayableDueWithinOneYear" order="27"/>
     <link:loc xlink:label="ns13_EasementsRightOfWay" xlink:href="../../../elts/acfr_2023.xsd#acfr_EasementsRightOfWay" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_EasementsRightOfWay" order="27"/>
-    <link:loc xlink:label="ns13_ConstructionInProgress" xlink:href="../../../elts/acfr_2023.xsd#acfr_ConstructionInProgress" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_ConstructionInProgress" order="28"/>
-    <link:loc xlink:label="ns13_ForfeitureCertificateRecordingFeesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ForfeitureCertificateRecordingFeesReceivable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_ForfeitureCertificateRecordingFeesReceivable" order="32"/>
-    <link:loc xlink:label="ns13_CustomerDeposits" xlink:href="../../../elts/acfr_2023.xsd#acfr_CustomerDeposits" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CustomerDeposits" order="29"/>
+    <link:loc xlink:label="ns13_DueFromEmployees" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromEmployees" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromEmployees" order="28"/>
     <link:loc xlink:label="ns13_AccruedInterestPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedInterestPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedInterestPayable" order="28"/>
+    <link:loc xlink:label="ns13_ConstructionInProgress" xlink:href="../../../elts/acfr_2023.xsd#acfr_ConstructionInProgress" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_ConstructionInProgress" order="28"/>
+    <link:loc xlink:label="ns13_DueFromOtherFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueFromOtherFunds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DueFromOtherFunds" order="29"/>
+    <link:loc xlink:label="ns13_CustomerDeposits" xlink:href="../../../elts/acfr_2023.xsd#acfr_CustomerDeposits" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CustomerDeposits" order="29"/>
+    <link:loc xlink:label="ns13_LandConstructionInProgressAndOtherNonDepreciableAssets" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandConstructionInProgressAndOtherNonDepreciableAssets" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandConstructionInProgressAndOtherNonDepreciableAssets" order="29"/>
+    <link:loc xlink:label="ns13_CourtOrdersReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CourtOrdersReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_CourtOrdersReceivable" order="30"/>
+    <link:loc xlink:label="ns13_AccruedWagesAndRelatedLiabilitiesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedWagesAndRelatedLiabilitiesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedWagesAndRelatedLiabilitiesPayable" order="30"/>
+    <link:loc xlink:label="ns13_ServiceFeesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ServiceFeesReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_ServiceFeesReceivable" order="31"/>
+    <link:loc xlink:label="ns13_TaxesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_TaxesPayable" order="31"/>
+    <link:loc xlink:label="ns13_ForfeitureCertificateRecordingFeesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ForfeitureCertificateRecordingFeesReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_ForfeitureCertificateRecordingFeesReceivable" order="32"/>
+    <link:loc xlink:label="ns13_AccruedVacationPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedVacationPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedVacationPayable" order="32"/>
+    <link:loc xlink:label="ns13_AccruedSickLeavePayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedSickLeavePayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedSickLeavePayable" order="33"/>
+    <link:loc xlink:label="ns13_AccruedWagesPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccruedWagesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccruedWagesPayable" order="34"/>
+    <link:loc xlink:label="ns13_CashBondsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashBondsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CashBondsPayable" order="35"/>
+    <link:loc xlink:label="ns13_CourtOrdersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_CourtOrdersPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_CourtOrdersPayable" order="36"/>
+    <link:loc xlink:label="ns13_DueToCourtWards" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToCourtWards" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToCourtWards" order="37"/>
+    <link:loc xlink:label="ns13_UnclaimedMoney" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnclaimedMoney" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UnclaimedMoney" order="38"/>
+    <link:loc xlink:label="ns13_GarnishmentsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_GarnishmentsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_GarnishmentsPayable" order="39"/>
+    <link:loc xlink:label="ns13_PatientsOrInmatesTrustMoneyPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_PatientsOrInmatesTrustMoneyPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_PatientsOrInmatesTrustMoneyPayable" order="40"/>
+    <link:loc xlink:label="ns13_RestitutionsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_RestitutionsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_RestitutionsPayable" order="41"/>
+    <link:loc xlink:label="ns13_UndistributedReceipts" xlink:href="../../../elts/acfr_2023.xsd#acfr_UndistributedReceipts" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UndistributedReceipts" order="42"/>
+    <link:loc xlink:label="ns13_UndistributedTaxCollections" xlink:href="../../../elts/acfr_2023.xsd#acfr_UndistributedTaxCollections" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UndistributedTaxCollections" order="43"/>
+    <link:loc xlink:label="ns13_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToTaxpayersTaxOverpaymentsAndDuplicatePayments" order="44"/>
+    <link:loc xlink:label="ns13_ReceiptsRefundable" xlink:href="../../../elts/acfr_2023.xsd#acfr_ReceiptsRefundable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_ReceiptsRefundable" order="45"/>
+    <link:loc xlink:label="ns13_CashAndCashEquivalentsAndInvestments_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashAndCashEquivalentsAndInvestments" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_CashAndCashEquivalentsAndInvestments_1" order="1"/>
+    <link:loc xlink:label="ns13_PerformanceDepositsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_PerformanceDepositsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_PerformanceDepositsPayable" order="46"/>
+    <link:loc xlink:label="ns13_CashChecking" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashChecking" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashChecking" order="1"/>
+    <link:loc xlink:label="ns13_DueToFiscalAgent" xlink:href="../../../elts/acfr_2023.xsd#acfr_DueToFiscalAgent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DueToFiscalAgent" order="47"/>
+    <link:loc xlink:label="ns13_TaxesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_TaxesReceivable" order="1"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds" xlink:href="../../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_UnamortizedPremiumOnBonds" order="48"/>
+    <link:loc xlink:label="ns13_TaxesReceivableRealPropertyCurrentLevy" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableRealPropertyCurrentLevy" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableRealPropertyCurrentLevy" order="1"/>
+    <link:loc xlink:label="ns13_Inventory" xlink:href="../../../elts/acfr_2023.xsd#acfr_Inventory" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_InventoryRoadMaterials" xlink:href="../../../elts/acfr_2023.xsd#acfr_InventoryRoadMaterials" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Inventory" xlink:to="ns13_InventoryRoadMaterials" order="1"/>
+    <link:loc xlink:label="ns13_Assets" xlink:href="../../../elts/acfr_2023.xsd#acfr_Assets" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CurrentAssets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentAssets" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_CurrentAssets_1" order="1"/>
+    <link:loc xlink:label="ns13_Liabilities" xlink:href="../../../elts/acfr_2023.xsd#acfr_Liabilities" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CurrentLiabilities_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_CurrentLiabilities" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_CurrentLiabilities_1" order="1"/>
+    <link:loc xlink:label="ns13_VouchersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_VouchersPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_VouchersPayable" order="1"/>
+    <link:loc xlink:label="ns13_DeferredInflowsOfResources" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResources" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_DeferredInflowsOfResourcesDrainOrders" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResourcesDrainOrders" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_DeferredInflowsOfResources" xlink:to="ns13_DeferredInflowsOfResourcesDrainOrders" order="1"/>
+    <link:loc xlink:label="ns13_CashSavings" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashSavings" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashSavings" order="2"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_AccumulatedDepreciationDepletableAssetsISTHISTHERIGHTPLACE" order="6"/>
+    <link:loc xlink:label="ns13_BondPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_BondPayableDueInMoreThanOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_BondPayableDueInMoreThanOneYear" order="1"/>
+    <link:loc xlink:label="ns13_Land" xlink:href="../../../elts/acfr_2023.xsd#acfr_Land" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_Land" order="1"/>
+    <link:loc xlink:label="ns13_TaxesReceivableDelinquentPersonalProperty" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableDelinquentPersonalProperty" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableDelinquentPersonalProperty" order="4"/>
+    <link:loc xlink:label="ns13_Receivables_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Receivables" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_Receivables_1" order="2"/>
+    <link:loc xlink:label="ns13_TaxesReceivablePersonalPropertyCurrentLevy" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivablePersonalPropertyCurrentLevy" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivablePersonalPropertyCurrentLevy" order="2"/>
+    <link:loc xlink:label="ns13_InterestAndPenaltiesReceivableOnTaxes" xlink:href="../../../elts/acfr_2023.xsd#acfr_InterestAndPenaltiesReceivableOnTaxes" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_InterestAndPenaltiesReceivableOnTaxes" order="2"/>
+    <link:loc xlink:label="ns13_InventoryEquipmentMaterialsAndParts" xlink:href="../../../elts/acfr_2023.xsd#acfr_InventoryEquipmentMaterialsAndParts" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Inventory" xlink:to="ns13_InventoryEquipmentMaterialsAndParts" order="2"/>
+    <link:loc xlink:label="ns13_AccountsPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_AccountsPayable" order="2"/>
+    <link:loc xlink:label="ns13_NoncurrentAssets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentAssets" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_NoncurrentAssets_1" order="2"/>
+    <link:loc xlink:label="ns13_InvestmentsOfSurplusFunds" xlink:href="../../../elts/acfr_2023.xsd#acfr_InvestmentsOfSurplusFunds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_InvestmentsOfSurplusFunds" order="1"/>
+    <link:loc xlink:label="ns13_NoncurrentLiabilities_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_NoncurrentLiabilities" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_NoncurrentLiabilities_1" order="2"/>
+    <link:loc xlink:label="ns13_LeasesPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_LeasesPayableDueInMoreThanOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_LeasesPayableDueInMoreThanOneYear" order="2"/>
+    <link:loc xlink:label="ns13_AdvancesFromOtherGovernmentsNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromOtherGovernmentsNoncurrent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromOtherGovernmentsNoncurrent" order="7"/>
+    <link:loc xlink:label="ns13_CertificatesOfDeposit" xlink:href="../../../elts/acfr_2023.xsd#acfr_CertificatesOfDeposit" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CertificatesOfDeposit" order="3"/>
+    <link:loc xlink:label="ns13_LandImprovementsNonDepreciating" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandImprovementsNonDepreciating" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandImprovementsNonDepreciating" order="2"/>
+    <link:loc xlink:label="ns13_AccountsReceivableAllowance" xlink:href="../../../elts/acfr_2023.xsd#acfr_AccountsReceivableAllowance" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AccountsReceivableAllowance" order="6"/>
+    <link:loc xlink:label="ns13_AdvancesReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_AdvancesReceivable" order="7"/>
+    <link:loc xlink:label="ns13_UtilitiesAndWaterReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_UtilitiesAndWaterReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_UtilitiesAndWaterReceivable" order="3"/>
+    <link:loc xlink:label="ns13_NotesPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_NotesPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_NotesPayableDueWithinOneYear" order="6"/>
+    <link:loc xlink:label="ns13_AdvancesFromFederalGovernmentNoncurrent" xlink:href="../../../elts/acfr_2023.xsd#acfr_AdvancesFromFederalGovernmentNoncurrent" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_AdvancesFromFederalGovernmentNoncurrent" order="6"/>
+    <link:loc xlink:label="ns16_ChartOfAccountsMichiganAbstract" xlink:href="../elts/MI_2023.xsd#acfr_ChartOfAccountsMichiganAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_Assets_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Assets" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_ChartOfAccountsMichiganAbstract" xlink:to="ns13_Assets_1" order="1"/>
+    <link:loc xlink:label="ns13_TaxesReceivableDelinquentRealProperty" xlink:href="../../../elts/acfr_2023.xsd#acfr_TaxesReceivableDelinquentRealProperty" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TaxesReceivable" xlink:to="ns13_TaxesReceivableDelinquentRealProperty" order="3"/>
+    <link:loc xlink:label="ns13_Inventory_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Inventory" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_Inventory_1" order="3"/>
+    <link:loc xlink:label="ns13_DeferredOutflowsOfResources" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredOutflowsOfResources" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Assets" xlink:to="ns13_DeferredOutflowsOfResources" order="3"/>
+    <link:loc xlink:label="ns13_DrainOrdersPayable" xlink:href="../../../elts/acfr_2023.xsd#acfr_DrainOrdersPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_DrainOrdersPayable" order="3"/>
+    <link:loc xlink:label="ns13_DeferredInflowsOfResources_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_DeferredInflowsOfResources" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Liabilities" xlink:to="ns13_DeferredInflowsOfResources_1" order="3"/>
+    <link:loc xlink:label="ns13_CashOnHand" xlink:href="../../../elts/acfr_2023.xsd#acfr_CashOnHand" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CashAndCashEquivalentsAndInvestments" xlink:to="ns13_CashOnHand" order="4"/>
+    <link:loc xlink:label="ns13_DelinquentUtilityBillsReceivable" xlink:href="../../../elts/acfr_2023.xsd#acfr_DelinquentUtilityBillsReceivable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_Receivables" xlink:to="ns13_DelinquentUtilityBillsReceivable" order="4"/>
+    <link:loc xlink:label="ns13_NotesPayableDueInMoreThanOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_NotesPayableDueInMoreThanOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentLiabilities" xlink:to="ns13_NotesPayableDueInMoreThanOneYear" order="3"/>
+    <link:loc xlink:label="ns13_LandImprovementsDepreciating" xlink:href="../../../elts/acfr_2023.xsd#acfr_LandImprovementsDepreciating" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:to="ns13_LandImprovementsDepreciating" order="3"/>
+    <link:loc xlink:label="ns13_Liabilities_1" xlink:href="../../../elts/acfr_2023.xsd#acfr_Liabilities" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_ChartOfAccountsMichiganAbstract" xlink:to="ns13_Liabilities_1" order="2"/>
+    <link:loc xlink:label="ns13_PrepaidExpenses" xlink:href="../../../elts/acfr_2023.xsd#acfr_PrepaidExpenses" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentAssets" xlink:to="ns13_PrepaidExpenses" order="4"/>
+    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:href="../../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CurrentLiabilities" xlink:to="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" order="4"/>
+    <link:loc xlink:label="ns13_InvestmentsInJointVentures" xlink:href="../../../elts/acfr_2023.xsd#acfr_InvestmentsInJointVentures" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NoncurrentAssets" xlink:to="ns13_InvestmentsInJointVentures" order="2"/>
   </link:presentationLink>
 </link:linkbase>

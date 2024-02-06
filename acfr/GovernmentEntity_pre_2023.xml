@@ -1,20 +1,19 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/entity-report" xlink:href="elts/acfr_roles_2023.xsd#entity-report" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/entity-report" xlink:type="extended">
-    <link:loc xlink:label="ns14_CO" xlink:href="state/CO/elts/CO_2023.xsd#acfr_CO" xlink:type="locator"/>
-    <link:loc xlink:label="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:href="state/CO/elts/CO_2023.xsd#acfr_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns14_CO" xlink:to="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" order="1"/>
     <link:loc xlink:label="ns13_GovernmentEntityAbstract" xlink:href="elts/acfr_2023.xsd#acfr_GovernmentEntityAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns14_CO_1" xlink:href="state/CO/elts/CO_2023.xsd#acfr_CO" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentEntityAbstract" xlink:to="ns14_CO_1" order="1"/>
     <link:loc xlink:label="ns16_MI" xlink:href="state/MI/elts/MI_2023.xsd#acfr_MI" xlink:type="locator"/>
-    <link:loc xlink:label="ns16_Form5572MichiganAbstract" xlink:href="state/MI/elts/MI_2023.xsd#acfr_Form5572MichiganAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_MI" xlink:to="ns16_Form5572MichiganAbstract" order="2"/>
-    <link:loc xlink:label="ns16_MI_1" xlink:href="state/MI/elts/MI_2023.xsd#acfr_MI" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentEntityAbstract" xlink:to="ns16_MI_1" order="2"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentEntityAbstract" xlink:to="ns16_MI" order="2"/>
     <link:loc xlink:label="ns16_ChartOfAccountsMichiganAbstract" xlink:href="state/MI/elts/MI_2023.xsd#acfr_ChartOfAccountsMichiganAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_MI" xlink:to="ns16_ChartOfAccountsMichiganAbstract" order="3"/>
     <link:loc xlink:label="ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:href="state/MI/elts/MI_2023.xsd#acfr_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_MI" xlink:to="ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" order="1"/>
+    <link:loc xlink:label="ns14_CO" xlink:href="state/CO/elts/CO_2023.xsd#acfr_CO" xlink:type="locator"/>
+    <link:loc xlink:label="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:href="state/CO/elts/CO_2023.xsd#acfr_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns14_CO" xlink:to="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" order="1"/>
+    <link:loc xlink:label="ns14_CO_1" xlink:href="state/CO/elts/CO_2023.xsd#acfr_CO" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentEntityAbstract" xlink:to="ns14_CO_1" order="1"/>
+    <link:loc xlink:label="ns16_Form5572MichiganAbstract" xlink:href="state/MI/elts/MI_2023.xsd#acfr_Form5572MichiganAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns16_MI" xlink:to="ns16_Form5572MichiganAbstract" order="2"/>
   </link:presentationLink>
 </link:linkbase>

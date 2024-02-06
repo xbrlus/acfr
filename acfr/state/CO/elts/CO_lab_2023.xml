@@ -3,11 +3,11 @@
   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
     <link:loc xlink:label="ns14_CO" xlink:href="CO_2023.xsd#acfr_CO" xlink:type="locator"/>
     <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns14_CO" xlink:to="lbl_lab_ns14_CO"/>
-    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns14_CO" xml:lang="en-US">CO [State]</link:label>
     <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns14_CO" xml:lang="en-US">State</link:label>
     <link:loc xlink:label="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:href="CO_2023.xsd#acfr_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:type="locator"/>
     <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xlink:to="lbl_lab_ns14_ChartOfAccountsColoradoSchoolDistrictAbstract"/>
     <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xml:lang="en-US">State</link:label>
     <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns14_ChartOfAccountsColoradoSchoolDistrictAbstract" xml:lang="en-US">Chart of Accounts - Colorado School District [Abstract]</link:label>
+    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns14_CO" xml:lang="en-US">CO [State]</link:label>
   </link:labelLink>
 </link:linkbase>

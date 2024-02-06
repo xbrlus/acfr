@@ -1,7 +1,7 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationSF424" xlink:href="GrantsManagementApplicationForFederalAssistance_2023.xsd#GrantsManagementApplicationSF424" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationSF424" xlink:type="extended">
     <link:loc xlink:label="ns2_ApplicationForFederalAssistanceDetailsAbstract" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceDetailsAbstract" xlink:type="locator"/>
@@ -13,6 +13,13 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceDetailsAbstract" xlink:to="ns2_GrantsApplicantTypeAbstract" order="3"/>
     <link:loc xlink:label="ns2_GrantsManagementProjectInformationAbstract" xlink:href="../../elts/grants_2023.xsd#sap_GrantsManagementProjectInformationAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceDetailsAbstract" xlink:to="ns2_GrantsManagementProjectInformationAbstract" order="4"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceTable" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_FederalProgramIdentifierAxis" xlink:href="../../elts/grants_2023.xsd#sap_FederalProgramIdentifierAxis" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceTable" xlink:to="ns2_FederalProgramIdentifierAxis" order="1"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ApplicationForFederalAssistanceTable" order="1" xbrldt:contextElement="segment"/>
+    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceDetailsAbstract_1" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceDetailsAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ApplicationForFederalAssistanceDetailsAbstract_1" order="1"/>
     <link:loc xlink:label="ns2_GrantsApplicantTypeStateGovernment" xlink:href="../../elts/grants_2023.xsd#sap_GrantsApplicantTypeStateGovernment" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsApplicantTypeAbstract" xlink:to="ns2_GrantsApplicantTypeStateGovernment" order="1"/>
     <link:loc xlink:label="ns2_GrantsApplicantTypeCountyGovernment" xlink:href="../../elts/grants_2023.xsd#sap_GrantsApplicantTypeCountyGovernment" xlink:type="locator"/>
@@ -59,27 +66,6 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsApplicantTypeAbstract" xlink:to="ns2_GrantsApplicantTypeNonUSEntity" order="22"/>
     <link:loc xlink:label="ns2_GrantsApplicantTypeOther" xlink:href="../../elts/grants_2023.xsd#sap_GrantsApplicantTypeOther" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsApplicantTypeAbstract" xlink:to="ns2_GrantsApplicantTypeOther" order="23"/>
-    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceTable" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns2_FederalProgramIdentifierAxis" xlink:href="../../elts/grants_2023.xsd#sap_FederalProgramIdentifierAxis" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceTable" xlink:to="ns2_FederalProgramIdentifierAxis" order="1"/>
-    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ApplicationForFederalAssistanceTable" order="1" xbrldt:contextElement="segment"/>
-    <link:loc xlink:label="ns2_GrantApplicationSubmissionTypeCode" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationSubmissionTypeCode" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationSubmissionTypeCode" order="1"/>
-    <link:loc xlink:label="ns2_GrantTypeOfApplication" xlink:href="../../elts/grants_2023.xsd#sap_GrantTypeOfApplication" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantTypeOfApplication" order="2"/>
-    <link:loc xlink:label="ns2_GrantApplicationTypeOfRevision" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationTypeOfRevision" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationTypeOfRevision" order="3"/>
-    <link:loc xlink:label="ns2_GrantApplicationOtherRevisionDescription" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationOtherRevisionDescription" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationOtherRevisionDescription" order="4"/>
-    <link:loc xlink:label="ns2_ApplicationDateReceived" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationDateReceived" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_ApplicationDateReceived" order="5"/>
-    <link:loc xlink:label="ns2_ApplicationDateReceivedByState" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationDateReceivedByState" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_ApplicationDateReceivedByState" order="6"/>
-    <link:loc xlink:label="ns2_FederalAwardIdentifier" xlink:href="../../elts/grants_2023.xsd#sap_FederalAwardIdentifier" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_FederalAwardIdentifier" order="7"/>
-    <link:loc xlink:label="ns2_StateApplicationIdentifier" xlink:href="../../elts/grants_2023.xsd#sap_StateApplicationIdentifier" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_StateApplicationIdentifier" order="8"/>
     <link:loc xlink:label="ns2_GranteeApplicantIdentifier" xlink:href="../../elts/grants_2023.xsd#sap_GranteeApplicantIdentifier" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicantInformationAbstract" xlink:to="ns2_GranteeApplicantIdentifier" order="1"/>
     <link:loc xlink:label="ns2_GranteeEmployerIdentificationNumber" xlink:href="../../elts/grants_2023.xsd#sap_GranteeEmployerIdentificationNumber" xlink:type="locator"/>
@@ -122,8 +108,22 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicantInformationAbstract" xlink:to="ns2_OrganizationalUnitDepartmentName" order="20"/>
     <link:loc xlink:label="ns2_OrganizationalUnitDivisionName" xlink:href="../../elts/grants_2023.xsd#sap_OrganizationalUnitDivisionName" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicantInformationAbstract" xlink:to="ns2_OrganizationalUnitDivisionName" order="21"/>
-    <link:loc xlink:label="ns2_ApplicationForFederalAssistanceDetailsAbstract_1" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceDetailsAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_ApplicationForFederalAssistanceLineItems" xlink:to="ns2_ApplicationForFederalAssistanceDetailsAbstract_1" order="1"/>
+    <link:loc xlink:label="ns2_GrantApplicationSubmissionTypeCode" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationSubmissionTypeCode" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationSubmissionTypeCode" order="1"/>
+    <link:loc xlink:label="ns2_GrantTypeOfApplication" xlink:href="../../elts/grants_2023.xsd#sap_GrantTypeOfApplication" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantTypeOfApplication" order="2"/>
+    <link:loc xlink:label="ns2_GrantApplicationTypeOfRevision" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationTypeOfRevision" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationTypeOfRevision" order="3"/>
+    <link:loc xlink:label="ns2_GrantApplicationOtherRevisionDescription" xlink:href="../../elts/grants_2023.xsd#sap_GrantApplicationOtherRevisionDescription" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_GrantApplicationOtherRevisionDescription" order="4"/>
+    <link:loc xlink:label="ns2_ApplicationDateReceived" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationDateReceived" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_ApplicationDateReceived" order="5"/>
+    <link:loc xlink:label="ns2_ApplicationDateReceivedByState" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationDateReceivedByState" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_ApplicationDateReceivedByState" order="6"/>
+    <link:loc xlink:label="ns2_FederalAwardIdentifier" xlink:href="../../elts/grants_2023.xsd#sap_FederalAwardIdentifier" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_FederalAwardIdentifier" order="7"/>
+    <link:loc xlink:label="ns2_StateApplicationIdentifier" xlink:href="../../elts/grants_2023.xsd#sap_StateApplicationIdentifier" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementApplicationInformationAbstract" xlink:to="ns2_StateApplicationIdentifier" order="8"/>
     <link:loc xlink:label="ns2_FederalAwardingAgencyEnumerated" xlink:href="../../elts/grants_2023.xsd#sap_FederalAwardingAgencyEnumerated" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns2_GrantsManagementProjectInformationAbstract" xlink:to="ns2_FederalAwardingAgencyEnumerated" order="1"/>
     <link:loc xlink:label="ns2_CFDANumber" xlink:href="../../elts/grants_2023.xsd#sap_CFDANumber" xlink:type="locator"/>

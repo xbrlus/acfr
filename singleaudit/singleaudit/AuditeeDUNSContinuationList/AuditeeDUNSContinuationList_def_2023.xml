@@ -1,15 +1,16 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditGeneralDUNSContinuationList" xlink:href="AuditeeDUNSContinuationList_2023.xsd#SingleAuditGeneralDUNSContinuationList" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditGeneralDUNSContinuationList" xlink:type="extended">
+    <link:loc xlink:label="ns11_AuditeeDUNSContinuationListLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_GranteeDUNSNumber" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeDUNSNumber" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems" xlink:to="ns2_GranteeDUNSNumber" order="1"/>
     <link:loc xlink:label="ns11_AuditeeDUNSContinuationListTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListTable" xlink:type="locator"/>
     <link:loc xlink:label="ns11_AuditeeDUNSContinuationListAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListAxis" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListTable" xlink:to="ns11_AuditeeDUNSContinuationListAxis" order="1"/>
-    <link:loc xlink:label="ns11_AuditeeDUNSContinuationListLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems" xlink:to="ns11_AuditeeDUNSContinuationListTable" order="1" xbrldt:contextElement="segment"/>
-    <link:loc xlink:label="ns2_GranteeDUNSNumber" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeDUNSNumber" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems" xlink:to="ns2_GranteeDUNSNumber" order="1"/>
+    <link:loc xlink:label="ns11_AuditeeDUNSContinuationListLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeDUNSContinuationListLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_AuditeeDUNSContinuationListLineItems_1" xlink:to="ns11_AuditeeDUNSContinuationListTable" order="1" xbrldt:contextElement="segment"/>
   </link:definitionLink>
 </link:linkbase>

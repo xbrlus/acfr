@@ -6,9 +6,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="StatementOfNetPosition_pre_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPosition" id="NetPosition">
         <linkbase:definition>100000 - Statement - Net Position</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionAlternative" id="NetPositionAlternative">
         <linkbase:definition>100001 - Statement - Net Position - Alternative Calculation</linkbase:definition>
@@ -31,15 +31,21 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionFire" id="NetPositionFire">
         <linkbase:definition>760000 - Statement - Net Position, Fire</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionHospital" id="NetPositionHospital">
+        <linkbase:definition>780000 - Statement - Net Position, Hospital</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionMetro" id="NetPositionMetro">
         <linkbase:definition>770000 - Statement - Net Position, Metropolitan</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionNetRestricted" id="NetPositionNetRestricted">
         <linkbase:definition>101100 - Statement - Net Position - Other Restricted Components of Net Position (Details)</linkbase:definition>
@@ -88,9 +94,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/NetPositionSchoolDistrict" id="NetPositionSchoolDistrict">
         <linkbase:definition>710000 - Statement - Net Position, School</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

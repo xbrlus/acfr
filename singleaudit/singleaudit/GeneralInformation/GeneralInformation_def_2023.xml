@@ -3,35 +3,6 @@
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditGeneralInformation" xlink:type="extended">
-    <link:loc xlink:label="ns11_TypeOfAuditAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_TypeOfAuditAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_UniformGuidanceAuditType" xlink:href="../../elts/singleaudit_2023.xsd#sap_UniformGuidanceAuditType" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_TypeOfAuditAbstract" xlink:to="ns11_UniformGuidanceAuditType" order="1"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorInformationAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorInformationAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorName" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorName" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorName" order="1"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorEmployerIdentificationNumber" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorEmployerIdentificationNumber" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorEmployerIdentificationNumber" order="2"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorAddressStreetAddress" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressStreetAddress" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressStreetAddress" order="3"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorAddressCity" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressCity" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressCity" order="4"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorAddressState" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressState" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressState" order="5"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorAddressZipCode" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressZipCode" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressZipCode" order="6"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorContactName" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactName" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactName" order="7"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorContactTitle" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactTitle" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactTitle" order="8"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorContactPhone" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactPhone" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactPhone" order="9"/>
-    <link:loc xlink:label="ns11_SecondaryAuditorContactEmail" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactEmail" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactEmail" order="10"/>
-    <link:loc xlink:label="ns11_AuditPeriodAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditPeriodAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_AuditPeriodCovered" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditPeriodCovered" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditPeriodAbstract" xlink:to="ns11_AuditPeriodCovered" order="1"/>
-    <link:loc xlink:label="ns11_GRMLegalEntityAuditPeriodCoveredQuantity" xlink:href="../../elts/singleaudit_2023.xsd#sap_GRMLegalEntityAuditPeriodCoveredQuantity" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditPeriodAbstract" xlink:to="ns11_GRMLegalEntityAuditPeriodCoveredQuantity" order="2"/>
     <link:loc xlink:label="ns11_PrimaryAuditorInformationAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_PrimaryAuditorInformationAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns11_PrimaryAuditorName" xlink:href="../../elts/singleaudit_2023.xsd#sap_PrimaryAuditorName" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_PrimaryAuditorInformationAbstract" xlink:to="ns11_PrimaryAuditorName" order="1"/>
@@ -64,14 +35,32 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GranteeIdentificationNumbersAbstract" xlink:to="ns2_GranteeDUNSNumber" order="3"/>
     <link:loc xlink:label="ns11_MultipleDUNSNumbers" xlink:href="../../elts/singleaudit_2023.xsd#sap_MultipleDUNSNumbers" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GranteeIdentificationNumbersAbstract" xlink:to="ns11_MultipleDUNSNumbers" order="4"/>
-    <link:loc xlink:label="ns11_GeneralInformationTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_GeneralInformationTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_GeneralInformationLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_GeneralInformationLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_GeneralInformationTable" order="1" xbrldt:contextElement="segment"/>
     <link:loc xlink:label="ns11_FiscalPeriodAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_FiscalPeriodAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns11_FiscalPeriodStartDate" xlink:href="../../elts/singleaudit_2023.xsd#sap_FiscalPeriodStartDate" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_FiscalPeriodAbstract" xlink:to="ns11_FiscalPeriodStartDate" order="1"/>
     <link:loc xlink:label="ns11_FiscalPeriodEndDate" xlink:href="../../elts/singleaudit_2023.xsd#sap_FiscalPeriodEndDate" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_FiscalPeriodAbstract" xlink:to="ns11_FiscalPeriodEndDate" order="2"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorInformationAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorInformationAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorName" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorName" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorName" order="1"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorEmployerIdentificationNumber" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorEmployerIdentificationNumber" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorEmployerIdentificationNumber" order="2"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorAddressStreetAddress" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressStreetAddress" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressStreetAddress" order="3"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorAddressCity" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressCity" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressCity" order="4"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorAddressState" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressState" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressState" order="5"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorAddressZipCode" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorAddressZipCode" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorAddressZipCode" order="6"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorContactName" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactName" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactName" order="7"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorContactTitle" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactTitle" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactTitle" order="8"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorContactPhone" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactPhone" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactPhone" order="9"/>
+    <link:loc xlink:label="ns11_SecondaryAuditorContactEmail" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorContactEmail" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_SecondaryAuditorInformationAbstract" xlink:to="ns11_SecondaryAuditorContactEmail" order="10"/>
     <link:loc xlink:label="ns11_GranteeInformationAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_GranteeInformationAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns11_GranteeName" xlink:href="../../elts/singleaudit_2023.xsd#sap_GranteeName" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GranteeInformationAbstract" xlink:to="ns11_GranteeName" order="1"/>
@@ -93,12 +82,13 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GranteeInformationAbstract" xlink:to="ns2_GranteeContactPhone" order="9"/>
     <link:loc xlink:label="ns2_GranteeContactEmail" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeContactEmail" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GranteeInformationAbstract" xlink:to="ns2_GranteeContactEmail" order="10"/>
+    <link:loc xlink:label="ns11_GeneralInformationLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_GeneralInformationLineItems" xlink:type="locator"/>
     <link:loc xlink:label="ns11_FiscalPeriodAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_FiscalPeriodAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_FiscalPeriodAbstract_1" order="1"/>
-    <link:loc xlink:label="ns11_TypeOfAuditAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_TypeOfAuditAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_TypeOfAuditAbstract_1" order="2"/>
-    <link:loc xlink:label="ns11_AuditPeriodAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditPeriodAbstract" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_AuditPeriodAbstract_1" order="3"/>
+    <link:loc xlink:label="ns11_TypeOfAuditAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_TypeOfAuditAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_TypeOfAuditAbstract" order="2"/>
+    <link:loc xlink:label="ns11_AuditPeriodAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditPeriodAbstract" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_AuditPeriodAbstract" order="3"/>
     <link:loc xlink:label="ns11_GranteeIdentificationNumbersAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_GranteeIdentificationNumbersAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_GranteeIdentificationNumbersAbstract_1" order="4"/>
     <link:loc xlink:label="ns11_GranteeInformationAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_GranteeInformationAbstract" xlink:type="locator"/>
@@ -107,5 +97,14 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_PrimaryAuditorInformationAbstract_1" order="6"/>
     <link:loc xlink:label="ns11_SecondaryAuditorInformationAbstract_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_SecondaryAuditorInformationAbstract" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems" xlink:to="ns11_SecondaryAuditorInformationAbstract_1" order="7"/>
+    <link:loc xlink:label="ns11_GeneralInformationTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_GeneralInformationTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_GeneralInformationLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_GeneralInformationLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_GeneralInformationLineItems_1" xlink:to="ns11_GeneralInformationTable" order="1" xbrldt:contextElement="segment"/>
+    <link:loc xlink:label="ns11_UniformGuidanceAuditType" xlink:href="../../elts/singleaudit_2023.xsd#sap_UniformGuidanceAuditType" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_TypeOfAuditAbstract" xlink:to="ns11_UniformGuidanceAuditType" order="1"/>
+    <link:loc xlink:label="ns11_AuditPeriodCovered" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditPeriodCovered" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditPeriodAbstract" xlink:to="ns11_AuditPeriodCovered" order="1"/>
+    <link:loc xlink:label="ns11_GRMLegalEntityAuditPeriodCoveredQuantity" xlink:href="../../elts/singleaudit_2023.xsd#sap_GRMLegalEntityAuditPeriodCoveredQuantity" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_AuditPeriodAbstract" xlink:to="ns11_GRMLegalEntityAuditPeriodCoveredQuantity" order="2"/>
   </link:definitionLink>
 </link:linkbase>

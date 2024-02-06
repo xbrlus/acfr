@@ -6,9 +6,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ProprietaryFundsStatementOfCashFlows_pre_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivities" id="PFCashActivities">
         <linkbase:definition>700000 - Statement - Proprietary Funds Cash Flows - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesCapitalFinancing" id="PFCashActivitiesCapitalFinancing">
         <linkbase:definition>703000 - Statement - Proprietary Funds Cash Flows - Type of Activities Other Capital Financing Activities (Details)</linkbase:definition>
@@ -32,9 +32,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesReconciliation" id="PFCashActivitiesReconciliation">
         <linkbase:definition>704100 - Statement - Proprietary Funds Cash Flows - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashActivitiesReconciliationOtherIncreaseDecreaseAssets" id="PFCashActivitiesReconciliationOtherIncreaseDecreaseAssets">
         <linkbase:definition>704110 - Statement - Proprietary Funds Cash Flows - Type of Activities - Reconciliation Other Increase Decrease Assets (Details)</linkbase:definition>
@@ -108,15 +108,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashFireActivitiesReconciliation" id="PFCashFireActivitiesReconciliation">
         <linkbase:definition>766050 - Statement - Proprietary Funds Cash Flows, Fire - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashHospitalActivitiesReconciliation" id="PFCashHospitalActivitiesReconciliation">
         <linkbase:definition>782055 - Statement - Proprietary Funds Cash Flows, Hospital - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashHospitalBusinessReconciliation" id="PFCashHospitalBusinessReconciliation">
         <linkbase:definition>782065 - Statement - Proprietary Funds Cash Flows, Hospital - Business Activities - Reconciliation</linkbase:definition>
@@ -125,15 +125,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashSchoolActivities" id="PFCashSchoolActivities">
         <linkbase:definition>750000 - Statement - Proprietary Funds Cash Flows, School - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashSchoolActivitiesReconciliation" id="PFCashSchoolActivitiesReconciliation">
         <linkbase:definition>750500 - Statement - Proprietary Funds Cash Flows, School - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFCashSchoolActivitiesReconciliationBusiness" id="PFCashSchoolActivitiesReconciliationBusiness">
         <linkbase:definition>755500 - Statement - Proprietary Funds Cash Flows, School - Business Activities - Reconciliation</linkbase:definition>
@@ -142,15 +142,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFFireCashActivities" id="PFFireCashActivities">
         <linkbase:definition>766040 - Statement - Proprietary Funds Cash Flows, Fire - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalCashActivities" id="PFHospitalCashActivities">
         <linkbase:definition>782050 - Statement - Proprietary Funds Cash Flows, Hospital - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalCashBusiness" id="PFHospitalCashBusiness">
         <linkbase:definition>782060 - Statement - Proprietary Funds Cash Flows, Hospital - Business Activities</linkbase:definition>
@@ -159,15 +159,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroActivitiesReconciliation" id="PFMetroActivitiesReconciliation">
         <linkbase:definition>772055 - Statement - Proprietary Funds Cash Flows, Metropolitan - Type of Activities - Reconciliation</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroCashActivities" id="PFMetroCashActivities">
         <linkbase:definition>772050 - Statement - Proprietary Funds Cash Flows, Metropolitan - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroCashBusiness" id="PFMetroCashBusiness">
         <linkbase:definition>772060 - Statement - Proprietary Funds Cash Flows, Metropolitan - Business Activities</linkbase:definition>

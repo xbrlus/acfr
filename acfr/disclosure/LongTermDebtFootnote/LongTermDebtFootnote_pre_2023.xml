@@ -1,305 +1,329 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtFootnote" xlink:href="LongTermDebtFootnote_2023.xsd#LongTermDebtFootnote" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtGeneralObligationBonds" xlink:href="LongTermDebtFootnote_2023.xsd#LongTermDebtGeneralObligationBonds" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtFootnote" xlink:href="LongTermDebtFootnote_2023.xsd#LongTermDebtFootnote" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtFootnote" xlink:type="extended">
-    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ComponentUnitDiscretelyPresentedMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComponentUnitDiscretelyPresentedMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_ComponentUnitDiscretelyPresentedMember" order="2"/>
-    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain_1" order="1"/>
-    <link:loc xlink:label="ns13_InstallmentDebtRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_InstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebt" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_BondPremiumRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremium" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremium" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_NetOPEBLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_NetOPEBLiabilityPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiabilityPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromBondPremium" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_ReductionsFromBondPremium" order="3"/>
     <link:loc xlink:label="ns13_NetPensionLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiability" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis_1" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis_1" order="1"/>
-    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToGeneralObligationBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_AdditionsToGeneralObligationBonds" order="2"/>
-    <link:loc xlink:label="ns13_RevenueBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToRevenueBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_AdditionsToRevenueBonds" order="2"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_UnlimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnlimitedTaxBondsRollForward" order="7"/>
-    <link:loc xlink:label="ns13_GeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_NotesPayableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNotesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_AdditionsToNotesPayable" order="2"/>
-    <link:loc xlink:label="ns13_RevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToLimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToLimitedTaxBonds" order="2"/>
-    <link:loc xlink:label="ns13_LoansPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_LimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToUnlimitedTaxBonds" order="2"/>
-    <link:loc xlink:label="ns13_ReductionsFromInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromInstallmentDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_ReductionsFromInstallmentDebt" order="3"/>
-    <link:loc xlink:label="ns13_BondPremium_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremium" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremium_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToBondPremium" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_AdditionsToBondPremium" order="2"/>
-    <link:loc xlink:label="ns13_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBondsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_IntergovernmentalAgreementPayableAbstract" order="10"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_LongTermDebtFootnoteLineItems_1" order="2"/>
-    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ReductionsFromCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCompensatedAbsencesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_ReductionsFromCompensatedAbsencesPayable" order="3"/>
-    <link:loc xlink:label="ns13_AdditionsToInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToInstallmentDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_AdditionsToInstallmentDebt" order="2"/>
-    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LimitedTaxBondsRollForward_1" order="8"/>
-    <link:loc xlink:label="ns13_InstallmentDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebt_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_NotesPayableRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NotesPayableRollForward_1" order="9"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligationsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligationsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLoansPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_ReductionsFromLoansPayable" order="3"/>
-    <link:loc xlink:label="ns13_LeasesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LeasesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligations" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_ReductionsFromUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromUnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_ReductionsFromUnlimitedTaxBonds" order="3"/>
-    <link:loc xlink:label="ns13_NetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiability" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_GeneralObligationBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_RevenueBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCompensatedAbsencesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_AdditionsToCompensatedAbsencesPayable" order="2"/>
-    <link:loc xlink:label="ns13_LimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_NetPensionLiability_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiability_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiability" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_CompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_GeneralObligationBondsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBondsPayableDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_LeasesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_LeasesPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayableDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_NotesPayableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_NotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_UnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNetPensionLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_ReductionsFromNetPensionLiability" order="3"/>
-    <link:loc xlink:label="ns13_CompensatedAbsencesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_NetPensionLiabilityPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityPrincipalDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiabilityPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromClaimsAndJudgmentsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ReductionsFromClaimsAndJudgmentsPayable" order="3"/>
-    <link:loc xlink:label="ns13_UnlimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteAbstract" xlink:to="ns13_LongTermDebtFootnoteTable_1" order="1"/>
-    <link:loc xlink:label="ns13_ReductionsFromNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNotesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_ReductionsFromNotesPayable" order="3"/>
-    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_ClaimsAndJudgmentsPayableAbstract_1" order="17"/>
-    <link:loc xlink:label="ns13_NetOPEBLiabilityAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetOPEBLiabilityAbstract_1" order="16"/>
-    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_GeneralObligationBondsRollForward_1" order="4"/>
-    <link:loc xlink:label="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" order="18"/>
-    <link:loc xlink:label="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLoansPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_AdditionsToLoansPayable" order="2"/>
-    <link:loc xlink:label="ns13_LoansPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LoansPayableAbstract_1" order="11"/>
-    <link:loc xlink:label="ns13_ReductionsFromLimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_ReductionsFromLimitedTaxBonds" order="3"/>
-    <link:loc xlink:label="ns13_LeasesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_AssetRetirementObligationsAbstract_1" order="14"/>
-    <link:loc xlink:label="ns13_ReductionsFromNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_ReductionsFromNetOPEBLiability" order="3"/>
-    <link:loc xlink:label="ns13_AdditionsToAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAssetRetirementObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AdditionsToAssetRetirementObligations" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetPensionLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_AdditionsToNetPensionLiability" order="2"/>
-    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_CompensatedAbsencesAbstract_1" order="12"/>
-    <link:loc xlink:label="ns13_LongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember" order="1"/>
-    <link:loc xlink:label="ns13_ReductionsFromLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLeases" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_ReductionsFromLeases" order="3"/>
-    <link:loc xlink:label="ns13_AdditionsToLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLeases" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_AdditionsToLeases" order="2"/>
-    <link:loc xlink:label="ns13_ReductionsFromIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromIntergovernmentalAgreementPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_ReductionsFromIntergovernmentalAgreementPayable" order="3"/>
-    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
-    <link:loc xlink:label="ns13_AdditionsToNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_AdditionsToNetOPEBLiability" order="2"/>
-    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnamortizedPremiumOnBondsAbstract_1" order="1"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligationsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligationsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromNoncurrentLiabilities" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNoncurrentLiabilities" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_ReductionsFromNoncurrentLiabilities" order="3"/>
-    <link:loc xlink:label="ns13_ReductionsFromRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromRevenueBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_ReductionsFromRevenueBonds" order="3"/>
-    <link:loc xlink:label="ns13_AdditionsToLongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLongTermDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_AdditionsToLongTermDebt" order="2"/>
-    <link:loc xlink:label="ns13_LoansPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_ReductionsFromPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromPollutionRemediationObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_ReductionsFromPollutionRemediationObligations" order="3"/>
-    <link:loc xlink:label="ns13_BondPremiumRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_BondPremiumRollForward_1" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToIntergovernmentalAgreementPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_AdditionsToIntergovernmentalAgreementPayable" order="2"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_PollutionRemediationObligationsAbstract_1" order="13"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligations_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligations_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_RevenueBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_RevenueBondsRollForward_1" order="6"/>
-    <link:loc xlink:label="ns13_LeasesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LeasesAbstract_1" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromAssetRetirementObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_ReductionsFromAssetRetirementObligations" order="3"/>
-    <link:loc xlink:label="ns13_NotesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_InstallmentDebtRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_InstallmentDebtRollForward_1" order="3"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligation" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligation" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToPollutionRemediationObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_AdditionsToPollutionRemediationObligations" order="2"/>
-    <link:loc xlink:label="ns13_LongTermDebtDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebtDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_LongTermDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_NetOPEBLiability_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiability_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_BondPremiumPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremiumPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_AdditionsToClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToClaimsAndJudgmentsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_AdditionsToClaimsAndJudgmentsPayable" order="2"/>
-    <link:loc xlink:label="ns13_InstallmentDebtPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtPrincipalDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebtPrincipalDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_ReductionsFromGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromGeneralObligationBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_ReductionsFromGeneralObligationBonds" order="3"/>
-    <link:loc xlink:label="ns13_RevenueBondsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBondsPayableDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_AdditionsToUnamortizedPremiumOnBonds" order="2"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember_1" order="1"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis" order="1"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain_1" order="1"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligations" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_NetOPEBLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_NetOPEBLiabilityPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiabilityPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_NotesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToClaimsAndJudgmentsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_AdditionsToClaimsAndJudgmentsPayable" order="2"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayablePrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligationsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligationsPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBondsPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_BondPremiumRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_BondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremium" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremium" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_InstallmentDebtRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_InstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebt" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNetPensionLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_ReductionsFromNetPensionLiability" order="3"/>
+    <link:loc xlink:label="ns13_LoansPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLoansPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_AdditionsToLoansPayable" order="2"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LoansPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LoansPayableAbstract_1" order="11"/>
+    <link:loc xlink:label="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" order="18"/>
+    <link:loc xlink:label="ns13_NetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiability" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_ReductionsFromNetOPEBLiability" order="3"/>
+    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
+    <link:loc xlink:label="ns13_GeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_CompensatedAbsencesAbstract_1" order="12"/>
+    <link:loc xlink:label="ns13_RevenueBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_RevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetPensionLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_AdditionsToNetPensionLiability" order="2"/>
+    <link:loc xlink:label="ns13_LongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_LimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_GeneralObligationBondsRollForward_1" order="4"/>
+    <link:loc xlink:label="ns13_BondPremium_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremium" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremium_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnamortizedPremiumOnBondsAbstract_1" order="1"/>
+    <link:loc xlink:label="ns13_ReductionsFromIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromIntergovernmentalAgreementPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_ReductionsFromIntergovernmentalAgreementPayable" order="3"/>
+    <link:loc xlink:label="ns13_NetOPEBLiabilityAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetOPEBLiabilityAbstract_1" order="16"/>
+    <link:loc xlink:label="ns13_AdditionsToNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_AdditionsToNetOPEBLiability" order="2"/>
+    <link:loc xlink:label="ns13_BondPremiumRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_BondPremiumRollForward_1" order="2"/>
+    <link:loc xlink:label="ns13_InstallmentDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebt_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToLongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLongTermDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_AdditionsToLongTermDebt" order="2"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_ReductionsFromPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromPollutionRemediationObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_ReductionsFromPollutionRemediationObligations" order="3"/>
+    <link:loc xlink:label="ns13_LeasesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LeasesAbstract_1" order="5"/>
+    <link:loc xlink:label="ns13_ReductionsFromLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLoansPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_ReductionsFromLoansPayable" order="3"/>
+    <link:loc xlink:label="ns13_AdditionsToIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToIntergovernmentalAgreementPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_AdditionsToIntergovernmentalAgreementPayable" order="2"/>
+    <link:loc xlink:label="ns13_InstallmentDebtRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_InstallmentDebtRollForward_1" order="3"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_IntergovernmentalAgreementPayableAbstract_1" order="10"/>
+    <link:loc xlink:label="ns13_ReductionsFromAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromAssetRetirementObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_ReductionsFromAssetRetirementObligations" order="3"/>
+    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_ClaimsAndJudgmentsPayableAbstract_1" order="17"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_PollutionRemediationObligationsAbstract_1" order="13"/>
+    <link:loc xlink:label="ns13_AdditionsToPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToPollutionRemediationObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_AdditionsToPollutionRemediationObligations" order="2"/>
+    <link:loc xlink:label="ns13_BondPremiumPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremiumPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_InstallmentDebtPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebtPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_RevenueBondsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBondsPayableDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_NotesPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayableDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_ReductionsFromUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromUnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_ReductionsFromUnamortizedPremiumOnBonds" order="3"/>
     <link:loc xlink:label="ns13_LoansPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayableDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_CompensatedAbsencesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_CompensatedAbsencesPayableCurrent" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesPayableCurrent" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayableCurrent" order="5"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligation_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromUnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_ReductionsFromUnamortizedPremiumOnBonds" order="3"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligation" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligation" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_NetPensionLiabilityAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetPensionLiabilityAbstract_1" order="15"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_AssetRetirementObligationsAbstract_1" order="14"/>
+    <link:loc xlink:label="ns13_AdditionsToAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAssetRetirementObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AdditionsToAssetRetirementObligations" order="2"/>
+    <link:loc xlink:label="ns13_ReductionsFromNoncurrentLiabilities" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNoncurrentLiabilities" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_ReductionsFromNoncurrentLiabilities" order="3"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteAbstract" xlink:to="ns13_LongTermDebtFootnoteTable_1" order="1"/>
+    <link:loc xlink:label="ns13_RevenueBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_RevenueBondsRollForward_1" order="6"/>
+    <link:loc xlink:label="ns13_ReductionsFromLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLeases" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_ReductionsFromLeases" order="3"/>
+    <link:loc xlink:label="ns13_ComponentUnitDiscretelyPresentedMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComponentUnitDiscretelyPresentedMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_ComponentUnitDiscretelyPresentedMember" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_AdditionsToUnamortizedPremiumOnBonds" order="2"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligationsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligationsPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_UnlimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnlimitedTaxBondsRollForward" order="7"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_NetPensionLiability_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiability_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromGeneralObligationBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_ReductionsFromGeneralObligationBonds" order="3"/>
+    <link:loc xlink:label="ns13_UnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromRevenueBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_ReductionsFromRevenueBonds" order="3"/>
+    <link:loc xlink:label="ns13_ReductionsFromNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNotesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_ReductionsFromNotesPayable" order="3"/>
+    <link:loc xlink:label="ns13_ReductionsFromLimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_ReductionsFromLimitedTaxBonds" order="3"/>
+    <link:loc xlink:label="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_LongTermDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLeases" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_AdditionsToLeases" order="2"/>
+    <link:loc xlink:label="ns13_ReductionsFromBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromBondPremium" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_ReductionsFromBondPremium" order="3"/>
+    <link:loc xlink:label="ns13_LongTermDebtDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebtDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_ReductionsFromClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromClaimsAndJudgmentsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ReductionsFromClaimsAndJudgmentsPayable" order="3"/>
+    <link:loc xlink:label="ns13_LeasesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToGeneralObligationBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_AdditionsToGeneralObligationBonds" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToRevenueBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_AdditionsToRevenueBonds" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNotesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_AdditionsToNotesPayable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToLimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToLimitedTaxBonds" order="2"/>
+    <link:loc xlink:label="ns13_ReductionsFromInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromInstallmentDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_ReductionsFromInstallmentDebt" order="3"/>
+    <link:loc xlink:label="ns13_AdditionsToUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToUnlimitedTaxBonds" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToBondPremium" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_AdditionsToBondPremium" order="2"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayable" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_NotesPayableRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NotesPayableRollForward_1" order="9"/>
+    <link:loc xlink:label="ns13_ReductionsFromCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCompensatedAbsencesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_ReductionsFromCompensatedAbsencesPayable" order="3"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_LongTermDebtFootnoteLineItems_1" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToInstallmentDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_AdditionsToInstallmentDebt" order="2"/>
+    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LimitedTaxBondsRollForward_1" order="8"/>
+    <link:loc xlink:label="ns13_LoansPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_LeasesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_UnlimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_IntergovernmentalAgreementPayable_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligations_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AssetRetirementObligations_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_PollutionRemediationObligation_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_NetOPEBLiability_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_NetOPEBLiability_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromUnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_ReductionsFromUnlimitedTaxBonds" order="3"/>
+    <link:loc xlink:label="ns13_GeneralObligationBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_RevenueBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_LimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_LimitedTaxBonds_1" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCompensatedAbsencesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_AdditionsToCompensatedAbsencesPayable" order="2"/>
   </link:presentationLink>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/LongTermDebtGeneralObligationBonds" xlink:type="extended">
     <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_RevenueBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_RevenueBondsRollForward" order="6"/>
-    <link:loc xlink:label="ns13_NotesPayableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NotesPayableRollForward" order="9"/>
-    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_AssetRetirementObligationsAbstract" order="14"/>
-    <link:loc xlink:label="ns13_NetPensionLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetPensionLiabilityAbstract" order="15"/>
-    <link:loc xlink:label="ns13_LeasesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LeasesAbstract" order="5"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_LongTermDebtFootnoteLineItems_1" order="3"/>
-    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_ClaimsAndJudgmentsPayableAbstract" order="17"/>
     <link:loc xlink:label="ns13_NetOPEBLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetOPEBLiabilityAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetOPEBLiabilityAbstract" order="16"/>
-    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LimitedTaxBondsRollForward" order="8"/>
-    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ComponentUnitDiscretelyPresentedMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComponentUnitDiscretelyPresentedMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_ComponentUnitDiscretelyPresentedMember" order="2"/>
-    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_PollutionRemediationObligationsAbstract" order="13"/>
+    <link:loc xlink:label="ns13_NotesPayableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayableRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NotesPayableRollForward" order="9"/>
     <link:loc xlink:label="ns13_UnlimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsRollForward" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnlimitedTaxBondsRollForward" order="7"/>
     <link:loc xlink:label="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LongTermDebtDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebtDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_IntergovernmentalAgreementPayableAbstract" order="10"/>
-    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_CompensatedAbsencesAbstract" order="12"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" order="18"/>
+    <link:loc xlink:label="ns13_LeasesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LeasesAbstract" order="5"/>
+    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_ClaimsAndJudgmentsPayableAbstract" order="17"/>
+    <link:loc xlink:label="ns13_PollutionRemediationObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_PollutionRemediationObligationsAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_PollutionRemediationObligationsAbstract" order="13"/>
+    <link:loc xlink:label="ns13_RevenueBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_RevenueBondsRollForward" order="6"/>
+    <link:loc xlink:label="ns13_LimitedTaxBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LimitedTaxBondsRollForward" order="8"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_LongTermDebtFootnoteLineItems_1" order="3"/>
     <link:loc xlink:label="ns13_LoansPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayableAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LoansPayableAbstract" order="11"/>
-    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_ComponentUnitDiscretelyPresentedMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComponentUnitDiscretelyPresentedMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_ComponentUnitDiscretelyPresentedMember" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNotesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_AdditionsToNotesPayable" order="2"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToIntergovernmentalAgreementPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_AdditionsToIntergovernmentalAgreementPayable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLoansPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_AdditionsToLoansPayable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToPollutionRemediationObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_AdditionsToPollutionRemediationObligations" order="2"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAssetRetirementObligations" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AdditionsToAssetRetirementObligations" order="2"/>
+    <link:loc xlink:label="ns13_NetPensionLiabilityAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetPensionLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_AdditionsToNetPensionLiability" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetOPEBLiability" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_AdditionsToNetOPEBLiability" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToClaimsAndJudgmentsPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_AdditionsToClaimsAndJudgmentsPayable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToLongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLongTermDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_AdditionsToLongTermDebt" order="2"/>
+    <link:loc xlink:label="ns13_BondPremiumRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToBondPremium" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_AdditionsToBondPremium" order="2"/>
+    <link:loc xlink:label="ns13_InstallmentDebtRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToInstallmentDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_AdditionsToInstallmentDebt" order="2"/>
+    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AdditionsToCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCompensatedAbsencesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_AdditionsToCompensatedAbsencesPayable" order="2"/>
+    <link:loc xlink:label="ns13_CompensatedAbsencesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_CompensatedAbsencesAbstract_1" order="12"/>
     <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ReductionsFromUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromUnamortizedPremiumOnBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_ReductionsFromUnamortizedPremiumOnBonds" order="3"/>
     <link:loc xlink:label="ns13_GeneralObligationBondsRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ReductionsFromGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromGeneralObligationBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_ReductionsFromGeneralObligationBonds" order="3"/>
+    <link:loc xlink:label="ns13_NetPensionLiabilityAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiabilityAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_NetPensionLiabilityAbstract_1" order="15"/>
     <link:loc xlink:label="ns13_ReductionsFromLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromLeases" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_ReductionsFromLeases" order="3"/>
     <link:loc xlink:label="ns13_ReductionsFromRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromRevenueBonds" xlink:type="locator"/>
@@ -326,10 +350,8 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ReductionsFromClaimsAndJudgmentsPayable" order="3"/>
     <link:loc xlink:label="ns13_ReductionsFromNoncurrentLiabilities" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromNoncurrentLiabilities" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_ReductionsFromNoncurrentLiabilities" order="3"/>
-    <link:loc xlink:label="ns13_BondPremiumRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ReductionsFromBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromBondPremium" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_ReductionsFromBondPremium" order="3"/>
-    <link:loc xlink:label="ns13_InstallmentDebtRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ReductionsFromInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromInstallmentDebt" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_ReductionsFromInstallmentDebt" order="3"/>
     <link:loc xlink:label="ns13_ReductionsFromCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCompensatedAbsencesPayable" xlink:type="locator"/>
@@ -340,6 +362,8 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_GeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBonds" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_IntergovernmentalAgreementPayableAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntergovernmentalAgreementPayableAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_IntergovernmentalAgreementPayableAbstract_1" order="10"/>
     <link:loc xlink:label="ns13_RevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_RevenueBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_RevenueBonds" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_LimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBonds" xlink:type="locator"/>
@@ -360,6 +384,8 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_NetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_NetPensionLiability" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_NetPensionLiability" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_BondPremiumRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_BondPremiumRollForward_1" order="2"/>
     <link:loc xlink:label="ns13_LoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_LoansPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayable" xlink:type="locator"/>
@@ -372,8 +398,6 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable" order="4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBondsPrincipalDueWithinOneYear" order="5"/>
-    <link:loc xlink:label="ns13_LongTermDebtNonCurrentLiabilitiesAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_LongTermDebtNonCurrentLiabilitiesAbstract_1" order="18"/>
     <link:loc xlink:label="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBondsPrincipalDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LimitedTaxBondsPrincipalDueWithinOneYear" xlink:type="locator"/>
@@ -392,6 +416,8 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_BondPremiumPrincipalDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_InstallmentDebtPrincipalDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtPrincipalDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_InstallmentDebtPrincipalDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_AssetRetirementObligationsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AssetRetirementObligationsAbstract" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_AssetRetirementObligationsAbstract_1" order="14"/>
     <link:loc xlink:label="ns13_GeneralObligationBondsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsPayableDueWithinOneYear" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_GeneralObligationBondsPayableDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_LeasesPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayableDueWithinOneYear" xlink:type="locator"/>
@@ -404,20 +430,23 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayableDueWithinOneYear" order="5"/>
     <link:loc xlink:label="ns13_CompensatedAbsencesPayableCurrent" xlink:href="../../elts/acfr_2023.xsd#acfr_CompensatedAbsencesPayableCurrent" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_CompensatedAbsencesPayableCurrent" order="5"/>
-    <link:loc xlink:label="ns13_AdditionsToAssetRetirementObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAssetRetirementObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_AssetRetirementObligationsAbstract" xlink:to="ns13_AdditionsToAssetRetirementObligations" order="2"/>
+    <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayableDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayableDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_LongTermDebtDueWithinOneYear" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtDueWithinOneYear" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebtDueWithinOneYear" order="5"/>
+    <link:loc xlink:label="ns13_LeasesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_UnlimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_AdditionsToGeneralObligationBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToGeneralObligationBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GeneralObligationBondsRollForward" xlink:to="ns13_AdditionsToGeneralObligationBonds" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToCompensatedAbsencesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCompensatedAbsencesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CompensatedAbsencesAbstract" xlink:to="ns13_AdditionsToCompensatedAbsencesPayable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnlimitedTaxBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToUnlimitedTaxBonds" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnamortizedPremiumOnBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_AdditionsToUnamortizedPremiumOnBonds" order="2"/>
+    <link:loc xlink:label="ns13_LongTermDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_InstallmentDebtRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_InstallmentDebtRollForward_1" order="3"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteAbstract" xlink:to="ns13_LongTermDebtFootnoteTable_1" order="1"/>
     <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
     <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
@@ -428,30 +457,25 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain_1" order="1"/>
     <link:loc xlink:label="ns13_UnamortizedPremiumOnBondsAbstract_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBondsAbstract" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_UnamortizedPremiumOnBondsAbstract_1" order="1"/>
-    <link:loc xlink:label="ns13_AdditionsToInstallmentDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToInstallmentDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InstallmentDebtRollForward" xlink:to="ns13_AdditionsToInstallmentDebt" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToNetPensionLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetPensionLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetPensionLiabilityAbstract" xlink:to="ns13_AdditionsToNetPensionLiability" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToNotesPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNotesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_AdditionsToNotesPayable" order="2"/>
-    <link:loc xlink:label="ns13_BondPremiumRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BondPremiumRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_BondPremiumRollForward_1" order="2"/>
-    <link:loc xlink:label="ns13_NameOfLongTermDebtAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_NameOfLongTermDebtAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_NameOfLongTermDebtAxis" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToNetOPEBLiability" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToNetOPEBLiability" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NetOPEBLiabilityAbstract" xlink:to="ns13_AdditionsToNetOPEBLiability" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToClaimsAndJudgmentsPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToClaimsAndJudgmentsPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_AdditionsToClaimsAndJudgmentsPayable" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToIntergovernmentalAgreementPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToIntergovernmentalAgreementPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntergovernmentalAgreementPayableAbstract" xlink:to="ns13_AdditionsToIntergovernmentalAgreementPayable" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToRevenueBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_AdditionsToRevenueBonds" order="2"/>
+    <link:loc xlink:label="ns13_InstallmentDebtRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InstallmentDebtRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_InstallmentDebtRollForward_1" order="3"/>
     <link:loc xlink:label="ns13_AdditionsToLimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLimitedTaxBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToLimitedTaxBonds" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToPollutionRemediationObligations" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToPollutionRemediationObligations" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PollutionRemediationObligationsAbstract" xlink:to="ns13_AdditionsToPollutionRemediationObligations" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToLoansPayable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLoansPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_AdditionsToLoansPayable" order="2"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_LongTermDebtFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebtFootnoteTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteAbstract" xlink:to="ns13_LongTermDebtFootnoteTable_1" order="1"/>
+    <link:loc xlink:label="ns13_NotesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_NameOfLongTermDebtAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_NameOfLongTermDebtAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteTable" xlink:to="ns13_NameOfLongTermDebtAxis" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLeases" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_AdditionsToLeases" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToRevenueBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToRevenueBonds" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_RevenueBondsRollForward" xlink:to="ns13_AdditionsToRevenueBonds" order="2"/>
+    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
+    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_GeneralObligationBondsRollForward_1" order="4"/>
     <link:loc xlink:label="ns13_UnamortizedPremiumOnBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnamortizedPremiumOnBonds" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_UnamortizedPremiumOnBonds_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_GeneralObligationBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBonds" xlink:type="locator"/>
@@ -480,25 +504,5 @@
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LoansPayableAbstract" xlink:to="ns13_LoansPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_ClaimsAndJudgmentsPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ClaimsAndJudgmentsPayable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ClaimsAndJudgmentsPayableAbstract" xlink:to="ns13_ClaimsAndJudgmentsPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_LongTermDebt_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LongTermDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_LongTermDebt_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_UnlimitedTaxBonds_1" xlink:href="../../elts/acfr_2023.xsd#acfr_UnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_UnlimitedTaxBonds_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToBondPremium" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToBondPremium" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BondPremiumRollForward" xlink:to="ns13_AdditionsToBondPremium" order="2"/>
-    <link:loc xlink:label="ns13_LeasesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LeasesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_LeasesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_NotesPayable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_NotesPayable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_NotesPayableRollForward" xlink:to="ns13_NotesPayable_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_GeneralObligationBondsRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralObligationBondsRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtFootnoteLineItems" xlink:to="ns13_GeneralObligationBondsRollForward_1" order="4"/>
-    <link:loc xlink:label="ns13_AdditionsToUnamortizedPremiumOnBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnamortizedPremiumOnBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnamortizedPremiumOnBondsAbstract" xlink:to="ns13_AdditionsToUnamortizedPremiumOnBonds" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToLeases" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLeases" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LeasesAbstract" xlink:to="ns13_AdditionsToLeases" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToLongTermDebt" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToLongTermDebt" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LongTermDebtNonCurrentLiabilitiesAbstract" xlink:to="ns13_AdditionsToLongTermDebt" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToUnlimitedTaxBonds" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToUnlimitedTaxBonds" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_UnlimitedTaxBondsRollForward" xlink:to="ns13_AdditionsToUnlimitedTaxBonds" order="2"/>
   </link:presentationLink>
 </link:linkbase>

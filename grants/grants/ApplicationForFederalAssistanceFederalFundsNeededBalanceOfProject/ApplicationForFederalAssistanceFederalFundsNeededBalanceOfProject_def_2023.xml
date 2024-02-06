@@ -1,7 +1,7 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationEstimatedFederalFundsNeededBalanceProject" xlink:href="ApplicationForFederalAssistanceFederalFundsNeededBalanceOfProject_2023.xsd#GrantsManagementApplicationEstimatedFederalFundsNeededBalanceProject" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/grants/roles/GrantsManagementApplicationEstimatedFederalFundsNeededBalanceProject" xlink:type="extended">
     <link:loc xlink:label="ns2_ApplicationForFederalAssistanceLineItems" xlink:href="../../elts/grants_2023.xsd#sap_ApplicationForFederalAssistanceLineItems" xlink:type="locator"/>

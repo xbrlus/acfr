@@ -1,15 +1,16 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditGeneralEINContinuationList" xlink:href="AuditeeEINContinuationList_2023.xsd#SingleAuditGeneralEINContinuationList" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditGeneralEINContinuationList" xlink:type="extended">
-    <link:loc xlink:label="ns11_AuditeeEINContinuationListAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_AuditeeEINContinuationListTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListAbstract" xlink:to="ns11_AuditeeEINContinuationListTable" order="1"/>
-    <link:loc xlink:label="ns11_AuditeeEINContinuationListAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListTable" xlink:to="ns11_AuditeeEINContinuationListAxis" order="1"/>
     <link:loc xlink:label="ns11_AuditeeEINContinuationListLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListLineItems" xlink:type="locator"/>
     <link:loc xlink:label="ns2_GranteeEmployerIdentificationNumber" xlink:href="../../../grants/elts/grants_2023.xsd#sap_GranteeEmployerIdentificationNumber" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListLineItems" xlink:to="ns2_GranteeEmployerIdentificationNumber" order="1"/>
+    <link:loc xlink:label="ns11_AuditeeEINContinuationListTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_AuditeeEINContinuationListAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListTable" xlink:to="ns11_AuditeeEINContinuationListAxis" order="1"/>
     <link:loc xlink:label="ns11_AuditeeEINContinuationListLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListLineItems" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListTable" xlink:to="ns11_AuditeeEINContinuationListLineItems_1" order="2"/>
+    <link:loc xlink:label="ns11_AuditeeEINContinuationListAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_AuditeeEINContinuationListTable_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_AuditeeEINContinuationListTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_AuditeeEINContinuationListAbstract" xlink:to="ns11_AuditeeEINContinuationListTable_1" order="1"/>
   </link:presentationLink>
 </link:linkbase>

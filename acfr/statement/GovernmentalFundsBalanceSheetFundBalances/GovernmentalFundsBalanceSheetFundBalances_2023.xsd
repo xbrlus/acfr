@@ -6,9 +6,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="GovernmentalFundsBalanceSheetFundBalances_pre_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalance" id="GovFundsBalance">
         <linkbase:definition>300000 - Statement - Governmental Funds Balance Sheet, Other Funds (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceAltCalc1" id="GovFundsBalanceAltCalc1">
         <linkbase:definition>300000 - Statement - Governmental Funds Balance Sheet, Other Funds (Unclassified) - AltCalc1</linkbase:definition>
@@ -31,9 +31,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceClassified" id="GovFundsBalanceClassified">
         <linkbase:definition>300001 - Statement - Governmental Funds Balance Sheet, Other Funds (Classified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsBalanceCommitted" id="GovFundsBalanceCommitted">
         <linkbase:definition>300670 - Statement - Governmental Funds Balance Sheet, Other Funds - Fund Balances Committed (Details)</linkbase:definition>
@@ -168,9 +168,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsFireBalance" id="GovFundsFireBalance">
         <linkbase:definition>765000 - Statement - Governmental Funds Balance Sheet, Fire, Other Funds (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsFireBalanceGeneralNonMajorUnclassified" id="GovFundsFireBalanceGeneralNonMajorUnclassified">
         <linkbase:definition>765020 - Statement - Governmental Funds Balance Sheet, Fire, General, Aggregate Nonmajor, Totals (Unclassified)</linkbase:definition>
@@ -179,9 +179,31 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsFireBalanceGeneralNonmajor" id="GovFundsFireBalanceGeneralNonmajor">
         <linkbase:definition>765001 - Statement - Governmental Funds Balance Sheet, Fire, Other Funds (Classified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalBalanceGeneralNonmajorClassified" id="GovFundsHospitalBalanceGeneralNonmajorClassified">
+        <linkbase:definition>781051 - Statement - Governmental Funds Balance Sheet, Hospital, Aggregate Nonmajor (Classified)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalBalanceGeneralNonmajorUnclassified" id="GovFundsHospitalBalanceGeneralNonmajorUnclassified">
+        <linkbase:definition>781050 - Statement - Governmental Funds Balance Sheet, Hospital, Aggregate Nonmajor (Unclassified)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalBalanceOtherClassified" id="GovFundsHospitalBalanceOtherClassified">
+        <linkbase:definition>781001 - Statement - Governmental Funds Balance Sheet, Hospital, Other Funds (Classified)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
+      </linkbase:roleType>
+      <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsHospitalBalanceOtherUnclassified" id="GovFundsHospitalBalanceOtherUnclassified">
+        <linkbase:definition>781000 - Statement - Governmental Funds Balance Sheet, Hospital, Other Funds (Unclassified)</linkbase:definition>
+        <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroBalanceGeneralNonmajorClassified" id="GovFundsMetroBalanceGeneralNonmajorClassified">
         <linkbase:definition>771021 - Statement - Governmental Funds Balance Sheet, Metropolitan, General, Aggregate Nonmajor (Classified)</linkbase:definition>
@@ -195,15 +217,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroBalanceOtherClassified" id="GovFundsMetroBalanceOtherClassified">
         <linkbase:definition>771001 - Statement - Governmental Funds Balance Sheet, Metropolitan, Other Funds (Classified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroBalanceOtherUnclassified" id="GovFundsMetroBalanceOtherUnclassified">
         <linkbase:definition>771000 - Statement - Governmental Funds Balance Sheet, Metropolitan, Other Funds (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsMetroRevenueExpendituresGeneralNonmajor" id="GovFundsMetroRevenueExpendituresGeneralNonmajor">
         <linkbase:definition>771040 - Statement - Governmental Funds Revenues, Expenditures and Changes in Fund Balance, Metropolitan, General, Aggregate Nonmajor</linkbase:definition>
@@ -212,15 +234,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsSchoolBalanceClassified" id="GovFundsSchoolBalanceClassified">
         <linkbase:definition>730001 - Statement - Governmental Funds Balance Sheet, School, Other Funds (Classified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/GovFundsSchoolsBalance" id="GovFundsSchoolsBalance">
         <linkbase:definition>730000 - Statement - Governmental Funds Balance Sheet, School, Other Funds (Unclassified)</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

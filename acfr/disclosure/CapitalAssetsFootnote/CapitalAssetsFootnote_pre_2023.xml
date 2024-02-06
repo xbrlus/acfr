@@ -1,386 +1,383 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/DepreciationExpense" xlink:href="CapitalAssetsFootnote_2023.xsd#DepreciationExpense" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsNonDepreciable" xlink:href="CapitalAssetsFootnote_2023.xsd#CapitalAssetsNonDepreciable" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/DepreciationExpense" xlink:href="CapitalAssetsFootnote_2023.xsd#DepreciationExpense" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsFootnote" xlink:href="CapitalAssetsFootnote_2023.xsd#CapitalAssetsFootnote" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsNonDepreciable" xlink:type="extended">
     <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
     <link:loc xlink:label="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" order="5"/>
-    <link:loc xlink:label="ns13_BuildingsAndEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndEquipmentMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_EquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndEquipmentMember" xlink:to="ns13_EquipmentMember" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable" order="1"/>
     <link:loc xlink:label="ns13_IntangibleAssetsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_IntangibleAssetsMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_TimberRightsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TimberRightsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_TimberRightsMember" order="3"/>
+    <link:loc xlink:label="ns13_PatentsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PatentsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_PatentsMember" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetSevenMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetSevenMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetSevenMember" order="18"/>
+    <link:loc xlink:label="ns13_InfrastructureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_InfrastructureMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_InfrastructureMember" order="8"/>
     <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsDomain" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetNineMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetNineMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetNineMember" order="20"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems_1" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" order="6"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetEightMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetEightMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetEightMember" order="19"/>
-    <link:loc xlink:label="ns13_PatentsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PatentsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_PatentsMember" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetBeingDepreciatedGrossRollForward" order="3"/>
-    <link:loc xlink:label="ns13_WaterworksAndSewageSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterworksAndSewageSystemMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_SewageSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SewageSystemMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_WaterworksAndSewageSystemMember" xlink:to="ns13_SewageSystemMember" order="1"/>
     <link:loc xlink:label="ns13_LandAndImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndImprovementsMember" xlink:type="locator"/>
     <link:loc xlink:label="ns13_LandMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndImprovementsMember" xlink:to="ns13_LandMember" order="2"/>
-    <link:loc xlink:label="ns13_TransfersWithinAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinAccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_TransfersWithinAccumulatedDepreciation" order="4"/>
-    <link:loc xlink:label="ns13_WaterworksSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterworksSystemMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_WaterworksAndSewageSystemMember" xlink:to="ns13_WaterworksSystemMember" order="2"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetTwoMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetTwoMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetTwoMember" order="13"/>
-    <link:loc xlink:label="ns13_LandAndConstructionInProgressMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndConstructionInProgressMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_LandMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LandMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_LandMember_1" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsNonDepreciableAxis" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_InfrastructureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_InfrastructureMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_MainsAndConnectionsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MainsAndConnectionsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_MainsAndConnectionsMember" order="1"/>
-    <link:loc xlink:label="ns13_ConstructionInProgressMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ConstructionInProgressMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_ConstructionInProgressMember" order="2"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetThreeMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetThreeMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetThreeMember" order="14"/>
-    <link:loc xlink:label="ns13_AdditionsToAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AdditionsToAccumulatedDepreciation" order="2"/>
+    <link:loc xlink:label="ns13_WaterworksAndSewageSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterworksAndSewageSystemMember" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_SewageSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SewageSystemMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_WaterworksAndSewageSystemMember" xlink:to="ns13_SewageSystemMember" order="1"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetEightMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetEightMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetEightMember" order="19"/>
+    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
     <link:loc xlink:label="ns13_VehiclesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_VehiclesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_VehiclesMember" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_AdditionsToCapitalAssetsAtHistoricalCost" order="2"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="2"/>
+    <link:loc xlink:label="ns13_IntangibleAssetsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntangibleAssetsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_IntangibleAssetsMember_1" order="11"/>
+    <link:loc xlink:label="ns13_BooksAndRelatedMaterialsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BooksAndRelatedMaterialsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_BooksAndRelatedMaterialsMember" order="5"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetNineMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetNineMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetNineMember" order="20"/>
+    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
     <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" order="2"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetFourMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetFourMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetFourMember" order="15"/>
-    <link:loc xlink:label="ns13_UtilityMember" xlink:href="../../elts/acfr_2023.xsd#acfr_UtilityMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_UtilityMember" order="3"/>
-    <link:loc xlink:label="ns13_BuildingsAndImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndImprovementsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndEquipmentMember" xlink:to="ns13_BuildingsAndImprovementsMember" order="1"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" order="3"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNonDepreciableRollForward" order="2"/>
+    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
+    <link:loc xlink:label="ns13_EquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EquipmentMember" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_MachineryAndEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MachineryAndEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_MachineryAndEquipmentMember" order="7"/>
+    <link:loc xlink:label="ns13_LandAndImprovementsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndImprovementsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandAndImprovementsMember_1" order="10"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember_1" order="1"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetTenMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetTenMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetTenMember" order="21"/>
+    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis" order="1"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain_1" order="1"/>
     <link:loc xlink:label="ns13_ReductionsFromAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromAccumulatedDepreciation" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_ReductionsFromAccumulatedDepreciation" order="3"/>
-    <link:loc xlink:label="ns13_MetersMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MetersMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_MetersMember" order="2"/>
     <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" order="3"/>
     <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="3"/>
+    <link:loc xlink:label="ns13_LandImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandImprovementsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndImprovementsMember" xlink:to="ns13_LandImprovementsMember" order="1"/>
     <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" order="3"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetFiveMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetFiveMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetFiveMember" order="16"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_BuildingsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_BuildingsMember" order="1"/>
-    <link:loc xlink:label="ns13_LeaseholdImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LeaseholdImprovementsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_LeaseholdImprovementsMember" order="2"/>
-    <link:loc xlink:label="ns13_ImprovementsOtherThanBuildingMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ImprovementsOtherThanBuildingMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_ImprovementsOtherThanBuildingMember" order="3"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetSixMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetSixMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetSixMember" order="17"/>
-    <link:loc xlink:label="ns13_ShopEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ShopEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_ShopEquipmentMember" order="2"/>
-    <link:loc xlink:label="ns13_EngineeringEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EngineeringEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_EngineeringEquipmentMember" order="3"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetSevenMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetSevenMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetSevenMember" order="18"/>
-    <link:loc xlink:label="ns13_FurnitureAndFixturesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_FurnitureAndFixturesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_FurnitureAndFixturesMember" order="3"/>
-    <link:loc xlink:label="ns13_RoadEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_RoadEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_RoadEquipmentMember" order="1"/>
-    <link:loc xlink:label="ns13_WaterRightsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterRightsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_WaterRightsMember" order="5"/>
+    <link:loc xlink:label="ns13_UtilityMember" xlink:href="../../elts/acfr_2023.xsd#acfr_UtilityMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_UtilityMember" order="3"/>
+    <link:loc xlink:label="ns13_EasementsRightOfWayMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EasementsRightOfWayMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_EasementsRightOfWayMember" order="6"/>
+    <link:loc xlink:label="ns13_LandAndConstructionInProgressMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndConstructionInProgressMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandAndConstructionInProgressMember" order="9"/>
     <link:loc xlink:label="ns13_CapitalAssetsDescription" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsDescription" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsDescription" order="1"/>
-    <link:loc xlink:label="ns13_LandAndConstructionInProgressMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndConstructionInProgressMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandAndConstructionInProgressMember_1" order="9"/>
-    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_LandAndImprovementsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LandAndImprovementsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandAndImprovementsMember_1" order="10"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetOne" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetOne" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetOne" order="12"/>
-    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_InfrastructureMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_InfrastructureMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_InfrastructureMember_1" order="8"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNetRollForward_1" order="7"/>
-    <link:loc xlink:label="ns13_BooksAndRelatedMaterialsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BooksAndRelatedMaterialsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_BooksAndRelatedMaterialsMember" order="5"/>
-    <link:loc xlink:label="ns13_OtherCapitalAssetTenMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetTenMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetTenMember" order="21"/>
-    <link:loc xlink:label="ns13_YardAndStorageEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_YardAndStorageEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_YardAndStorageEquipmentMember" order="4"/>
+    <link:loc xlink:label="ns13_BuildingsAndImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndImprovementsMember" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_ImprovementsOtherThanBuildingMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ImprovementsOtherThanBuildingMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_ImprovementsOtherThanBuildingMember" order="3"/>
+    <link:loc xlink:label="ns13_LandfillMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandfillMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandfillMember" order="6"/>
+    <link:loc xlink:label="ns13_BuildingsAndEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_BuildingsAndEquipmentMember" order="1"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_EngineeringEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EngineeringEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_EngineeringEquipmentMember" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_LeaseAssetsRightOfUseMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LeaseAssetsRightOfUseMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_LeaseAssetsRightOfUseMember" order="7"/>
+    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsTotalAtHistoricalCostRollForward_1" order="4"/>
+    <link:loc xlink:label="ns13_LandMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_LandMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_LandMember_1" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetBeingDepreciatedGrossRollForward_1" order="3"/>
+    <link:loc xlink:label="ns13_TimberPropertiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TimberPropertiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_TimberPropertiesMember" order="1"/>
+    <link:loc xlink:label="ns13_TimberRightsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TimberRightsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_TimberRightsMember" order="3"/>
+    <link:loc xlink:label="ns13_MainsAndConnectionsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MainsAndConnectionsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_MainsAndConnectionsMember" order="1"/>
+    <link:loc xlink:label="ns13_DepletableAssetsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_DepletableAssetsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_DepletableAssetsMember" order="7"/>
+    <link:loc xlink:label="ns13_ComputerSoftwareMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComputerSoftwareMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_ComputerSoftwareMember" order="1"/>
     <link:loc xlink:label="ns13_WaterworksAndSewageSystemMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterworksAndSewageSystemMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_WaterworksAndSewageSystemMember_1" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsNonDepreciableAxis" order="2"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" order="3"/>
+    <link:loc xlink:label="ns13_FurnitureAndFixturesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_FurnitureAndFixturesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_FurnitureAndFixturesMember" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNetRollForward_1" order="7"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetOne" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetOne" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetOne" order="12"/>
+    <link:loc xlink:label="ns13_EquipmentMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_EquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndEquipmentMember" xlink:to="ns13_EquipmentMember_1" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AdditionsToAccumulatedDepreciation" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_AdditionsToCapitalAssetsAtHistoricalCost" order="2"/>
+    <link:loc xlink:label="ns13_BuildingsAndImprovementsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndImprovementsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndEquipmentMember" xlink:to="ns13_BuildingsAndImprovementsMember_1" order="1"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="2"/>
+    <link:loc xlink:label="ns13_TransfersWithinAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinAccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_TransfersWithinAccumulatedDepreciation" order="4"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" order="2"/>
     <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" order="4"/>
+    <link:loc xlink:label="ns13_ConstructionInProgressMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ConstructionInProgressMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_ConstructionInProgressMember" order="2"/>
     <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" order="4"/>
     <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="4"/>
     <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" order="4"/>
-    <link:loc xlink:label="ns13_MachineryAndEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MachineryAndEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_MachineryAndEquipmentMember" order="7"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable_1" order="1"/>
-    <link:loc xlink:label="ns13_ComputerSoftwareMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComputerSoftwareMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_ComputerSoftwareMember" order="1"/>
-    <link:loc xlink:label="ns13_TrademarksMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TrademarksMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_TrademarksMember" order="4"/>
-    <link:loc xlink:label="ns13_EasementsRightOfWayMember" xlink:href="../../elts/acfr_2023.xsd#acfr_EasementsRightOfWayMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_EasementsRightOfWayMember" order="6"/>
-    <link:loc xlink:label="ns13_ParkingDecksAndLotsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ParkingDecksAndLotsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_ParkingDecksAndLotsMember" order="4"/>
-    <link:loc xlink:label="ns13_TimberPropertiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TimberPropertiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndConstructionInProgressMember" xlink:to="ns13_TimberPropertiesMember" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" order="4"/>
-    <link:loc xlink:label="ns13_LandfillMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandfillMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_LandfillMember" order="6"/>
-    <link:loc xlink:label="ns13_LandImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LandImprovementsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_LandAndImprovementsMember" xlink:to="ns13_LandImprovementsMember" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNonDepreciableRollForward_1" order="2"/>
-    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain" order="1"/>
-    <link:loc xlink:label="ns13_ComputerEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComputerEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_ComputerEquipmentMember" order="5"/>
-    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
-    <link:loc xlink:label="ns13_LeaseAssetsRightOfUseMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LeaseAssetsRightOfUseMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_LeaseAssetsRightOfUseMember" order="7"/>
-    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember_1" order="1"/>
-    <link:loc xlink:label="ns13_IntangibleAssetsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_IntangibleAssetsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_IntangibleAssetsMember_1" order="11"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis_1" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis_1" order="1"/>
-    <link:loc xlink:label="ns13_OfficeEquipmentAndFurnitureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OfficeEquipmentAndFurnitureMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_OfficeEquipmentAndFurnitureMember" order="6"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_BuildingsAndEquipmentMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsAndEquipmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_BuildingsAndEquipmentMember_1" order="1"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_DepletableAssetsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_DepletableAssetsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_DepletableAssetsMember" order="7"/>
+    <link:loc xlink:label="ns13_YardAndStorageEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_YardAndStorageEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_YardAndStorageEquipmentMember" order="4"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetTwoMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetTwoMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetTwoMember" order="13"/>
+    <link:loc xlink:label="ns13_BuildingsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BuildingsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_BuildingsMember" order="1"/>
+    <link:loc xlink:label="ns13_MetersMember" xlink:href="../../elts/acfr_2023.xsd#acfr_MetersMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_InfrastructureMember" xlink:to="ns13_MetersMember" order="2"/>
     <link:loc xlink:label="ns13_CapitalAssetsDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsDomain" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableAxis" xlink:to="ns13_CapitalAssetsDomain_1" order="1"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetThreeMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetThreeMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetThreeMember" order="14"/>
+    <link:loc xlink:label="ns13_TrademarksMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TrademarksMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_TrademarksMember" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" order="6"/>
+    <link:loc xlink:label="ns13_LeaseholdImprovementsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_LeaseholdImprovementsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_BuildingsAndImprovementsMember" xlink:to="ns13_LeaseholdImprovementsMember" order="2"/>
+    <link:loc xlink:label="ns13_WaterRightsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterRightsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_IntangibleAssetsMember" xlink:to="ns13_WaterRightsMember" order="5"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetFourMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetFourMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetFourMember" order="15"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" order="4"/>
+    <link:loc xlink:label="ns13_ParkingDecksAndLotsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ParkingDecksAndLotsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_ParkingDecksAndLotsMember" order="4"/>
+    <link:loc xlink:label="ns13_RoadEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_RoadEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_RoadEquipmentMember" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems_1" order="3"/>
+    <link:loc xlink:label="ns13_ShopEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ShopEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_ShopEquipmentMember" order="2"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetFiveMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetFiveMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetFiveMember" order="16"/>
+    <link:loc xlink:label="ns13_ComputerEquipmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ComputerEquipmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_ComputerEquipmentMember" order="5"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_WaterworksSystemMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterworksSystemMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_WaterworksAndSewageSystemMember" xlink:to="ns13_WaterworksSystemMember" order="2"/>
+    <link:loc xlink:label="ns13_OfficeEquipmentAndFurnitureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OfficeEquipmentAndFurnitureMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_EquipmentMember" xlink:to="ns13_OfficeEquipmentAndFurnitureMember" order="6"/>
+    <link:loc xlink:label="ns13_OtherCapitalAssetSixMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherCapitalAssetSixMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsDomain" xlink:to="ns13_OtherCapitalAssetSixMember" order="17"/>
+    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
     <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
   </link:presentationLink>
+  <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsFootnote" xlink:type="extended">
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetBeingDepreciatedGrossRollForward" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_AccumulatedDepreciation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNetRollForward_1" order="6"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" order="2"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" order="3"/>
+    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromAccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_ReductionsFromAccumulatedDepreciation" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis" order="1"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" order="3"/>
+    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain_1" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" order="5"/>
+    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" order="3"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="3"/>
+    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" order="3"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable_1" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward_1" order="4"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems_1" order="2"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNonDepreciableRollForward_1" order="1"/>
+    <link:loc xlink:label="ns13_TransfersWithinAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinAccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_TransfersWithinAccumulatedDepreciation" order="4"/>
+    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" order="4"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" order="2"/>
+    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" order="4"/>
+    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_AdditionsToCapitalAssetsAtHistoricalCost" order="2"/>
+    <link:loc xlink:label="ns13_AdditionsToAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAccumulatedDepreciation" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AdditionsToAccumulatedDepreciation" order="2"/>
+  </link:presentationLink>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/DepreciationExpense" xlink:type="extended">
     <link:loc xlink:label="ns13_PublicWorksMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_PublicWorksInfrastructureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksInfrastructureMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksInfrastructureMember" order="5"/>
-    <link:loc xlink:label="ns13_GovernmentFunctionDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionDomain" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_HealthAndWelfareMember" xlink:href="../../elts/acfr_2023.xsd#acfr_HealthAndWelfareMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_HealthAndWelfareMember" order="5"/>
-    <link:loc xlink:label="ns13_PublicWorksMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_PublicWorksMember_1" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems" order="3"/>
-    <link:loc xlink:label="ns13_ParkingServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ParkingServicesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_ParkingServicesMember" order="4"/>
-    <link:loc xlink:label="ns13_ElectricityAndPowerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ElectricityAndPowerServicesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_ElectricityAndPowerServicesMember" order="2"/>
-    <link:loc xlink:label="ns13_SewerMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SewerMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_StormSewerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_StormSewerServicesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_SewerMember" xlink:to="ns13_StormSewerServicesMember" order="2"/>
     <link:loc xlink:label="ns13_HarborServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_HarborServicesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_HarborServicesMember" order="3"/>
+    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
     <link:loc xlink:label="ns13_PublicWorksWaterAndSewerSystemsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksWaterAndSewerSystemsMember" xlink:type="locator"/>
     <link:loc xlink:label="ns13_WaterMember" xlink:href="../../elts/acfr_2023.xsd#acfr_WaterMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksWaterAndSewerSystemsMember" xlink:to="ns13_WaterMember" order="2"/>
-    <link:loc xlink:label="ns13_GovernmentFunctionAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionAxis" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_GovernmentFunctionDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionDomain" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionAxis" xlink:to="ns13_GovernmentFunctionDomain_1" order="1"/>
+    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
+    <link:loc xlink:label="ns13_GovernmentFunctionDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionDomain" xlink:type="locator"/>
     <link:loc xlink:label="ns13_PublicSafetyServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicSafetyServicesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_PublicSafetyServicesMember" order="3"/>
     <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
     <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain" order="1"/>
-    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
+    <link:loc xlink:label="ns13_ParkingServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ParkingServicesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_ParkingServicesMember" order="4"/>
+    <link:loc xlink:label="ns13_GovernmentFunctionAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionAxis" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_GovernmentFunctionDomain_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionDomain" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionAxis" xlink:to="ns13_GovernmentFunctionDomain_1" order="1"/>
+    <link:loc xlink:label="ns13_HealthAndWelfareMember" xlink:href="../../elts/acfr_2023.xsd#acfr_HealthAndWelfareMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_HealthAndWelfareMember" order="5"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
     <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis_1" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis_1" order="1"/>
-    <link:loc xlink:label="ns13_OtherFunctionsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherFunctionsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_OtherFunctionsMember" order="8"/>
-    <link:loc xlink:label="ns13_SanitarySewerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SanitarySewerServicesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_SewerMember" xlink:to="ns13_SanitarySewerServicesMember" order="1"/>
-    <link:loc xlink:label="ns13_PublicWorksWaterAndSewerSystemsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksWaterAndSewerSystemsMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksWaterAndSewerSystemsMember_1" order="8"/>
+    <link:loc xlink:label="ns13_PublicWorksInfrastructureMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksInfrastructureMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksInfrastructureMember" order="5"/>
     <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember_1" order="1"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems" order="3"/>
+    <link:loc xlink:label="ns13_SewerMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SewerMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksWaterAndSewerSystemsMember" xlink:to="ns13_SewerMember" order="1"/>
     <link:loc xlink:label="ns13_CommunityAndEconomicDevelopmentServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_CommunityAndEconomicDevelopmentServicesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_CommunityAndEconomicDevelopmentServicesMember" order="6"/>
-    <link:loc xlink:label="ns13_SewerMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_SewerMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksWaterAndSewerSystemsMember" xlink:to="ns13_SewerMember_1" order="1"/>
-    <link:loc xlink:label="ns13_JudicialActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_JudicialActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_JudicialActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_PublicWorksRoadCommissionStreetDepartmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksRoadCommissionStreetDepartmentMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksRoadCommissionStreetDepartmentMember" order="6"/>
     <link:loc xlink:label="ns13_DepreciationExpense" xlink:href="../../elts/acfr_2023.xsd#acfr_DepreciationExpense" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_DepreciationExpense" order="1"/>
     <link:loc xlink:label="ns13_GeneralGovernmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GeneralGovernmentMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_GeneralGovernmentMember" order="1"/>
+    <link:loc xlink:label="ns13_PublicWorksRoadCommissionStreetDepartmentMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksRoadCommissionStreetDepartmentMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksRoadCommissionStreetDepartmentMember" order="6"/>
     <link:loc xlink:label="ns13_CultureAndRecreationMember" xlink:href="../../elts/acfr_2023.xsd#acfr_CultureAndRecreationMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_CultureAndRecreationMember" order="7"/>
+    <link:loc xlink:label="ns13_PublicWorksWaterAndSewerSystemsMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksWaterAndSewerSystemsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksWaterAndSewerSystemsMember_1" order="8"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
+    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable_1" order="1"/>
     <link:loc xlink:label="ns13_GovernmentFunctionAxis_1" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentFunctionAxis" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_GovernmentFunctionAxis_1" order="2"/>
-    <link:loc xlink:label="ns13_PublicWorksSanitationLandfillSolidWasteMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksSanitationLandfillSolidWasteMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksSanitationLandfillSolidWasteMember" order="7"/>
-    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable_1" order="1"/>
     <link:loc xlink:label="ns13_AirportServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_AirportServicesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_AirportServicesMember" order="1"/>
+    <link:loc xlink:label="ns13_PublicWorksSanitationLandfillSolidWasteMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksSanitationLandfillSolidWasteMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_PublicWorksSanitationLandfillSolidWasteMember" order="7"/>
+    <link:loc xlink:label="ns13_SanitarySewerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_SanitarySewerServicesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_SewerMember" xlink:to="ns13_SanitarySewerServicesMember" order="1"/>
     <link:loc xlink:label="ns13_TransportationServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_TransportationServicesMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_TransportationServicesMember" order="9"/>
-  </link:presentationLink>
-  <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/acfr/roles/CapitalAssetsFootnote" xlink:type="extended">
-    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedGross" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedGross" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_AdditionsToCapitalAssetsAtHistoricalCost" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_AdditionsToCapitalAssetsBeingDepreciatedNet" order="2"/>
-    <link:loc xlink:label="ns13_ReductionsFromAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromAccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_ReductionsFromAccumulatedDepreciation" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsNonDepreciableAndNonamortizable" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteLineItems" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_CapitalAssetsFootnoteLineItems" order="2"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNetRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsBeingDepreciatedNetRollForward_1" order="5"/>
-    <link:loc xlink:label="ns13_TypeOfGovernmentUnitAxis" xlink:href="../../elts/acfr_2023.xsd#acfr_TypeOfGovernmentUnitAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteTable" xlink:to="ns13_TypeOfGovernmentUnitAxis" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward_1" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNetRollForward_1" order="6"/>
-    <link:loc xlink:label="ns13_ConsolidatedActivitiesDomain" xlink:href="../../elts/acfr_2023.xsd#acfr_ConsolidatedActivitiesDomain" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_TypeOfGovernmentUnitAxis" xlink:to="ns13_ConsolidatedActivitiesDomain" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNonDepreciableRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNonDepreciableRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsNonDepreciableRollForward_1" order="1"/>
-    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_BusinessTypeActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_BusinessTypeActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_BusinessTypeActivitiesMember" order="2"/>
-    <link:loc xlink:label="ns13_PrimaryGovernmentActivitiesMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PrimaryGovernmentActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_ConsolidatedActivitiesDomain" xlink:to="ns13_PrimaryGovernmentActivitiesMember_1" order="1"/>
-    <link:loc xlink:label="ns13_GovernmentalActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_GovernmentalActivitiesMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PrimaryGovernmentActivitiesMember" xlink:to="ns13_GovernmentalActivitiesMember" order="1"/>
-    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsTotalAtHistoricalCostRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetsTotalAtHistoricalCostRollForward_1" order="3"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNetOfAccumulatedDepreciationAndAmortization" order="4"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsAtHistoricalCost" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetBeingDepreciatedGrossRollForward_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetBeingDepreciatedGrossRollForward" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteLineItems" xlink:to="ns13_CapitalAssetBeingDepreciatedGrossRollForward_1" order="2"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsAtHistoricalCost" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_AdditionsToCapitalAssetsNonDepreciableAndNonAmortizable" order="2"/>
-    <link:loc xlink:label="ns13_AccumulatedDepreciation_1" xlink:href="../../elts/acfr_2023.xsd#acfr_AccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AccumulatedDepreciation_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNetRollForward" xlink:to="ns13_CapitalAssetsNetOfAccumulatedDepreciationAndAmortization_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedGross_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedGross_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsAtHistoricalCost_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsAtHistoricalCost" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsTotalAtHistoricalCostRollForward" xlink:to="ns13_CapitalAssetsAtHistoricalCost_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_AdditionsToAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_AdditionsToAccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_AdditionsToAccumulatedDepreciation" order="2"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedNet" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:href="../../elts/acfr_2023.xsd#acfr_ReductionsFromCapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_ReductionsFromCapitalAssetsBeingDepreciatedNet" order="3"/>
-    <link:loc xlink:label="ns13_CapitalAssetsBeingDepreciatedNet_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsBeingDepreciatedNet" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsBeingDepreciatedNetRollForward" xlink:to="ns13_CapitalAssetsBeingDepreciatedNet_1" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteAbstract" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteAbstract" xlink:type="locator"/>
-    <link:loc xlink:label="ns13_CapitalAssetsFootnoteTable_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsFootnoteTable" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAbstract" xlink:to="ns13_CapitalAssetsFootnoteTable_1" order="1"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsNotBeingDepreciated" order="4"/>
-    <link:loc xlink:label="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinCapitalAssetsBeingDepreciatedGross" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetBeingDepreciatedGrossRollForward" xlink:to="ns13_TransfersWithinCapitalAssetsBeingDepreciatedGross" order="4"/>
-    <link:loc xlink:label="ns13_CapitalAssetsNotBeingDepreciated_1" xlink:href="../../elts/acfr_2023.xsd#acfr_CapitalAssetsNotBeingDepreciated" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsNonDepreciableRollForward" xlink:to="ns13_CapitalAssetsNotBeingDepreciated_1" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
-    <link:loc xlink:label="ns13_TransfersWithinAccumulatedDepreciation" xlink:href="../../elts/acfr_2023.xsd#acfr_TransfersWithinAccumulatedDepreciation" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_CapitalAssetsFootnoteAccumulatedDepreciationRollForward" xlink:to="ns13_TransfersWithinAccumulatedDepreciation" order="4"/>
+    <link:loc xlink:label="ns13_JudicialActivitiesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_JudicialActivitiesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_JudicialActivitiesMember" order="2"/>
+    <link:loc xlink:label="ns13_OtherFunctionsMember" xlink:href="../../elts/acfr_2023.xsd#acfr_OtherFunctionsMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_OtherFunctionsMember" order="8"/>
+    <link:loc xlink:label="ns13_ElectricityAndPowerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_ElectricityAndPowerServicesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_PublicWorksMember" xlink:to="ns13_ElectricityAndPowerServicesMember" order="2"/>
+    <link:loc xlink:label="ns13_PublicWorksMember_1" xlink:href="../../elts/acfr_2023.xsd#acfr_PublicWorksMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_GovernmentFunctionDomain" xlink:to="ns13_PublicWorksMember_1" order="4"/>
+    <link:loc xlink:label="ns13_StormSewerServicesMember" xlink:href="../../elts/acfr_2023.xsd#acfr_StormSewerServicesMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns13_SewerMember" xlink:to="ns13_StormSewerServicesMember" order="2"/>
   </link:presentationLink>
 </link:linkbase>

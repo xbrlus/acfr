@@ -4,9 +4,9 @@
       <linkbase:linkbaseRef xmlns:ns0="http://www.w3.org/1999/xlink" ns0:href="ChartOfAccountsColoradoSchoolDistrict_pre_2023.xml" ns0:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" ns0:type="simple"/>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/ColSchoolChartOfAccounts" id="ColSchoolChartOfAccounts">
         <linkbase:definition>920001 - Chart of Accounts - Colorado School District</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
     </xs:appinfo>
   </xs:annotation>

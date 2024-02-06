@@ -21,9 +21,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFFireNetPositionActivities" id="PFFireNetPositionActivities">
         <linkbase:definition>766000 - Statement - Proprietary Funds Net Position, Fire - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFFireNetPositionBusinessActivities" id="PFFireNetPositionBusinessActivities">
         <linkbase:definition>766010 - Statement - Proprietary Funds Net Position, Fire - Business Activities</linkbase:definition>
@@ -32,9 +32,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalNetPositionActivities" id="PFHospitalNetPositionActivities">
         <linkbase:definition>782000 - Statement - Proprietary Funds Net Position, Hospital - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalNetPositionBusiness" id="PFHospitalNetPositionBusiness">
         <linkbase:definition>782020 - Statement - Proprietary Funds Net Position, Hospital - Business Activities</linkbase:definition>
@@ -43,9 +43,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroNetPositionActivities" id="PFMetroNetPositionActivities">
         <linkbase:definition>772000 - Statement - Proprietary Funds Net Position, Metro - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroNetPositionBusiness" id="PFMetroNetPositionBusiness">
         <linkbase:definition>772020 - Statement - Proprietary Funds Net Position, Metro - Business Activities</linkbase:definition>
@@ -54,9 +54,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivities" id="PFNetPositionActivities">
         <linkbase:definition>500000 - Statement - Proprietary Funds Net Position - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFNetPositionActivitiesAlt1" id="PFNetPositionActivitiesAlt1">
         <linkbase:definition>500001 - Statement - Proprietary Funds Net Position - Type of Activities</linkbase:definition>
@@ -189,9 +189,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFSchoolNetPositionActivities" id="PFSchoolNetPositionActivities">
         <linkbase:definition>740000 - Statement - Proprietary Funds Net Position, School - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFSchoolNetPositionBusinessActivities" id="PFSchoolNetPositionBusinessActivities">
         <linkbase:definition>740010 - Statement - Proprietary Funds Net Position, School - Business Activities</linkbase:definition>

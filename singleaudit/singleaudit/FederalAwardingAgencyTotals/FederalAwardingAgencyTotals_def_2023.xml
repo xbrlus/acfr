@@ -1,9 +1,9 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditFederalAgencyTotals" xlink:href="FederalAwardingAgencyTotals_2023.xsd#SingleAuditFederalAgencyTotals" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditFederalAgencyTotals" xlink:type="extended">
     <link:loc xlink:label="ns11_FederalAwardingAgencyDomain" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyDomain" xlink:type="locator"/>
@@ -138,7 +138,11 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyAxis" xlink:to="ns11_FederalAwardingAgencyDomain_1" order="1"/>
     <link:loc xlink:label="ns11_FederalAwardingAgencyDomain_2" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyDomain" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyAxis" xlink:to="ns11_FederalAwardingAgencyDomain_2" order="1"/>
+    <link:loc xlink:label="ns11_FederalAwardingAgencyTotalsTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyTotalsTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_FederalAwardingAgencyAxis_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyAxis" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsTable" xlink:to="ns11_FederalAwardingAgencyAxis_1" order="1"/>
     <link:loc xlink:label="ns11_FederalAwardingAgencyTotalsLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyTotalsLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsLineItems" xlink:to="ns11_FederalAwardingAgencyTotalsTable" order="1" xbrldt:contextElement="segment"/>
     <link:loc xlink:label="ns11_AmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_AmountExpended" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsLineItems" xlink:to="ns11_AmountExpended" order="1"/>
     <link:loc xlink:label="ns11_PassThroughAmount" xlink:href="../../elts/singleaudit_2023.xsd#sap_PassThroughAmount" xlink:type="locator"/>
@@ -147,10 +151,5 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsLineItems" xlink:to="ns11_ProgramOrAwardAmount" order="3"/>
     <link:loc xlink:label="ns11_DirectAmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_DirectAmountExpended" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsLineItems" xlink:to="ns11_DirectAmountExpended" order="4"/>
-    <link:loc xlink:label="ns11_FederalAwardingAgencyTotalsTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyTotalsTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_FederalAwardingAgencyAxis_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyAxis" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsTable" xlink:to="ns11_FederalAwardingAgencyAxis_1" order="1"/>
-    <link:loc xlink:label="ns11_FederalAwardingAgencyTotalsLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_FederalAwardingAgencyTotalsLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_FederalAwardingAgencyTotalsLineItems_1" xlink:to="ns11_FederalAwardingAgencyTotalsTable" order="1" xbrldt:contextElement="segment"/>
   </link:definitionLink>
 </link:linkbase>

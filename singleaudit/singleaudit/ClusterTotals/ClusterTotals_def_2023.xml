@@ -1,20 +1,12 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditClusterTotals" xlink:href="ClusterTotals_2023.xsd#SingleAuditClusterTotals" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" xlink:type="simple"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" xlink:type="simple"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" xlink:type="simple"/>
   <link:definitionLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditClusterTotals" xlink:type="extended">
-    <link:loc xlink:label="ns11_ClusterTotalsTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterTotalsTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_ClusterAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterAxis" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns11_ClusterTotalsTable" xlink:to="ns11_ClusterAxis" order="1"/>
     <link:loc xlink:label="ns11_ClusterLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterLineItems" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_ClusterLineItems" xlink:to="ns11_ClusterTotalsTable" order="1" xbrldt:contextElement="segment"/>
-    <link:loc xlink:label="ns11_ClusterDomain" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterDomain" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:from="ns11_ClusterAxis" xlink:to="ns11_ClusterDomain" order="1"/>
-    <link:loc xlink:label="ns11_ClusterDomain_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterDomain" xlink:type="locator"/>
-    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="arc" xlink:from="ns11_ClusterAxis" xlink:to="ns11_ClusterDomain_1" order="1"/>
     <link:loc xlink:label="ns11_AmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_AmountExpended" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_ClusterLineItems" xlink:to="ns11_AmountExpended" order="1"/>
     <link:loc xlink:label="ns11_PassThroughAmount" xlink:href="../../elts/singleaudit_2023.xsd#sap_PassThroughAmount" xlink:type="locator"/>
@@ -23,5 +15,14 @@
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_ClusterLineItems" xlink:to="ns11_ProgramOrAwardAmount" order="3"/>
     <link:loc xlink:label="ns11_DirectAmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_DirectAmountExpended" xlink:type="locator"/>
     <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:from="ns11_ClusterLineItems" xlink:to="ns11_DirectAmountExpended" order="4"/>
+    <link:loc xlink:label="ns11_ClusterTotalsTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterTotalsTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_ClusterAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterAxis" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:from="ns11_ClusterTotalsTable" xlink:to="ns11_ClusterAxis" order="1"/>
+    <link:loc xlink:label="ns11_ClusterLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterLineItems" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xlink:from="ns11_ClusterLineItems_1" xlink:to="ns11_ClusterTotalsTable" order="1" xbrldt:contextElement="segment"/>
+    <link:loc xlink:label="ns11_ClusterDomain" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterDomain" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:from="ns11_ClusterAxis" xlink:to="ns11_ClusterDomain" order="1"/>
+    <link:loc xlink:label="ns11_ClusterDomain_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_ClusterDomain" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="arc" xlink:from="ns11_ClusterAxis" xlink:to="ns11_ClusterDomain_1" order="1"/>
   </link:definitionLink>
 </link:linkbase>

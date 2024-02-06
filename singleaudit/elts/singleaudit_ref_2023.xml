@@ -1,5 +1,8 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grip="https://taxonomies.xbrl.us/grip/2023/grip" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd https://taxonomies.xbrl.us/grip/2023/grip ../../grip/elts/grip_2023.xsd">
   <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:loc xlink:label="ns11_FiscalPeriodStartDate" xlink:href="singleaudit_2023.xsd#sap_FiscalPeriodStartDate" xlink:type="locator"/>
+    <link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc" xlink:from="ns11_FiscalPeriodStartDate" xlink:to="lbl_ref_ns11_FiscalPeriodStartDate"/>
+    <link:reference xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" xlink:label="lbl_ref_ns11_FiscalPeriodStartDate"/>
     <link:loc xlink:label="ns11_PrimaryAuditorEmployerIdentificationNumber" xlink:href="singleaudit_2023.xsd#sap_PrimaryAuditorEmployerIdentificationNumber" xlink:type="locator"/>
     <link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc" xlink:from="ns11_PrimaryAuditorEmployerIdentificationNumber" xlink:to="lbl_ref_ns11_PrimaryAuditorEmployerIdentificationNumber"/>
     <link:reference xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" xlink:label="lbl_ref_ns11_PrimaryAuditorEmployerIdentificationNumber">
@@ -12,8 +15,5 @@
       <grip:Publisher>OMB</grip:Publisher>
       <grip:Name>SF 424</grip:Name>
     </link:reference>
-    <link:loc xlink:label="ns11_FiscalPeriodStartDate" xlink:href="singleaudit_2023.xsd#sap_FiscalPeriodStartDate" xlink:type="locator"/>
-    <link:referenceArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc" xlink:from="ns11_FiscalPeriodStartDate" xlink:to="lbl_ref_ns11_FiscalPeriodStartDate"/>
-    <link:reference xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" xlink:label="lbl_ref_ns11_FiscalPeriodStartDate"/>
   </link:referenceLink>
 </link:linkbase>

@@ -2,38 +2,39 @@
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grants/roles/grantsmanagementapplication" xlink:href="GrantsManagementFederalFinancialReportIndirectExpense_2023.xsd#grantsmanagementapplication" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/grants/roles/grantsmanagementapplication" xlink:type="extended">
     <link:loc xlink:label="ns2_IndirectExpenseTypeDomain" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeDomain" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_FinalMember" xlink:href="../../elts/grants_2023.xsd#sap_FinalMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_FinalMember" order="3"/>
+    <link:loc xlink:label="ns2_OtherMember" xlink:href="../../elts/grants_2023.xsd#sap_OtherMember" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_OtherMember" order="4"/>
     <link:loc xlink:label="ns2_PredeterminedMember" xlink:href="../../elts/grants_2023.xsd#sap_PredeterminedMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_PredeterminedMember" order="2"/>
     <link:loc xlink:label="ns2_IndirectExpenseLineItems" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseLineItems" xlink:type="locator"/>
-    <link:loc xlink:label="ns2_EndingEffectiveDateForIndirectCostRate" xlink:href="../../elts/grants_2023.xsd#sap_EndingEffectiveDateForIndirectCostRate" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_EndingEffectiveDateForIndirectCostRate" order="3"/>
-    <link:loc xlink:label="ns2_FederalFinancialReportIndirectExpenseTable" xlink:href="../../elts/grants_2023.xsd#sap_FederalFinancialReportIndirectExpenseTable" xlink:type="locator"/>
-    <link:loc xlink:label="ns2_IndirectExpenseLineItems_1" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_IndirectExpenseLineItems_1" order="3"/>
-    <link:loc xlink:label="ns2_OtherMember" xlink:href="../../elts/grants_2023.xsd#sap_OtherMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_OtherMember" order="4"/>
     <link:loc xlink:label="ns2_FederalShareOfIndirectCostAmountCharged" xlink:href="../../elts/grants_2023.xsd#sap_FederalShareOfIndirectCostAmountCharged" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_FederalShareOfIndirectCostAmountCharged" order="6"/>
-    <link:loc xlink:label="ns2_BaseAmount" xlink:href="../../elts/grants_2023.xsd#sap_BaseAmount" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_BaseAmount" order="4"/>
-    <link:loc xlink:label="ns2_FinalMember" xlink:href="../../elts/grants_2023.xsd#sap_FinalMember" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_FinalMember" order="3"/>
+    <link:loc xlink:label="ns2_IndirectExpenseTypeAxis" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeAxis" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_IndirectExpenseTypeDomain_1" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeDomain" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeAxis" xlink:to="ns2_IndirectExpenseTypeDomain_1" order="1"/>
+    <link:loc xlink:label="ns2_BeginningEffectiveDateForIndirectCostRate" xlink:href="../../elts/grants_2023.xsd#sap_BeginningEffectiveDateForIndirectCostRate" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_BeginningEffectiveDateForIndirectCostRate" order="2"/>
+    <link:loc xlink:label="ns2_FederalFinancialReportIndirectExpenseTable" xlink:href="../../elts/grants_2023.xsd#sap_FederalFinancialReportIndirectExpenseTable" xlink:type="locator"/>
+    <link:loc xlink:label="ns2_FederalProgramIdentifierAxis" xlink:href="../../elts/grants_2023.xsd#sap_FederalProgramIdentifierAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_FederalProgramIdentifierAxis" order="1"/>
     <link:loc xlink:label="ns2_IndirectCostAmountCharged" xlink:href="../../elts/grants_2023.xsd#sap_IndirectCostAmountCharged" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_IndirectCostAmountCharged" order="5"/>
-    <link:loc xlink:label="ns2_IndirectExpenseTypeAxis" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_IndirectExpenseTypeAxis" order="2"/>
     <link:loc xlink:label="ns2_GrantsManagementFederalFinancialReportIndirectExpenseAbstract" xlink:href="../../elts/grants_2023.xsd#sap_GrantsManagementFederalFinancialReportIndirectExpenseAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns2_FederalFinancialReportIndirectExpenseTable_1" xlink:href="../../elts/grants_2023.xsd#sap_FederalFinancialReportIndirectExpenseTable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_GrantsManagementFederalFinancialReportIndirectExpenseAbstract" xlink:to="ns2_FederalFinancialReportIndirectExpenseTable_1" order="1"/>
-    <link:loc xlink:label="ns2_BeginningEffectiveDateForIndirectCostRate" xlink:href="../../elts/grants_2023.xsd#sap_BeginningEffectiveDateForIndirectCostRate" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_BeginningEffectiveDateForIndirectCostRate" order="2"/>
-    <link:loc xlink:label="ns2_IndirectExpenseTypeDomain_1" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeDomain" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeAxis" xlink:to="ns2_IndirectExpenseTypeDomain_1" order="1"/>
-    <link:loc xlink:label="ns2_FederalProgramIdentifierAxis" xlink:href="../../elts/grants_2023.xsd#sap_FederalProgramIdentifierAxis" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_FederalProgramIdentifierAxis" order="1"/>
     <link:loc xlink:label="ns2_ProvisionalMember" xlink:href="../../elts/grants_2023.xsd#sap_ProvisionalMember" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseTypeDomain" xlink:to="ns2_ProvisionalMember" order="1"/>
+    <link:loc xlink:label="ns2_IndirectExpenseTypeAxis_1" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseTypeAxis" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_IndirectExpenseTypeAxis_1" order="2"/>
     <link:loc xlink:label="ns2_IndirectCostRate" xlink:href="../../elts/grants_2023.xsd#sap_IndirectCostRate" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_IndirectCostRate" order="1"/>
+    <link:loc xlink:label="ns2_IndirectExpenseLineItems_1" xlink:href="../../elts/grants_2023.xsd#sap_IndirectExpenseLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_FederalFinancialReportIndirectExpenseTable" xlink:to="ns2_IndirectExpenseLineItems_1" order="3"/>
+    <link:loc xlink:label="ns2_EndingEffectiveDateForIndirectCostRate" xlink:href="../../elts/grants_2023.xsd#sap_EndingEffectiveDateForIndirectCostRate" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_EndingEffectiveDateForIndirectCostRate" order="3"/>
+    <link:loc xlink:label="ns2_BaseAmount" xlink:href="../../elts/grants_2023.xsd#sap_BaseAmount" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns2_IndirectExpenseLineItems" xlink:to="ns2_BaseAmount" order="4"/>
   </link:presentationLink>
 </link:linkbase>

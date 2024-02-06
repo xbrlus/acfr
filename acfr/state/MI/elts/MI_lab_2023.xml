@@ -1,31 +1,31 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65FederalGrantsRole" xlink:href="MI_roles_2023.xsd#MI65FederalGrantsRole" xlink:type="simple"/>
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MIF65Label" xlink:href="MI_roles_2023.xsd#MIF65Label" xlink:type="simple"/>
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65StateGrantsRole" xlink:href="MI_roles_2023.xsd#MI65StateGrantsRole" xlink:type="simple"/>
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65LocalUnitsGrantsRole" xlink:href="MI_roles_2023.xsd#MI65LocalUnitsGrantsRole" xlink:type="simple"/>
-  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI5572" xlink:href="MI_roles_2023.xsd#MI5572" xlink:type="simple"/>
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:href="../../../../grip/elts/grip_roles_2023.xsd#DocumentLocation" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI5572" xlink:href="MI_roles_2023.xsd#MI5572" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MIF65Label" xlink:href="MI_roles_2023.xsd#MIF65Label" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65LocalUnitsGrantsRole" xlink:href="MI_roles_2023.xsd#MI65LocalUnitsGrantsRole" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65StateGrantsRole" xlink:href="MI_roles_2023.xsd#MI65StateGrantsRole" xlink:type="simple"/>
+  <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65FederalGrantsRole" xlink:href="MI_roles_2023.xsd#MI65FederalGrantsRole" xlink:type="simple"/>
   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
-    <link:loc xlink:label="ns16_MI" xlink:href="MI_2023.xsd#acfr_MI" xlink:type="locator"/>
-    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_MI" xlink:to="lbl_lab_ns16_MI"/>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65FederalGrantsRole" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65StateGrantsRole" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
     <link:loc xlink:label="ns16_ChartOfAccountsMichiganAbstract" xlink:href="MI_2023.xsd#acfr_ChartOfAccountsMichiganAbstract" xlink:type="locator"/>
     <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_ChartOfAccountsMichiganAbstract" xlink:to="lbl_lab_ns16_ChartOfAccountsMichiganAbstract"/>
-    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_ChartOfAccountsMichiganAbstract" xml:lang="en-US">Chart of Accounts - Michigan [Abstract]</link:label>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_ChartOfAccountsMichiganAbstract" xml:lang="en-US">State</link:label>
+    <link:loc xlink:label="ns16_MI" xlink:href="MI_2023.xsd#acfr_MI" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_MI" xlink:to="lbl_lab_ns16_MI"/>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65StateGrantsRole" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
     <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MIF65Label" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US">State</link:label>
-    <link:loc xlink:label="ns16_Form5572MichiganAbstract" xlink:href="MI_2023.xsd#acfr_Form5572MichiganAbstract" xlink:type="locator"/>
-    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_Form5572MichiganAbstract" xlink:to="lbl_lab_ns16_Form5572MichiganAbstract"/>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_Form5572MichiganAbstract" xml:lang="en-US">State</link:label>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI5572" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
     <link:loc xlink:label="ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:href="MI_2023.xsd#acfr_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:type="locator"/>
     <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xlink:to="lbl_lab_ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract"/>
     <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xml:lang="en-US">Annual Local Unit Fiscal Report Form F65 Michigan [Abstract]</link:label>
-    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_Form5572MichiganAbstract" xml:lang="en-US">Form 5572 Michigan [Abstract]</link:label>
-    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_ChartOfAccountsMichiganAbstract" xml:lang="en-US">State</link:label>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US">State</link:label>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI5572" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
     <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_AnnualLocalUnitFiscalReportFormF65MichiganAbstract" xml:lang="en-US">State</link:label>
     <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US">MI [State]</link:label>
+    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_ChartOfAccountsMichiganAbstract" xml:lang="en-US">Chart of Accounts - Michigan [Abstract]</link:label>
     <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65LocalUnitsGrantsRole" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
+    <link:loc xlink:label="ns16_Form5572MichiganAbstract" xlink:href="MI_2023.xsd#acfr_Form5572MichiganAbstract" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" xlink:from="ns16_Form5572MichiganAbstract" xlink:to="lbl_lab_ns16_Form5572MichiganAbstract"/>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/grip/roles/DocumentLocation" xlink:type="resource" xlink:label="lbl_lab_ns16_Form5572MichiganAbstract" xml:lang="en-US">State</link:label>
+    <link:label xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xlink:label="lbl_lab_ns16_Form5572MichiganAbstract" xml:lang="en-US">Form 5572 Michigan [Abstract]</link:label>
+    <link:label xlink:role="https://taxonomies.xbrl.us/grip/acfr/state/MI/roles/MI65FederalGrantsRole" xlink:type="resource" xlink:label="lbl_lab_ns16_MI" xml:lang="en-US"></link:label>
   </link:labelLink>
 </link:linkbase>

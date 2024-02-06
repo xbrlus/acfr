@@ -11,15 +11,15 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFFireRevenuesExpensesActivities" id="PFFireRevenuesExpensesActivities">
         <linkbase:definition>766020 - Statement - Proprietary Funds Revenues Expenses, Fire - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalRevenuesExpensesActivities" id="PFHospitalRevenuesExpensesActivities">
         <linkbase:definition>782030 - Statement - Proprietary Funds, Revenues, Expenses, Hospital  - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFHospitalRevenuesExpensesBusiness" id="PFHospitalRevenuesExpensesBusiness">
         <linkbase:definition>782040 - Statement - Proprietary Funds, Revenues, Expenses, Hospital - Business Activities</linkbase:definition>
@@ -28,9 +28,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroRevenuesExpensesActivities" id="PFMetroRevenuesExpensesActivities">
         <linkbase:definition>772030 - Statement - Proprietary Funds Revenues Expenses, Metropolitan - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFMetroRevenuesExpensesBusiness" id="PFMetroRevenuesExpensesBusiness">
         <linkbase:definition>772040 - Statement - Proprietary Funds Revenues Expenses, Metropolitan - Business Activities</linkbase:definition>
@@ -39,9 +39,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivities" id="PFRevenuesExpensesActivities">
         <linkbase:definition>600000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses" id="PFRevenuesExpensesActivitiesNonoperatingGainsLosses">
         <linkbase:definition>603000 - Statement - Proprietary Funds Revenues Expenses - Type of Activities Other Nonoperating Revenues Expenses (Details)</linkbase:definition>
@@ -105,9 +105,9 @@
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFSchoolRevenuesExpensesActivities" id="PFSchoolRevenuesExpensesActivities">
         <linkbase:definition>740030 - Statement - Proprietary Funds Revenues Expenses, School - Type of Activites</linkbase:definition>
-        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:presentationLink</linkbase:usedOn>
         <linkbase:usedOn>linkbase:definitionLink</linkbase:usedOn>
+        <linkbase:usedOn>linkbase:calculationLink</linkbase:usedOn>
       </linkbase:roleType>
       <linkbase:roleType roleURI="https://taxonomies.xbrl.us/grip/acfr/roles/PFSchoolRevenuesExpensesBusinessActivities" id="PFSchoolRevenuesExpensesBusinessActivities">
         <linkbase:definition>740050 - Statement - Proprietary Funds Revenues Expenses, School - Business Activites</linkbase:definition>

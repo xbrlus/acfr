@@ -1,21 +1,21 @@
 <link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
   <link:roleRef roleURI="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditCFDATotals" xlink:href="CFDATotals_2023.xsd#SingleAuditCFDATotals" xlink:type="simple"/>
   <link:presentationLink xlink:role="https://taxonomies.xbrl.us/grip/singleaudit/roles/SingleAuditCFDATotals" xlink:type="extended">
+    <link:loc xlink:label="ns11_CFDATotalsLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsLineItems" xlink:type="locator"/>
+    <link:loc xlink:label="ns11_ProgramOrAwardAmount" xlink:href="../../elts/singleaudit_2023.xsd#sap_ProgramOrAwardAmount" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_ProgramOrAwardAmount" order="3"/>
+    <link:loc xlink:label="ns11_DirectAmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_DirectAmountExpended" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_DirectAmountExpended" order="4"/>
+    <link:loc xlink:label="ns11_AmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_AmountExpended" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_AmountExpended" order="1"/>
     <link:loc xlink:label="ns11_CFDATotalsAbstract" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsAbstract" xlink:type="locator"/>
     <link:loc xlink:label="ns11_CFDATotalsTable" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsTable" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsAbstract" xlink:to="ns11_CFDATotalsTable" order="1"/>
-    <link:loc xlink:label="ns11_CFDATotalsLineItems" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsLineItems" xlink:type="locator"/>
-    <link:loc xlink:label="ns11_AmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_AmountExpended" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_AmountExpended" order="1"/>
+    <link:loc xlink:label="ns11_CFDATotalsLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsLineItems" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsTable" xlink:to="ns11_CFDATotalsLineItems_1" order="2"/>
     <link:loc xlink:label="ns11_CFDAAxis" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDAAxis" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsTable" xlink:to="ns11_CFDAAxis" order="1"/>
     <link:loc xlink:label="ns11_PassThroughAmount" xlink:href="../../elts/singleaudit_2023.xsd#sap_PassThroughAmount" xlink:type="locator"/>
     <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_PassThroughAmount" order="2"/>
-    <link:loc xlink:label="ns11_DirectAmountExpended" xlink:href="../../elts/singleaudit_2023.xsd#sap_DirectAmountExpended" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_DirectAmountExpended" order="4"/>
-    <link:loc xlink:label="ns11_CFDATotalsLineItems_1" xlink:href="../../elts/singleaudit_2023.xsd#sap_CFDATotalsLineItems" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsTable" xlink:to="ns11_CFDATotalsLineItems_1" order="2"/>
-    <link:loc xlink:label="ns11_ProgramOrAwardAmount" xlink:href="../../elts/singleaudit_2023.xsd#sap_ProgramOrAwardAmount" xlink:type="locator"/>
-    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:from="ns11_CFDATotalsLineItems" xlink:to="ns11_ProgramOrAwardAmount" order="3"/>
   </link:presentationLink>
 </link:linkbase>
